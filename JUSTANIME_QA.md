@@ -1,5 +1,9 @@
 # JustAnime 1.1.0-beta.4: owner testing
 
+## Withdrawn after owner QA, 2026-09-10
+
+The owner reports One Piece episode 1 starts and freezes at about 11 seconds without seeking. Featured and endless home browsing are missing. Only English captions and current/AnimeGG server choices were visible; missing additional caption languages is not independently confirmed as a bug. This supersedes any implication that short media probes establish reliable playback. Candidate retired from the active index and moved to the end of the work queue. No further repair now; official 1.0.0 remains unchanged. Old ZIP stays reachable for cached-index compatibility.
+
 Not an official stable release. App code, accounts and backend remain unchanged.
 
 ## Changes

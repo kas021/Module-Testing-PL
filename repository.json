@@ -2,46 +2,17 @@
   "schemaVersion": 1,
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
-  "enabled": true,
-  "publishedAtMs": 1789066634405,
+  "enabled": false,
+  "publishedAtMs": 1789067122499,
   "signature": "",
-  "testingIdentity": "justanime-v1:1.1.0-beta.4:c8f86ec409a0689832cc75fe12f6d426df81992bb403fb1575740f0125e242a1",
+  "testingIdentity": "",
   "bundle": {
-    "version": 19,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-19.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-19.zip",
-    "sha256": "da3cfc63c2a336d0e2fdc6c3707b270aae5818f5b49c75c098bf36a7e74b1e05",
+    "version": 20,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-20.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-20.zip",
+    "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
-  "modules": [
-    {
-      "moduleId": "justanime-v1",
-      "moduleFamilyId": "justanime_v1",
-      "moduleIdentity": "SP-VID-064-JUSTANIME",
-      "moduleIdentityNumber": 64,
-      "contentType": "video",
-      "version": "1.1.0-beta.4",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/JustAnime-1.1.0-beta.4.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/JustAnime-1.1.0-beta.4.zip",
-      "sha256": "c8f86ec409a0689832cc75fe12f6d426df81992bb403fb1575740f0125e242a1",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789066634405,
-      "presentation": {
-        "category": "Anime",
-        "purpose": "Testing only",
-        "recommended": false,
-        "language": "English Sub/Dub",
-        "languages": [
-          "sub",
-          "dub"
-        ],
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/justanime.png"
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    }
-  ]
+  "modules": []
 }

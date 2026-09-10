@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-Testing candidate: **JustAnime 1.1.0-beta.4**. Adds usable server alternatives, provider-specific captions/headers, MP4 quality metadata and strict Sub/Dub selection. See [JustAnime QA](JUSTANIME_QA.md) before testing. **KickAssAnime 4.1.0** and **AnimeHeaven 4.1.0** are available from the official repository; their betas remain retired here.
+No active testing candidates. **JustAnime 1.1.0-beta.4 is withdrawn**, not promoted: owner phone testing found a freeze around 11 seconds into One Piece episode 1 and missing Featured/endless home browsing. It is deferred to the end of the module queue. See [JustAnime QA](JUSTANIME_QA.md). An1me (Greek) is next under audit, not yet a new test release. **KickAssAnime 4.1.0** and **AnimeHeaven 4.1.0** remain available from the official repository.
 
 The previous 4.0.7-beta.1 package remains reachable for cached-index compatibility but is not active. `retired-packages.json` excludes retained old package URLs from the active build. Failed beta.1/beta.2 multi-server experiments were never published.
 
