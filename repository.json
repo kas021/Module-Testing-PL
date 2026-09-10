@@ -2,46 +2,17 @@
   "schemaVersion": 1,
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
-  "enabled": true,
-  "publishedAtMs": 1789003553455,
+  "enabled": false,
+  "publishedAtMs": 1789004982970,
   "signature": "",
-  "testingIdentity": "anikage-v1:1.1.1:647a97fb91bd9325167a3f088543010a44906052afeebd986757017fefbd2ea1",
+  "testingIdentity": "",
   "bundle": {
-    "version": 2,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-2.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-2.zip",
-    "sha256": "11c74f4c0b52f2a6770967c96a1646f0d3226fde5e2ef0a89c35bd42bb141b8e",
+    "version": 3,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-3.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-3.zip",
+    "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
-  "modules": [
-    {
-      "moduleId": "anikage-v1",
-      "moduleFamilyId": "anikage_v1",
-      "moduleIdentity": "SP-VID-063-ANIKAGE",
-      "moduleIdentityNumber": 63,
-      "contentType": "video",
-      "version": "1.1.1",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Anikage-1.1.1.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/Anikage-1.1.1.zip",
-      "sha256": "647a97fb91bd9325167a3f088543010a44906052afeebd986757017fefbd2ea1",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789003553455,
-      "presentation": {
-        "category": "Anime",
-        "purpose": "Testing only",
-        "recommended": false,
-        "language": "English Sub/Dub",
-        "languages": [
-          "sub",
-          "dub"
-        ],
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikage.png"
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    }
-  ]
+  "modules": []
 }
