@@ -2,17 +2,42 @@
   "schemaVersion": 1,
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
-  "enabled": false,
-  "publishedAtMs": 1789042645462,
+  "enabled": true,
+  "publishedAtMs": 1789043454530,
   "signature": "",
-  "testingIdentity": "",
+  "testingIdentity": "miruro-v3:4.1.0-beta.1:b1540f1ac35b7609c3afe9b042859be4c48dbb46ccaa413b3d9664fa7ccf4066",
   "bundle": {
-    "version": 10,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-10.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-10.zip",
-    "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "version": 11,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-11.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-11.zip",
+    "sha256": "33e8c7f53616983e6f21017d12bd16e90a2f46088cbbdfabc28fae7e1f654d08",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
-  "modules": []
+  "modules": [
+    {
+      "moduleId": "miruro-v3",
+      "moduleFamilyId": "miruro",
+      "moduleIdentity": "SP-VID-010-MIRURO",
+      "moduleIdentityNumber": 10,
+      "contentType": "video",
+      "version": "4.1.0-beta.1",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Miruro-4.1.0-beta.1.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/Miruro-4.1.0-beta.1.zip",
+      "sha256": "b1540f1ac35b7609c3afe9b042859be4c48dbb46ccaa413b3d9664fa7ccf4066",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789043454530,
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Testing only",
+        "recommended": false,
+        "language": "English Sub/Dub",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/miruro.png"
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    }
+  ]
 }
