@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-Active candidate: **Miruro 4.1.0-beta.1**. See [Miruro QA](MIRURO_QA.md) for changes and limitations. S2 result PARTIAL; phone audio, seeking and offline verification remain required. YFlix **1.1.0** and Synthetiq Movies **1.2.5** are official and retired from active testing. Old packages remain archived for rollback.
+There are **no active testing candidates**. Owner-approved Miruro beta.1 is released with unchanged JavaScript as **4.1.0**, following a 20-route Sub/Dub media probe. It is retired here alongside official YFlix **1.1.0** and Synthetiq Movies **1.2.5**. Extra Miruro sources remain separate research, not an available update. Old packages remain archived for rollback.
 
 AniKage is no longer active here. StreamUnity has been retired from testing at the owner's request, not newly promoted to production. Old ZIPs and QA notes are archived for rollback, not listed as installable candidates.
 
