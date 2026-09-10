@@ -1,0 +1,172 @@
+{
+  "date": "2026-09-10T13:38:12.068Z",
+  "scope": "Node runtime shim, first returned search result/episode, media probes only; not native playback or audio-language certification",
+  "results": [
+    {
+      "query": "Dandadan",
+      "searchCount": 2,
+      "matchedTitle": "Dandadan",
+      "episodes": 12,
+      "resolved": true,
+      "resolveMs": 1325,
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "gates": [
+        {
+          "sourceTags": 4,
+          "trackTags": 0,
+          "iframeTags": 0,
+          "candidates": 3
+        }
+      ],
+      "totalMs": 2550
+    },
+    {
+      "query": "One Piece",
+      "searchCount": 4,
+      "matchedTitle": "One Piece",
+      "episodes": 289,
+      "resolved": true,
+      "resolveMs": 854,
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1056,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        },
+        {
+          "codec_name": "bin_data",
+          "codec_type": "data"
+        }
+      ],
+      "videoAndAudio": true,
+      "gates": [
+        {
+          "sourceTags": 4,
+          "trackTags": 0,
+          "iframeTags": 0,
+          "candidates": 3
+        }
+      ],
+      "totalMs": 1803
+    },
+    {
+      "query": "Death Note",
+      "searchCount": 1,
+      "matchedTitle": "Death Note",
+      "episodes": 37,
+      "resolved": true,
+      "resolveMs": 794,
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        },
+        {
+          "codec_name": "bin_data",
+          "codec_type": "data"
+        }
+      ],
+      "videoAndAudio": true,
+      "gates": [
+        {
+          "sourceTags": 4,
+          "trackTags": 0,
+          "iframeTags": 0,
+          "candidates": 3
+        }
+      ],
+      "totalMs": 1897
+    },
+    {
+      "query": "Naruto",
+      "searchCount": 3,
+      "matchedTitle": "Naruto",
+      "episodes": 220,
+      "resolved": true,
+      "resolveMs": 811,
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        },
+        {
+          "codec_name": "bin_data",
+          "codec_type": "data"
+        }
+      ],
+      "videoAndAudio": true,
+      "gates": [
+        {
+          "sourceTags": 4,
+          "trackTags": 0,
+          "iframeTags": 0,
+          "candidates": 3
+        }
+      ],
+      "totalMs": 1719
+    },
+    {
+      "query": "Attack on Titan",
+      "searchCount": 7,
+      "matchedTitle": "Attack on Titan",
+      "episodes": 25,
+      "resolved": true,
+      "resolveMs": 583,
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        },
+        {
+          "codec_name": "bin_data",
+          "codec_type": "data"
+        }
+      ],
+      "videoAndAudio": true,
+      "gates": [
+        {
+          "sourceTags": 4,
+          "trackTags": 0,
+          "iframeTags": 0,
+          "candidates": 3
+        }
+      ],
+      "totalMs": 1488
+    }
+  ]
+}

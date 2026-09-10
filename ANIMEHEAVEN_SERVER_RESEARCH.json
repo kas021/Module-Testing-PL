@@ -1,0 +1,291 @@
+{
+  "date": "2026-09-10T13:36:16.732Z",
+  "scope": "Live source and resolution probes, not native playback",
+  "results": [
+    {
+      "query": "Dandadan",
+      "sources": [
+        {
+          "host": "po.animeheaven.me",
+          "fallback": false,
+          "status": 206,
+          "type": "video/mp4",
+          "range": "bytes 0-1/233904794",
+          "probeMs": 162,
+          "media": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio"
+            }
+          ],
+          "videoAudio": true
+        },
+        {
+          "host": "ct.animeheaven.me",
+          "fallback": true,
+          "status": 206,
+          "type": "video/mp4",
+          "range": "bytes 0-1/233904794",
+          "probeMs": 290,
+          "media": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio"
+            }
+          ],
+          "videoAudio": true
+        },
+        {
+          "host": "ck.animeheaven.me",
+          "fallback": true,
+          "status": 206,
+          "type": "video/mp4",
+          "range": "bytes 0-1/233904794",
+          "probeMs": 271,
+          "media": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio"
+            }
+          ],
+          "videoAudio": true
+        },
+        {
+          "host": "po.animeheaven.me",
+          "fallback": false,
+          "status": 206,
+          "type": "video/mp4",
+          "range": "bytes 0-1/233904794",
+          "probeMs": 47,
+          "media": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio"
+            }
+          ],
+          "videoAudio": true
+        }
+      ],
+      "qualityLabels": [
+        "res = \"expires=\"",
+        "res = \"expires=\"",
+        "res = \"expires=\""
+      ],
+      "trackElements": 0
+    },
+    {
+      "query": "Death Note",
+      "sources": [
+        {
+          "host": "rk.animeheaven.me",
+          "fallback": false,
+          "status": 206,
+          "type": "video/mp4",
+          "range": "bytes 0-1/137797793",
+          "probeMs": 122,
+          "media": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio"
+            },
+            {
+              "codec_name": "bin_data",
+              "codec_type": "data"
+            }
+          ],
+          "videoAudio": true
+        },
+        {
+          "host": "ct.animeheaven.me",
+          "fallback": true,
+          "status": 206,
+          "type": "video/mp4",
+          "range": "bytes 0-1/137797793",
+          "probeMs": 83,
+          "media": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio"
+            },
+            {
+              "codec_name": "bin_data",
+              "codec_type": "data"
+            }
+          ],
+          "videoAudio": true
+        },
+        {
+          "host": "ck.animeheaven.me",
+          "fallback": true,
+          "status": 206,
+          "type": "video/mp4",
+          "range": "bytes 0-1/137797793",
+          "probeMs": 84,
+          "media": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio"
+            },
+            {
+              "codec_name": "bin_data",
+              "codec_type": "data"
+            }
+          ],
+          "videoAudio": true
+        },
+        {
+          "host": "rk.animeheaven.me",
+          "fallback": false,
+          "status": 206,
+          "type": "video/mp4",
+          "range": "bytes 0-1/137797793",
+          "probeMs": 44,
+          "media": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio"
+            },
+            {
+              "codec_name": "bin_data",
+              "codec_type": "data"
+            }
+          ],
+          "videoAudio": true
+        }
+      ],
+      "qualityLabels": [
+        "res = \"expires=\"",
+        "res = \"expires=\"",
+        "res = \"expires=\""
+      ],
+      "trackElements": 0
+    },
+    {
+      "query": "Naruto",
+      "sources": [
+        {
+          "host": "rk.animeheaven.me",
+          "fallback": false,
+          "status": 206,
+          "type": "video/mp4",
+          "range": "bytes 0-1/127830587",
+          "probeMs": 47,
+          "media": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio"
+            },
+            {
+              "codec_name": "bin_data",
+              "codec_type": "data"
+            }
+          ],
+          "videoAudio": true
+        },
+        {
+          "host": "ct.animeheaven.me",
+          "fallback": true,
+          "status": 404,
+          "type": "text/html; charset=utf-8",
+          "range": null,
+          "probeMs": 85,
+          "failure": "Timed out or media probe failed"
+        },
+        {
+          "host": "ck.animeheaven.me",
+          "fallback": true,
+          "status": 404,
+          "type": "text/html; charset=utf-8",
+          "range": null,
+          "probeMs": 89,
+          "failure": "Timed out or media probe failed"
+        },
+        {
+          "host": "rk.animeheaven.me",
+          "fallback": false,
+          "status": 206,
+          "type": "video/mp4",
+          "range": "bytes 0-1/127830587",
+          "probeMs": 23,
+          "media": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio"
+            },
+            {
+              "codec_name": "bin_data",
+              "codec_type": "data"
+            }
+          ],
+          "videoAudio": true
+        }
+      ],
+      "qualityLabels": [
+        "res = \"expires=\"",
+        "res = \"expires=\"",
+        "res = \"expires=\""
+      ],
+      "trackElements": 0
+    }
+  ]
+}

@@ -8,7 +8,10 @@ const stable = await fetch('https://raw.githubusercontent.com/kas021/Synthetiq-M
 if (!stable.ok) throw new Error(`Stable index HTTP ${stable.status}`);
 const official = await stable.json();
 if (!Array.isArray(official.modules) || !official.modules.length) throw new Error('Invalid stable index');
-const files = fs.readdirSync('modules').filter(x => x.endsWith('.zip'));
+// Keep old immutable package URLs reachable without listing them as active.
+const retired = fs.existsSync('retired-packages.json') ? JSON.parse(fs.readFileSync('retired-packages.json')) : [];
+if (!Array.isArray(retired) || retired.some(x => typeof x !== 'string' || path.basename(x) !== x || !x.endsWith('.zip'))) throw new Error('Invalid retired package list');
+const files = fs.readdirSync('modules').filter(x => x.endsWith('.zip') && !retired.includes(x));
 const candidates = files.map(file => ({file, manifest: JSON.parse(execFileSync('unzip', ['-p', `modules/${file}`, 'module.json'], {encoding:'utf8'}))}));
 // A stable release also retires earlier betas of the same module.
 const active = candidates.filter(({file,manifest:m}) => {
