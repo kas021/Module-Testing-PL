@@ -13,7 +13,7 @@ This is a community-format testing index, not signed with the official productio
 Two owner-authorized testing candidates are active:
 
 - **Synthetiq Anime 1.0.1-beta.5**: known wrong-language Dub on Spy x Family episode 1. Not certified for stable release.
-- **An1me (Greek) 1.1.0-beta.3**: partial media checks; an upstream Google-hosted stream failed. Not certified for stable release.
+- **An1me (Greek) 1.1.0-beta.4**: fixes title audio-availability flags, including Death Note falsely offering Dub. Flutter Death Note stream checks fail on both the old and new packages; not certified for stable release.
 
 See [current candidate evidence and limitations](CURRENT_CANDIDATES_QA.md). Testing publication is explicitly requested by the owner; it does not mean these failures are fixed.
 
