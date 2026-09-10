@@ -1,4 +1,18 @@
-# KickAssAnime 4.1.0-beta.2
+# KickAssAnime 4.1.0-beta.3
+
+## Subtitle label correction
+
+The previous parser missed provider fields serialized as [0, value] and incorrectly labelled otherwise-unmatched URLs English. Beta.3 parses complete JSON track records, retaining their language/name regardless of field ordering. Unlabelled URLs remain Unknown language, not guessed English. No title-specific mapping is used.
+
+Bungo Stray Dogs 5 episode 1 returns English, French, German, Italian, Spanish, Portuguese, Russian and Arabic on both Sub and Dub. All eight Sub-response caption URLs returned HTTP 200 and valid WebVTT using the returned provider headers (377-420 cues each). Requests without those headers returned 403; URL/header pairing remains necessary.
+
+The site lists VidStreaming HLS and BirdStream DASH. This module still supports only the HLS route; no new usable server was discovered. Twelve module regression tests pass.
+
+Exact beta.3 S2 standard: PARTIAL, run 2026-09-10T18-02-26-533Z_s2_kickassanime-v3_dcfb074b. Flutter returned the exact Bungo Stray Dogs 5 episode and eight captions; first/middle/latest media passed. Subtitle analysis recognized English, French, German, Spanish, Portuguese and Arabic; Italian was low-confidence and Russian unclassified, so their source labels are not independently certified. Sample audio was detected as Japanese. Simulator video advanced to 119 seconds, but audio-device initialization failed. Owner phone playback and full offline testing remain required.
+
+Beta.3 SHA-256: 80e644d418c75a9004d39095be6247ec31cdd45b6c7c1c62f670fd93adc6608d. Earlier probe files below refer to beta.2, not a repeated 30-title beta.3 certification.
+
+## Previous beta.2 baseline
 
 Module-only opt-in beta, based on official 4.0.3. No app or backend changes. Stable module identity is retained.
 

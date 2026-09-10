@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-Testing candidate: **KickAssAnime 4.1.0-beta.2**. See [QA and limitations](KICKASSANIME_QA.md). This is not an official release. Owner-approved **AnimeHeaven 4.1.0** is released through the official repository; its beta remains retired here.
+Testing candidate: **KickAssAnime 4.1.0-beta.3**. Fixes subtitle language labels, including provider-wrapped metadata. See [QA and limitations](KICKASSANIME_QA.md). This is not an official release. Owner-approved **AnimeHeaven 4.1.0** is released through the official repository; its beta remains retired here.
 
 The previous 4.0.7-beta.1 package remains reachable for cached-index compatibility but is not active. `retired-packages.json` excludes retained old package URLs from the active build. Failed beta.1/beta.2 multi-server experiments were never published.
 
