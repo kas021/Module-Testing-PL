@@ -1,0 +1,30 @@
+name: Refresh testing candidates
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * *'
+  push:
+    branches: [main]
+    paths: ['modules/**', 'scripts/**']
+permissions:
+  contents: write
+concurrency:
+  group: testing-index
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/build.mjs
+      - run: |
+          git config user.name 'Module Testing PL'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add modules bundles repository.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh testing index and retire published candidates'
+            git push
+          fi

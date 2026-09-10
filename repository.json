@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "repositoryId": "module-testing-pl",
+  "name": "Module Testing PL",
+  "enabled": true,
+  "publishedAtMs": 1789001452064,
+  "signature": "",
+  "testingIdentity": "anikage-v1:1.1.0:8c043a4e7df8416dd5c996a2548bd782e88f5bf8cfc5c1850da9ae60e0b4e985",
+  "bundle": {
+    "version": 1,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-1.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-1.zip",
+    "sha256": "50b970f8993a62941585ac84555ba2d0a45f3d2e5d9363f5819e86988367aed3",
+    "signature": "",
+    "minAppVersion": "8.5.33"
+  },
+  "modules": [
+    {
+      "moduleId": "anikage-v1",
+      "moduleFamilyId": "anikage_v1",
+      "moduleIdentity": "SP-VID-063-ANIKAGE",
+      "moduleIdentityNumber": 63,
+      "contentType": "video",
+      "version": "1.1.0",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Anikage-1.1.0.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/Anikage-1.1.0.zip",
+      "sha256": "8c043a4e7df8416dd5c996a2548bd782e88f5bf8cfc5c1850da9ae60e0b4e985",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789001452064,
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Testing only",
+        "recommended": false,
+        "language": "English Sub/Dub",
+        "languages": [
+          "sub",
+          "dub"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikage.png"
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    }
+  ]
+}
