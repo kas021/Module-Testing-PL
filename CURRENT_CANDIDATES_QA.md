@@ -49,3 +49,10 @@ Published for owner-requested testing only. Neither candidate is approved for th
 - Greek Dub, burned-in Greek subtitles, sustained playback, native seeking and download/offline behavior remain unverified.
 
 No app code, account data, backend or official module catalogue is changed by this publication.
+# Publication status
+
+Both candidates below are now historical: owner-approved public releases are
+Synthetiq Anime 1.0.2 and An1me (Greek) 1.1.1. Their JavaScript is unchanged;
+versions/release metadata and Anime artwork were updated. No testing candidates
+remain active. The limitations below remain unresolved, not waived as test
+passes. See the official repository's `docs/ANIME_GREEK_OWNER_RELEASE_20260910.md`.

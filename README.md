@@ -10,12 +10,19 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-Two owner-authorized testing candidates are active:
+No testing candidates are currently active. **Synthetiq Anime 1.0.2** and
+**An1me (Greek) 1.1.1** were promoted to the official repository at the owner's
+explicit request. Their former beta ZIP URLs remain reachable but are retired
+from the testing index and bundle.
 
-- **Synthetiq Anime 1.0.1-beta.5**: known wrong-language Dub on Spy x Family episode 1. Not certified for stable release.
-- **An1me (Greek) 1.1.0-beta.4**: fixes title audio-availability flags, including Death Note falsely offering Dub. Flutter Death Note stream checks fail on both the old and new packages; not certified for stable release.
+Use the [official repository](https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/repository.json)
+for these releases. The testing repository is disabled while empty; older
+Player versions may reject it until new candidates are added.
 
-See [current candidate evidence and limitations](CURRENT_CANDIDATES_QA.md). Testing publication is explicitly requested by the owner; it does not mean these failures are fixed.
+See [recorded candidate evidence and limitations](CURRENT_CANDIDATES_QA.md) and
+the [public release notes](https://github.com/kas021/Synthetiq-Modules/blob/main/docs/ANIME_GREEK_OWNER_RELEASE_20260910.md).
+Promotion does not mean the known audio-language or Flutter runtime failures
+were fixed or fully certified.
 
 **JustAnime 1.1.0-beta.4 is withdrawn**, not promoted: owner phone testing found a freeze around 11 seconds into One Piece episode 1 and missing Featured/endless home browsing. It is deferred to the end of the module queue. See [JustAnime QA](JUSTANIME_QA.md). **KickAssAnime 4.1.0** and **AnimeHeaven 4.1.0** remain available from the official repository.
 

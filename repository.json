@@ -2,66 +2,17 @@
   "schemaVersion": 1,
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
-  "enabled": true,
-  "publishedAtMs": 1789077467509,
+  "enabled": false,
+  "publishedAtMs": 1789080658964,
   "signature": "",
-  "testingIdentity": "an1me-v1:1.1.0-beta.4:cce5c9d26a4da8ba823d752633c5419f173ac2cd3f884b9fb3e8e04e8d252a3f|synthetiq-anime-v1:1.0.1-beta.5:c1ba3525de261cc276b8c238bb304b2994d98c9c8ae66adc544a7c37d0a738ed",
+  "testingIdentity": "",
   "bundle": {
-    "version": 22,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-22.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-22.zip",
-    "sha256": "a671e46173f4a0c0805511ef9312b3162ff596491db5d05b827904c0c701e8d9",
+    "version": 23,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-23.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-23.zip",
+    "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
-  "modules": [
-    {
-      "moduleId": "an1me-v1",
-      "moduleFamilyId": "an1me_v1",
-      "moduleIdentity": "SP-VID-053-AN1ME",
-      "moduleIdentityNumber": 53,
-      "contentType": "video",
-      "version": "1.1.0-beta.4",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/An1me-1.1.0-beta.4.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/An1me-1.1.0-beta.4.zip",
-      "sha256": "cce5c9d26a4da8ba823d752633c5419f173ac2cd3f884b9fb3e8e04e8d252a3f",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789077467509,
-      "presentation": {
-        "recommended": false,
-        "purpose": "Testing only"
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    },
-    {
-      "moduleId": "synthetiq-anime-v1",
-      "moduleFamilyId": "synthetiq_anime_v1",
-      "moduleIdentity": "SP-VID-074-SYNTHETIQ-ANIME",
-      "moduleIdentityNumber": 74,
-      "contentType": "video",
-      "version": "1.0.1-beta.5",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Synthetiq-Anime-1.0.1-beta.5.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/Synthetiq-Anime-1.0.1-beta.5.zip",
-      "sha256": "c1ba3525de261cc276b8c238bb304b2994d98c9c8ae66adc544a7c37d0a738ed",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789077467509,
-      "presentation": {
-        "category": "Anime",
-        "purpose": "Testing only",
-        "recommended": false,
-        "language": "English Sub/Dub",
-        "languages": [
-          "sub",
-          "dub"
-        ]
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    }
-  ]
+  "modules": []
 }
