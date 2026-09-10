@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import path from 'node:path';
+import { supersedesCandidate } from './release-policy.mjs';
 process.chdir(path.resolve(import.meta.dirname, '..'));
 const stable = await fetch('https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/repository.json', {signal: AbortSignal.timeout(20000)});
 if (!stable.ok) throw new Error(`Stable index HTTP ${stable.status}`);
@@ -9,9 +10,11 @@ const official = await stable.json();
 if (!Array.isArray(official.modules) || !official.modules.length) throw new Error('Invalid stable index');
 const files = fs.readdirSync('modules').filter(x => x.endsWith('.zip'));
 const candidates = files.map(file => ({file, manifest: JSON.parse(execFileSync('unzip', ['-p', `modules/${file}`, 'module.json'], {encoding:'utf8'}))}));
-// Only retire an exact version once it appears in the published official index.
+// A stable release also retires earlier betas of the same module.
 const active = candidates.filter(({file,manifest:m}) => {
-  if (!official.modules.some(x => x.moduleId === m.id && x.version === m.moduleVersion)) return true;
+  if (!official.modules.some(x => x.moduleId === m.id && supersedesCandidate(x.version, m.moduleVersion))) return true;
+  fs.mkdirSync('_module_history', {recursive:true});
+  fs.copyFileSync(`modules/${file}`, `_module_history/${file}`, fs.constants.COPYFILE_EXCL);
   fs.unlinkSync(`modules/${file}`);
   return false;
 });
@@ -40,5 +43,5 @@ const modules = active.map(({file,manifest:m}) => ({
   changelog:['TEST CANDIDATE: not certified for stable release. See repository QA notes.'],
 }));
 fs.writeFileSync('repository.json', JSON.stringify({schemaVersion:1,repositoryId:'module-testing-pl',name:'Module Testing PL',enabled:!!active.length,publishedAtMs,signature:'',testingIdentity:identity,bundle:{version,...info(bundleFile)},modules},null,2)+'\n');
-for (const file of fs.readdirSync('bundles')) if (file !== path.basename(bundleFile)) fs.unlinkSync(`bundles/${file}`);
+// Retain immutable previous bundles so cached indexes do not encounter a 404.
 console.log(`Published index for ${modules.length} testing candidates`);
