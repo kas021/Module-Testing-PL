@@ -2,17 +2,39 @@
   "schemaVersion": 1,
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
-  "enabled": false,
-  "publishedAtMs": 1789044056028,
+  "enabled": true,
+  "publishedAtMs": 1789045450882,
   "signature": "",
-  "testingIdentity": "",
+  "testingIdentity": "animeheaven-v2-1:4.0.7-beta.1:3ace4487375df68bc24caded65e31e13b804a7f1b6c57cb8e8cc4350d3626ee7",
   "bundle": {
-    "version": 12,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-12.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-12.zip",
-    "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "version": 13,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-13.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-13.zip",
+    "sha256": "95c5b4320e3b0947c1a6e3a8e0705a1d5c1a75eae48a1ded808adf18c31ea3f3",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
-  "modules": []
+  "modules": [
+    {
+      "moduleId": "animeheaven-v2-1",
+      "moduleFamilyId": "animeheaven_v2",
+      "moduleIdentity": "SP-VID-003-ANIMEHEAVEN",
+      "moduleIdentityNumber": 3,
+      "contentType": "video",
+      "version": "4.0.7-beta.1",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/AnimeHeaven-4.0.7-beta.1.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/AnimeHeaven-4.0.7-beta.1.zip",
+      "sha256": "3ace4487375df68bc24caded65e31e13b804a7f1b6c57cb8e8cc4350d3626ee7",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789045450882,
+      "presentation": {
+        "recommended": false,
+        "purpose": "Testing only"
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    }
+  ]
 }
