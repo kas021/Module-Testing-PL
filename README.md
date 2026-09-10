@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-The only active candidate is **Synthetiq Movies 1.2.4-beta.5**. Available Arabic and other languages now appear in the normal subtitle list, including server-specific lists. English retains the module-wide script-mismatch guard. See [beta.5 QA](MOVIES_BETA5_QA.md). Native playback and subtitle synchronization still need device testing. Background YFlix quality enrichment is not implemented; the current app contract cannot support that flow.
+There are **no active testing candidates**. Owner-approved Synthetiq Movies beta.5 has been released unchanged as **1.2.5** in the official Synthetiq-Modules repository. Keep the official repository linked to receive it. Previous QA notes and ZIPs remain archived, not advertised in the active index. Background YFlix quality enrichment is separate and not included.
 
 AniKage is no longer active here. StreamUnity has been retired from testing at the owner's request, not newly promoted to production. Old ZIPs and QA notes are archived for rollback, not listed as installable candidates.
 
