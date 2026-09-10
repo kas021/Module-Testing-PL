@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-AniKage 1.1.0 is the initial candidate. Caption and runtime checks passed; native certification failed because the simulator build timed out, and some media samples stalled. See ANIKAGE_QA.md. This is not a fully certified release.
+AniKage 1.1.1 is the current candidate. It improves rate-limit handling, not seeking. Thirteen fixture tests and the real Flutter runtime passed; S2 quick is PARTIAL because the latest-episode media check failed. JoJo availability and seek/server-switch freezes remain unresolved. See ANIKAGE_1_1_1_QA.md. This is not a fully certified release. Version 1.1.0 is preserved under _module_history/.
 
 ## Maintenance
 
