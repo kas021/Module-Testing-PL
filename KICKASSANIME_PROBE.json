@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-10T16:35:46.124Z",
+  "scope": "Node resolver and HLS metadata checks, not native playback or spoken-language proof",
+  "results": [
+    {
+      "query": "Attack on Titan",
+      "lang": "sub",
+      "matched": "Attack on Titan",
+      "episodes": 26,
+      "resolved": true,
+      "servers": 1,
+      "subtitles": 1,
+      "quality": "auto",
+      "resolveMs": 4404,
+      "http": 200,
+      "hls": true,
+      "resolutions": [
+        "640x360",
+        "960x540",
+        "1280x720",
+        "1920x1080"
+      ],
+      "subtitleRenditions": 0,
+      "offeredQualities": [
+        "Auto"
+      ],
+      "serverNames": [
+        "VidStreaming"
+      ],
+      "qualityMedia": []
+    },
+    {
+      "query": "Attack on Titan",
+      "lang": "dub",
+      "matched": "Attack on Titan",
+      "episodes": 26,
+      "resolved": true,
+      "servers": 1,
+      "subtitles": 1,
+      "quality": "auto",
+      "resolveMs": 5105,
+      "http": 200,
+      "hls": true,
+      "resolutions": [
+        "640x360",
+        "960x540",
+        "1280x720",
+        "1920x1080"
+      ],
+      "subtitleRenditions": 0,
+      "offeredQualities": [
+        "Auto"
+      ],
+      "serverNames": [
+        "VidStreaming"
+      ],
+      "qualityMedia": []
+    },
+    {
+      "query": "One Piece",
+      "lang": "sub",
+      "matched": "One Piece",
+      "episodes": 1195,
+      "resolved": true,
+      "servers": 1,
+      "subtitles": 5,
+      "quality": "auto",
+      "resolveMs": 8645,
+      "http": 200,
+      "hls": true,
+      "resolutions": [
+        "1920x1080",
+        "1280x720",
+        "640x360"
+      ],
+      "subtitleRenditions": 0,
+      "offeredQualities": [
+        "Auto"
+      ],
+      "serverNames": [
+        "CatStream"
+      ],
+      "qualityMedia": []
+    },
+    {
+      "query": "One Piece",
+      "lang": "dub",
+      "matched": "One Piece",
+      "episodes": 1195,
+      "resolved": false,
+      "servers": 0,
+      "subtitles": 0,
+      "resolveMs": 20363
+    },
+    {
+      "query": "Death Note",
+      "lang": "sub",
+      "matched": "Death Note",
+      "episodes": 37,
+      "resolved": true,
+      "servers": 1,
+      "subtitles": 1,
+      "quality": "auto",
+      "resolveMs": 11300,
+      "http": 200,
+      "hls": true,
+      "resolutions": [
+        "640x360",
+        "960x540",
+        "1280x720",
+        "1920x1080"
+      ],
+      "subtitleRenditions": 0,
+      "offeredQualities": [
+        "Auto"
+      ],
+      "serverNames": [
+        "VidStreaming"
+      ],
+      "qualityMedia": []
+    },
+    {
+      "query": "Death Note",
+      "lang": "dub",
+      "matched": "Death Note",
+      "episodes": 37,
+      "resolved": true,
+      "servers": 1,
+      "subtitles": 1,
+      "quality": "auto",
+      "resolveMs": 6578,
+      "http": 200,
+      "hls": true,
+      "resolutions": [
+        "640x360",
+        "960x540",
+        "1280x720",
+        "1920x1080"
+      ],
+      "subtitleRenditions": 0,
+      "offeredQualities": [
+        "Auto"
+      ],
+      "serverNames": [
+        "VidStreaming"
+      ],
+      "qualityMedia": []
+    }
+  ]
+}
