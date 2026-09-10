@@ -2,6 +2,29 @@
 
 Published for owner-requested testing only. Neither candidate is approved for the official repository. Existing frozen ZIP bytes are unchanged.
 
+## Latest quick recheck (after the original notes below)
+
+- **Synthetiq Anime beta.5:** new seed 2372910688, 30 titles. Sub 30/30 resolved
+  and decoded; Dub 30/30 resolved, 29/30 decoded. Total 59/60 short media samples
+  passed, with Naruto E1 Dub failing. This random selection has no Bocchi case.
+  242/242 caption files loaded across 23 declared language codes. S2 quick Naruto
+  passed. The independently confirmed Spy x Family E1 Japanese-on-Dub failure
+  is still unresolved; decoded media is not proof of correct spoken language.
+- **An1me Greek beta.4:** 10 frozen titles, 10 audio-mode attempts across 9 titles
+  with episodes. Corrected startup probe: 9 links resolved and all 9 decoded;
+  Pokemon XY Dub returned no stream. Gintama season 4 separately had no episodes.
+  Eight of ten selected titles therefore have a decoded stream; One Piece
+  passed both modes. The separate Flutter Death Note stream check still FAILED,
+  although Sub-only availability was read correctly.
+- The preliminary Greek 3/10 decode count is INVALID: the quick harness lacked
+  S2's HLS demuxer settings and rejected .jpg segment filenames before decoding
+  their real media. The corrected run used the same cases, required video
+  frames and audio, and did not change module bytes. Corrected seeking and
+  physical-device playback remain unverified.
+- Tests used the default route, not every server. They are short Mac-based
+  media probes, not full native-device or offline certification. Greek is not
+  release-ready. Both packages remain available only for requested owner testing.
+
 ## Synthetiq Anime 1.0.1-beta.5
 
 - 16 module regression tests passed.
