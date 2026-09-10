@@ -1,0 +1,198 @@
+{
+  "date": "2026-09-10T11:56:46.860Z",
+  "scope": "Six exact TMDB routes; resolution and ffprobe only. Not content identity, spoken-language, full download or native playback proof.",
+  "results": [
+    {
+      "title": "Inception",
+      "resolved": true,
+      "resolveMs": 512,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "eng"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true
+    },
+    {
+      "title": "Moana 2",
+      "resolved": true,
+      "resolveMs": 453,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "eng",
+        "und",
+        "spa"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true
+    },
+    {
+      "title": "The Matrix",
+      "resolved": true,
+      "resolveMs": 409,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "eng",
+        "bul",
+        "cat",
+        "cze",
+        "dan",
+        "und",
+        "spa",
+        "fin",
+        "fre",
+        "hrv",
+        "hun",
+        "ice",
+        "lit",
+        "lav",
+        "mac",
+        "nob",
+        "dut",
+        "pol",
+        "por",
+        "rum",
+        "rus",
+        "slo",
+        "slv",
+        "srp",
+        "swe"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true
+    },
+    {
+      "title": "Silo S1E1",
+      "resolved": true,
+      "resolveMs": 724,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "en"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true
+    },
+    {
+      "title": "Breaking Bad S3E7",
+      "resolved": true,
+      "resolveMs": 14843,
+      "servers": 5,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "en"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true
+    },
+    {
+      "title": "Severance S1E2",
+      "resolved": true,
+      "resolveMs": 14125,
+      "servers": 5,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2592,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true
+    }
+  ]
+}
