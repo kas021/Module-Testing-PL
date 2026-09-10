@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-Active candidate: **AnimeHeaven 4.1.0-beta.3**. Adds passing server alternatives and omits duplicate download links. S2 **PARTIAL**: runtime/media checks passed and simulator video advanced for 120 seconds; audible playback and physical server switching still need owner QA. No distinct quality levels were found in the sampled sources. See [QA and limitations](ANIMEHEAVEN_BETA3_QA.md).
+No active testing candidates. Owner-approved **AnimeHeaven 4.1.0** is released through the official repository; its beta is retired here. KickAssAnime is the next audit, not yet a testing update. Existing Player versions reject empty testing repositories, so use the official repository for this release and re-add testing when a new candidate is announced.
 
 The previous 4.0.7-beta.1 package remains reachable for cached-index compatibility but is not active. `retired-packages.json` excludes retained old package URLs from the active build. Failed beta.1/beta.2 multi-server experiments were never published.
 
