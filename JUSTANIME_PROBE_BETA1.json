@@ -1,0 +1,320 @@
+{
+  "version": "1.1.0-beta.1",
+  "startedAt": "2026-09-10T18:49:31.433Z",
+  "sha256": "2e259013b97257ed84da3f336c9fa1a3797d341df6754040b91f58470ab870ac",
+  "scope": "Ten fixed titles, first/middle/latest episodes. Two-second video and audio decoding plus soft-caption download. Not spoken-language or native-device certification.",
+  "results": [
+    {
+      "query": "SPY x FAMILY",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 3489,
+          "servers": [
+            "MegaPlay",
+            "AnimeGG"
+          ],
+          "captionLabels": [
+            "Arabic",
+            "English",
+            "French",
+            "German",
+            "Indonesian",
+            "Italian",
+            "Portuguese (- Portuguese(Brazil))",
+            "Russian",
+            "Spanish",
+            "Spanish (- Spanish(Latin America))",
+            "Thai",
+            "Vietnamese"
+          ],
+          "decode": true,
+          "captionDownload": true
+        },
+        {
+          "lang": "dub",
+          "status": "probe-pass",
+          "resolveMs": 1384,
+          "servers": [
+            "MegaPlay"
+          ],
+          "captionLabels": [
+            "English"
+          ],
+          "decode": true
+        }
+      ],
+      "title": "SPY x FAMILY",
+      "episodeCount": 12,
+      "episode": 1
+    },
+    {
+      "query": "Attack on Titan",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 6223,
+          "servers": [
+            "MegaPlay",
+            "AnimeGG"
+          ],
+          "captionLabels": [
+            "English",
+            "English 2",
+            "English (- (Crunchyroll))",
+            "Portuguese",
+            "Spanish"
+          ],
+          "decode": true,
+          "captionDownload": true
+        },
+        {
+          "lang": "dub",
+          "status": "probe-pass",
+          "resolveMs": 3070,
+          "servers": [
+            "MegaPlay",
+            "AnimeGG"
+          ],
+          "captionLabels": [
+            "English"
+          ],
+          "decode": true
+        }
+      ],
+      "title": "Attack on Titan",
+      "episodeCount": 25,
+      "episode": 13
+    },
+    {
+      "query": "Death Note",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 3964,
+          "servers": [
+            "MegaPlay",
+            "AnimeGG"
+          ],
+          "captionLabels": [
+            "English"
+          ],
+          "decode": true,
+          "captionDownload": true
+        },
+        {
+          "lang": "dub",
+          "status": "probe-pass",
+          "resolveMs": 3495,
+          "servers": [
+            "MegaPlay",
+            "AnimeGG"
+          ],
+          "captionLabels": [
+            "English"
+          ],
+          "decode": true
+        }
+      ],
+      "title": "Death Note",
+      "episodeCount": 37,
+      "episode": 37
+    },
+    {
+      "query": "One Piece",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 3610,
+          "servers": [
+            "MegaPlay",
+            "AnimeGG"
+          ],
+          "captionLabels": [
+            "English"
+          ],
+          "decode": true,
+          "captionDownload": true
+        }
+      ],
+      "title": "ONE PIECE",
+      "episodeCount": 1177,
+      "episode": 1
+    },
+    {
+      "query": "Naruto",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 3651,
+          "servers": [
+            "MegaPlay",
+            "AnimeGG"
+          ],
+          "captionLabels": [
+            "English"
+          ],
+          "decode": true,
+          "captionDownload": true
+        }
+      ],
+      "title": "Naruto",
+      "episodeCount": 220,
+      "episode": 111
+    },
+    {
+      "query": "BLEACH",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 3985,
+          "servers": [
+            "MegaPlay",
+            "AnimeGG"
+          ],
+          "captionLabels": [
+            "English"
+          ],
+          "decode": true,
+          "captionDownload": true
+        }
+      ],
+      "title": "Bleach",
+      "episodeCount": 366,
+      "episode": 366
+    },
+    {
+      "query": "Chainsaw Man",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 3166,
+          "servers": [
+            "MegaPlay",
+            "AnimeGG"
+          ],
+          "captionLabels": [
+            "Arabic",
+            "English",
+            "French",
+            "German",
+            "Italian",
+            "Portuguese (- Português (Brasil))",
+            "Russian",
+            "Spanish",
+            "Spanish (- Espanol (Latin American))"
+          ],
+          "decode": true,
+          "captionDownload": true
+        }
+      ],
+      "title": "Chainsaw Man",
+      "episodeCount": 12,
+      "episode": 1
+    },
+    {
+      "query": "Jujutsu Kaisen",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 4064,
+          "servers": [
+            "MegaPlay",
+            "AnimeGG"
+          ],
+          "captionLabels": [
+            "Arabic",
+            "English",
+            "French (- Francais(France))",
+            "German (- Deutsch)",
+            "Italian (- Italiano)",
+            "Portuguese (- Portugues(Brasil))",
+            "Russian",
+            "Spanish (- Espanol)",
+            "Spanish (- Espanol(Espana))"
+          ],
+          "decode": true,
+          "captionDownload": true
+        }
+      ],
+      "title": "JUJUTSU KAISEN",
+      "episodeCount": 24,
+      "episode": 13
+    },
+    {
+      "query": "One-Punch Man",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 4124,
+          "servers": [
+            "MegaPlay"
+          ],
+          "captionLabels": [
+            "Arabic",
+            "Bulgarian",
+            "Chinese",
+            "Danish",
+            "Dutch",
+            "English",
+            "Finnish",
+            "French",
+            "German",
+            "Hebrew",
+            "Indonesian",
+            "Norwegian (Bokmål)",
+            "Polish",
+            "Portuguese",
+            "Spanish",
+            "Swedish",
+            "Thai",
+            "Turkish"
+          ],
+          "decode": true,
+          "captionDownload": true
+        }
+      ],
+      "title": "One-Punch Man",
+      "episodeCount": 12,
+      "episode": 12
+    },
+    {
+      "query": "Cowboy Bebop",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 5029,
+          "servers": [
+            "MegaPlay",
+            "AnimeGG"
+          ],
+          "captionLabels": [
+            "English"
+          ],
+          "decode": true,
+          "captionDownload": true
+        }
+      ],
+      "title": "Cowboy Bebop",
+      "episodeCount": 26,
+      "episode": 1
+    }
+  ],
+  "summary": {
+    "titles": 10,
+    "titlesWithSubPass": 10,
+    "routePass": 13,
+    "routes": 13
+  },
+  "finishedAt": "2026-09-10T18:51:08.131Z"
+}
