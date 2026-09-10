@@ -2,17 +2,46 @@
   "schemaVersion": 1,
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
-  "enabled": false,
-  "publishedAtMs": 1789004982970,
+  "enabled": true,
+  "publishedAtMs": 1789028680100,
   "signature": "",
-  "testingIdentity": "",
+  "testingIdentity": "streamingunity-v1:1.1.0-beta.2:3e21c03f93090c054b3704a3b3007647bb63084c585457845c7d3863635cd787",
   "bundle": {
-    "version": 3,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-3.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-3.zip",
-    "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "version": 4,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-4.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-4.zip",
+    "sha256": "a4d9738a669f65ce60b8bbf3b3563dde90f9b0d006a1f0670d76e07862592ca1",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
-  "modules": []
+  "modules": [
+    {
+      "moduleId": "streamingunity-v1",
+      "moduleFamilyId": "streamingunity_v1",
+      "moduleIdentity": "SP-VID-065-STREAMINGUNITY",
+      "moduleIdentityNumber": 65,
+      "contentType": "video",
+      "version": "1.1.0-beta.2",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/StreamingUnity-1.1.0-beta.2.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/StreamingUnity-1.1.0-beta.2.zip",
+      "sha256": "3e21c03f93090c054b3704a3b3007647bb63084c585457845c7d3863635cd787",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789028680100,
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Testing only",
+        "recommended": false,
+        "language": "English",
+        "languages": [
+          "sub",
+          "dub"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/streamingunity.png"
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    }
+  ]
 }
