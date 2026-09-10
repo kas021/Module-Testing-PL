@@ -14,6 +14,8 @@ StreamingUnity 1.1.0-beta.2 is the current candidate. It adds checked server alt
 
 ## Maintenance
 
+Synthetiq Movies 1.2.4-beta.3 is also available for testing: StreamUnity English/Sub routing, Cinejoy-first subtitles, Wyzie fallback only when needed, and bounded subtitle caching. Native playback, seeking and subtitle synchronization remain unverified. See [Movies QA notes](SYNTHETIQ_MOVIES_QA.md).
+
 Add one root-manifest module ZIP under modules/, then run `node scripts/build.mjs` and commit the generated index and bundle. Never add credentials or other modules implicitly. Keep module IDs stable. Never modify an already distributed version's bytes.
 
 The daily/manual cleanup workflow removes exact versions appearing in the official published index, including them from neither the active list nor the current bundle. Git history remains an audit trail. It does not uninstall modules from phones. Keep the official repository linked for stable releases.

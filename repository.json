@@ -3,14 +3,14 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789028680100,
+  "publishedAtMs": 1789036028669,
   "signature": "",
-  "testingIdentity": "streamingunity-v1:1.1.0-beta.2:3e21c03f93090c054b3704a3b3007647bb63084c585457845c7d3863635cd787",
+  "testingIdentity": "streamingunity-v1:1.1.0-beta.2:3e21c03f93090c054b3704a3b3007647bb63084c585457845c7d3863635cd787|synthetiq-movies-v1:1.2.4-beta.3:ab22a6bd949a5e56e451e9ccb4fa247fa5819e594bd34bc70c073b42a7076be3",
   "bundle": {
-    "version": 4,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-4.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-4.zip",
-    "sha256": "a4d9738a669f65ce60b8bbf3b3563dde90f9b0d006a1f0670d76e07862592ca1",
+    "version": 5,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-5.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-5.zip",
+    "sha256": "5d1ceb3561d05c5e1766d8d906861e2d85473b0103d36cfd1ee2abd91aff336f",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
@@ -27,7 +27,7 @@
       "sha256": "3e21c03f93090c054b3704a3b3007647bb63084c585457845c7d3863635cd787",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789028680100,
+      "publishedAtMs": 1789036028669,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
@@ -38,6 +38,30 @@
           "dub"
         ],
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/streamingunity.png"
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    },
+    {
+      "moduleId": "synthetiq-movies-v1",
+      "moduleFamilyId": "synthetiq_movies_v1",
+      "moduleIdentity": "SP-VID-059-SYNTHETIQ-MOVIES",
+      "moduleIdentityNumber": 59,
+      "contentType": "video",
+      "version": "1.2.4-beta.3",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Synthetiq-Movies-1.2.4-beta.3.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/Synthetiq-Movies-1.2.4-beta.3.zip",
+      "sha256": "ab22a6bd949a5e56e451e9ccb4fa247fa5819e594bd34bc70c073b42a7076be3",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789036028669,
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Testing only",
+        "recommended": false,
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-movies.png?v=20260818-1"
       },
       "changelog": [
         "TEST CANDIDATE: not certified for stable release. See repository QA notes."
