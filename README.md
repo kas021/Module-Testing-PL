@@ -10,14 +10,18 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-No testing candidates are currently active. **Synthetiq Anime 1.0.2** and
+**Active: AnimeAV1 1.3.0-beta.1 (Spanish anime).** See [AnimeAV1 QA](ANIMEAV1_QA.md).
+Testing only: 53/53 routes resolved across 30 titles, 52/53 short seek/decode
+samples passed. Your Name Sub seek and native/offline checks remain open.
+Official AnimeAV1 1.2.8 is unchanged. No stable-release approval is implied.
+
+**Synthetiq Anime 1.0.2** and
 **An1me (Greek) 1.1.1** were promoted to the official repository at the owner's
 explicit request. Their former beta ZIP URLs remain reachable but are retired
 from the testing index and bundle.
 
 Use the [official repository](https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/repository.json)
-for these releases. The testing repository is disabled while empty; older
-Player versions may reject it until new candidates are added.
+for these releases. They are not active testing candidates.
 
 See [recorded candidate evidence and limitations](CURRENT_CANDIDATES_QA.md) and
 the [public release notes](https://github.com/kas021/Synthetiq-Modules/blob/main/docs/ANIME_GREEK_OWNER_RELEASE_20260910.md).

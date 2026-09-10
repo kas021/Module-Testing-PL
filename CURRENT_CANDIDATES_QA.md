@@ -1,4 +1,12 @@
-# Owner testing candidates - 2026-09-10
+# Current owner testing candidate - 2026-09-11
+
+**AnimeAV1 1.3.0-beta.1** is the only active candidate. Official 1.2.8 is unchanged.
+13 regression tests pass; One Piece Sub and Naruto Dub pass quick S2 runtime and
+media checks. The 30-title matrix resolved 53/53 modes; 52/53 short video/audio
+seek samples decoded. Your Name Sub is the failure. Native/offline certification
+is outstanding. See [the full QA record](ANIMEAV1_QA.md).
+
+# Historical owner testing candidates - 2026-09-10
 
 Published for owner-requested testing only. Neither candidate is approved for the official repository. Existing frozen ZIP bytes are unchanged.
 
@@ -53,6 +61,6 @@ No app code, account data, backend or official module catalogue is changed by th
 
 Both candidates below are now historical: owner-approved public releases are
 Synthetiq Anime 1.0.2 and An1me (Greek) 1.1.1. Their JavaScript is unchanged;
-versions/release metadata and Anime artwork were updated. No testing candidates
-remain active. The limitations below remain unresolved, not waived as test
+versions/release metadata and Anime artwork were updated. Neither remains
+active in testing. Their limitations remain unresolved, not waived as test
 passes. See the official repository's `docs/ANIME_GREEK_OWNER_RELEASE_20260910.md`.

@@ -1,0 +1,28 @@
+{
+  "checked": "2026-09-10T23:20:56.708Z",
+  "rows": [
+    {
+      "server": "StreamTape",
+      "requested": "dub",
+      "expected": "es",
+      "offsetSeconds": 300,
+      "sampleSeconds": 15,
+      "extracted": true,
+      "language": "es",
+      "transcriptionOk": true,
+      "transcriptLength": 167
+    },
+    {
+      "server": "AnimeAV1 HLS",
+      "requested": "dub",
+      "expected": "es",
+      "offsetSeconds": 300,
+      "sampleSeconds": 15,
+      "extracted": true,
+      "language": "es",
+      "transcriptionOk": true,
+      "transcriptLength": 168
+    }
+  ],
+  "limitation": "Automated 15-second spoken-language samples for Naruto episode 1 only; not whole-catalogue language certification."
+}

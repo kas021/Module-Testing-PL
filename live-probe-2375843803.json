@@ -1,0 +1,1547 @@
+{
+  "started": "2026-09-10T23:17:18.939Z",
+  "seed": 2375843803,
+  "version": "1.3.0-beta.1",
+  "sha256": "b2fbf162a5838bf094392f87be48fbce90c006572e8c2f1eba9e7cfb3fec85a6",
+  "method": "Thirty frozen titles: three anchors, seventeen popular catalogue entries, ten seeded latest-catalogue holdouts. Search identity, details, episodes, first episode in each declared mode. Decode eight seconds of video AND audio at 90 seconds; first three titles also decode every returned server. Sequential title probes.",
+  "limitations": "Node Flutter-fetchv2 emulation plus FFmpeg, not physical Player. No full-episode, complete audio-language, burned-in subtitle, or offline proof. Missing titles/episodes and decode failures remain in the denominator.",
+  "cases": [
+    {
+      "title": "One Piece",
+      "href": "https://animeav1.com/media/one-piece"
+    },
+    {
+      "title": "Naruto",
+      "href": "https://animeav1.com/media/naruto"
+    },
+    {
+      "title": "Death Note",
+      "href": "https://animeav1.com/media/death-note"
+    },
+    {
+      "title": "Shingeki no Kyojin",
+      "href": "https://animeav1.com/media/shingeki-no-kyojin"
+    },
+    {
+      "title": "One Punch Man",
+      "href": "https://animeav1.com/media/one-punch-man"
+    },
+    {
+      "title": "Kimetsu no Yaiba",
+      "href": "https://animeav1.com/media/kimetsu-no-yaiba"
+    },
+    {
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "href": "https://animeav1.com/media/fullmetal-alchemist-brotherhood"
+    },
+    {
+      "title": "Sword Art Online",
+      "href": "https://animeav1.com/media/sword-art-online"
+    },
+    {
+      "title": "Boku no Hero Academia",
+      "href": "https://animeav1.com/media/boku-no-hero-academia"
+    },
+    {
+      "title": "Kimi no Na wa.",
+      "href": "https://animeav1.com/media/kimi-no-na-wa"
+    },
+    {
+      "title": "Shingeki no Kyojin Season 2",
+      "href": "https://animeav1.com/media/shingeki-no-kyojin-season-2"
+    },
+    {
+      "title": "Jujutsu Kaisen",
+      "href": "https://animeav1.com/media/jujutsu-kaisen"
+    },
+    {
+      "title": "Tokyo Ghoul",
+      "href": "https://animeav1.com/media/tokyo-ghoul"
+    },
+    {
+      "title": "Hunter x Hunter (2011)",
+      "href": "https://animeav1.com/media/hunter-x-hunter-2011"
+    },
+    {
+      "title": "Boku no Hero Academia 2nd Season",
+      "href": "https://animeav1.com/media/boku-no-hero-academia-2nd-season"
+    },
+    {
+      "title": "Naruto Shippuden",
+      "href": "https://animeav1.com/media/naruto-shippuuden"
+    },
+    {
+      "title": "Shingeki no Kyojin Season 3",
+      "href": "https://animeav1.com/media/shingeki-no-kyojin-season-3"
+    },
+    {
+      "title": "Koe no Katachi",
+      "href": "https://animeav1.com/media/koe-no-katachi"
+    },
+    {
+      "title": "Shingeki no Kyojin Season 3 Part 2",
+      "href": "https://animeav1.com/media/shingeki-no-kyojin-season-3-part-2"
+    },
+    {
+      "title": "No Game No Life",
+      "href": "https://animeav1.com/media/no-game-no-life"
+    },
+    {
+      "title": "Kimi ga Shinu made Koi wo Shitai",
+      "href": "https://animeav1.com/media/kimi-ga-shinu-made-koi-wo-shitai"
+    },
+    {
+      "title": "Ryoumin 0-nin Start no Henkyou Ryoushu-sama",
+      "href": "https://animeav1.com/media/ryoumin-0-nin-start-no-henkyou-ryoushu-sama"
+    },
+    {
+      "title": "Shiguang Dailiren III",
+      "href": "https://animeav1.com/media/shiguang-dailiren-iii"
+    },
+    {
+      "title": "Thunder 3",
+      "href": "https://animeav1.com/media/thunder-3"
+    },
+    {
+      "title": "Katainaka no Ossan, Kensei ni Naru II",
+      "href": "https://animeav1.com/media/katainaka-no-ossan-kensei-ni-naru-ii"
+    },
+    {
+      "title": "Boku no Hero Academia: I Am a Hero Too",
+      "href": "https://animeav1.com/media/boku-no-hero-academia-i-am-a-hero-too"
+    },
+    {
+      "title": "The Ribbon Hero",
+      "href": "https://animeav1.com/media/the-ribbon-hero"
+    },
+    {
+      "title": "Sora wa Akai Kawa no Hotori",
+      "href": "https://animeav1.com/media/sora-wa-akai-kawa-no-hotori"
+    },
+    {
+      "title": "Otome Game Sekai wa Mob ni Kibishii Sekai desu 2",
+      "href": "https://animeav1.com/media/otome-game-sekai-wa-mob-ni-kibishii-sekai-desu-2"
+    },
+    {
+      "title": "Youjo Senki II",
+      "href": "https://animeav1.com/media/youjo-senki-ii"
+    }
+  ],
+  "rows": [
+    {
+      "title": "One Piece",
+      "href": "https://animeav1.com/media/one-piece",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 414,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 160,
+            "status": 0,
+            "error": null
+          },
+          "backups": []
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "One Piece",
+      "episodeCount": 1177,
+      "episode": 1
+    },
+    {
+      "title": "Naruto",
+      "href": "https://animeav1.com/media/naruto",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 521,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          },
+          "backups": [
+            {
+              "name": "AnimeAV1 HLS",
+              "decode": {
+                "ok": true,
+                "seconds": 8,
+                "frames": 192,
+                "status": 0,
+                "error": null
+              }
+            }
+          ]
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 687,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          },
+          "backups": [
+            {
+              "name": "AnimeAV1 HLS",
+              "decode": {
+                "ok": true,
+                "seconds": 8,
+                "frames": 192,
+                "status": 0,
+                "error": null
+              }
+            }
+          ]
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Naruto",
+      "episodeCount": 220,
+      "episode": 1
+    },
+    {
+      "title": "Death Note",
+      "href": "https://animeav1.com/media/death-note",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 329,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          },
+          "backups": []
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 413,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          },
+          "backups": []
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Death Note",
+      "episodeCount": 37,
+      "episode": 1
+    },
+    {
+      "title": "Shingeki no Kyojin",
+      "href": "https://animeav1.com/media/shingeki-no-kyojin",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 529,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 378,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Shingeki no Kyojin",
+      "episodeCount": 25,
+      "episode": 1
+    },
+    {
+      "title": "One Punch Man",
+      "href": "https://animeav1.com/media/one-punch-man",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 404,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 418,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "One Punch Man",
+      "episodeCount": 12,
+      "episode": 1
+    },
+    {
+      "title": "Kimetsu no Yaiba",
+      "href": "https://animeav1.com/media/kimetsu-no-yaiba",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 349,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 369,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Kimetsu no Yaiba",
+      "episodeCount": 26,
+      "episode": 1
+    },
+    {
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "href": "https://animeav1.com/media/fullmetal-alchemist-brotherhood",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 645,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 393,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Fullmetal Alchemist: Brotherhood",
+      "episodeCount": 64,
+      "episode": 1
+    },
+    {
+      "title": "Sword Art Online",
+      "href": "https://animeav1.com/media/sword-art-online",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 336,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 392,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Sword Art Online",
+      "episodeCount": 25,
+      "episode": 1
+    },
+    {
+      "title": "Boku no Hero Academia",
+      "href": "https://animeav1.com/media/boku-no-hero-academia",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 705,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 330,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Boku no Hero Academia",
+      "episodeCount": 14,
+      "episode": 1
+    },
+    {
+      "title": "Kimi no Na wa.",
+      "href": "https://animeav1.com/media/kimi-no-na-wa",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": false,
+          "resolveMs": 449,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": false,
+            "seconds": 0,
+            "frames": 0,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 463,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Kimi no Na wa.",
+      "episodeCount": 1,
+      "episode": 1
+    },
+    {
+      "title": "Shingeki no Kyojin Season 2",
+      "href": "https://animeav1.com/media/shingeki-no-kyojin-season-2",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 408,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 325,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Shingeki no Kyojin Season 2",
+      "episodeCount": 12,
+      "episode": 1
+    },
+    {
+      "title": "Jujutsu Kaisen",
+      "href": "https://animeav1.com/media/jujutsu-kaisen",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 319,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 317,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Jujutsu Kaisen",
+      "episodeCount": 24,
+      "episode": 1
+    },
+    {
+      "title": "Tokyo Ghoul",
+      "href": "https://animeav1.com/media/tokyo-ghoul",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 330,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Tokyo Ghoul",
+      "episodeCount": 12,
+      "episode": 1
+    },
+    {
+      "title": "Hunter x Hunter (2011)",
+      "href": "https://animeav1.com/media/hunter-x-hunter-2011",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 321,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 114,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 324,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 114,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Hunter x Hunter (2011)",
+      "episodeCount": 148,
+      "episode": 1
+    },
+    {
+      "title": "Boku no Hero Academia 2nd Season",
+      "href": "https://animeav1.com/media/boku-no-hero-academia-2nd-season",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 415,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 317,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Boku no Hero Academia 2nd Season",
+      "episodeCount": 27,
+      "episode": 0
+    },
+    {
+      "title": "Naruto Shippuden",
+      "href": "https://animeav1.com/media/naruto-shippuuden",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 418,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 352,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Naruto Shippuden",
+      "episodeCount": 500,
+      "episode": 1
+    },
+    {
+      "title": "Shingeki no Kyojin Season 3",
+      "href": "https://animeav1.com/media/shingeki-no-kyojin-season-3",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 595,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 345,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Shingeki no Kyojin Season 3",
+      "episodeCount": 12,
+      "episode": 1
+    },
+    {
+      "title": "Koe no Katachi",
+      "href": "https://animeav1.com/media/koe-no-katachi",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 435,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 376,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Koe no Katachi (Una Voz Silenciosa)",
+      "episodeCount": 1,
+      "episode": 1
+    },
+    {
+      "title": "Shingeki no Kyojin Season 3 Part 2",
+      "href": "https://animeav1.com/media/shingeki-no-kyojin-season-3-part-2",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 430,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 323,
+          "servers": [
+            "StreamTape",
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Original"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Shingeki no Kyojin Season 3 Part 2",
+      "episodeCount": 10,
+      "episode": 1
+    },
+    {
+      "title": "No Game No Life",
+      "href": "https://animeav1.com/media/no-game-no-life",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 435,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 507,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "No Game No Life",
+      "episodeCount": 12,
+      "episode": 1
+    },
+    {
+      "title": "Kimi ga Shinu made Koi wo Shitai",
+      "href": "https://animeav1.com/media/kimi-ga-shinu-made-koi-wo-shitai",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 342,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 102,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Kimi ga Shinu made Koi wo Shitai",
+      "episodeCount": 10,
+      "episode": 1
+    },
+    {
+      "title": "Ryoumin 0-nin Start no Henkyou Ryoushu-sama",
+      "href": "https://animeav1.com/media/ryoumin-0-nin-start-no-henkyou-ryoushu-sama",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 399,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Ryoumin 0-nin Start no Henkyou Ryoushu-sama",
+      "episodeCount": 10,
+      "episode": 1
+    },
+    {
+      "title": "Shiguang Dailiren III",
+      "href": "https://animeav1.com/media/shiguang-dailiren-iii",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 318,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 88,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Shiguang Dailiren III",
+      "episodeCount": 5,
+      "episode": 1
+    },
+    {
+      "title": "Thunder 3",
+      "href": "https://animeav1.com/media/thunder-3",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 322,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 479,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Thunder 3",
+      "episodeCount": 10,
+      "episode": 1
+    },
+    {
+      "title": "Katainaka no Ossan, Kensei ni Naru II",
+      "href": "https://animeav1.com/media/katainaka-no-ossan-kensei-ni-naru-ii",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 318,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 365,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Katainaka no Ossan, Kensei ni Naru II",
+      "episodeCount": 10,
+      "episode": 1
+    },
+    {
+      "title": "Boku no Hero Academia: I Am a Hero Too",
+      "href": "https://animeav1.com/media/boku-no-hero-academia-i-am-a-hero-too",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 296,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 119,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Boku no Hero Academia: I Am a Hero Too",
+      "episodeCount": 1,
+      "episode": 1
+    },
+    {
+      "title": "The Ribbon Hero",
+      "href": "https://animeav1.com/media/the-ribbon-hero",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 449,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 435,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "The Ribbon Hero",
+      "episodeCount": 1,
+      "episode": 1
+    },
+    {
+      "title": "Sora wa Akai Kawa no Hotori",
+      "href": "https://animeav1.com/media/sora-wa-akai-kawa-no-hotori",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 304,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Sora wa Akai Kawa no Hotori",
+      "episodeCount": 10,
+      "episode": 1
+    },
+    {
+      "title": "Otome Game Sekai wa Mob ni Kibishii Sekai desu 2",
+      "href": "https://animeav1.com/media/otome-game-sekai-wa-mob-ni-kibishii-sekai-desu-2",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 329,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 322,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Otome Game Sekai wa Mob ni Kibishii Sekai desu 2",
+      "episodeCount": 10,
+      "episode": 1
+    },
+    {
+      "title": "Youjo Senki II",
+      "href": "https://animeav1.com/media/youjo-senki-ii",
+      "modes": [
+        {
+          "lang": "sub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 314,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        },
+        {
+          "lang": "dub",
+          "resolved": true,
+          "decoded": true,
+          "resolveMs": 322,
+          "servers": [
+            "AnimeAV1 HLS"
+          ],
+          "qualities": [
+            "Auto"
+          ],
+          "subtitles": [],
+          "decode": {
+            "ok": true,
+            "seconds": 8,
+            "frames": 192,
+            "status": 0,
+            "error": null
+          }
+        }
+      ],
+      "searchIdentityFound": true,
+      "detailsTitle": "Youjo Senki II",
+      "episodeCount": 10,
+      "episode": 1
+    }
+  ],
+  "finished": "2026-09-10T23:19:59.490Z",
+  "totals": {
+    "titles": 30,
+    "titlesWithDecodedMedia": 30,
+    "searchIdentityMatches": 30,
+    "blockedTitles": 0,
+    "attemptedModes": 53,
+    "resolved": 53,
+    "decoded": 52,
+    "failed": 1,
+    "backupProbes": 2,
+    "backupDecodes": 2
+  }
+}
