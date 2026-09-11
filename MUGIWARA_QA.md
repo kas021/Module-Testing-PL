@@ -1,8 +1,17 @@
-# Mugiwara 1.1.0-beta.3
+# Mugiwara 1.1.0-beta.4
 
 Owner testing candidate. No app/backend changes. Official 1.0.4 is unchanged.
 
-SHA-256: `eabbb6fba77782cb7c1a8feb57257cb64dd6e8b4dd75919188a32e83cc2caacc`
+SHA-256: `1d5ad82d88f91773bb23b47885a991fcaad4048f0d8229ca0b53f462ae78322a`
+
+## Beta.4 Artwork Fix
+
+Home covers incorrectly inherited the Sibnet video Referer, which the image
+server rejected with HTTP 403. Separate image headers now use the site Referer.
+All 30 sampled discovery covers, including all eight Featured cards, downloaded
+and decoded in Flutter using the existing app image-header helpers.
+12 regression tests and S2 quick passed on beta.4. Playback JavaScript and video
+headers are unchanged from beta.3. Loading spinners are app-owned and unchanged.
 
 ## Changes
 
@@ -16,7 +25,7 @@ SHA-256: `eabbb6fba77782cb7c1a8feb57257cb64dd6e8b4dd75919188a32e83cc2caacc`
 
 ## Evidence and Limits
 
-12 regression tests pass. S2 standard reports PASS on this exact ZIP, including
+The prior beta.3 S2 standard reports PASS, including
 real Flutter resolution, first/middle/latest media decode and approximately
 120 seconds of simulator video progression with seeking. The simulator logged
 an audio-device initialization error: audible output still needs phone testing.
