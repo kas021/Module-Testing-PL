@@ -1,0 +1,2695 @@
+{
+  "moduleVersion": "5.0.1-beta.3",
+  "zipSha256": "85149352185162a0d4afac390d2e27d2b45137c4da65e6c444162550f0326739",
+  "evidence": "NODE_RESOLUTION_AND_12_SECOND_FFMPEG_DECODE_NOT_NATIVE_PLAYBACK",
+  "nativeReleaseGate": "BLOCKED: incomplete iPhone/Android verification; see STATUS.md",
+  "s2Quick": {
+    "sub": "PASS",
+    "dub": "FAIL: opening audio language flag; later dialogue detected English"
+  },
+  "cases": 60,
+  "titles": 30,
+  "unavailableDub": 8,
+  "availableCases": 52,
+  "resolved": 52,
+  "decoded": 51,
+  "delayBetweenCasesMs": 4000,
+  "regressionTests": {
+    "passed": 25,
+    "failed": 0
+  },
+  "rows": [
+    {
+      "target": {
+        "title": "Nisekoi: False Love (reported 12-episode entry)",
+        "episode": "1949|nisekoi-false-love-4ja0o|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 5707,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Vidhawk flow",
+        "Vidhawk zuri"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [],
+      "startedAt": "2026-09-11T17:54:34.029Z",
+      "finishedAt": "2026-09-11T17:54:42.274Z"
+    },
+    {
+      "target": {
+        "title": "Nisekoi: False Love (reported 12-episode entry)",
+        "episode": "1949|nisekoi-false-love-4ja0o|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 153,
+      "resolved": false,
+      "decode12Seconds": false,
+      "servers": [],
+      "qualities": [],
+      "subtitles": [],
+      "error": "Dub is not available for this episode",
+      "startedAt": "2026-09-11T17:54:46.277Z",
+      "finishedAt": "2026-09-11T17:54:48.065Z"
+    },
+    {
+      "target": {
+        "title": "One Piece",
+        "episode": "1642|one-piece-odmau|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 5324,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko) #2",
+        "Otaku (neko)",
+        "EchoVideo (wave)"
+      ],
+      "qualities": [
+        "720p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:54:52.067Z",
+      "finishedAt": "2026-09-11T17:54:58.711Z"
+    },
+    {
+      "target": {
+        "title": "One Piece",
+        "episode": "1642|one-piece-odmau|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 3878,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko) #2",
+        "Otaku (neko)"
+      ],
+      "qualities": [
+        "1080p",
+        "480p",
+        "720p"
+      ],
+      "subtitles": [],
+      "startedAt": "2026-09-11T17:55:02.713Z",
+      "finishedAt": "2026-09-11T17:55:09.126Z"
+    },
+    {
+      "target": {
+        "title": "Naruto",
+        "episode": "958|naruto-eybxz|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 1039,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Vidhawk flow",
+        "Vidhawk zuri"
+      ],
+      "qualities": [
+        "800p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:55:13.129Z",
+      "finishedAt": "2026-09-11T17:55:14.985Z"
+    },
+    {
+      "target": {
+        "title": "Naruto",
+        "episode": "958|naruto-eybxz|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 1110,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Vidhawk flow",
+        "Vidhawk zuri"
+      ],
+      "qualities": [
+        "480p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:55:18.987Z",
+      "finishedAt": "2026-09-11T17:55:20.837Z"
+    },
+    {
+      "target": {
+        "title": "Naruto: Shippuden",
+        "episode": "1498|naruto-shippuden-c8gov|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 672,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "sub 1080p"
+      ],
+      "subtitles": [
+        "Arabic",
+        "English",
+        "German",
+        "Portuguese",
+        "Spanish",
+        "Spanish 2",
+        "Turkish"
+      ],
+      "startedAt": "2026-09-11T17:55:24.840Z",
+      "finishedAt": "2026-09-11T17:55:26.323Z"
+    },
+    {
+      "target": {
+        "title": "Naruto: Shippuden",
+        "episode": "1498|naruto-shippuden-c8gov|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 874,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "dub 720p"
+      ],
+      "subtitles": [
+        "Arabic",
+        "English",
+        "German",
+        "Portuguese",
+        "Spanish",
+        "Spanish 2",
+        "Turkish"
+      ],
+      "startedAt": "2026-09-11T17:55:30.327Z",
+      "finishedAt": "2026-09-11T17:55:31.738Z"
+    },
+    {
+      "target": {
+        "title": "Attack on Titan",
+        "episode": "1631|attack-on-titan-bgaoa|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 1704,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Vidhawk flow",
+        "Vidhawk zuri"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [
+        "English",
+        "English 2",
+        "English (- (Crunchyroll))",
+        "Portuguese",
+        "Spanish"
+      ],
+      "startedAt": "2026-09-11T17:55:35.741Z",
+      "finishedAt": "2026-09-11T17:55:38.086Z"
+    },
+    {
+      "target": {
+        "title": "Attack on Titan",
+        "episode": "1631|attack-on-titan-bgaoa|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 1983,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Vidhawk flow",
+        "Vidhawk zuri"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:55:42.088Z",
+      "finishedAt": "2026-09-11T17:55:44.790Z"
+    },
+    {
+      "target": {
+        "title": "Re:ZERO -Starting Life in Another World-",
+        "episode": "1468|re-zero-starting-life-in-another-world-scuep|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 3684,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko) #2",
+        "Otaku (neko)",
+        "Otaku (neko) #3"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:55:48.792Z",
+      "finishedAt": "2026-09-11T17:55:57.734Z"
+    },
+    {
+      "target": {
+        "title": "Re:ZERO -Starting Life in Another World-",
+        "episode": "1468|re-zero-starting-life-in-another-world-scuep|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 4607,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko)",
+        "EchoVideo (wave)"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [],
+      "startedAt": "2026-09-11T17:56:01.736Z",
+      "finishedAt": "2026-09-11T17:56:12.411Z"
+    },
+    {
+      "target": {
+        "title": "Spy x Family",
+        "episode": "7095|spy-x-family-6zlbz|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 2788,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko) #2",
+        "Otaku (neko)",
+        "EchoVideo (wave)"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:56:16.413Z",
+      "finishedAt": "2026-09-11T17:56:30.183Z"
+    },
+    {
+      "target": {
+        "title": "Spy x Family",
+        "episode": "7095|spy-x-family-6zlbz|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 6423,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko)",
+        "Otaku (neko) #2"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:56:36.199Z",
+      "finishedAt": "2026-09-11T17:56:59.373Z"
+    },
+    {
+      "target": {
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "episode": "1551|demon-slayer-kimetsu-no-yaiba-rzepv|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 6851,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko)",
+        "Otaku (neko) #2",
+        "EchoVideo (wave)"
+      ],
+      "qualities": [
+        "1080p",
+        "480p",
+        "720p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:57:03.376Z",
+      "finishedAt": "2026-09-11T17:57:17.228Z"
+    },
+    {
+      "target": {
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "episode": "1551|demon-slayer-kimetsu-no-yaiba-rzepv|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 3843,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko) #2",
+        "Otaku (neko)",
+        "Otaku (neko) #3"
+      ],
+      "qualities": [
+        "1080p",
+        "480p",
+        "720p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:57:21.231Z",
+      "finishedAt": "2026-09-11T17:57:30.556Z"
+    },
+    {
+      "target": {
+        "title": "Jujutsu Kaisen",
+        "episode": "1103|jujutsu-kaisen-tv-8ssye|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 698,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "sub 1080p"
+      ],
+      "subtitles": [
+        "Arabic",
+        "English",
+        "French (- Francais(France))",
+        "German (- Deutsch)",
+        "Italian (- Italiano)",
+        "Portuguese (- Portugues(Brasil))",
+        "Russian",
+        "Spanish (- Espanol)",
+        "Spanish (- Espanol(Espana))"
+      ],
+      "startedAt": "2026-09-11T17:57:34.558Z",
+      "finishedAt": "2026-09-11T17:57:35.865Z"
+    },
+    {
+      "target": {
+        "title": "Jujutsu Kaisen",
+        "episode": "1103|jujutsu-kaisen-tv-8ssye|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 865,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "dub 1080p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:57:44.931Z",
+      "finishedAt": "2026-09-11T17:57:46.326Z"
+    },
+    {
+      "target": {
+        "title": "Bleach",
+        "episode": "1057|bleach-yaa9n|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 624,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "sub 1080p"
+      ],
+      "subtitles": [
+        "English",
+        "Portuguese (- Brazilian)",
+        "Spanish (- Latin American)"
+      ],
+      "startedAt": "2026-09-11T17:57:57.984Z",
+      "finishedAt": "2026-09-11T17:57:59.393Z"
+    },
+    {
+      "target": {
+        "title": "Bleach",
+        "episode": "1057|bleach-yaa9n|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 836,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "dub 1080p"
+      ],
+      "subtitles": [
+        "English",
+        "Portuguese (- Brazilian)",
+        "Spanish (- Latin American)"
+      ],
+      "startedAt": "2026-09-11T17:58:03.396Z",
+      "finishedAt": "2026-09-11T17:58:07.001Z"
+    },
+    {
+      "target": {
+        "title": "Frieren: Beyond Journey's End",
+        "episode": "6351|frieren-beyond-journey-s-end-c6fbj|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 2232,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Vidhawk flow",
+        "Vidhawk zuri"
+      ],
+      "qualities": [
+        "1080p",
+        "360p",
+        "720p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:58:11.003Z",
+      "finishedAt": "2026-09-11T17:58:14.121Z"
+    },
+    {
+      "target": {
+        "title": "Frieren: Beyond Journey's End",
+        "episode": "6351|frieren-beyond-journey-s-end-c6fbj|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 2194,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Vidhawk flow",
+        "Vidhawk zuri"
+      ],
+      "qualities": [
+        "1080p",
+        "360p",
+        "720p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:58:18.123Z",
+      "finishedAt": "2026-09-11T17:58:20.824Z"
+    },
+    {
+      "target": {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "episode": "69|fullmetal-alchemist-brotherhood-9s0fl|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 1535,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Vidhawk flow",
+        "Vidhawk zuri"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [
+        "Arabic (Arabic - [Full])",
+        "Chinese (Chinese - (Simplified) [Full])",
+        "Chinese (Chinese - (Traditional) [Full])",
+        "Danish (Danish - [Full])",
+        "Dutch (Dutch - [Full])",
+        "English",
+        "Finnish (Finnish - [Full])",
+        "Italian (Italian - [Full])",
+        "Japanese (Japanese - [SDH])",
+        "Korean (Korean - [Full])",
+        "Norwegian (Norwegian - [Full])",
+        "Polish (Polish - [Full])"
+      ],
+      "startedAt": "2026-09-11T17:58:24.827Z",
+      "finishedAt": "2026-09-11T17:58:27.279Z"
+    },
+    {
+      "target": {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "episode": "69|fullmetal-alchemist-brotherhood-9s0fl|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 3415,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Vidhawk flow",
+        "Vidhawk zuri"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [
+        "Arabic (Arabic - [Full])",
+        "Chinese (Chinese - (Simplified) [Full])",
+        "Chinese (Chinese - (Traditional) [Full])",
+        "Danish (Danish - [Full])",
+        "Dutch (Dutch - [Full])",
+        "English",
+        "Finnish (Finnish - [Full])",
+        "Italian (Italian - [Full])",
+        "Japanese (Japanese - [SDH])",
+        "Korean (Korean - [Full])",
+        "Norwegian (Norwegian - [Full])",
+        "Polish (Polish - [Full])"
+      ],
+      "startedAt": "2026-09-11T17:58:31.280Z",
+      "finishedAt": "2026-09-11T17:58:35.713Z"
+    },
+    {
+      "target": {
+        "title": "Death Note",
+        "episode": "1610|death-note-fc8mq|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 6585,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko)"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:58:39.715Z",
+      "finishedAt": "2026-09-11T17:59:21.753Z"
+    },
+    {
+      "target": {
+        "title": "Death Note",
+        "episode": "1610|death-note-fc8mq|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 4489,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko) #2",
+        "Otaku (neko)",
+        "EchoVideo (wave)"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [],
+      "startedAt": "2026-09-11T17:59:27.012Z",
+      "finishedAt": "2026-09-11T17:59:43.855Z"
+    },
+    {
+      "target": {
+        "title": "Hunter x Hunter",
+        "episode": "68|hunter-x-hunter-tjlki|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 7558,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko)",
+        "EchoVideo (wave)"
+      ],
+      "qualities": [
+        "1080p",
+        "480p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T17:59:49.350Z",
+      "finishedAt": "2026-09-11T18:00:09.680Z"
+    },
+    {
+      "target": {
+        "title": "Hunter x Hunter",
+        "episode": "68|hunter-x-hunter-tjlki|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 3852,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko) #2",
+        "Otaku (neko)",
+        "EchoVideo (wave)"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [],
+      "startedAt": "2026-09-11T18:00:13.683Z",
+      "finishedAt": "2026-09-11T18:00:27.569Z"
+    },
+    {
+      "target": {
+        "title": "My Hero Academia",
+        "episode": "6|my-hero-academia-kuzfp|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 614,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "sub 1080p"
+      ],
+      "subtitles": [
+        "English",
+        "Portuguese (Portuguese - (Brazil))",
+        "Spanish (Spanish - (Espana))"
+      ],
+      "startedAt": "2026-09-11T18:00:31.996Z",
+      "finishedAt": "2026-09-11T18:00:38.805Z"
+    },
+    {
+      "target": {
+        "title": "My Hero Academia",
+        "episode": "6|my-hero-academia-kuzfp|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 743,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "dub 1080p"
+      ],
+      "subtitles": [
+        "English",
+        "Portuguese (Portuguese - (Brazil))",
+        "Spanish (Spanish - (Espana))"
+      ],
+      "startedAt": "2026-09-11T18:00:43.421Z",
+      "finishedAt": "2026-09-11T18:00:45.004Z"
+    },
+    {
+      "target": {
+        "title": "Solo Leveling",
+        "episode": "6224|solo-leveling-ilh08|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 2596,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko) #2",
+        "Otaku (neko)",
+        "EchoVideo (wave)"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T18:00:49.006Z",
+      "finishedAt": "2026-09-11T18:00:54.681Z"
+    },
+    {
+      "target": {
+        "title": "Solo Leveling",
+        "episode": "6224|solo-leveling-ilh08|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 2895,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko) #2",
+        "Otaku (neko)",
+        "EchoVideo (wave)"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [],
+      "startedAt": "2026-09-11T18:00:58.683Z",
+      "finishedAt": "2026-09-11T18:01:05.150Z"
+    },
+    {
+      "target": {
+        "title": "Chainsaw Man",
+        "episode": "6805|chainsaw-man-efeig|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 3202,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko)",
+        "EchoVideo (wave)"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T18:01:09.153Z",
+      "finishedAt": "2026-09-11T18:01:19.205Z"
+    },
+    {
+      "target": {
+        "title": "Chainsaw Man",
+        "episode": "6805|chainsaw-man-efeig|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 5855,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko) #2",
+        "Otaku (neko)"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [],
+      "startedAt": "2026-09-11T18:01:26.575Z",
+      "finishedAt": "2026-09-11T18:01:36.627Z"
+    },
+    {
+      "target": {
+        "title": "Bocchi the Rock!",
+        "episode": "7026|bocchi-the-rock-ecwgh|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 9597,
+      "resolved": true,
+      "decode12Seconds": false,
+      "servers": [
+        "Otaku (neko)"
+      ],
+      "qualities": [
+        "1080p",
+        "720p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "error": "Decode did not finish; no stderr captured",
+      "startedAt": "2026-09-11T18:01:40.630Z",
+      "finishedAt": "2026-09-11T18:02:34.565Z"
+    },
+    {
+      "target": {
+        "title": "Bocchi the Rock!",
+        "episode": "7026|bocchi-the-rock-ecwgh|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 83,
+      "resolved": false,
+      "decode12Seconds": false,
+      "servers": [],
+      "qualities": [],
+      "subtitles": [],
+      "error": "Dub is not available for this episode",
+      "startedAt": "2026-09-11T18:02:39.531Z",
+      "finishedAt": "2026-09-11T18:02:41.707Z"
+    },
+    {
+      "target": {
+        "title": "Your Name.",
+        "episode": "61|your-name-mwvi0|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 6838,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Vidhawk flow",
+        "Vidhawk zuri"
+      ],
+      "qualities": [
+        "1080p",
+        "360p",
+        "480p",
+        "720p"
+      ],
+      "subtitles": [],
+      "startedAt": "2026-09-11T18:02:45.710Z",
+      "finishedAt": "2026-09-11T18:02:53.838Z"
+    },
+    {
+      "target": {
+        "title": "Your Name.",
+        "episode": "61|your-name-mwvi0|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 3892,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Vidhawk flow",
+        "Vidhawk zuri"
+      ],
+      "qualities": [
+        "1080p",
+        "360p",
+        "480p",
+        "720p"
+      ],
+      "subtitles": [],
+      "startedAt": "2026-09-11T18:03:01.629Z",
+      "finishedAt": "2026-09-11T18:03:08.865Z"
+    },
+    {
+      "target": {
+        "title": "Tomo-chan Is a Girl!",
+        "episode": "6580|tomo-chan-is-a-girl-qaogn|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 3541,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko)",
+        "EchoVideo (wave)"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T18:03:12.870Z",
+      "finishedAt": "2026-09-11T18:03:40.717Z"
+    },
+    {
+      "target": {
+        "title": "Tomo-chan Is a Girl!",
+        "episode": "6580|tomo-chan-is-a-girl-qaogn|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 3002,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "Otaku (neko) #2",
+        "Otaku (neko)",
+        "EchoVideo (wave)"
+      ],
+      "qualities": [
+        "1080p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T18:03:44.723Z",
+      "finishedAt": "2026-09-11T18:04:07.553Z"
+    },
+    {
+      "target": {
+        "title": "Koala's Diary",
+        "episode": "8173|koala-s-diary-8sbwi|3",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 1068,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "sub 1080p",
+        "sub 720p",
+        "sub 360p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T18:04:11.558Z",
+      "finishedAt": "2026-09-11T18:04:13.486Z"
+    },
+    {
+      "target": {
+        "title": "Koala's Diary",
+        "episode": "8173|koala-s-diary-8sbwi|3",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 59,
+      "resolved": false,
+      "decode12Seconds": false,
+      "servers": [],
+      "qualities": [],
+      "subtitles": [],
+      "error": "Dub is not available for this episode",
+      "startedAt": "2026-09-11T18:04:17.492Z",
+      "finishedAt": "2026-09-11T18:04:17.551Z"
+    },
+    {
+      "target": {
+        "title": "La Maison en Petits Cubes",
+        "episode": "9012|la-maison-en-petits-cubes-d047f|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 1884,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "EchoVideo (wave)"
+      ],
+      "qualities": [
+        "720p"
+      ],
+      "subtitles": [],
+      "startedAt": "2026-09-11T18:04:21.552Z",
+      "finishedAt": "2026-09-11T18:04:24.211Z"
+    },
+    {
+      "target": {
+        "title": "La Maison en Petits Cubes",
+        "episode": "9012|la-maison-en-petits-cubes-d047f|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 183,
+      "resolved": false,
+      "decode12Seconds": false,
+      "servers": [],
+      "qualities": [],
+      "subtitles": [],
+      "error": "Dub is not available for this episode",
+      "startedAt": "2026-09-11T18:04:28.214Z",
+      "finishedAt": "2026-09-11T18:04:28.398Z"
+    },
+    {
+      "target": {
+        "title": "Hell Mode: Yarikomi-zuki no Gamer wa Haisettei no Isekai de Musou Suru 2nd Season",
+        "episode": "8873|hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-2nd-season|3",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 687,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "sub 1080p",
+        "sub 720p",
+        "sub 360p"
+      ],
+      "subtitles": [
+        "English (HIDIVE)"
+      ],
+      "startedAt": "2026-09-11T18:04:32.399Z",
+      "finishedAt": "2026-09-11T18:04:35.996Z"
+    },
+    {
+      "target": {
+        "title": "Hell Mode: Yarikomi-zuki no Gamer wa Haisettei no Isekai de Musou Suru 2nd Season",
+        "episode": "8873|hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-2nd-season|3",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 723,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "dub 1080p",
+        "dub 720p",
+        "dub 360p"
+      ],
+      "subtitles": [
+        "English (Forced)",
+        "English"
+      ],
+      "startedAt": "2026-09-11T18:04:39.999Z",
+      "finishedAt": "2026-09-11T18:04:43.883Z"
+    },
+    {
+      "target": {
+        "title": "Ghost Meets Gal!",
+        "episode": "9014|ghost-meets-gal-4faa9|1",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 598,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "sub 1080p",
+        "sub 720p",
+        "sub 360p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T18:04:49.459Z",
+      "finishedAt": "2026-09-11T18:04:50.801Z"
+    },
+    {
+      "target": {
+        "title": "Ghost Meets Gal!",
+        "episode": "9014|ghost-meets-gal-4faa9|1",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 61,
+      "resolved": false,
+      "decode12Seconds": false,
+      "servers": [],
+      "qualities": [],
+      "subtitles": [],
+      "error": "Dub is not available for this episode",
+      "startedAt": "2026-09-11T18:04:54.804Z",
+      "finishedAt": "2026-09-11T18:04:54.865Z"
+    },
+    {
+      "target": {
+        "title": "Chained Soldier Season 2 [Uncensored]",
+        "episode": "8593|chained-soldier-season-2-uncensored-8bpmj|3",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 614,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "sub 1080p",
+        "sub 720p",
+        "sub 360p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T18:04:58.866Z",
+      "finishedAt": "2026-09-11T18:05:00.189Z"
+    },
+    {
+      "target": {
+        "title": "Chained Soldier Season 2 [Uncensored]",
+        "episode": "8593|chained-soldier-season-2-uncensored-8bpmj|3",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 709,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "dub 1080p",
+        "dub 720p",
+        "dub 360p"
+      ],
+      "subtitles": [
+        "English (AI)",
+        "English"
+      ],
+      "startedAt": "2026-09-11T18:05:04.191Z",
+      "finishedAt": "2026-09-11T18:05:05.596Z"
+    },
+    {
+      "target": {
+        "title": "The Drops of God",
+        "episode": "8719|the-drops-of-god-1ergu|3",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 573,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "sub 1080p",
+        "sub 720p",
+        "sub 360p"
+      ],
+      "subtitles": [
+        "English (CR)",
+        "Portuguese (Brazilian CR)",
+        "Spanish (Latin America CR)",
+        "Spanish (CR)",
+        "Arabic (CR)",
+        "French (CR)",
+        "German (CR)",
+        "Italian (CR)",
+        "Russian (CR)"
+      ],
+      "startedAt": "2026-09-11T18:05:09.599Z",
+      "finishedAt": "2026-09-11T18:05:10.928Z"
+    },
+    {
+      "target": {
+        "title": "The Drops of God",
+        "episode": "8719|the-drops-of-god-1ergu|3",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 856,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "dub 1080p",
+        "dub 720p",
+        "dub 360p"
+      ],
+      "subtitles": [
+        "English (AI)",
+        "English"
+      ],
+      "startedAt": "2026-09-11T18:05:15.024Z",
+      "finishedAt": "2026-09-11T18:05:16.485Z"
+    },
+    {
+      "target": {
+        "title": "Mebius Dust",
+        "episode": "8949|mebius-dust-a698c|3",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 1041,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "sub 1080p",
+        "sub 720p",
+        "sub 360p"
+      ],
+      "subtitles": [
+        "English (CR)",
+        "Portuguese (Brazilian CR)",
+        "Spanish (Latin America CR)",
+        "Spanish (CR)",
+        "Arabic (CR)",
+        "French (CR)",
+        "German (CR)",
+        "Italian (CR)",
+        "Russian (CR)",
+        "Indonesian (CR)",
+        "Malay (CR)",
+        "Vietnamese (CR)",
+        "Thai (CR)",
+        "Chinese (Simplified CR)",
+        "Chinese (Traditional CR)"
+      ],
+      "startedAt": "2026-09-11T18:05:20.487Z",
+      "finishedAt": "2026-09-11T18:05:22.786Z"
+    },
+    {
+      "target": {
+        "title": "Mebius Dust",
+        "episode": "8949|mebius-dust-a698c|3",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 66,
+      "resolved": false,
+      "decode12Seconds": false,
+      "servers": [],
+      "qualities": [],
+      "subtitles": [],
+      "error": "Dub is not available for this episode",
+      "startedAt": "2026-09-11T18:05:26.841Z",
+      "finishedAt": "2026-09-11T18:05:27.049Z"
+    },
+    {
+      "target": {
+        "title": "World Is Dancing",
+        "episode": "8896|world-is-dancing|3",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 583,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "sub 1080p",
+        "sub 720p",
+        "sub 360p"
+      ],
+      "subtitles": [
+        "English",
+        "English (MW)",
+        "Chinese (Simplified)",
+        "French",
+        "German",
+        "Polish"
+      ],
+      "startedAt": "2026-09-11T18:05:31.052Z",
+      "finishedAt": "2026-09-11T18:05:32.389Z"
+    },
+    {
+      "target": {
+        "title": "World Is Dancing",
+        "episode": "8896|world-is-dancing|3",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 1171,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "dub 1080p",
+        "dub 720p",
+        "dub 360p"
+      ],
+      "subtitles": [
+        "English (Forced)",
+        "English",
+        "English (SDH)"
+      ],
+      "startedAt": "2026-09-11T18:05:36.392Z",
+      "finishedAt": "2026-09-11T18:05:38.795Z"
+    },
+    {
+      "target": {
+        "title": "Sorry About My Little Brothers",
+        "episode": "8909|sorry-about-my-little-brothers-ee156|3",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 617,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "sub 1080p",
+        "sub 720p",
+        "sub 360p"
+      ],
+      "subtitles": [
+        "English (CR)",
+        "Portuguese (Brazilian CR)",
+        "Spanish (Latin America CR)",
+        "Spanish (CR)",
+        "Arabic (CR)",
+        "French (CR)",
+        "German (CR)",
+        "Italian (CR)",
+        "Russian (CR)",
+        "Indonesian (CR)",
+        "Malay (CR)",
+        "Vietnamese (CR)",
+        "Thai (CR)",
+        "Chinese (Simplified CR)",
+        "Chinese (Traditional CR)"
+      ],
+      "startedAt": "2026-09-11T18:05:42.798Z",
+      "finishedAt": "2026-09-11T18:05:44.273Z"
+    },
+    {
+      "target": {
+        "title": "Sorry About My Little Brothers",
+        "episode": "8909|sorry-about-my-little-brothers-ee156|3",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 89,
+      "resolved": false,
+      "decode12Seconds": false,
+      "servers": [],
+      "qualities": [],
+      "subtitles": [],
+      "error": "Dub is not available for this episode",
+      "startedAt": "2026-09-11T18:05:48.276Z",
+      "finishedAt": "2026-09-11T18:05:48.366Z"
+    },
+    {
+      "target": {
+        "title": "The Villager of Level 999",
+        "episode": "8899|the-villager-of-level-999|3",
+        "lang": "sub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 579,
+      "resolved": true,
+      "decode12Seconds": true,
+      "servers": [
+        "HD-1",
+        "HD-2",
+        "Vidstream-2"
+      ],
+      "qualities": [
+        "sub 1080p",
+        "sub 720p",
+        "sub 360p"
+      ],
+      "subtitles": [
+        "English"
+      ],
+      "startedAt": "2026-09-11T18:05:52.367Z",
+      "finishedAt": "2026-09-11T18:05:54.017Z"
+    },
+    {
+      "target": {
+        "title": "The Villager of Level 999",
+        "episode": "8899|the-villager-of-level-999|3",
+        "lang": "dub"
+      },
+      "sourceSha256": "1a8b8e48e125ae9beee40171c5a93a9b738b3d68463678d5954754d38dcd894d",
+      "resolveMs": 92,
+      "resolved": false,
+      "decode12Seconds": false,
+      "servers": [],
+      "qualities": [],
+      "subtitles": [],
+      "error": "Dub is not available for this episode",
+      "startedAt": "2026-09-11T18:05:58.020Z",
+      "finishedAt": "2026-09-11T18:05:58.112Z"
+    }
+  ],
+  "captions": {
+    "evidence": "CAPTION_FILES_ONLY_NOT_FULL_EPISODE_SYNC_OR_TRANSLATION_CERTIFICATION",
+    "checkedAt": "2026-09-11T18:09:09.167Z",
+    "checked": 129,
+    "passed": 128,
+    "failed": 1,
+    "rows": [
+      {
+        "sample": "matrix-1-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 285,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-10-dub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 270,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-10-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 270,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-dub",
+        "label": "Arabic (Arabic - [Full])",
+        "language": "ar",
+        "status": 200,
+        "cues": 252,
+        "arabicLetters": 5670,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-dub",
+        "label": "Chinese (Chinese - (Simplified) [Full])",
+        "language": "zh",
+        "status": 200,
+        "cues": 253,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-dub",
+        "label": "Chinese (Chinese - (Traditional) [Full])",
+        "language": "zh",
+        "status": 200,
+        "cues": 253,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-dub",
+        "label": "Danish (Danish - [Full])",
+        "language": "en",
+        "status": 200,
+        "cues": 229,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-dub",
+        "label": "Dutch (Dutch - [Full])",
+        "language": "nl",
+        "status": 200,
+        "cues": 241,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-dub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 252,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-dub",
+        "label": "Finnish (Finnish - [Full])",
+        "language": "en",
+        "status": 200,
+        "cues": 223,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-dub",
+        "label": "Italian (Italian - [Full])",
+        "language": "it",
+        "status": 200,
+        "cues": 253,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-dub",
+        "label": "Japanese (Japanese - [SDH])",
+        "language": "ja",
+        "status": 200,
+        "cues": 361,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-dub",
+        "label": "Korean (Korean - [Full])",
+        "language": "ko",
+        "status": 200,
+        "cues": 252,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-dub",
+        "label": "Norwegian (Norwegian - [Full])",
+        "language": "en",
+        "status": 200,
+        "cues": 213,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-dub",
+        "label": "Polish (Polish - [Full])",
+        "language": "pl",
+        "status": 200,
+        "cues": 252,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-sub",
+        "label": "Arabic (Arabic - [Full])",
+        "language": "ar",
+        "status": 200,
+        "cues": 252,
+        "arabicLetters": 5670,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-sub",
+        "label": "Chinese (Chinese - (Simplified) [Full])",
+        "language": "zh",
+        "status": 200,
+        "cues": 253,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-sub",
+        "label": "Chinese (Chinese - (Traditional) [Full])",
+        "language": "zh",
+        "status": 200,
+        "cues": 253,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-sub",
+        "label": "Danish (Danish - [Full])",
+        "language": "en",
+        "status": 200,
+        "cues": 229,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-sub",
+        "label": "Dutch (Dutch - [Full])",
+        "language": "nl",
+        "status": 200,
+        "cues": 241,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 252,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-sub",
+        "label": "Finnish (Finnish - [Full])",
+        "language": "en",
+        "status": 200,
+        "cues": 223,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-sub",
+        "label": "Italian (Italian - [Full])",
+        "language": "it",
+        "status": 200,
+        "cues": 253,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-sub",
+        "label": "Japanese (Japanese - [SDH])",
+        "language": "ja",
+        "status": 200,
+        "cues": 361,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-sub",
+        "label": "Korean (Korean - [Full])",
+        "language": "ko",
+        "status": 200,
+        "cues": 252,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-sub",
+        "label": "Norwegian (Norwegian - [Full])",
+        "language": "en",
+        "status": 200,
+        "cues": 213,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-11-sub",
+        "label": "Polish (Polish - [Full])",
+        "language": "pl",
+        "status": 200,
+        "cues": 252,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-12-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 329,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-13-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 295,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-14-dub",
+        "label": "English",
+        "language": "English",
+        "status": 200,
+        "cues": 302,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-14-dub",
+        "label": "Portuguese (Portuguese - (Brazil))",
+        "language": "Portuguese (Portuguese - (Brazil))",
+        "status": 200,
+        "cues": 301,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-14-dub",
+        "label": "Spanish (Spanish - (Espana))",
+        "language": "Spanish (Spanish - (Espana))",
+        "status": 200,
+        "cues": 297,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-15-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 343,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-16-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 181,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-17-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 518,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-19-dub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 6,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-19-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 414,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-2-dub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 302,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-2-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 302,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-20-sub",
+        "label": "English",
+        "language": "English",
+        "status": 200,
+        "cues": 10,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-22-dub",
+        "label": "English (Forced)",
+        "language": "English (Forced)",
+        "status": 200,
+        "cues": 140,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-22-dub",
+        "label": "English",
+        "language": "English",
+        "status": 200,
+        "cues": 540,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-22-sub",
+        "label": "English (HIDIVE)",
+        "language": "English (HIDIVE)",
+        "status": 200,
+        "cues": 540,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-23-sub",
+        "label": "English",
+        "language": "English",
+        "status": 200,
+        "cues": 1123,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-24-dub",
+        "label": "English (AI)",
+        "language": "English (AI)",
+        "status": 200,
+        "cues": 239,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-24-dub",
+        "label": "English",
+        "language": "English",
+        "ok": false,
+        "error": "Caption exceeds probe size limit"
+      },
+      {
+        "sample": "matrix-24-sub",
+        "label": "English",
+        "language": "English",
+        "status": 200,
+        "cues": 297,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-25-dub",
+        "label": "English (AI)",
+        "language": "English (AI)",
+        "status": 200,
+        "cues": 370,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-25-dub",
+        "label": "English",
+        "language": "English",
+        "status": 200,
+        "cues": 17,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-25-sub",
+        "label": "English (CR)",
+        "language": "English (CR)",
+        "status": 200,
+        "cues": 313,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-25-sub",
+        "label": "Portuguese (Brazilian CR)",
+        "language": "Portuguese (Brazilian CR)",
+        "status": 200,
+        "cues": 308,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-25-sub",
+        "label": "Spanish (Latin America CR)",
+        "language": "Spanish (Latin America CR)",
+        "status": 200,
+        "cues": 314,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-25-sub",
+        "label": "Spanish (CR)",
+        "language": "Spanish (CR)",
+        "status": 200,
+        "cues": 315,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-25-sub",
+        "label": "Arabic (CR)",
+        "language": "Arabic (CR)",
+        "status": 200,
+        "cues": 297,
+        "arabicLetters": 7561,
+        "ok": true
+      },
+      {
+        "sample": "matrix-25-sub",
+        "label": "French (CR)",
+        "language": "French (CR)",
+        "status": 200,
+        "cues": 328,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-25-sub",
+        "label": "German (CR)",
+        "language": "German (CR)",
+        "status": 200,
+        "cues": 327,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-25-sub",
+        "label": "Italian (CR)",
+        "language": "Italian (CR)",
+        "status": 200,
+        "cues": 358,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-25-sub",
+        "label": "Russian (CR)",
+        "language": "Russian (CR)",
+        "status": 200,
+        "cues": 310,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "English (CR)",
+        "language": "English (CR)",
+        "status": 200,
+        "cues": 348,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "Portuguese (Brazilian CR)",
+        "language": "Portuguese (Brazilian CR)",
+        "status": 200,
+        "cues": 362,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "Spanish (Latin America CR)",
+        "language": "Spanish (Latin America CR)",
+        "status": 200,
+        "cues": 320,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "Spanish (CR)",
+        "language": "Spanish (CR)",
+        "status": 200,
+        "cues": 317,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "Arabic (CR)",
+        "language": "Arabic (CR)",
+        "status": 200,
+        "cues": 334,
+        "arabicLetters": 5127,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "French (CR)",
+        "language": "French (CR)",
+        "status": 200,
+        "cues": 289,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "German (CR)",
+        "language": "German (CR)",
+        "status": 200,
+        "cues": 360,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "Italian (CR)",
+        "language": "Italian (CR)",
+        "status": 200,
+        "cues": 382,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "Russian (CR)",
+        "language": "Russian (CR)",
+        "status": 200,
+        "cues": 311,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "Indonesian (CR)",
+        "language": "Indonesian (CR)",
+        "status": 200,
+        "cues": 311,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "Malay (CR)",
+        "language": "Malay (CR)",
+        "status": 200,
+        "cues": 312,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "Vietnamese (CR)",
+        "language": "Vietnamese (CR)",
+        "status": 200,
+        "cues": 313,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "Thai (CR)",
+        "language": "Thai (CR)",
+        "status": 200,
+        "cues": 319,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "Chinese (Simplified CR)",
+        "language": "Chinese (Simplified CR)",
+        "status": 200,
+        "cues": 312,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-26-sub",
+        "label": "Chinese (Traditional CR)",
+        "language": "Chinese (Traditional CR)",
+        "status": 200,
+        "cues": 310,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-27-dub",
+        "label": "English (Forced)",
+        "language": "English (Forced)",
+        "status": 200,
+        "cues": 29,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-27-dub",
+        "label": "English",
+        "language": "English",
+        "status": 200,
+        "cues": 455,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-27-dub",
+        "label": "English (SDH)",
+        "language": "English (SDH)",
+        "status": 200,
+        "cues": 436,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-27-sub",
+        "label": "English",
+        "language": "English",
+        "status": 200,
+        "cues": 318,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-27-sub",
+        "label": "English (MW)",
+        "language": "English (MW)",
+        "status": 200,
+        "cues": 325,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-27-sub",
+        "label": "Chinese (Simplified)",
+        "language": "Chinese (Simplified)",
+        "status": 200,
+        "cues": 327,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-27-sub",
+        "label": "French",
+        "language": "French",
+        "status": 200,
+        "cues": 296,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-27-sub",
+        "label": "German",
+        "language": "German",
+        "status": 200,
+        "cues": 287,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-27-sub",
+        "label": "Polish",
+        "language": "Polish",
+        "status": 200,
+        "cues": 297,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "English (CR)",
+        "language": "English (CR)",
+        "status": 200,
+        "cues": 428,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "Portuguese (Brazilian CR)",
+        "language": "Portuguese (Brazilian CR)",
+        "status": 200,
+        "cues": 414,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "Spanish (Latin America CR)",
+        "language": "Spanish (Latin America CR)",
+        "status": 200,
+        "cues": 355,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "Spanish (CR)",
+        "language": "Spanish (CR)",
+        "status": 200,
+        "cues": 357,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "Arabic (CR)",
+        "language": "Arabic (CR)",
+        "status": 200,
+        "cues": 425,
+        "arabicLetters": 7947,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "French (CR)",
+        "language": "French (CR)",
+        "status": 200,
+        "cues": 349,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "German (CR)",
+        "language": "German (CR)",
+        "status": 200,
+        "cues": 408,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "Italian (CR)",
+        "language": "Italian (CR)",
+        "status": 200,
+        "cues": 407,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "Russian (CR)",
+        "language": "Russian (CR)",
+        "status": 200,
+        "cues": 434,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "Indonesian (CR)",
+        "language": "Indonesian (CR)",
+        "status": 200,
+        "cues": 402,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "Malay (CR)",
+        "language": "Malay (CR)",
+        "status": 200,
+        "cues": 402,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "Vietnamese (CR)",
+        "language": "Vietnamese (CR)",
+        "status": 200,
+        "cues": 437,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "Thai (CR)",
+        "language": "Thai (CR)",
+        "status": 200,
+        "cues": 384,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "Chinese (Simplified CR)",
+        "language": "Chinese (Simplified CR)",
+        "status": 200,
+        "cues": 402,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-28-sub",
+        "label": "Chinese (Traditional CR)",
+        "language": "Chinese (Traditional CR)",
+        "status": 200,
+        "cues": 402,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-29-sub",
+        "label": "English",
+        "language": "English",
+        "status": 200,
+        "cues": 352,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-3-dub",
+        "label": "Arabic",
+        "language": "Arabic",
+        "status": 200,
+        "cues": 227,
+        "arabicLetters": 4501,
+        "ok": true
+      },
+      {
+        "sample": "matrix-3-dub",
+        "label": "English",
+        "language": "English",
+        "status": 200,
+        "cues": 237,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-3-dub",
+        "label": "German",
+        "language": "German",
+        "status": 200,
+        "cues": 255,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-3-dub",
+        "label": "Portuguese",
+        "language": "Portuguese",
+        "status": 200,
+        "cues": 245,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-3-dub",
+        "label": "Spanish",
+        "language": "Spanish",
+        "status": 200,
+        "cues": 234,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-3-dub",
+        "label": "Spanish 2",
+        "language": "Spanish 2",
+        "status": 200,
+        "cues": 246,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-3-dub",
+        "label": "Turkish",
+        "language": "Turkish",
+        "status": 200,
+        "cues": 237,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-4-dub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 324,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-4-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 304,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-4-sub",
+        "label": "English 2",
+        "language": "en",
+        "status": 200,
+        "cues": 322,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-4-sub",
+        "label": "English (- (Crunchyroll))",
+        "language": "en",
+        "status": 200,
+        "cues": 304,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-4-sub",
+        "label": "Portuguese",
+        "language": "pt",
+        "status": 200,
+        "cues": 302,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-4-sub",
+        "label": "Spanish",
+        "language": "es",
+        "status": 200,
+        "cues": 287,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-5-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 830,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-6-dub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 517,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-6-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 478,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-7-dub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 412,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-7-sub",
+        "label": "English",
+        "language": "en",
+        "status": 200,
+        "cues": 304,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-8-dub",
+        "label": "English",
+        "language": "English",
+        "status": 200,
+        "cues": 69,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-8-sub",
+        "label": "Arabic",
+        "language": "Arabic",
+        "status": 200,
+        "cues": 450,
+        "arabicLetters": 8601,
+        "ok": true
+      },
+      {
+        "sample": "matrix-8-sub",
+        "label": "English",
+        "language": "English",
+        "status": 200,
+        "cues": 445,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-8-sub",
+        "label": "French (- Francais(France))",
+        "language": "French (- Francais(France))",
+        "status": 200,
+        "cues": 391,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-8-sub",
+        "label": "German (- Deutsch)",
+        "language": "German (- Deutsch)",
+        "status": 200,
+        "cues": 449,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-8-sub",
+        "label": "Italian (- Italiano)",
+        "language": "Italian (- Italiano)",
+        "status": 200,
+        "cues": 465,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-8-sub",
+        "label": "Portuguese (- Portugues(Brasil))",
+        "language": "Portuguese (- Portugues(Brasil))",
+        "status": 200,
+        "cues": 487,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-8-sub",
+        "label": "Russian",
+        "language": "Russian",
+        "status": 200,
+        "cues": 492,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-8-sub",
+        "label": "Spanish (- Espanol)",
+        "language": "Spanish (- Espanol)",
+        "status": 200,
+        "cues": 399,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-8-sub",
+        "label": "Spanish (- Espanol(Espana))",
+        "language": "Spanish (- Espanol(Espana))",
+        "status": 200,
+        "cues": 390,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-9-dub",
+        "label": "English",
+        "language": "English",
+        "status": 200,
+        "cues": 363,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-9-dub",
+        "label": "Portuguese (- Brazilian)",
+        "language": "Portuguese (- Brazilian)",
+        "status": 200,
+        "cues": 395,
+        "arabicLetters": 0,
+        "ok": true
+      },
+      {
+        "sample": "matrix-9-dub",
+        "label": "Spanish (- Latin American)",
+        "language": "Spanish (- Latin American)",
+        "status": 200,
+        "cues": 409,
+        "arabicLetters": 0,
+        "ok": true
+      }
+    ]
+  },
+  "followup": {
+    "target": {
+      "episode": "7026|bocchi-the-rock-ecwgh|1",
+      "lang": "sub"
+    },
+    "resolved": true,
+    "decode12Seconds": true,
+    "resolveMs": 6023
+  },
+  "largeCaptionFollowup": {
+    "sample": "matrix-24-dub",
+    "label": "English",
+    "status": 200,
+    "bytes": 1845700,
+    "cues": 5310,
+    "vtt": true,
+    "html": false,
+    "evidence": "OVERSIZED_CAPTION_FOLLOWUP_PARSE_ONLY"
+  }
+}
