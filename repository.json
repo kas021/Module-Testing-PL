@@ -3,14 +3,14 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789082566856,
+  "publishedAtMs": 1789140953919,
   "signature": "",
-  "testingIdentity": "animeav1-v1:1.3.0-beta.1:b2fbf162a5838bf094392f87be48fbce90c006572e8c2f1eba9e7cfb3fec85a6",
+  "testingIdentity": "animeav1-v1:1.3.0-beta.1:b2fbf162a5838bf094392f87be48fbce90c006572e8c2f1eba9e7cfb3fec85a6|movie-direct-v1:0.3.0-beta.2:9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8",
   "bundle": {
-    "version": 24,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-24.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-24.zip",
-    "sha256": "46c301fa2a756e495c11c91299c592d1869e66a003bd1374adf6360f173ce523",
+    "version": 25,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-25.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-25.zip",
+    "sha256": "7e2493a4b43e967400f7221ff7bd626426c6b24d6c0c7b1783e53f687dd1e9af",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
@@ -27,7 +27,7 @@
       "sha256": "b2fbf162a5838bf094392f87be48fbce90c006572e8c2f1eba9e7cfb3fec85a6",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789082566856,
+      "publishedAtMs": 1789140953919,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -38,6 +38,29 @@
           "dub"
         ],
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeav1.png?v=20260814-1"
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    },
+    {
+      "moduleId": "movie-direct-v1",
+      "moduleFamilyId": "movie_direct_v1",
+      "moduleIdentity": "SP-VID-075-MOVIE-DIRECT",
+      "moduleIdentityNumber": 75,
+      "contentType": "video",
+      "version": "0.3.0-beta.2",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Movie-Direct-0.3.0-beta.2.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/Movie-Direct-0.3.0-beta.2.zip",
+      "sha256": "9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789140953919,
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Testing only",
+        "recommended": false,
+        "language": "Original audio; source subtitles"
       },
       "changelog": [
         "TEST CANDIDATE: not certified for stable release. See repository QA notes."

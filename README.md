@@ -15,6 +15,12 @@ Testing only: 53/53 routes resolved across 30 titles, 52/53 short seek/decode
 samples passed. Your Name Sub seek and native/offline checks remain open.
 Official AnimeAV1 1.2.8 is unchanged. No stable-release approval is implied.
 
+**Also active: Movie Direct 0.3.0-beta.2.** See [Movie Direct QA](MOVIE_DIRECT_QA.md).
+Independent VideoEasy lookup; this is a separate experimental module, not an
+update or replacement for Synthetiq Movies. S2 is PARTIAL. Provider rate limiting
+and final native iPhone/Android checks remain open. Owner requested testing
+publication; no stable-release approval is implied.
+
 **Synthetiq Anime 1.0.2** and
 **An1me (Greek) 1.1.1** were promoted to the official repository at the owner's
 explicit request. Their former beta ZIP URLs remain reachable but are retired
