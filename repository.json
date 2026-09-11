@@ -3,14 +3,14 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789152698328,
+  "publishedAtMs": 1789154013641,
   "signature": "",
-  "testingIdentity": "animeav1-v1:1.3.0-beta.1:b2fbf162a5838bf094392f87be48fbce90c006572e8c2f1eba9e7cfb3fec85a6|movie-direct-v1:0.3.0-beta.2:9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8|onepace-v3:3.0.4-beta.1:1766de33ac5adda215f44016b823faa2642041f23520a2758d3c70d100cf13e7",
+  "testingIdentity": "animeav1-v1:1.3.0-beta.1:b2fbf162a5838bf094392f87be48fbce90c006572e8c2f1eba9e7cfb3fec85a6|movie-direct-v1:0.3.0-beta.2:9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8",
   "bundle": {
-    "version": 28,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-28.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-28.zip",
-    "sha256": "1b8c189606e3d6f98317c8f2168c1811b7641281d43c22f540a740ef5db34f79",
+    "version": 29,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-29.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-29.zip",
+    "sha256": "d9b188fe18667e139f2b54cd0bca200a501b75ceb5e3d7ab0ee71d4b3327f338",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
@@ -27,7 +27,7 @@
       "sha256": "b2fbf162a5838bf094392f87be48fbce90c006572e8c2f1eba9e7cfb3fec85a6",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789152698328,
+      "publishedAtMs": 1789154013641,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -55,33 +55,12 @@
       "sha256": "9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789152698328,
+      "publishedAtMs": 1789154013641,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
         "recommended": false,
         "language": "Original audio; source subtitles"
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    },
-    {
-      "moduleId": "onepace-v3",
-      "moduleFamilyId": "onepace-v3",
-      "moduleIdentity": "SP-VID-033-ONEPACE",
-      "moduleIdentityNumber": 33,
-      "contentType": "video",
-      "version": "3.0.4-beta.1",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/One-Pace-3.0.4-beta.1.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/One-Pace-3.0.4-beta.1.zip",
-      "sha256": "1766de33ac5adda215f44016b823faa2642041f23520a2758d3c70d100cf13e7",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789152698328,
-      "presentation": {
-        "recommended": false,
-        "purpose": "Testing only"
       },
       "changelog": [
         "TEST CANDIDATE: not certified for stable release. See repository QA notes."
