@@ -21,6 +21,11 @@ update or replacement for Synthetiq Movies. S2 is PARTIAL. Provider rate limitin
 and final native iPhone/Android checks remain open. Owner requested testing
 publication; no stable-release approval is implied.
 
+**Also active: Mugiwara 1.1.0-beta.3 (French VOSTFR / VF).**
+See [Mugiwara QA](MUGIWARA_QA.md). Corrected episode mapping, validated server
+alternatives, actual HLS quality choices, Sibnet redirects and request cooldown.
+Testing only; official Mugiwara 1.0.4 is unchanged.
+
 **Synthetiq Anime 1.0.2** and
 **An1me (Greek) 1.1.1** were promoted to the official repository at the owner's
 explicit request. Their former beta ZIP URLs remain reachable but are retired

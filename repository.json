@@ -3,14 +3,14 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789154013641,
+  "publishedAtMs": 1789159048493,
   "signature": "",
-  "testingIdentity": "animeav1-v1:1.3.0-beta.1:b2fbf162a5838bf094392f87be48fbce90c006572e8c2f1eba9e7cfb3fec85a6|movie-direct-v1:0.3.0-beta.2:9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8",
+  "testingIdentity": "animeav1-v1:1.3.0-beta.1:b2fbf162a5838bf094392f87be48fbce90c006572e8c2f1eba9e7cfb3fec85a6|movie-direct-v1:0.3.0-beta.2:9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8|mugiwara-v1:1.1.0-beta.3:eabbb6fba77782cb7c1a8feb57257cb64dd6e8b4dd75919188a32e83cc2caacc",
   "bundle": {
-    "version": 29,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-29.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-29.zip",
-    "sha256": "d9b188fe18667e139f2b54cd0bca200a501b75ceb5e3d7ab0ee71d4b3327f338",
+    "version": 30,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-30.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-30.zip",
+    "sha256": "b1ee126d2a4c451070cd2eef2440d2a637ca5ca6ff6bae84b34af88ebe5a0290",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
@@ -27,7 +27,7 @@
       "sha256": "b2fbf162a5838bf094392f87be48fbce90c006572e8c2f1eba9e7cfb3fec85a6",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789154013641,
+      "publishedAtMs": 1789159048493,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -55,12 +55,40 @@
       "sha256": "9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789154013641,
+      "publishedAtMs": 1789159048493,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
         "recommended": false,
         "language": "Original audio; source subtitles"
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    },
+    {
+      "moduleId": "mugiwara-v1",
+      "moduleFamilyId": "mugiwara_v1",
+      "moduleIdentity": "SP-VID-071-MUGIWARA",
+      "moduleIdentityNumber": 71,
+      "contentType": "video",
+      "version": "1.1.0-beta.3",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Mugiwara-1.1.0-beta.3.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/Mugiwara-1.1.0-beta.3.zip",
+      "sha256": "eabbb6fba77782cb7c1a8feb57257cb64dd6e8b4dd75919188a32e83cc2caacc",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789159048493,
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Testing only",
+        "recommended": false,
+        "language": "French (VOSTFR / VF)",
+        "languages": [
+          "sub",
+          "dub"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mugiwara.png"
       },
       "changelog": [
         "TEST CANDIDATE: not certified for stable release. See repository QA notes."
