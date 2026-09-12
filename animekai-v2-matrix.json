@@ -1,0 +1,3738 @@
+{
+  "id": "animekai-v2",
+  "started": "2026-09-12T02:23:41.202Z",
+  "cases": [
+    {
+      "query": "One Piece",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/one-piece/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 271,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 589,
+            "href": "https://animekai.be/watch/one-piece/ep-589",
+            "title": "Episode 589",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 206,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1177,
+            "href": "https://animekai.be/watch/one-piece/ep-1177",
+            "title": "Episode 1177",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "late",
+          "resolveMs": 305,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/one-piece/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 202,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 583,
+            "href": "https://animekai.be/watch/one-piece/ep-583",
+            "title": "Episode 583",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 859,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1165,
+            "href": "https://animekai.be/watch/one-piece/ep-1165",
+            "title": "Episode 1165",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 792,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 9,
+      "href": "https://animekai.be/watch/one-piece",
+      "details": {
+        "title": "One Piece",
+        "image": "https://cdn.myanimelist.net/images/anime/1244/138851l.jpg",
+        "href": "https://animekai.be/watch/one-piece"
+      },
+      "episodeCount": 1177,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Naruto",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/naruto/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 230,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 110,
+            "href": "https://animekai.be/watch/naruto/ep-110",
+            "title": "Episode 110",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 528,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 220,
+            "href": "https://animekai.be/watch/naruto/ep-220",
+            "title": "Episode 220",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 240,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/naruto/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 157,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 110,
+            "href": "https://animekai.be/watch/naruto/ep-110",
+            "title": "Episode 110",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 310,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 220,
+            "href": "https://animekai.be/watch/naruto/ep-220",
+            "title": "Episode 220",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 256,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 11,
+      "href": "https://animekai.be/watch/naruto",
+      "details": {
+        "title": "Naruto",
+        "image": "https://cdn.myanimelist.net/images/anime/1141/142503l.jpg",
+        "href": "https://animekai.be/watch/naruto"
+      },
+      "episodeCount": 220,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Bleach",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/bleach/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 275,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 183,
+            "href": "https://animekai.be/watch/bleach/ep-183",
+            "title": "Episode 183",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 669,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 366,
+            "href": "https://animekai.be/watch/bleach/ep-366",
+            "title": "Episode 366",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 327,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/bleach/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 125,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 183,
+            "href": "https://animekai.be/watch/bleach/ep-183",
+            "title": "Episode 183",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 193,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 366,
+            "href": "https://animekai.be/watch/bleach/ep-366",
+            "title": "Episode 366",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 251,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 6,
+      "href": "https://animekai.be/watch/bleach",
+      "details": {
+        "title": "Bleach",
+        "image": "https://cdn.myanimelist.net/images/anime/1541/147774l.jpg",
+        "href": "https://animekai.be/watch/bleach"
+      },
+      "episodeCount": 366,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Death Note",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/death-note/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 191,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 19,
+            "href": "https://animekai.be/watch/death-note/ep-19",
+            "title": "Episode 19",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 312,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 37,
+            "href": "https://animekai.be/watch/death-note/ep-37",
+            "title": "Episode 37",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 296,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/death-note/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 302,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 19,
+            "href": "https://animekai.be/watch/death-note/ep-19",
+            "title": "Episode 19",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 224,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 37,
+            "href": "https://animekai.be/watch/death-note/ep-37",
+            "title": "Episode 37",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 252,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 2,
+      "href": "https://animekai.be/watch/death-note",
+      "details": {
+        "title": "Death Note",
+        "image": "https://cdn.myanimelist.net/images/anime/1079/138100l.jpg",
+        "href": "https://animekai.be/watch/death-note"
+      },
+      "episodeCount": 37,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Attack on Titan",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/attack-on-titan/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 250,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 13,
+            "href": "https://animekai.be/watch/attack-on-titan/ep-13",
+            "title": "Episode 13",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 249,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 25,
+            "href": "https://animekai.be/watch/attack-on-titan/ep-25",
+            "title": "Episode 25",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 289,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/attack-on-titan/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 112,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 13,
+            "href": "https://animekai.be/watch/attack-on-titan/ep-13",
+            "title": "Episode 13",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 156,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 25,
+            "href": "https://animekai.be/watch/attack-on-titan/ep-25",
+            "title": "Episode 25",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 202,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 11,
+      "href": "https://animekai.be/watch/attack-on-titan",
+      "details": {
+        "title": "Attack on Titan",
+        "image": "https://cdn.myanimelist.net/images/anime/10/47347l.jpg",
+        "href": "https://animekai.be/watch/attack-on-titan"
+      },
+      "episodeCount": 25,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Demon Slayer",
+      "kind": "fixed",
+      "samples": [],
+      "searchCount": 6,
+      "status": "SEARCH_IDENTITY_UNRESOLVED",
+      "choices": [
+        {
+          "href": "https://animekai.be/watch/demon-slayer-kimetsu-no-yaiba",
+          "title": "Demon Slayer: Kimetsu no Yaiba",
+          "image": "https://cdn.myanimelist.net/images/anime/1286/99889l.jpg"
+        },
+        {
+          "href": "https://animekai.be/watch/demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
+          "title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+          "image": "https://cdn.myanimelist.net/images/anime/1765/135099l.jpg"
+        },
+        {
+          "href": "https://animekai.be/watch/demon-slayer-kimetsu-no-yaiba-entertainment-district-arc",
+          "title": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
+          "image": "https://cdn.myanimelist.net/images/anime/1908/120036l.jpg"
+        },
+        {
+          "href": "https://animekai.be/watch/demon-slayer-kimetsu-no-yaiba-hashira-training-arc",
+          "title": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
+          "image": "https://cdn.myanimelist.net/images/anime/1565/142711l.jpg"
+        },
+        {
+          "href": "https://animekai.be/watch/demon-slayer-kimetsu-no-yaiba-the-movie-mugen-train",
+          "title": "Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train",
+          "image": "https://cdn.myanimelist.net/images/anime/1704/106947l.jpg"
+        }
+      ]
+    },
+    {
+      "query": "Jujutsu Kaisen",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/jujutsu-kaisen/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 170,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/jujutsu-kaisen/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 173,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 24,
+            "href": "https://animekai.be/watch/jujutsu-kaisen/ep-24",
+            "title": "Episode 24",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 313,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/jujutsu-kaisen/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 186,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/jujutsu-kaisen/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 120,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 24,
+            "href": "https://animekai.be/watch/jujutsu-kaisen/ep-24",
+            "title": "Episode 24",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 103,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 5,
+      "href": "https://animekai.be/watch/jujutsu-kaisen",
+      "details": {
+        "title": "Jujutsu Kaisen",
+        "image": "https://cdn.myanimelist.net/images/anime/1171/109222l.jpg",
+        "href": "https://animekai.be/watch/jujutsu-kaisen"
+      },
+      "episodeCount": 24,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Dragon Ball",
+      "kind": "fixed",
+      "samples": [],
+      "searchCount": 8,
+      "status": "SEARCH_IDENTITY_UNRESOLVED",
+      "choices": [
+        {
+          "href": "https://animekai.be/watch/dragon-ball-z",
+          "title": "Dragon Ball Z",
+          "image": "https://cdn.myanimelist.net/images/anime/1277/142022l.jpg"
+        },
+        {
+          "href": "https://animekai.be/watch/dragon-ball-super",
+          "title": "Dragon Ball Super",
+          "image": "https://cdn.myanimelist.net/images/anime/7/74606l.jpg"
+        },
+        {
+          "href": "https://animekai.be/watch/dragon-ball-z-kai",
+          "title": "Dragon Ball Z Kai",
+          "image": "https://cdn.myanimelist.net/images/anime/1102/133990l.jpg"
+        },
+        {
+          "href": "https://animekai.be/watch/dragon-ball-gt",
+          "title": "Dragon Ball GT",
+          "image": "https://cdn.myanimelist.net/images/anime/1262/93119l.jpg"
+        },
+        {
+          "href": "https://animekai.be/watch/dragon-ball-z-kai-the-final-chapters",
+          "title": "Dragon Ball Z Kai: The Final Chapters",
+          "image": "https://cdn.myanimelist.net/images/anime/1333/149169l.jpg"
+        }
+      ]
+    },
+    {
+      "query": "Hunter x Hunter",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/hunter-x-hunter/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 176,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 74,
+            "href": "https://animekai.be/watch/hunter-x-hunter/ep-74",
+            "title": "Episode 74",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 579,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 148,
+            "href": "https://animekai.be/watch/hunter-x-hunter/ep-148",
+            "title": "Episode 148",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "late",
+          "resolveMs": 400,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/hunter-x-hunter/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 206,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 74,
+            "href": "https://animekai.be/watch/hunter-x-hunter/ep-74",
+            "title": "Episode 74",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 290,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 147,
+            "href": "https://animekai.be/watch/hunter-x-hunter/ep-147",
+            "title": "Episode 147",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 643,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 1,
+      "href": "https://animekai.be/watch/hunter-x-hunter",
+      "details": {
+        "title": "Hunter x Hunter",
+        "image": "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
+        "href": "https://animekai.be/watch/hunter-x-hunter"
+      },
+      "episodeCount": 148,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Fullmetal Alchemist Brotherhood",
+      "kind": "fixed",
+      "samples": [],
+      "searchCount": 1,
+      "status": "SEARCH_IDENTITY_UNRESOLVED",
+      "choices": [
+        {
+          "href": "https://animekai.be/watch/fullmetal-alchemist",
+          "title": "Fullmetal Alchemist",
+          "image": "https://cdn.myanimelist.net/images/anime/10/75815l.jpg"
+        }
+      ]
+    },
+    {
+      "query": "Spy x Family",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/spy-x-family/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 184,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 6,
+            "href": "https://animekai.be/watch/spy-x-family/ep-6",
+            "title": "Episode 6",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 1274,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/spy-x-family/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 288,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/spy-x-family/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 232,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 6,
+            "href": "https://animekai.be/watch/spy-x-family/ep-6",
+            "title": "Episode 6",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 118,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/spy-x-family/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 140,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 5,
+      "href": "https://animekai.be/watch/spy-x-family",
+      "details": {
+        "title": "Spy x Family",
+        "image": "https://cdn.myanimelist.net/images/anime/1441/122795l.jpg",
+        "href": "https://animekai.be/watch/spy-x-family"
+      },
+      "episodeCount": 12,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Dr. Stone",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/dr-stone/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 161,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/dr-stone/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 291,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 24,
+            "href": "https://animekai.be/watch/dr-stone/ep-24",
+            "title": "Episode 24",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 253,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/dr-stone/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 200,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/dr-stone/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 198,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 24,
+            "href": "https://animekai.be/watch/dr-stone/ep-24",
+            "title": "Episode 24",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 173,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 8,
+      "href": "https://animekai.be/watch/dr-stone",
+      "details": {
+        "title": "Dr. Stone",
+        "image": "https://cdn.myanimelist.net/images/anime/1613/102576l.jpg",
+        "href": "https://animekai.be/watch/dr-stone"
+      },
+      "episodeCount": 24,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Tokyo Ghoul",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/tokyo-ghoul/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 214,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 6,
+            "href": "https://animekai.be/watch/tokyo-ghoul/ep-6",
+            "title": "Episode 6",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 219,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/tokyo-ghoul/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 305,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/tokyo-ghoul/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 225,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 6,
+            "href": "https://animekai.be/watch/tokyo-ghoul/ep-6",
+            "title": "Episode 6",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 265,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/tokyo-ghoul/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 516,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 4,
+      "href": "https://animekai.be/watch/tokyo-ghoul",
+      "details": {
+        "title": "Tokyo Ghoul",
+        "image": "https://cdn.myanimelist.net/images/anime/1498/134443l.jpg",
+        "href": "https://animekai.be/watch/tokyo-ghoul"
+      },
+      "episodeCount": 12,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Sword Art Online",
+      "kind": "fixed",
+      "samples": [],
+      "searchCount": 5,
+      "status": "SEARCH_IDENTITY_UNRESOLVED",
+      "choices": [
+        {
+          "href": "https://animekai.be/watch/sword-art-online-ii",
+          "title": "Sword Art Online II",
+          "image": "https://cdn.myanimelist.net/images/anime/1223/121999l.jpg"
+        },
+        {
+          "href": "https://animekai.be/watch/sword-art-online-alicization",
+          "title": "Sword Art Online: Alicization",
+          "image": "https://cdn.myanimelist.net/images/anime/1993/93837l.jpg"
+        },
+        {
+          "href": "https://animekai.be/watch/sword-art-online-alicization-war-of-underworld",
+          "title": "Sword Art Online: Alicization - War of Underworld",
+          "image": "https://cdn.myanimelist.net/images/anime/1630/103417l.jpg"
+        },
+        {
+          "href": "https://animekai.be/watch/sword-art-online-alternative-gun-gale-online-ii",
+          "title": "Sword Art Online Alternative: Gun Gale Online II",
+          "image": "https://cdn.myanimelist.net/images/anime/1360/153020l.jpg"
+        },
+        {
+          "href": "https://animekai.be/watch/sword-art-online-unansweredbutterfly",
+          "title": "Sword Art Online: Unanswered//butterfly",
+          "image": "https://cdn.myanimelist.net/images/anime/1111/158814l.jpg"
+        }
+      ]
+    },
+    {
+      "query": "My Hero Academia",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/my-hero-academia/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 253,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 7,
+            "href": "https://animekai.be/watch/my-hero-academia/ep-7",
+            "title": "Episode 7",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 302,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 13,
+            "href": "https://animekai.be/watch/my-hero-academia/ep-13",
+            "title": "Episode 13",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 186,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/my-hero-academia/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 162,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 7,
+            "href": "https://animekai.be/watch/my-hero-academia/ep-7",
+            "title": "Episode 7",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 261,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 13,
+            "href": "https://animekai.be/watch/my-hero-academia/ep-13",
+            "title": "Episode 13",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 240,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 15,
+      "href": "https://animekai.be/watch/my-hero-academia",
+      "details": {
+        "title": "My Hero Academia",
+        "image": "https://cdn.myanimelist.net/images/anime/10/78745l.jpg",
+        "href": "https://animekai.be/watch/my-hero-academia"
+      },
+      "episodeCount": 13,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Black Clover",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/black-clover/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 214,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 85,
+            "href": "https://animekai.be/watch/black-clover/ep-85",
+            "title": "Episode 85",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 292,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 170,
+            "href": "https://animekai.be/watch/black-clover/ep-170",
+            "title": "Episode 170",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 298,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/black-clover/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 252,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 85,
+            "href": "https://animekai.be/watch/black-clover/ep-85",
+            "title": "Episode 85",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 93,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 170,
+            "href": "https://animekai.be/watch/black-clover/ep-170",
+            "title": "Episode 170",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 121,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 2,
+      "href": "https://animekai.be/watch/black-clover",
+      "details": {
+        "title": "Black Clover",
+        "image": "https://cdn.myanimelist.net/images/anime/2/88336l.jpg",
+        "href": "https://animekai.be/watch/black-clover"
+      },
+      "episodeCount": 170,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Chainsaw Man",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/chainsaw-man/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 29,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 6,
+            "href": "https://animekai.be/watch/chainsaw-man/ep-6",
+            "title": "Episode 6",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 31,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/chainsaw-man/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 33,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/chainsaw-man/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 0,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 6,
+            "href": "https://animekai.be/watch/chainsaw-man/ep-6",
+            "title": "Episode 6",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 0,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/chainsaw-man/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 1,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 3,
+      "href": "https://animekai.be/watch/chainsaw-man",
+      "details": {
+        "title": "Chainsaw Man",
+        "image": "https://cdn.myanimelist.net/images/anime/1806/126216l.jpg",
+        "href": "https://animekai.be/watch/chainsaw-man"
+      },
+      "episodeCount": 12,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Fairy Tail",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/fairy-tail/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 31,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 88,
+            "href": "https://animekai.be/watch/fairy-tail/ep-88",
+            "title": "Episode 88",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 31,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 175,
+            "href": "https://animekai.be/watch/fairy-tail/ep-175",
+            "title": "Episode 175",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "late",
+          "resolveMs": 304,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/fairy-tail/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 1,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 87,
+            "href": "https://animekai.be/watch/fairy-tail/ep-87",
+            "title": "Episode 87",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 504,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 174,
+            "href": "https://animekai.be/watch/fairy-tail/ep-174",
+            "title": "Episode 174",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 215,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 3,
+      "href": "https://animekai.be/watch/fairy-tail",
+      "details": {
+        "title": "Fairy Tail",
+        "image": "https://cdn.myanimelist.net/images/anime/5/18179l.jpg",
+        "href": "https://animekai.be/watch/fairy-tail"
+      },
+      "episodeCount": 175,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Your Name",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/your-name/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 181,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/your-name/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 247,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 1,
+      "href": "https://animekai.be/watch/your-name",
+      "details": {
+        "title": "Your Name.",
+        "image": "https://cdn.myanimelist.net/images/anime/5/87048l.jpg",
+        "href": "https://animekai.be/watch/your-name"
+      },
+      "episodeCount": 1,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Steins Gate",
+      "kind": "fixed",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/steinsgate/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 379,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/steinsgate/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 202,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 24,
+            "href": "https://animekai.be/watch/steinsgate/ep-24",
+            "title": "Episode 24",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 214,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/steinsgate/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 162,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/steinsgate/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 236,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 24,
+            "href": "https://animekai.be/watch/steinsgate/ep-24",
+            "title": "Episode 24",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 278,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 2,
+      "href": "https://animekai.be/watch/steinsgate",
+      "details": {
+        "title": "Steins;Gate",
+        "image": "https://cdn.myanimelist.net/images/anime/1935/127974l.jpg",
+        "href": "https://animekai.be/watch/steinsgate"
+      },
+      "episodeCount": 24,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Classroom of the Elite 4th Season: Second Year, First Semester",
+      "href": "https://animekai.be/watch/classroom-of-the-elite-4th-season-second-year-first-semester",
+      "kind": "seeded-home",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/classroom-of-the-elite-4th-season-second-year-first-semester/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 107,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 8,
+            "href": "https://animekai.be/watch/classroom-of-the-elite-4th-season-second-year-first-semester/ep-8",
+            "title": "Episode 8",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 136,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 16,
+            "href": "https://animekai.be/watch/classroom-of-the-elite-4th-season-second-year-first-semester/ep-16",
+            "title": "Episode 16",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "late",
+          "resolveMs": 229,
+          "result": {
+            "url": "https://my.1anime.site/videos/Classroom_of_the_Elite_4th_Season_Episode_16_1782305540.mp4",
+            "streamType": "mp4",
+            "subtitles": [],
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+              "Referer": "https://my.1anime.site/",
+              "Origin": "https://my.1anime.site",
+              "Accept": "*/*"
+            },
+            "name": "my.1anime.site",
+            "qualities": [
+              {
+                "label": "Auto",
+                "url": "https://my.1anime.site/videos/Classroom_of_the_Elite_4th_Season_Episode_16_1782305540.mp4",
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                }
+              }
+            ],
+            "id": "server-1",
+            "lang": "sub",
+            "streams": [
+              "Auto",
+              "https://my.1anime.site/videos/Classroom_of_the_Elite_4th_Season_Episode_16_1782305540.mp4"
+            ],
+            "servers": [
+              {
+                "url": "https://my.1anime.site/videos/Classroom_of_the_Elite_4th_Season_Episode_16_1782305540.mp4",
+                "streamType": "mp4",
+                "subtitles": [],
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                },
+                "name": "my.1anime.site",
+                "qualities": [
+                  {
+                    "label": "Auto",
+                    "url": "https://my.1anime.site/videos/Classroom_of_the_Elite_4th_Season_Episode_16_1782305540.mp4",
+                    "headers": {
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                      "Referer": "https://my.1anime.site/",
+                      "Origin": "https://my.1anime.site",
+                      "Accept": "*/*"
+                    }
+                  }
+                ],
+                "id": "server-1",
+                "lang": "sub",
+                "streams": [
+                  "Auto",
+                  "https://my.1anime.site/videos/Classroom_of_the_Elite_4th_Season_Episode_16_1782305540.mp4"
+                ]
+              }
+            ]
+          },
+          "decode": {
+            "ok": true,
+            "exit": 0,
+            "error": ""
+          },
+          "status": "SHORT_AV_DECODE"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/classroom-of-the-elite-4th-season-second-year-first-semester/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 108,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 6,
+            "href": "https://animekai.be/watch/classroom-of-the-elite-4th-season-second-year-first-semester/ep-6",
+            "title": "Episode 6",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 135,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 11,
+            "href": "https://animekai.be/watch/classroom-of-the-elite-4th-season-second-year-first-semester/ep-11",
+            "title": "Episode 11",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 83,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 1,
+      "details": {
+        "title": "Classroom of the Elite 4th Season: Second Year, First Semester",
+        "image": "https://cdn.myanimelist.net/images/anime/1176/153626l.jpg",
+        "href": "https://animekai.be/watch/classroom-of-the-elite-4th-season-second-year-first-semester"
+      },
+      "episodeCount": 16,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "The Ogre's Bride",
+      "href": "https://animekai.be/watch/the-ogres-bride",
+      "kind": "seeded-home",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/the-ogres-bride/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "early",
+          "resolveMs": 739,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 5,
+            "href": "https://animekai.be/watch/the-ogres-bride/ep-5",
+            "title": "Episode 5",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "middle",
+          "resolveMs": 222,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 9,
+            "href": "https://animekai.be/watch/the-ogres-bride/ep-9",
+            "title": "Episode 9",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "late",
+          "resolveMs": 89,
+          "result": {
+            "url": "https://my.1anime.site/videos/The_Ogres_Bride_Episode_9_1788024062.mp4",
+            "streamType": "mp4",
+            "subtitles": [],
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+              "Referer": "https://my.1anime.site/",
+              "Origin": "https://my.1anime.site",
+              "Accept": "*/*"
+            },
+            "name": "my.1anime.site",
+            "qualities": [
+              {
+                "label": "Auto",
+                "url": "https://my.1anime.site/videos/The_Ogres_Bride_Episode_9_1788024062.mp4",
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                }
+              }
+            ],
+            "id": "server-1",
+            "lang": "sub",
+            "streams": [
+              "Auto",
+              "https://my.1anime.site/videos/The_Ogres_Bride_Episode_9_1788024062.mp4"
+            ],
+            "servers": [
+              {
+                "url": "https://my.1anime.site/videos/The_Ogres_Bride_Episode_9_1788024062.mp4",
+                "streamType": "mp4",
+                "subtitles": [],
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                },
+                "name": "my.1anime.site",
+                "qualities": [
+                  {
+                    "label": "Auto",
+                    "url": "https://my.1anime.site/videos/The_Ogres_Bride_Episode_9_1788024062.mp4",
+                    "headers": {
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                      "Referer": "https://my.1anime.site/",
+                      "Origin": "https://my.1anime.site",
+                      "Accept": "*/*"
+                    }
+                  }
+                ],
+                "id": "server-1",
+                "lang": "sub",
+                "streams": [
+                  "Auto",
+                  "https://my.1anime.site/videos/The_Ogres_Bride_Episode_9_1788024062.mp4"
+                ]
+              }
+            ]
+          },
+          "decode": {
+            "ok": true,
+            "exit": 0,
+            "error": ""
+          },
+          "status": "SHORT_AV_DECODE"
+        },
+        {
+          "lang": "dub",
+          "status": "UNAVAILABLE"
+        }
+      ],
+      "searchCount": 1,
+      "details": {
+        "title": "The Ogre's Bride",
+        "image": "https://cdn.myanimelist.net/images/anime/1082/158708l.jpg",
+        "href": "https://animekai.be/watch/the-ogres-bride"
+      },
+      "episodeCount": 9,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Dara-san of Reiwa",
+      "href": "https://animekai.be/watch/dara-san-of-reiwa",
+      "kind": "seeded-home",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/dara-san-of-reiwa/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "early",
+          "resolveMs": 105,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 5,
+            "href": "https://animekai.be/watch/dara-san-of-reiwa/ep-5",
+            "title": "Episode 5",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "middle",
+          "resolveMs": 97,
+          "result": {
+            "url": "https://my.1anime.site/videos/Dara-san_of_Reiwa_Episode_5_1785416036.mp4",
+            "streamType": "mp4",
+            "subtitles": [],
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+              "Referer": "https://my.1anime.site/",
+              "Origin": "https://my.1anime.site",
+              "Accept": "*/*"
+            },
+            "name": "my.1anime.site",
+            "qualities": [
+              {
+                "label": "Auto",
+                "url": "https://my.1anime.site/videos/Dara-san_of_Reiwa_Episode_5_1785416036.mp4",
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                }
+              }
+            ],
+            "id": "server-1",
+            "lang": "sub",
+            "streams": [
+              "Auto",
+              "https://my.1anime.site/videos/Dara-san_of_Reiwa_Episode_5_1785416036.mp4"
+            ],
+            "servers": [
+              {
+                "url": "https://my.1anime.site/videos/Dara-san_of_Reiwa_Episode_5_1785416036.mp4",
+                "streamType": "mp4",
+                "subtitles": [],
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                },
+                "name": "my.1anime.site",
+                "qualities": [
+                  {
+                    "label": "Auto",
+                    "url": "https://my.1anime.site/videos/Dara-san_of_Reiwa_Episode_5_1785416036.mp4",
+                    "headers": {
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                      "Referer": "https://my.1anime.site/",
+                      "Origin": "https://my.1anime.site",
+                      "Accept": "*/*"
+                    }
+                  }
+                ],
+                "id": "server-1",
+                "lang": "sub",
+                "streams": [
+                  "Auto",
+                  "https://my.1anime.site/videos/Dara-san_of_Reiwa_Episode_5_1785416036.mp4"
+                ]
+              }
+            ]
+          },
+          "decode": {
+            "ok": true,
+            "exit": 0,
+            "error": ""
+          },
+          "status": "SHORT_AV_DECODE"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 10,
+            "href": "https://animekai.be/watch/dara-san-of-reiwa/ep-10",
+            "title": "Episode 10",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "late",
+          "resolveMs": 136,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "status": "UNAVAILABLE"
+        }
+      ],
+      "searchCount": 1,
+      "details": {
+        "title": "Dara-san of Reiwa",
+        "image": "https://cdn.myanimelist.net/images/anime/1170/155761l.jpg",
+        "href": "https://animekai.be/watch/dara-san-of-reiwa"
+      },
+      "episodeCount": 10,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Go For It, Nakamura-kun!!",
+      "href": "https://animekai.be/watch/go-for-it-nakamura-kun",
+      "kind": "seeded-home",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/go-for-it-nakamura-kun/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 180,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 6,
+            "href": "https://animekai.be/watch/go-for-it-nakamura-kun/ep-6",
+            "title": "Episode 6",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 272,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/go-for-it-nakamura-kun/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 80,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/go-for-it-nakamura-kun/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 71,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 6,
+            "href": "https://animekai.be/watch/go-for-it-nakamura-kun/ep-6",
+            "title": "Episode 6",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 256,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/go-for-it-nakamura-kun/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 295,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 1,
+      "details": {
+        "title": "Go For It, Nakamura-kun!!",
+        "image": "https://cdn.myanimelist.net/images/anime/1201/155682l.jpg",
+        "href": "https://animekai.be/watch/go-for-it-nakamura-kun"
+      },
+      "episodeCount": 12,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Thunder 3",
+      "href": "https://animekai.be/watch/thunder-3",
+      "kind": "seeded-home",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/thunder-3/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 621,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 55,
+            "href": "https://animekai.be/watch/thunder-3/ep-55",
+            "title": "Episode 55",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "middle",
+          "resolveMs": 646,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 110,
+            "href": "https://animekai.be/watch/thunder-3/ep-110",
+            "title": "Episode 110",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "late",
+          "resolveMs": 748,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/thunder-3/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 606,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 5,
+            "href": "https://animekai.be/watch/thunder-3/ep-5",
+            "title": "Episode 5",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 634,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 10,
+            "href": "https://animekai.be/watch/thunder-3/ep-10",
+            "title": "Episode 10",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 719,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 1,
+      "details": {
+        "title": "Thunder 3",
+        "image": "https://cdn.myanimelist.net/images/anime/1084/158946l.jpg",
+        "href": "https://animekai.be/watch/thunder-3"
+      },
+      "episodeCount": 110,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Love Unseen Beneath the Clear Night Sky",
+      "href": "https://animekai.be/watch/love-unseen-beneath-the-clear-night-sky",
+      "kind": "seeded-home",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/love-unseen-beneath-the-clear-night-sky/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "early",
+          "resolveMs": 110,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 5,
+            "href": "https://animekai.be/watch/love-unseen-beneath-the-clear-night-sky/ep-5",
+            "title": "Episode 5",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "middle",
+          "resolveMs": 181,
+          "result": {
+            "url": "https://my.1anime.site/videos/Love_Unseen_Beneath_the_Clear_Night_Sky_Episode_5_1785760865.mp4",
+            "streamType": "mp4",
+            "subtitles": [],
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+              "Referer": "https://my.1anime.site/",
+              "Origin": "https://my.1anime.site",
+              "Accept": "*/*"
+            },
+            "name": "my.1anime.site",
+            "qualities": [
+              {
+                "label": "Auto",
+                "url": "https://my.1anime.site/videos/Love_Unseen_Beneath_the_Clear_Night_Sky_Episode_5_1785760865.mp4",
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                }
+              }
+            ],
+            "id": "server-1",
+            "lang": "sub",
+            "streams": [
+              "Auto",
+              "https://my.1anime.site/videos/Love_Unseen_Beneath_the_Clear_Night_Sky_Episode_5_1785760865.mp4"
+            ],
+            "servers": [
+              {
+                "url": "https://my.1anime.site/videos/Love_Unseen_Beneath_the_Clear_Night_Sky_Episode_5_1785760865.mp4",
+                "streamType": "mp4",
+                "subtitles": [],
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                },
+                "name": "my.1anime.site",
+                "qualities": [
+                  {
+                    "label": "Auto",
+                    "url": "https://my.1anime.site/videos/Love_Unseen_Beneath_the_Clear_Night_Sky_Episode_5_1785760865.mp4",
+                    "headers": {
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                      "Referer": "https://my.1anime.site/",
+                      "Origin": "https://my.1anime.site",
+                      "Accept": "*/*"
+                    }
+                  }
+                ],
+                "id": "server-1",
+                "lang": "sub",
+                "streams": [
+                  "Auto",
+                  "https://my.1anime.site/videos/Love_Unseen_Beneath_the_Clear_Night_Sky_Episode_5_1785760865.mp4"
+                ]
+              }
+            ]
+          },
+          "decode": {
+            "ok": true,
+            "exit": 0,
+            "error": ""
+          },
+          "status": "SHORT_AV_DECODE"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 9,
+            "href": "https://animekai.be/watch/love-unseen-beneath-the-clear-night-sky/ep-9",
+            "title": "Episode 9",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "late",
+          "resolveMs": 132,
+          "result": {
+            "url": "https://my.1anime.site/videos/Love_Unseen_Beneath_the_Clear_Night_Sky_Episode_9_1788179974.mp4",
+            "streamType": "mp4",
+            "subtitles": [],
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+              "Referer": "https://my.1anime.site/",
+              "Origin": "https://my.1anime.site",
+              "Accept": "*/*"
+            },
+            "name": "my.1anime.site",
+            "qualities": [
+              {
+                "label": "Auto",
+                "url": "https://my.1anime.site/videos/Love_Unseen_Beneath_the_Clear_Night_Sky_Episode_9_1788179974.mp4",
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                }
+              }
+            ],
+            "id": "server-1",
+            "lang": "sub",
+            "streams": [
+              "Auto",
+              "https://my.1anime.site/videos/Love_Unseen_Beneath_the_Clear_Night_Sky_Episode_9_1788179974.mp4"
+            ],
+            "servers": [
+              {
+                "url": "https://my.1anime.site/videos/Love_Unseen_Beneath_the_Clear_Night_Sky_Episode_9_1788179974.mp4",
+                "streamType": "mp4",
+                "subtitles": [],
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                },
+                "name": "my.1anime.site",
+                "qualities": [
+                  {
+                    "label": "Auto",
+                    "url": "https://my.1anime.site/videos/Love_Unseen_Beneath_the_Clear_Night_Sky_Episode_9_1788179974.mp4",
+                    "headers": {
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                      "Referer": "https://my.1anime.site/",
+                      "Origin": "https://my.1anime.site",
+                      "Accept": "*/*"
+                    }
+                  }
+                ],
+                "id": "server-1",
+                "lang": "sub",
+                "streams": [
+                  "Auto",
+                  "https://my.1anime.site/videos/Love_Unseen_Beneath_the_Clear_Night_Sky_Episode_9_1788179974.mp4"
+                ]
+              }
+            ]
+          },
+          "decode": {
+            "ok": true,
+            "exit": 0,
+            "error": ""
+          },
+          "status": "SHORT_AV_DECODE"
+        },
+        {
+          "lang": "dub",
+          "status": "UNAVAILABLE"
+        }
+      ],
+      "searchCount": 1,
+      "details": {
+        "title": "Love Unseen Beneath the Clear Night Sky",
+        "image": "https://cdn.myanimelist.net/images/anime/1145/158339l.jpg",
+        "href": "https://animekai.be/watch/love-unseen-beneath-the-clear-night-sky"
+      },
+      "episodeCount": 9,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Hanaori-san Still Wants to Fight in the Next Life",
+      "href": "https://animekai.be/watch/hanaori-san-still-wants-to-fight-in-the-next-life",
+      "kind": "seeded-home",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/hanaori-san-still-wants-to-fight-in-the-next-life/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "early",
+          "resolveMs": 193,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 4,
+            "href": "https://animekai.be/watch/hanaori-san-still-wants-to-fight-in-the-next-life/ep-4",
+            "title": "Episode 4",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "middle",
+          "resolveMs": 322,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 8,
+            "href": "https://animekai.be/watch/hanaori-san-still-wants-to-fight-in-the-next-life/ep-8",
+            "title": "Episode 8",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "late",
+          "resolveMs": 128,
+          "result": {
+            "url": "https://my.1anime.site/videos/Hanaori-san_Still_Wants_to_Fight_in_the_Next_Life_Episode_8_1788025223.mp4",
+            "streamType": "mp4",
+            "subtitles": [],
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+              "Referer": "https://my.1anime.site/",
+              "Origin": "https://my.1anime.site",
+              "Accept": "*/*"
+            },
+            "name": "my.1anime.site",
+            "qualities": [
+              {
+                "label": "Auto",
+                "url": "https://my.1anime.site/videos/Hanaori-san_Still_Wants_to_Fight_in_the_Next_Life_Episode_8_1788025223.mp4",
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                }
+              }
+            ],
+            "id": "server-1",
+            "lang": "sub",
+            "streams": [
+              "Auto",
+              "https://my.1anime.site/videos/Hanaori-san_Still_Wants_to_Fight_in_the_Next_Life_Episode_8_1788025223.mp4"
+            ],
+            "servers": [
+              {
+                "url": "https://my.1anime.site/videos/Hanaori-san_Still_Wants_to_Fight_in_the_Next_Life_Episode_8_1788025223.mp4",
+                "streamType": "mp4",
+                "subtitles": [],
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                },
+                "name": "my.1anime.site",
+                "qualities": [
+                  {
+                    "label": "Auto",
+                    "url": "https://my.1anime.site/videos/Hanaori-san_Still_Wants_to_Fight_in_the_Next_Life_Episode_8_1788025223.mp4",
+                    "headers": {
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                      "Referer": "https://my.1anime.site/",
+                      "Origin": "https://my.1anime.site",
+                      "Accept": "*/*"
+                    }
+                  }
+                ],
+                "id": "server-1",
+                "lang": "sub",
+                "streams": [
+                  "Auto",
+                  "https://my.1anime.site/videos/Hanaori-san_Still_Wants_to_Fight_in_the_Next_Life_Episode_8_1788025223.mp4"
+                ]
+              }
+            ]
+          },
+          "decode": {
+            "ok": true,
+            "exit": 0,
+            "error": ""
+          },
+          "status": "SHORT_AV_DECODE"
+        },
+        {
+          "lang": "dub",
+          "status": "UNAVAILABLE"
+        }
+      ],
+      "searchCount": 1,
+      "details": {
+        "title": "Hanaori-san Still Wants to Fight in the Next Life",
+        "image": "https://cdn.myanimelist.net/images/anime/1944/156331l.jpg",
+        "href": "https://animekai.be/watch/hanaori-san-still-wants-to-fight-in-the-next-life"
+      },
+      "episodeCount": 8,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
+      "href": "https://animekai.be/watch/hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing",
+      "kind": "seeded-home",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 194,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 6,
+            "href": "https://animekai.be/watch/hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing/ep-6",
+            "title": "Episode 6",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "middle",
+          "resolveMs": 190,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 12,
+            "href": "https://animekai.be/watch/hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing/ep-12",
+            "title": "Episode 12",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "late",
+          "resolveMs": 240,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 74,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 2,
+            "href": "https://animekai.be/watch/hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing/ep-2",
+            "title": "Episode 2",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 121,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 4,
+            "href": "https://animekai.be/watch/hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing/ep-4",
+            "title": "Episode 4",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 94,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 2,
+      "details": {
+        "title": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
+        "image": "https://cdn.myanimelist.net/images/anime/1151/152479l.jpg",
+        "href": "https://animekai.be/watch/hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing"
+      },
+      "episodeCount": 12,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "The Cat and the Dragon",
+      "href": "https://animekai.be/watch/the-cat-and-the-dragon",
+      "kind": "seeded-home",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/the-cat-and-the-dragon/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "early",
+          "resolveMs": 117,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 5,
+            "href": "https://animekai.be/watch/the-cat-and-the-dragon/ep-5",
+            "title": "Episode 5",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "middle",
+          "resolveMs": 200,
+          "result": {
+            "url": "https://my.1anime.site/videos/The_Cat_and_the_Dragon_Episode_5_1784986822.mp4",
+            "streamType": "mp4",
+            "subtitles": [],
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+              "Referer": "https://my.1anime.site/",
+              "Origin": "https://my.1anime.site",
+              "Accept": "*/*"
+            },
+            "name": "my.1anime.site",
+            "qualities": [
+              {
+                "label": "Auto",
+                "url": "https://my.1anime.site/videos/The_Cat_and_the_Dragon_Episode_5_1784986822.mp4",
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                }
+              }
+            ],
+            "id": "server-1",
+            "lang": "sub",
+            "streams": [
+              "Auto",
+              "https://my.1anime.site/videos/The_Cat_and_the_Dragon_Episode_5_1784986822.mp4"
+            ],
+            "servers": [
+              {
+                "url": "https://my.1anime.site/videos/The_Cat_and_the_Dragon_Episode_5_1784986822.mp4",
+                "streamType": "mp4",
+                "subtitles": [],
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                },
+                "name": "my.1anime.site",
+                "qualities": [
+                  {
+                    "label": "Auto",
+                    "url": "https://my.1anime.site/videos/The_Cat_and_the_Dragon_Episode_5_1784986822.mp4",
+                    "headers": {
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                      "Referer": "https://my.1anime.site/",
+                      "Origin": "https://my.1anime.site",
+                      "Accept": "*/*"
+                    }
+                  }
+                ],
+                "id": "server-1",
+                "lang": "sub",
+                "streams": [
+                  "Auto",
+                  "https://my.1anime.site/videos/The_Cat_and_the_Dragon_Episode_5_1784986822.mp4"
+                ]
+              }
+            ]
+          },
+          "decode": {
+            "ok": true,
+            "exit": 0,
+            "error": ""
+          },
+          "status": "SHORT_AV_DECODE"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 10,
+            "href": "https://animekai.be/watch/the-cat-and-the-dragon/ep-10",
+            "title": "Episode 10",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "late",
+          "resolveMs": 106,
+          "result": {
+            "url": "https://my.1anime.site/videos/The_Cat_and_the_Dragon_Episode_10_1788010786.mp4",
+            "streamType": "mp4",
+            "subtitles": [],
+            "headers": {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+              "Referer": "https://my.1anime.site/",
+              "Origin": "https://my.1anime.site",
+              "Accept": "*/*"
+            },
+            "name": "my.1anime.site",
+            "qualities": [
+              {
+                "label": "Auto",
+                "url": "https://my.1anime.site/videos/The_Cat_and_the_Dragon_Episode_10_1788010786.mp4",
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                }
+              }
+            ],
+            "id": "server-1",
+            "lang": "sub",
+            "streams": [
+              "Auto",
+              "https://my.1anime.site/videos/The_Cat_and_the_Dragon_Episode_10_1788010786.mp4"
+            ],
+            "servers": [
+              {
+                "url": "https://my.1anime.site/videos/The_Cat_and_the_Dragon_Episode_10_1788010786.mp4",
+                "streamType": "mp4",
+                "subtitles": [],
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                  "Referer": "https://my.1anime.site/",
+                  "Origin": "https://my.1anime.site",
+                  "Accept": "*/*"
+                },
+                "name": "my.1anime.site",
+                "qualities": [
+                  {
+                    "label": "Auto",
+                    "url": "https://my.1anime.site/videos/The_Cat_and_the_Dragon_Episode_10_1788010786.mp4",
+                    "headers": {
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                      "Referer": "https://my.1anime.site/",
+                      "Origin": "https://my.1anime.site",
+                      "Accept": "*/*"
+                    }
+                  }
+                ],
+                "id": "server-1",
+                "lang": "sub",
+                "streams": [
+                  "Auto",
+                  "https://my.1anime.site/videos/The_Cat_and_the_Dragon_Episode_10_1788010786.mp4"
+                ]
+              }
+            ]
+          },
+          "decode": {
+            "ok": true,
+            "exit": 0,
+            "error": ""
+          },
+          "status": "SHORT_AV_DECODE"
+        },
+        {
+          "lang": "dub",
+          "status": "UNAVAILABLE"
+        }
+      ],
+      "searchCount": 1,
+      "details": {
+        "title": "The Cat and the Dragon",
+        "image": "https://cdn.myanimelist.net/images/anime/1878/157796l.jpg",
+        "href": "https://animekai.be/watch/the-cat-and-the-dragon"
+      },
+      "episodeCount": 10,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    },
+    {
+      "query": "Though I Am an Inept Villainess",
+      "href": "https://animekai.be/watch/though-i-am-an-inept-villainess",
+      "kind": "seeded-home",
+      "samples": [
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/though-i-am-an-inept-villainess/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 210,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 4,
+            "href": "https://animekai.be/watch/though-i-am-an-inept-villainess/ep-4",
+            "title": "Episode 4",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 115,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "sub",
+          "episode": {
+            "number": 8,
+            "href": "https://animekai.be/watch/though-i-am-an-inept-villainess/ep-8",
+            "title": "Episode 8",
+            "subAvailable": true,
+            "dubAvailable": false
+          },
+          "position": "late",
+          "resolveMs": 111,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "sub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 1,
+            "href": "https://animekai.be/watch/though-i-am-an-inept-villainess/ep-1",
+            "title": "Episode 1",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "early",
+          "resolveMs": 72,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 4,
+            "href": "https://animekai.be/watch/though-i-am-an-inept-villainess/ep-4",
+            "title": "Episode 4",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "middle",
+          "resolveMs": 77,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        },
+        {
+          "lang": "dub",
+          "episode": {
+            "number": 7,
+            "href": "https://animekai.be/watch/though-i-am-an-inept-villainess/ep-7",
+            "title": "Episode 7",
+            "subAvailable": true,
+            "dubAvailable": true
+          },
+          "position": "late",
+          "resolveMs": 188,
+          "result": {
+            "streams": [],
+            "servers": [],
+            "subtitles": [],
+            "lang": "dub"
+          },
+          "status": "NO_STREAM"
+        }
+      ],
+      "searchCount": 1,
+      "details": {
+        "title": "Though I Am an Inept Villainess",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188139-1qIJfWxym8FX.jpg",
+        "href": "https://animekai.be/watch/though-i-am-an-inept-villainess"
+      },
+      "episodeCount": 8,
+      "duplicateIds": 0,
+      "status": "TESTED"
+    }
+  ],
+  "home": [
+    {
+      "href": "https://animekai.be/watch/classroom-of-the-elite-4th-season-second-year-first-semester",
+      "title": "Classroom of the Elite 4th Season: Second Year, First Semester",
+      "detailsTitle": "Classroom of the Elite 4th Season: Second Year, First Semester",
+      "episodes": 16,
+      "ok": true
+    },
+    {
+      "href": "https://animekai.be/watch/the-ogres-bride",
+      "title": "The Ogre's Bride",
+      "detailsTitle": "The Ogre's Bride",
+      "episodes": 9,
+      "ok": true
+    },
+    {
+      "href": "https://animekai.be/watch/dara-san-of-reiwa",
+      "title": "Dara-san of Reiwa",
+      "detailsTitle": "Dara-san of Reiwa",
+      "episodes": 10,
+      "ok": true
+    },
+    {
+      "href": "https://animekai.be/watch/go-for-it-nakamura-kun",
+      "title": "Go For It, Nakamura-kun!!",
+      "detailsTitle": "Go For It, Nakamura-kun!!",
+      "episodes": 12,
+      "ok": true
+    },
+    {
+      "href": "https://animekai.be/watch/thunder-3",
+      "title": "Thunder 3",
+      "detailsTitle": "Thunder 3",
+      "episodes": 110,
+      "ok": true
+    },
+    {
+      "href": "https://animekai.be/watch/love-unseen-beneath-the-clear-night-sky",
+      "title": "Love Unseen Beneath the Clear Night Sky",
+      "detailsTitle": "Love Unseen Beneath the Clear Night Sky",
+      "episodes": 9,
+      "ok": true
+    },
+    {
+      "href": "https://animekai.be/watch/hanaori-san-still-wants-to-fight-in-the-next-life",
+      "title": "Hanaori-san Still Wants to Fight in the Next Life",
+      "detailsTitle": "Hanaori-san Still Wants to Fight in the Next Life",
+      "episodes": 8,
+      "ok": true
+    },
+    {
+      "href": "https://animekai.be/watch/hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing",
+      "title": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
+      "detailsTitle": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
+      "episodes": 12,
+      "ok": true
+    },
+    {
+      "href": "https://animekai.be/watch/the-cat-and-the-dragon",
+      "title": "The Cat and the Dragon",
+      "detailsTitle": "The Cat and the Dragon",
+      "episodes": 10,
+      "ok": true
+    },
+    {
+      "href": "https://animekai.be/watch/though-i-am-an-inept-villainess",
+      "title": "Though I Am an Inept Villainess",
+      "detailsTitle": "Though I Am an Inept Villainess",
+      "episodes": 8,
+      "ok": true
+    }
+  ],
+  "feeds": [
+    {
+      "id": "latest",
+      "page1": 24,
+      "page2": 24,
+      "hasMore": true,
+      "uniquePage2": 24
+    },
+    {
+      "id": "new",
+      "page1": 0,
+      "page2": 0,
+      "hasMore": false,
+      "uniquePage2": 0
+    }
+  ],
+  "finished": "2026-09-12T02:24:53.735Z"
+}

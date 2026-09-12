@@ -1,0 +1,138 @@
+{
+  "id": "aniworld-v1",
+  "seed": 2026091201,
+  "method": "LCG Fisher-Yates over current deduplicated Home cards, excluding exact fixed names",
+  "frozenAt": "2026-09-12T02:23:24.926Z",
+  "titles": [
+    {
+      "query": "One Piece",
+      "kind": "fixed"
+    },
+    {
+      "query": "Naruto",
+      "kind": "fixed"
+    },
+    {
+      "query": "Bleach",
+      "kind": "fixed"
+    },
+    {
+      "query": "Death Note",
+      "kind": "fixed"
+    },
+    {
+      "query": "Attack on Titan",
+      "kind": "fixed"
+    },
+    {
+      "query": "Demon Slayer",
+      "kind": "fixed"
+    },
+    {
+      "query": "Jujutsu Kaisen",
+      "kind": "fixed"
+    },
+    {
+      "query": "Dragon Ball",
+      "kind": "fixed"
+    },
+    {
+      "query": "Hunter x Hunter",
+      "kind": "fixed"
+    },
+    {
+      "query": "Fullmetal Alchemist Brotherhood",
+      "kind": "fixed"
+    },
+    {
+      "query": "Spy x Family",
+      "kind": "fixed"
+    },
+    {
+      "query": "Dr. Stone",
+      "kind": "fixed"
+    },
+    {
+      "query": "Tokyo Ghoul",
+      "kind": "fixed"
+    },
+    {
+      "query": "Sword Art Online",
+      "kind": "fixed"
+    },
+    {
+      "query": "My Hero Academia",
+      "kind": "fixed"
+    },
+    {
+      "query": "Black Clover",
+      "kind": "fixed"
+    },
+    {
+      "query": "Chainsaw Man",
+      "kind": "fixed"
+    },
+    {
+      "query": "Fairy Tail",
+      "kind": "fixed"
+    },
+    {
+      "query": "Your Name",
+      "kind": "fixed"
+    },
+    {
+      "query": "Steins Gate",
+      "kind": "fixed"
+    },
+    {
+      "query": "Angolmois: Record of Mongol Invasion",
+      "href": "https://aniworld.to/anime/stream/angolmois-record-of-mongol-invasion",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Let\u2019s Go Kaikigumi",
+      "href": "https://aniworld.to/anime/stream/lets-go-kaikigumi",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Thunder 3",
+      "href": "https://aniworld.to/anime/stream/thunder-3",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Akiba Maid War",
+      "href": "https://aniworld.to/anime/stream/akiba-maid-war",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Akuma-Kun",
+      "href": "https://aniworld.to/anime/stream/akuma-kun",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "A Chivalry of a Failed Knight",
+      "href": "https://aniworld.to/anime/stream/a-chivalry-of-a-failed-knight",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Assassins Pride",
+      "href": "https://aniworld.to/anime/stream/assassins-pride",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "A Playthrough of a Certain Dude's VRMMO Life",
+      "href": "https://aniworld.to/anime/stream/a-playthrough-of-a-certain-dudes-vrmmo-life",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "A Ninja and an Assassin Under One Roof",
+      "href": "https://aniworld.to/anime/stream/a-ninja-and-an-assassin-under-one-roof",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "A Returner's Magic Should Be Special",
+      "href": "https://aniworld.to/anime/stream/a-returners-magic-should-be-special",
+      "kind": "seeded-home"
+    }
+  ]
+}

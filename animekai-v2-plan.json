@@ -1,0 +1,138 @@
+{
+  "id": "animekai-v2",
+  "seed": 2026091201,
+  "method": "LCG Fisher-Yates over current deduplicated Home cards, excluding exact fixed names",
+  "frozenAt": "2026-09-12T02:23:24.735Z",
+  "titles": [
+    {
+      "query": "One Piece",
+      "kind": "fixed"
+    },
+    {
+      "query": "Naruto",
+      "kind": "fixed"
+    },
+    {
+      "query": "Bleach",
+      "kind": "fixed"
+    },
+    {
+      "query": "Death Note",
+      "kind": "fixed"
+    },
+    {
+      "query": "Attack on Titan",
+      "kind": "fixed"
+    },
+    {
+      "query": "Demon Slayer",
+      "kind": "fixed"
+    },
+    {
+      "query": "Jujutsu Kaisen",
+      "kind": "fixed"
+    },
+    {
+      "query": "Dragon Ball",
+      "kind": "fixed"
+    },
+    {
+      "query": "Hunter x Hunter",
+      "kind": "fixed"
+    },
+    {
+      "query": "Fullmetal Alchemist Brotherhood",
+      "kind": "fixed"
+    },
+    {
+      "query": "Spy x Family",
+      "kind": "fixed"
+    },
+    {
+      "query": "Dr. Stone",
+      "kind": "fixed"
+    },
+    {
+      "query": "Tokyo Ghoul",
+      "kind": "fixed"
+    },
+    {
+      "query": "Sword Art Online",
+      "kind": "fixed"
+    },
+    {
+      "query": "My Hero Academia",
+      "kind": "fixed"
+    },
+    {
+      "query": "Black Clover",
+      "kind": "fixed"
+    },
+    {
+      "query": "Chainsaw Man",
+      "kind": "fixed"
+    },
+    {
+      "query": "Fairy Tail",
+      "kind": "fixed"
+    },
+    {
+      "query": "Your Name",
+      "kind": "fixed"
+    },
+    {
+      "query": "Steins Gate",
+      "kind": "fixed"
+    },
+    {
+      "query": "Classroom of the Elite 4th Season: Second Year, First Semester",
+      "href": "https://animekai.be/watch/classroom-of-the-elite-4th-season-second-year-first-semester",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "The Ogre's Bride",
+      "href": "https://animekai.be/watch/the-ogres-bride",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Dara-san of Reiwa",
+      "href": "https://animekai.be/watch/dara-san-of-reiwa",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Go For It, Nakamura-kun!!",
+      "href": "https://animekai.be/watch/go-for-it-nakamura-kun",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Thunder 3",
+      "href": "https://animekai.be/watch/thunder-3",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Love Unseen Beneath the Clear Night Sky",
+      "href": "https://animekai.be/watch/love-unseen-beneath-the-clear-night-sky",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Hanaori-san Still Wants to Fight in the Next Life",
+      "href": "https://animekai.be/watch/hanaori-san-still-wants-to-fight-in-the-next-life",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
+      "href": "https://animekai.be/watch/hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "The Cat and the Dragon",
+      "href": "https://animekai.be/watch/the-cat-and-the-dragon",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Though I Am an Inept Villainess",
+      "href": "https://animekai.be/watch/though-i-am-an-inept-villainess",
+      "kind": "seeded-home"
+    }
+  ]
+}

@@ -10,25 +10,14 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**Active: AnimeAV1 1.3.0-beta.1 (Spanish anime).** See [AnimeAV1 QA](ANIMEAV1_QA.md).
-Testing only: 53/53 routes resolved across 30 titles, 52/53 short seek/decode
-samples passed. Your Name Sub seek and native/offline checks remain open.
-Official AnimeAV1 1.2.8 is unchanged. No stable-release approval is implied.
+**Active testing candidates: Anime Sama 1.1.0-beta.7 and AniWorld 1.1.0-beta.6.**
+See [trio QA, exact counts and test instructions](ANIME_TRIO_QA.md).
+Both are PARTIAL: broad host media checks pass, but individual streams fail and
+native sound/physical-device/in-app offline checks remain incomplete.
 
-**Also active: Movie Direct 0.3.0-beta.2.** See [Movie Direct QA](MOVIE_DIRECT_QA.md).
-Independent VideoEasy lookup; this is a separate experimental module, not an
-update or replacement for Synthetiq Movies. S2 is PARTIAL. Provider rate limiting
-and final native iPhone/Android checks remain open. Owner requested testing
-publication; no stable-release approval is implied.
-
-**Also active: Mugiwara 1.1.0-beta.5 (French VOSTFR / VF).**
-See [Mugiwara QA](MUGIWARA_QA.md). Corrected episode mapping, validated server
-alternatives, actual HLS quality choices, Sibnet redirects and request cooldown.
-Beta.5 adds full-catalogue Home pagination and fixes server-rendered season
-metadata and film aliases. 22/22 sampled media routes passed across five titles;
-1,234 unique catalogue titles across 52 pages. Beta.4 artwork repair is retained.
-Reported background/resume playback issues remain unconfirmed and unfixed.
-Testing only; official Mugiwara 1.0.4 is unchanged.
+**AnimeKai is held**, with only 8/137 short matrix samples decoded. It is not in
+the active index. Movie Direct and Mugiwara are parked; all old ZIP/bundle URLs
+are preserved. AnimeAV1 was already inactive in the preceding live index.
 
 **Synthetiq Anime 1.0.2** and
 **An1me (Greek) 1.1.1** were promoted to the official repository at the owner's

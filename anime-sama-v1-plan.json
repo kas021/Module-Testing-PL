@@ -1,0 +1,138 @@
+{
+  "id": "anime-sama-v1",
+  "seed": 2026091201,
+  "method": "LCG Fisher-Yates over current deduplicated Home cards, excluding exact fixed names",
+  "frozenAt": "2026-09-12T02:23:24.581Z",
+  "titles": [
+    {
+      "query": "One Piece",
+      "kind": "fixed"
+    },
+    {
+      "query": "Naruto",
+      "kind": "fixed"
+    },
+    {
+      "query": "Bleach",
+      "kind": "fixed"
+    },
+    {
+      "query": "Death Note",
+      "kind": "fixed"
+    },
+    {
+      "query": "Attack on Titan",
+      "kind": "fixed"
+    },
+    {
+      "query": "Demon Slayer",
+      "kind": "fixed"
+    },
+    {
+      "query": "Jujutsu Kaisen",
+      "kind": "fixed"
+    },
+    {
+      "query": "Dragon Ball",
+      "kind": "fixed"
+    },
+    {
+      "query": "Hunter x Hunter",
+      "kind": "fixed"
+    },
+    {
+      "query": "Fullmetal Alchemist Brotherhood",
+      "kind": "fixed"
+    },
+    {
+      "query": "Spy x Family",
+      "kind": "fixed"
+    },
+    {
+      "query": "Dr. Stone",
+      "kind": "fixed"
+    },
+    {
+      "query": "Tokyo Ghoul",
+      "kind": "fixed"
+    },
+    {
+      "query": "Sword Art Online",
+      "kind": "fixed"
+    },
+    {
+      "query": "My Hero Academia",
+      "kind": "fixed"
+    },
+    {
+      "query": "Black Clover",
+      "kind": "fixed"
+    },
+    {
+      "query": "Chainsaw Man",
+      "kind": "fixed"
+    },
+    {
+      "query": "Fairy Tail",
+      "kind": "fixed"
+    },
+    {
+      "query": "Your Name",
+      "kind": "fixed"
+    },
+    {
+      "query": "Steins Gate",
+      "kind": "fixed"
+    },
+    {
+      "query": "The Elusive Samurai",
+      "href": "https://anime-sama.to/catalogue/the-elusive-samurai/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Everyone Loves Her",
+      "href": "https://anime-sama.to/catalogue/everyone-loves-her/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Kimi Ga Shinu Made Koi Wo Shitai",
+      "href": "https://anime-sama.to/catalogue/kimi-ga-shinu-made-koi-wo-shitai/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "86 Eighty Six",
+      "href": "https://anime-sama.to/catalogue/86-eighty-six/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Mushoku Tensei",
+      "href": "https://anime-sama.to/catalogue/mushoku-tensei/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Grand Blue",
+      "href": "https://anime-sama.to/catalogue/grand-blue/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Naruto Shippuden",
+      "href": "https://anime-sama.to/catalogue/naruto-shippuden/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Let's Go Kaikigumi",
+      "href": "https://anime-sama.to/catalogue/lets-go-kaikigumi/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Chainsmoker Cat",
+      "href": "https://anime-sama.to/catalogue/chainsmoker-cat/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Vinland Saga",
+      "href": "https://anime-sama.to/catalogue/vinland-saga/",
+      "kind": "seeded-home"
+    }
+  ]
+}

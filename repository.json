@@ -3,67 +3,64 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789178549388,
+  "publishedAtMs": 1789182165432,
   "signature": "",
-  "testingIdentity": "movie-direct-v1:0.3.0-beta.2:9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8|mugiwara-v1:1.1.0-beta.5:be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857",
+  "testingIdentity": "anime-sama-v1:1.1.0-beta.7:8638fc9bd501c1c41b84ae81c79057bd4a15c614f7305f1d67ed2643b2f90259|aniworld-v1:1.1.0-beta.6:08cf951eae3b90551b5e7120201a73bcd11fc298ba70a5c7dd388a6082091854",
   "bundle": {
-    "version": 35,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-35.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-35.zip",
-    "sha256": "69656b9129da69ab20bd1214e12d7dfc71133d59f3b9217118e30484df80ae59",
+    "version": 36,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-36.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-36.zip",
+    "sha256": "2cdbba13423ed2a786b411a0d495b4802055d1c86e1c18a85fbd2baed3760efb",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
   "modules": [
     {
-      "moduleId": "movie-direct-v1",
-      "moduleFamilyId": "movie_direct_v1",
-      "moduleIdentity": "SP-VID-075-MOVIE-DIRECT",
-      "moduleIdentityNumber": 75,
+      "moduleId": "anime-sama-v1",
+      "moduleFamilyId": "anime_sama_v1",
+      "moduleIdentity": "SP-VID-047-ANIME-SAMA",
+      "moduleIdentityNumber": 47,
       "contentType": "video",
-      "version": "0.3.0-beta.2",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Movie-Direct-0.3.0-beta.2.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/Movie-Direct-0.3.0-beta.2.zip",
-      "sha256": "9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8",
+      "version": "1.1.0-beta.7",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/anime-sama-v1-1.1.0-beta.7.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/anime-sama-v1-1.1.0-beta.7.zip",
+      "sha256": "8638fc9bd501c1c41b84ae81c79057bd4a15c614f7305f1d67ed2643b2f90259",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789178549388,
-      "presentation": {
-        "category": "Movies & TV",
-        "purpose": "Testing only",
-        "recommended": false,
-        "language": "Original audio; source subtitles"
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    },
-    {
-      "moduleId": "mugiwara-v1",
-      "moduleFamilyId": "mugiwara_v1",
-      "moduleIdentity": "SP-VID-071-MUGIWARA",
-      "moduleIdentityNumber": 71,
-      "contentType": "video",
-      "version": "1.1.0-beta.5",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Mugiwara-1.1.0-beta.5.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/Mugiwara-1.1.0-beta.5.zip",
-      "sha256": "be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789178549388,
+      "publishedAtMs": 1789182165432,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
-        "recommended": false,
         "language": "French (VOSTFR / VF)",
-        "languages": [
-          "sub",
-          "dub"
-        ],
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mugiwara.png"
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anime-sama.png",
+        "recommended": false
       },
       "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+        "TESTING ONLY: partial certification. See ANIME_TRIO_QA.md for exact failures, native audio limits and matrix results."
+      ]
+    },
+    {
+      "moduleId": "aniworld-v1",
+      "moduleFamilyId": "aniworld_v1",
+      "moduleIdentity": "SP-VID-050-ANIWORLD",
+      "moduleIdentityNumber": 50,
+      "contentType": "video",
+      "version": "1.1.0-beta.6",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/aniworld-v1-1.1.0-beta.6.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/aniworld-v1-1.1.0-beta.6.zip",
+      "sha256": "08cf951eae3b90551b5e7120201a73bcd11fc298ba70a5c7dd388a6082091854",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789182165432,
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Testing only",
+        "language": "German",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/aniworld.png?v=20260812-2",
+        "recommended": false
+      },
+      "changelog": [
+        "TESTING ONLY: partial certification. See ANIME_TRIO_QA.md for exact failures, native audio limits and matrix results."
       ]
     }
   ]
