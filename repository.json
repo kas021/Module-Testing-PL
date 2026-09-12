@@ -3,46 +3,18 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789163138580,
+  "publishedAtMs": 1789176480437,
   "signature": "",
-  "testingIdentity": "animeav1-v1:1.3.0-beta.1:b2fbf162a5838bf094392f87be48fbce90c006572e8c2f1eba9e7cfb3fec85a6|movie-direct-v1:0.3.0-beta.2:9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8|mugiwara-v1:1.1.0-beta.5:be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857",
+  "testingIdentity": "movie-direct-v1:0.3.0-beta.2:9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8|mugiwara-v1:1.1.0-beta.5:be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857|shahiid-v1:2.1.0-beta.3:74cd02fe125889497bfb37dc0bcb67a9ee8aa7046427083bd8e285516ce6281e",
   "bundle": {
-    "version": 32,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-32.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-32.zip",
-    "sha256": "2b13cc9d121b7347e304201474b6d0601e1ea3c4e314cffc0060d8d3c63acebc",
+    "version": 33,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-33.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-33.zip",
+    "sha256": "ff9185950328dc4a0e30f533bff5ff6a297e34fe348980585dca69e0f018cbff",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
   "modules": [
-    {
-      "moduleId": "animeav1-v1",
-      "moduleFamilyId": "animeav1_v1",
-      "moduleIdentity": "SP-VID-060-ANIMEAV1",
-      "moduleIdentityNumber": 60,
-      "contentType": "video",
-      "version": "1.3.0-beta.1",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/AnimeAV1-1.3.0-beta.1.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/AnimeAV1-1.3.0-beta.1.zip",
-      "sha256": "b2fbf162a5838bf094392f87be48fbce90c006572e8c2f1eba9e7cfb3fec85a6",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789163138580,
-      "presentation": {
-        "category": "Anime",
-        "purpose": "Testing only",
-        "recommended": false,
-        "language": "Spanish",
-        "languages": [
-          "sub",
-          "dub"
-        ],
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeav1.png?v=20260814-1"
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    },
     {
       "moduleId": "movie-direct-v1",
       "moduleFamilyId": "movie_direct_v1",
@@ -55,7 +27,7 @@
       "sha256": "9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789163138580,
+      "publishedAtMs": 1789176480437,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
@@ -78,7 +50,7 @@
       "sha256": "be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789163138580,
+      "publishedAtMs": 1789176480437,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -89,6 +61,30 @@
           "dub"
         ],
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mugiwara.png"
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    },
+    {
+      "moduleId": "shahiid-v1",
+      "moduleFamilyId": "shahiid_v1",
+      "moduleIdentity": "SP-VID-055-SHAHIID",
+      "moduleIdentityNumber": 55,
+      "contentType": "video",
+      "version": "2.1.0-beta.3",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Shahiid-2.1.0-beta.3.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/Shahiid-2.1.0-beta.3.zip",
+      "sha256": "74cd02fe125889497bfb37dc0bcb67a9ee8aa7046427083bd8e285516ce6281e",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789176480437,
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Testing only",
+        "language": "Arabic Sub/Dub",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/shahiid.png",
+        "recommended": false
       },
       "changelog": [
         "TEST CANDIDATE: not certified for stable release. See repository QA notes."
