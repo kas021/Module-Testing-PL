@@ -1,0 +1,30 @@
+{
+  "id": "testing-123-v1",
+  "name": "Testing 1 2 3",
+  "contentType": "video",
+  "contractVersion": 3,
+  "moduleVersion": "1.0.0-beta.1",
+  "moduleFamilyId": "testing_123_v1",
+  "moduleIdentity": "SP-VID-998-TESTING-123",
+  "moduleIdentityNumber": 998,
+  "releaseTrack": "beta",
+  "moduleStatus": "trial",
+  "qaFixture": "intentional-playback-failure",
+  "description": "QA ONLY: One Piece episode 1 deliberately fails to test Try another source. No videos or downloads are provided.",
+  "presentation": {
+    "category": "Anime",
+    "language": "Intentional failure test",
+    "purpose": "QA only: playback deliberately fails",
+    "recommended": false
+  },
+  "config": {
+    "runtime": { "entry": "index.js", "mode": "local" },
+    "baseUrl": "https://example.invalid",
+    "caps": {
+      "homeMaxResults": 1,
+      "maxResponseBytes": 16384,
+      "timeoutMs": 5000,
+      "maxConcurrentRequests": 1
+    }
+  }
+}

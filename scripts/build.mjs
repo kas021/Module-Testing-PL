@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import path from 'node:path';
-import { supersedesCandidate } from './release-policy.mjs';
+import { supersedesCandidate, assertTestingCapacity } from './release-policy.mjs';
 process.chdir(path.resolve(import.meta.dirname, '..'));
 const stable = await fetch('https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/repository.json', {signal: AbortSignal.timeout(20000)});
 if (!stable.ok) throw new Error(`Stable index HTTP ${stable.status}`);
@@ -21,7 +21,7 @@ const active = candidates.filter(({file,manifest:m}) => {
   fs.unlinkSync(`modules/${file}`);
   return false;
 });
-if (active.length > 3) throw new Error('Maximum three testing modules');
+assertTestingCapacity(active.map(x => x.manifest));
 if (new Set(active.map(x => x.manifest.id)).size !== active.length) throw new Error('Duplicate module');
 const previous = fs.existsSync('repository.json') ? JSON.parse(fs.readFileSync('repository.json')) : null;
 const hash = file => crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
@@ -42,8 +42,12 @@ const modules = active.map(({file,manifest:m}) => ({
   moduleId:m.id, moduleFamilyId:m.moduleFamilyId, moduleIdentity:m.moduleIdentity,
   moduleIdentityNumber:m.moduleIdentityNumber, contentType:m.contentType,
   version:m.moduleVersion, ...info(`modules/${file}`), publishedAtMs,
-  presentation:{...m.presentation,recommended:false,purpose:'Testing only'},
-  changelog:['TEST CANDIDATE: not certified for stable release. See repository QA notes.'],
+  presentation:{...previous?.modules?.find(x => x.moduleId === m.id)?.presentation,
+    ...m.presentation,recommended:false,
+    purpose:m.qaFixture === 'intentional-playback-failure' ? 'QA only: playback deliberately fails' : 'Testing only'},
+  changelog:[m.qaFixture === 'intentional-playback-failure'
+    ? 'Intentional failure fixture: One Piece episode 1. No video is provided. Test Try another source in Player 8.5.55+117.'
+    : 'TEST CANDIDATE: not certified for stable release. See repository QA notes.'],
 }));
 fs.writeFileSync('repository.json', JSON.stringify({schemaVersion:1,repositoryId:'module-testing-pl',name:'Module Testing PL',enabled:!!active.length,publishedAtMs,signature:'',testingIdentity:identity,bundle:{version,...info(bundleFile)},modules},null,2)+'\n');
 // Retain immutable previous bundles so cached indexes do not encounter a 404.

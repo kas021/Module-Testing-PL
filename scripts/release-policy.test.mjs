@@ -1,6 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { supersedesCandidate } from './release-policy.mjs';
+import { supersedesCandidate, assertTestingCapacity } from './release-policy.mjs';
+test('three candidates and one explicit failure fixture, not unlimited modules', () => {
+  const candidates = [{id:'a'}, {id:'b'}, {id:'c'}];
+  const fixture = {id:'testing-123-v1', moduleIdentityNumber:998, qaFixture:'intentional-playback-failure'};
+  assert.doesNotThrow(() => assertTestingCapacity([...candidates, fixture]));
+  assert.throws(() => assertTestingCapacity([...candidates, {id:'d'}]));
+  assert.throws(() => assertTestingCapacity([...candidates, fixture, fixture]));
+});
 test('stable release retires corresponding and older betas', () => {
   assert.equal(supersedesCandidate('1.1.1', '1.1.0-beta.2'), true);
   assert.equal(supersedesCandidate('1.2.4', '1.2.4-beta.4'), true);

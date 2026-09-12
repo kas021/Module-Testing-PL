@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/build.mjs
-      - run: node --test scripts/release-policy.test.mjs
+      - run: node --test scripts/release-policy.test.mjs scripts/testing-123.test.mjs
       - run: |
           git config user.name 'Module Testing PL'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
