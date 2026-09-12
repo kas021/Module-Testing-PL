@@ -10,6 +10,14 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
+**MegaKino (Deutsch) 1.1.0-beta.3 is available for owner testing.**
+Repairs the moved catalogue domain, preserves old saved links, and adds paginated
+feeds plus available server/quality choices. 15 regression tests, 30/30 short host
+video/audio samples and 30/30 poster responses pass. No external captions returned
+in this sample. Final S2 is FAIL on a music-only transcript classified as English;
+later dialogue samples detect German. Simulator video advances but audio-device
+initialization fails. Not stable-certified. See [MegaKino QA](MEGAKINO_QA.md).
+
 **EV01 withdrawn from active testing at the owner's request.**
 Its package and historical bundles remain reachable for cached-index compatibility.
 The official repository is unchanged. Historical beta limitations follow:

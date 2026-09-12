@@ -1,0 +1,2922 @@
+{
+  "started": "2026-09-12T22:05:55.803Z",
+  "method": "Host module execution plus 5-second AV decode at 90s; not native or full offline certification",
+  "rows": [
+    {
+      "title": "Mutiny",
+      "id": "https://megakino19.com/films/6456-mutiny.html",
+      "detailTitle": "Mutiny",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 12286,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "960p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE",
+      "alternatives": [
+        {
+          "name": "VOE",
+          "decode": {
+            "ok": true,
+            "offset": 90
+          }
+        },
+        {
+          "name": "GXPlayer",
+          "decode": {
+            "ok": true,
+            "offset": 90
+          }
+        }
+      ]
+    },
+    {
+      "title": "Marsupilami",
+      "id": "https://megakino19.com/films/6440-marsupilami.html",
+      "detailTitle": "Marsupilami",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 897,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "804p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE",
+      "alternatives": [
+        {
+          "name": "VOE",
+          "decode": {
+            "ok": true,
+            "offset": 90
+          }
+        },
+        {
+          "name": "GXPlayer",
+          "decode": {
+            "ok": false,
+            "offset": 90,
+            "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 7 times\n[in#0 @ 0x90d018000] Error opening input: Invalid data found when processing input\nError opening input file [URL]\nError opening input files: Invalid data found when processing input\n"
+          }
+        }
+      ]
+    },
+    {
+      "title": "The End of Oak Street",
+      "id": "https://megakino19.com/films/6421-the-end-of-oak-street.html",
+      "detailTitle": "The End of Oak Street",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 599,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "800p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE",
+      "alternatives": [
+        {
+          "name": "VOE",
+          "decode": {
+            "ok": true,
+            "offset": 90
+          }
+        },
+        {
+          "name": "GXPlayer",
+          "decode": {
+            "ok": true,
+            "offset": 90
+          }
+        }
+      ]
+    },
+    {
+      "title": "Exit 8",
+      "id": "https://megakino19.com/films/6420-exit-8.html",
+      "detailTitle": "Exit 8",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 801,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "1036p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE",
+      "alternatives": [
+        {
+          "name": "VOE",
+          "decode": {
+            "ok": true,
+            "offset": 90
+          }
+        },
+        {
+          "name": "GXPlayer",
+          "decode": {
+            "ok": false,
+            "offset": 90,
+            "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 7 times\n[in#0 @ 0xb7cc10000] Error opening input: Invalid data found when processing input\nError opening input file [URL]\nError opening input files: Invalid data found when processing input\n"
+          }
+        }
+      ]
+    },
+    {
+      "title": "The Invite",
+      "id": "https://megakino19.com/films/6419-the-invite.html",
+      "detailTitle": "The Invite",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 807,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "1040p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE",
+      "alternatives": [
+        {
+          "name": "VOE",
+          "decode": {
+            "ok": true,
+            "offset": 90
+          }
+        },
+        {
+          "name": "GXPlayer",
+          "decode": {
+            "ok": false,
+            "offset": 90,
+            "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 7 times\n[in#0 @ 0x90b014000] Error opening input: Invalid data found when processing input\nError opening input file [URL]\nError opening input files: Invalid data found when processing input\n"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Ice Cream Man",
+      "id": "https://megakino19.com/films/6415-ice-cream-man.html",
+      "detailTitle": "Ice Cream Man",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 2139,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "868p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "That's Why The Lady Is A Champ",
+      "id": "https://megakino19.com/films/6397-thats-why-the-lady-is-a-champ.html",
+      "detailTitle": "That's Why The Lady Is A Champ",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 798,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "536p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Spider-Man: Brand New Day",
+      "id": "https://megakino19.com/films/6395-spider-man-brand-new-day.html",
+      "detailTitle": "Spider-Man: Brand New Day",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 813,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "800p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Evil Dead Burn",
+      "id": "https://megakino19.com/films/6359-evil-dead-burn.html",
+      "detailTitle": "Evil Dead Burn",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 830,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "The Furious",
+      "id": "https://megakino19.com/films/6355-the-furious.html",
+      "detailTitle": "The Furious",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 869,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "1080p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "The Last Scene",
+      "id": "https://megakino19.com/films/6498-the-last-scene.html",
+      "detailTitle": "The Last Scene",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 642,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "1080p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Meat Kills",
+      "id": "https://megakino19.com/films/6497-meat-kills.html",
+      "detailTitle": "Meat Kills",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 1053,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "960p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Lion Fist - Kampf der Champions",
+      "id": "https://megakino19.com/films/6496-lion-fist-kampf-der-champions.html",
+      "detailTitle": "Lion Fist - Kampf der Champions",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 1208,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "816p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Das Kartell - Brothers Under Fire",
+      "id": "https://megakino19.com/films/6495-das-kartell-brothers-under-fire.html",
+      "detailTitle": "Das Kartell - Brothers Under Fire",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 889,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "800p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Chum - Gefährliche Bestien",
+      "id": "https://megakino19.com/films/6494-chum-gefahrliche-bestien.html",
+      "detailTitle": "Chum - Gefährliche Bestien",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 1003,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "800p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Danke, Team!",
+      "id": "https://megakino19.com/films/6493-danke-team.html",
+      "detailTitle": "Danke, Team!",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 1078,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "1080p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Call My Agent! The Movie",
+      "id": "https://megakino19.com/films/6491-call-my-agent-the-movie.html",
+      "detailTitle": "Call My Agent! The Movie",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 1054,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "1080p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "PAW Patrol: Der Dino Film",
+      "id": "https://megakino19.com/films/6490-paw-patrol-der-dino-film.html",
+      "detailTitle": "PAW Patrol: Der Dino Film",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 1486,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "800p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Drawn Together",
+      "id": "https://megakino19.com/films/6489-drawn-together.html",
+      "detailTitle": "Drawn Together",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 1291,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "800p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Tyler Perry's Auch Liebe macht mal Ferien 3",
+      "id": "https://megakino19.com/films/6488-tyler-perrys-auch-liebe-macht-mal-ferien-3.html",
+      "detailTitle": "Tyler Perry's Auch Liebe macht mal Ferien 3",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 1182,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "1080p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Die Festnahme",
+      "id": "https://megakino19.com/films/6448-die-festnahme.html",
+      "detailTitle": "Die Festnahme",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 1049,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "1080p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Wolves",
+      "id": "https://megakino19.com/films/6457-wolves.html",
+      "detailTitle": "Wolves",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 1143,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "1080p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Dark Matter - Der Zeitenläufer - 2 Staffel",
+      "id": "https://megakino19.com/serials/6461-dark-matter-der-zeitenlaufer-2-staffel.html",
+      "detailTitle": "Dark Matter - Der Zeitenläufer - 2 Staffel",
+      "poster": true,
+      "episodeCount": 3,
+      "episode": 2,
+      "season": 2,
+      "resolveMs": 316,
+      "servers": [
+        "VOE"
+      ],
+      "qualities": [
+        "Auto",
+        "960p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Sheriff Country - 1 Staffel",
+      "id": "https://megakino19.com/serials/6455-sheriff-country-1-staffel.html",
+      "detailTitle": "Sheriff Country - 1 Staffel",
+      "poster": true,
+      "episodeCount": 8,
+      "episode": 6,
+      "season": 1,
+      "resolveMs": 161,
+      "servers": [
+        "VOE"
+      ],
+      "qualities": [
+        "Auto",
+        "1080p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "The Last Sunrise",
+      "id": "https://megakino19.com/films/6453-the-last-sunrise.html",
+      "detailTitle": "The Last Sunrise",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 828,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "800p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Der Kinderflüsterer",
+      "id": "https://megakino19.com/films/6459-der-kinderflusterer.html",
+      "detailTitle": "Der Kinderflüsterer",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 703,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "1080p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Backrooms",
+      "id": "https://megakino19.com/films/6342-backrooms.html",
+      "detailTitle": "Backrooms",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 737,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "1036p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Tom und Jerry: Der Verlorene Kompass",
+      "id": "https://megakino19.com/films/6469-tom-und-jerry-der-verlorene-kompass.html",
+      "detailTitle": "Tom und Jerry: Der Verlorene Kompass",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 525,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "800p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Ein einfacher Unfall",
+      "id": "https://megakino19.com/films/6451-ein-einfacher-unfall.html",
+      "detailTitle": "Ein einfacher Unfall",
+      "poster": true,
+      "episodeCount": 1,
+      "episode": 1,
+      "resolveMs": 1129,
+      "servers": [
+        "VOE",
+        "GXPlayer"
+      ],
+      "qualities": [
+        "Auto",
+        "1040p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    },
+    {
+      "title": "Star Trek: Strange New Worlds - 4 Staffel",
+      "id": "https://megakino19.com/serials/6408-star-trek-strange-new-worlds-4-staffel.html",
+      "detailTitle": "Star Trek: Strange New Worlds - 4 Staffel",
+      "poster": true,
+      "episodeCount": 8,
+      "episode": 6,
+      "season": 4,
+      "resolveMs": 346,
+      "servers": [
+        "VOE"
+      ],
+      "qualities": [
+        "Auto",
+        "1080p",
+        "720p",
+        "480p"
+      ],
+      "subtitles": [],
+      "decode": {
+        "ok": true,
+        "offset": 90
+      },
+      "status": "HOST_AV_DECODE"
+    }
+  ],
+  "home": [
+    {
+      "id": "featured",
+      "count": 10
+    },
+    {
+      "id": "latest-films",
+      "count": 11
+    },
+    {
+      "id": "latest-series",
+      "count": 9
+    }
+  ],
+  "feed": {
+    "page": 2,
+    "count": 20,
+    "hasMore": true
+  },
+  "plan": [
+    {
+      "title": "Mutiny",
+      "id": "https://megakino19.com/films/6456-mutiny.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/6bfa2c64-1ca8-4afe-8fd3-89d4f30e19e6.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Marsupilami",
+      "id": "https://megakino19.com/films/6440-marsupilami.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/195ce331-0bdb-451f-b0e7-046648c2c416.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "The End of Oak Street",
+      "id": "https://megakino19.com/films/6421-the-end-of-oak-street.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/2424607b-a78f-4cea-a18c-eecf1c4084f2.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Exit 8",
+      "id": "https://megakino19.com/films/6420-exit-8.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/2804e863-d672-4c71-a6eb-6b8d93eedce4.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "The Invite",
+      "id": "https://megakino19.com/films/6419-the-invite.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/62666804-5b30-4de3-8da6-8b4eb32e8a87.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Ice Cream Man",
+      "id": "https://megakino19.com/films/6415-ice-cream-man.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/44d7bd47-bb3b-4194-8b25-fae3020ca64f.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "That's Why The Lady Is A Champ",
+      "id": "https://megakino19.com/films/6397-thats-why-the-lady-is-a-champ.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/3061997b-f363-4ef4-bc62-89ff3cbac73d.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Spider-Man: Brand New Day",
+      "id": "https://megakino19.com/films/6395-spider-man-brand-new-day.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/3adbd8c4-2d3e-4ea4-8783-8b7d2a5479fa.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Evil Dead Burn",
+      "id": "https://megakino19.com/films/6359-evil-dead-burn.html",
+      "image": "https://megakino19.com/uploads/posts/2026-07/59a8231a-6f44-4f96-addf-42c1f632d858.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "The Furious",
+      "id": "https://megakino19.com/films/6355-the-furious.html",
+      "image": "https://megakino19.com/uploads/posts/2026-07/29b06a40-f79c-4b88-9547-f65901b51e03.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "The Last Scene",
+      "id": "https://megakino19.com/films/6498-the-last-scene.html",
+      "image": "https://megakino19.com/uploads/posts/2026-09/f4947436-490b-4a98-9c6d-af56c31cd3ae.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Meat Kills",
+      "id": "https://megakino19.com/films/6497-meat-kills.html",
+      "image": "https://megakino19.com/uploads/posts/2026-09/0a1bbf47-8e06-48a3-9a98-5765abdf5ae5.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Lion Fist - Kampf der Champions",
+      "id": "https://megakino19.com/films/6496-lion-fist-kampf-der-champions.html",
+      "image": "https://megakino19.com/uploads/posts/2026-09/cda01efa-ef53-4026-af71-a03f859ad961.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Das Kartell - Brothers Under Fire",
+      "id": "https://megakino19.com/films/6495-das-kartell-brothers-under-fire.html",
+      "image": "https://megakino19.com/uploads/posts/2026-09/674a9963-8245-4259-bf70-08d54b1e6ee5.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Chum - Gefährliche Bestien",
+      "id": "https://megakino19.com/films/6494-chum-gefahrliche-bestien.html",
+      "image": "https://megakino19.com/uploads/posts/2026-09/7fa733bb-2a81-4a5e-93ab-58f7caefd311.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Danke, Team!",
+      "id": "https://megakino19.com/films/6493-danke-team.html",
+      "image": "https://megakino19.com/uploads/posts/2026-09/231b4ca3-141b-4764-b939-efa8ab99a1f2.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Call My Agent! The Movie",
+      "id": "https://megakino19.com/films/6491-call-my-agent-the-movie.html",
+      "image": "https://megakino19.com/uploads/posts/2026-09/710472dd-4194-4c23-86fb-d71457bd69d7.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "PAW Patrol: Der Dino Film",
+      "id": "https://megakino19.com/films/6490-paw-patrol-der-dino-film.html",
+      "image": "https://megakino19.com/uploads/posts/2026-09/10c16bea-050b-4ed6-a1d7-54c8816ab848.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Drawn Together",
+      "id": "https://megakino19.com/films/6489-drawn-together.html",
+      "image": "https://megakino19.com/uploads/posts/2026-09/546ed0c2-c178-4f71-9a53-cf8ea8c4e60d.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Tyler Perry's Auch Liebe macht mal Ferien 3",
+      "id": "https://megakino19.com/films/6488-tyler-perrys-auch-liebe-macht-mal-ferien-3.html",
+      "image": "https://megakino19.com/uploads/posts/2026-09/7004a259-be6e-4b98-a971-0992fbb30ce4.webp",
+      "selection": "fixed-home"
+    },
+    {
+      "title": "Die Festnahme",
+      "id": "https://megakino19.com/films/6448-die-festnahme.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/a0cea727-7999-4a02-8904-754d9edd4518.webp",
+      "selection": "seeded-remainder"
+    },
+    {
+      "title": "Wolves",
+      "id": "https://megakino19.com/films/6457-wolves.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/dcba4969-0fa3-4bda-aaf0-e69815693894.webp",
+      "selection": "seeded-remainder"
+    },
+    {
+      "title": "Dark Matter - Der Zeitenläufer - 2 Staffel",
+      "id": "https://megakino19.com/serials/6461-dark-matter-der-zeitenlaufer-2-staffel.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/154a59fd-67f8-4ae9-a985-9b3b98c6f0e5.webp",
+      "selection": "seeded-remainder"
+    },
+    {
+      "title": "Sheriff Country - 1 Staffel",
+      "id": "https://megakino19.com/serials/6455-sheriff-country-1-staffel.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/bc39529a-3e85-4a16-9c75-8bb1897f19ed.webp",
+      "selection": "seeded-remainder"
+    },
+    {
+      "title": "The Last Sunrise",
+      "id": "https://megakino19.com/films/6453-the-last-sunrise.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/2c6a5676-ba19-47c4-a41c-a792c07ab1b4.webp",
+      "selection": "seeded-remainder"
+    },
+    {
+      "title": "Der Kinderflüsterer",
+      "id": "https://megakino19.com/films/6459-der-kinderflusterer.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/e9099edb-6486-4b66-929f-45faf7f79613.webp",
+      "selection": "seeded-remainder"
+    },
+    {
+      "title": "Backrooms",
+      "id": "https://megakino19.com/films/6342-backrooms.html",
+      "image": "https://megakino19.com/uploads/posts/2026-06/c544b5ea-3121-4bd8-a5f3-a9f5561b8802.webp",
+      "selection": "seeded-remainder"
+    },
+    {
+      "title": "Tom und Jerry: Der Verlorene Kompass",
+      "id": "https://megakino19.com/films/6469-tom-und-jerry-der-verlorene-kompass.html",
+      "image": "https://megakino19.com/uploads/posts/2026-09/217db07f-708b-4e0e-a77a-cb9531aaba49.webp",
+      "selection": "seeded-remainder"
+    },
+    {
+      "title": "Ein einfacher Unfall",
+      "id": "https://megakino19.com/films/6451-ein-einfacher-unfall.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/fc835363-40b2-4fa9-ab2b-9585bf54e54f.webp",
+      "selection": "seeded-remainder"
+    },
+    {
+      "title": "Star Trek: Strange New Worlds - 4 Staffel",
+      "id": "https://megakino19.com/serials/6408-star-trek-strange-new-worlds-4-staffel.html",
+      "image": "https://megakino19.com/uploads/posts/2026-08/919a0fcb-599e-4b60-8284-247929df6191.webp",
+      "selection": "seeded-remainder"
+    }
+  ],
+  "packageSHA": "43ab3112a7d493f1a8081a6740e65e0b93c2a260e9993221994915ad5f5563e3",
+  "finished": "2026-09-12T22:11:24.460Z",
+  "events": [
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 222,
+      "dropped": false,
+      "ms": 121
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 204,
+      "bytes": 0,
+      "dropped": false,
+      "ms": 191
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 82828,
+      "dropped": false,
+      "ms": 255
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 65868,
+      "dropped": false,
+      "ms": 163
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 38970,
+      "dropped": false,
+      "ms": 201
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 171
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125461,
+      "dropped": false,
+      "ms": 99
+    },
+    {
+      "host": "ugc-cdn-caching-n3kuc3ehpz4wnczfyz.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2097,
+      "dropped": false,
+      "ms": 53
+    },
+    {
+      "host": "ugc-cdn-caching-n3kuc3ehpz4wnczfyz.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 116172,
+      "dropped": false,
+      "ms": 99
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67797,
+      "dropped": false,
+      "ms": 99
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 116
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 93718,
+      "dropped": false,
+      "ms": 11608
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 39747,
+      "dropped": false,
+      "ms": 116
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 34
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125725,
+      "dropped": false,
+      "ms": 84
+    },
+    {
+      "host": "ugc-cdn-caching-n32rewgnxtfac5v517.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2004,
+      "dropped": false,
+      "ms": 51
+    },
+    {
+      "host": "ugc-cdn-caching-n32rewgnxtfac5v517.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 120808,
+      "dropped": false,
+      "ms": 102
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67853,
+      "dropped": false,
+      "ms": 264
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 106
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 97495,
+      "dropped": false,
+      "ms": 252
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 38845,
+      "dropped": false,
+      "ms": 139
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 35
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125593,
+      "dropped": false,
+      "ms": 59
+    },
+    {
+      "host": "ugc-cdn-caching-n3lwlvsywuuq2ifiqn.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 59
+    },
+    {
+      "host": "ugc-cdn-caching-n3lwlvsywuuq2ifiqn.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 115196,
+      "dropped": false,
+      "ms": 85
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67841,
+      "dropped": false,
+      "ms": 190
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 43
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 93389,
+      "dropped": false,
+      "ms": 124
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 37194,
+      "dropped": false,
+      "ms": 118
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 31
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125677,
+      "dropped": false,
+      "ms": 44
+    },
+    {
+      "host": "ugc-cdn-caching-n3lwlvsywuuq2ifiqn.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 141
+    },
+    {
+      "host": "ugc-cdn-caching-n3lwlvsywuuq2ifiqn.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 115928,
+      "dropped": false,
+      "ms": 92
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67865,
+      "dropped": false,
+      "ms": 168
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 151
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 93995,
+      "dropped": false,
+      "ms": 174
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 37347,
+      "dropped": false,
+      "ms": 136
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 110
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125755,
+      "dropped": false,
+      "ms": 46
+    },
+    {
+      "host": "ugc-cdn-caching-n3n5wvdbjf8ku1nhxd.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 51
+    },
+    {
+      "host": "ugc-cdn-caching-n3n5wvdbjf8ku1nhxd.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 130812,
+      "dropped": false,
+      "ms": 88
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67865,
+      "dropped": false,
+      "ms": 209
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 127
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 105877,
+      "dropped": false,
+      "ms": 168
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 40046,
+      "dropped": false,
+      "ms": 97
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 37
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125227,
+      "dropped": false,
+      "ms": 49
+    },
+    {
+      "host": "ugc-cdn-caching-n3bxh6u9xm267xdsgo.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 46
+    },
+    {
+      "host": "ugc-cdn-caching-n3bxh6u9xm267xdsgo.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 95432,
+      "dropped": false,
+      "ms": 71
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67713,
+      "dropped": false,
+      "ms": 933
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 110
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 77221,
+      "dropped": false,
+      "ms": 888
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 40086,
+      "dropped": false,
+      "ms": 107
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 33
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 126001,
+      "dropped": false,
+      "ms": 50
+    },
+    {
+      "host": "ugc-cdn-caching-n3wqli8udznhgz3hja.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 1330,
+      "dropped": false,
+      "ms": 68
+    },
+    {
+      "host": "ugc-cdn-caching-n3wqli8udznhgz3hja.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 163136,
+      "dropped": false,
+      "ms": 14
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67981,
+      "dropped": false,
+      "ms": 255
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 911,
+      "dropped": false,
+      "ms": 127
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 133035,
+      "dropped": false,
+      "ms": 242
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 40831,
+      "dropped": false,
+      "ms": 162
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 34
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125767,
+      "dropped": false,
+      "ms": 43
+    },
+    {
+      "host": "ugc-cdn-caching-n3el9kkyc3teg4m32w.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 109
+    },
+    {
+      "host": "ugc-cdn-caching-n3el9kkyc3teg4m32w.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 176684,
+      "dropped": false,
+      "ms": 236
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67905,
+      "dropped": false,
+      "ms": 173
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 115
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 142859,
+      "dropped": false,
+      "ms": 101
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 38005,
+      "dropped": false,
+      "ms": 115
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 121
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125107,
+      "dropped": false,
+      "ms": 51
+    },
+    {
+      "host": "ugc-cdn-caching-n3tczjg8qagalxt0nj.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 1391,
+      "dropped": false,
+      "ms": 52
+    },
+    {
+      "host": "ugc-cdn-caching-n3tczjg8qagalxt0nj.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 128288,
+      "dropped": false,
+      "ms": 81
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67693,
+      "dropped": false,
+      "ms": 151
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 183
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 104704,
+      "dropped": false,
+      "ms": 184
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 36641,
+      "dropped": false,
+      "ms": 100
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 33
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125683,
+      "dropped": false,
+      "ms": 50
+    },
+    {
+      "host": "ugc-cdn-caching-n3qikereg8a9szdtsz.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 68
+    },
+    {
+      "host": "ugc-cdn-caching-n3qikereg8a9szdtsz.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 138133,
+      "dropped": false,
+      "ms": 169
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67873,
+      "dropped": false,
+      "ms": 104
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 193
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 111627,
+      "dropped": false,
+      "ms": 247
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 36839,
+      "dropped": false,
+      "ms": 97
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 108
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125641,
+      "dropped": false,
+      "ms": 49
+    },
+    {
+      "host": "ugc-cdn-caching-n35oon8upkzi1zeghh.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 67
+    },
+    {
+      "host": "ugc-cdn-caching-n35oon8upkzi1zeghh.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 116904,
+      "dropped": false,
+      "ms": 78
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67821,
+      "dropped": false,
+      "ms": 136
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 174,
+      "dropped": false,
+      "ms": 39
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 94235,
+      "dropped": false,
+      "ms": 158
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 37105,
+      "dropped": false,
+      "ms": 441
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 32
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125569,
+      "dropped": false,
+      "ms": 74
+    },
+    {
+      "host": "ugc-cdn-caching-n3lwlvsywuuq2ifiqn.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2097,
+      "dropped": false,
+      "ms": 72
+    },
+    {
+      "host": "ugc-cdn-caching-n3lwlvsywuuq2ifiqn.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 104704,
+      "dropped": false,
+      "ms": 81
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67797,
+      "dropped": false,
+      "ms": 455
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 174,
+      "dropped": false,
+      "ms": 83
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 84657,
+      "dropped": false,
+      "ms": 252
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 37489,
+      "dropped": false,
+      "ms": 216
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 33
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125785,
+      "dropped": false,
+      "ms": 46
+    },
+    {
+      "host": "ugc-cdn-caching-n3hxfwzwkc4bwolsge.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 91
+    },
+    {
+      "host": "ugc-cdn-caching-n3hxfwzwkc4bwolsge.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 111048,
+      "dropped": false,
+      "ms": 252
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67873,
+      "dropped": false,
+      "ms": 141
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 174,
+      "dropped": false,
+      "ms": 42
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 89748,
+      "dropped": false,
+      "ms": 597
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 37890,
+      "dropped": false,
+      "ms": 107
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 255
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125773,
+      "dropped": false,
+      "ms": 41
+    },
+    {
+      "host": "ugc-cdn-caching-n32v7sx4mmyyg0tntn.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 115
+    },
+    {
+      "host": "ugc-cdn-caching-n32v7sx4mmyyg0tntn.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 123004,
+      "dropped": false,
+      "ms": 88
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67869,
+      "dropped": false,
+      "ms": 251
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 174,
+      "dropped": false,
+      "ms": 53
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 99476,
+      "dropped": false,
+      "ms": 80
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 37525,
+      "dropped": false,
+      "ms": 256
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 70
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 126097,
+      "dropped": false,
+      "ms": 53
+    },
+    {
+      "host": "ugc-cdn-caching-n3kuc3ehpz4wnczfyz.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2827,
+      "dropped": false,
+      "ms": 62
+    },
+    {
+      "host": "ugc-cdn-caching-n3kuc3ehpz4wnczfyz.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 106656,
+      "dropped": false,
+      "ms": 313
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67857,
+      "dropped": false,
+      "ms": 96
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 174,
+      "dropped": false,
+      "ms": 335
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 86133,
+      "dropped": false,
+      "ms": 70
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 36898,
+      "dropped": false,
+      "ms": 162
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 34
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125587,
+      "dropped": false,
+      "ms": 48
+    },
+    {
+      "host": "ugc-cdn-caching-n3we169xdpehzk0g17.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2003,
+      "dropped": false,
+      "ms": 108
+    },
+    {
+      "host": "ugc-cdn-caching-n3we169xdpehzk0g17.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 113977,
+      "dropped": false,
+      "ms": 304
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67701,
+      "dropped": false,
+      "ms": 243
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 179
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 92402,
+      "dropped": false,
+      "ms": 160
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 37915,
+      "dropped": false,
+      "ms": 100
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 38
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125743,
+      "dropped": false,
+      "ms": 165
+    },
+    {
+      "host": "ugc-cdn-caching-n3ghiiife4miyid2dm.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2003,
+      "dropped": false,
+      "ms": 209
+    },
+    {
+      "host": "ugc-cdn-caching-n3ghiiife4miyid2dm.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 145696,
+      "dropped": false,
+      "ms": 29
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67753,
+      "dropped": false,
+      "ms": 232
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 208
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 117902,
+      "dropped": false,
+      "ms": 168
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 39106,
+      "dropped": false,
+      "ms": 279
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 65
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125773,
+      "dropped": false,
+      "ms": 196
+    },
+    {
+      "host": "ugc-cdn-caching-n3kgvcrcormbl7sekm.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 501
+    },
+    {
+      "host": "ugc-cdn-caching-n3kgvcrcormbl7sekm.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 118124,
+      "dropped": false,
+      "ms": 51
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67869,
+      "dropped": false,
+      "ms": 194
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 911,
+      "dropped": false,
+      "ms": 123
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 95533,
+      "dropped": false,
+      "ms": 352
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 36729,
+      "dropped": false,
+      "ms": 154
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 257
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125635,
+      "dropped": false,
+      "ms": 63
+    },
+    {
+      "host": "ugc-cdn-caching-n3n3po448hkirkezcl.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 129
+    },
+    {
+      "host": "ugc-cdn-caching-n3n3po448hkirkezcl.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 127885,
+      "dropped": false,
+      "ms": 302
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67717,
+      "dropped": false,
+      "ms": 157
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 64
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 103589,
+      "dropped": false,
+      "ms": 312
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 38375,
+      "dropped": false,
+      "ms": 150
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 38
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125857,
+      "dropped": false,
+      "ms": 278
+    },
+    {
+      "host": "ugc-cdn-caching-n3wqli8udznhgz3hja.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2003,
+      "dropped": false,
+      "ms": 80
+    },
+    {
+      "host": "ugc-cdn-caching-n3wqli8udznhgz3hja.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 136180,
+      "dropped": false,
+      "ms": 172
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67901,
+      "dropped": false,
+      "ms": 272
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 133
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 110171,
+      "dropped": false,
+      "ms": 204
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 37525,
+      "dropped": false,
+      "ms": 296
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 34
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125755,
+      "dropped": false,
+      "ms": 95
+    },
+    {
+      "host": "ugc-cdn-caching-n3yajouzou97p4abpa.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2003,
+      "dropped": false,
+      "ms": 68
+    },
+    {
+      "host": "ugc-cdn-caching-n3yajouzou97p4abpa.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 113244,
+      "dropped": false,
+      "ms": 150
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67865,
+      "dropped": false,
+      "ms": 336
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 119
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 91552,
+      "dropped": false,
+      "ms": 244
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 36857,
+      "dropped": false,
+      "ms": 167
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 41
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125347,
+      "dropped": false,
+      "ms": 50
+    },
+    {
+      "host": "ugc-cdn-caching-n3yh3rboeyyhgntgrj.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 420
+    },
+    {
+      "host": "ugc-cdn-caching-n3yh3rboeyyhgntgrj.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 118612,
+      "dropped": false,
+      "ms": 49
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67721,
+      "dropped": false,
+      "ms": 241
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 153
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 95877,
+      "dropped": false,
+      "ms": 186
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 38456,
+      "dropped": false,
+      "ms": 112
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 144
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125827,
+      "dropped": false,
+      "ms": 55
+    },
+    {
+      "host": "ugc-cdn-caching-n3wko1g1on3olvqb8x.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2097,
+      "dropped": false,
+      "ms": 99
+    },
+    {
+      "host": "ugc-cdn-caching-n3wko1g1on3olvqb8x.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 70788,
+      "dropped": false,
+      "ms": 14
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 38475,
+      "dropped": false,
+      "ms": 119
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 31
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125641,
+      "dropped": false,
+      "ms": 44
+    },
+    {
+      "host": "ugc-cdn-caching-n3butssroujvbblpup.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 70
+    },
+    {
+      "host": "ugc-cdn-caching-n3butssroujvbblpup.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 50781,
+      "dropped": false,
+      "ms": 14
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 37450,
+      "dropped": false,
+      "ms": 166
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 42
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125653,
+      "dropped": false,
+      "ms": 51
+    },
+    {
+      "host": "ugc-cdn-caching-n3kuc3ehpz4wnczfyz.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 76
+    },
+    {
+      "host": "ugc-cdn-caching-n3kuc3ehpz4wnczfyz.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 130568,
+      "dropped": false,
+      "ms": 95
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67829,
+      "dropped": false,
+      "ms": 259
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 123
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 105562,
+      "dropped": false,
+      "ms": 179
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 38967,
+      "dropped": false,
+      "ms": 103
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 36
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125755,
+      "dropped": false,
+      "ms": 138
+    },
+    {
+      "host": "ugc-cdn-caching-n3k4cu4bhezzvcrna8.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2002,
+      "dropped": false,
+      "ms": 127
+    },
+    {
+      "host": "ugc-cdn-caching-n3k4cu4bhezzvcrna8.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 139108,
+      "dropped": false,
+      "ms": 27
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67865,
+      "dropped": false,
+      "ms": 132
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 47
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 112483,
+      "dropped": false,
+      "ms": 194
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 38195,
+      "dropped": false,
+      "ms": 159
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 32
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125563,
+      "dropped": false,
+      "ms": 58
+    },
+    {
+      "host": "ugc-cdn-caching-n3msp51k9ry1fctdka.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 62
+    },
+    {
+      "host": "ugc-cdn-caching-n3msp51k9ry1fctdka.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 155212,
+      "dropped": false,
+      "ms": 98
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67689,
+      "dropped": false,
+      "ms": 181
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 121
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125487,
+      "dropped": false,
+      "ms": 182
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 37992,
+      "dropped": false,
+      "ms": 328
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 32
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125377,
+      "dropped": false,
+      "ms": 47
+    },
+    {
+      "host": "ugc-cdn-caching-n3wrx6nwjzgsn74sdb.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2004,
+      "dropped": false,
+      "ms": 69
+    },
+    {
+      "host": "ugc-cdn-caching-n3wrx6nwjzgsn74sdb.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 121540,
+      "dropped": false,
+      "ms": 88
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67625,
+      "dropped": false,
+      "ms": 136
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 43
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 97981,
+      "dropped": false,
+      "ms": 107
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 38257,
+      "dropped": false,
+      "ms": 167
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 41
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125749,
+      "dropped": false,
+      "ms": 62
+    },
+    {
+      "host": "ugc-cdn-caching-n3ryktnah4snzsmsft.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 401
+    },
+    {
+      "host": "ugc-cdn-caching-n3ryktnah4snzsmsft.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 126420,
+      "dropped": false,
+      "ms": 29
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 67861,
+      "dropped": false,
+      "ms": 185
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 468,
+      "dropped": false,
+      "ms": 135
+    },
+    {
+      "host": "watch.gxplayer.xyz",
+      "kind": "other",
+      "status": 200,
+      "bytes": 102384,
+      "dropped": false,
+      "ms": 273
+    },
+    {
+      "host": "megakino19.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 39860,
+      "dropped": false,
+      "ms": 109
+    },
+    {
+      "host": "voe.sx",
+      "kind": "other",
+      "status": 200,
+      "bytes": 747,
+      "dropped": false,
+      "ms": 38
+    },
+    {
+      "host": "johnfullwonder.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 125821,
+      "dropped": false,
+      "ms": 51
+    },
+    {
+      "host": "ugc-cdn-caching-n3msp51k9ry1fctdka.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 2099,
+      "dropped": false,
+      "ms": 70
+    },
+    {
+      "host": "ugc-cdn-caching-n3msp51k9ry1fctdka.cloudwindow-route.com",
+      "kind": "other",
+      "status": 200,
+      "bytes": 69812,
+      "dropped": false,
+      "ms": 184
+    }
+  ]
+}

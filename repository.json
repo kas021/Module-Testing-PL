@@ -3,18 +3,42 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789250359506,
+  "publishedAtMs": 1789251153562,
   "signature": "",
-  "testingIdentity": "toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
+  "testingIdentity": "megakino-v1:1.1.0-beta.3:4c7669097f0741a84d1646817dd2c438f97c9c6fe1847beafe9771111a81a98b|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
   "bundle": {
-    "version": 49,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-49.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-49.zip",
-    "sha256": "b8da0fca3b8fb494d69f7c5c95f269f7509307ad0499e1e8b6d6df6c10a52f61",
+    "version": 50,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-50.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-50.zip",
+    "sha256": "563b3e3e7f66ff9224574f861f735274b7dd6865d8d04b9ecb59100d13bb2bc9",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
   "modules": [
+    {
+      "moduleId": "megakino-v1",
+      "moduleFamilyId": "megakino_v1",
+      "moduleIdentity": "SP-VID-062-MEGAKINO",
+      "moduleIdentityNumber": 62,
+      "contentType": "video",
+      "version": "1.1.0-beta.3",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/MegaKino-1.1.0-beta.3.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/MegaKino-1.1.0-beta.3.zip",
+      "sha256": "4c7669097f0741a84d1646817dd2c438f97c9c6fe1847beafe9771111a81a98b",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789251153562,
+      "presentation": {
+        "category": "Movies & TV",
+        "language": "German",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/megakino.png",
+        "recommended": false,
+        "purpose": "Testing only"
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    },
     {
       "moduleId": "toonix-v1",
       "moduleFamilyId": "toonix_v1",
@@ -27,7 +51,7 @@
       "sha256": "ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789250359506,
+      "publishedAtMs": 1789251153562,
       "presentation": {
         "category": "Cartoons",
         "purpose": "Testing only",
@@ -51,7 +75,7 @@
       "sha256": "ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789250359506,
+      "publishedAtMs": 1789251153562,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
