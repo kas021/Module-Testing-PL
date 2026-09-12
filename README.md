@@ -10,13 +10,16 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**Active testing candidates: Anime Sama 1.1.0-beta.9 and AniWorld 1.1.0-beta.6.**
-See [Anime Sama beta9 QA](ANIME_SAMA_BETA9_QA.md) and [historical trio QA, exact counts and test instructions](ANIME_TRIO_QA.md).
-Both are PARTIAL: broad host media checks pass, but individual streams fail and
+**Active testing candidate: AniWorld 1.1.0-beta.6.**
+Anime Sama 1.1.1 is owner-approved for the official repository; its beta.9 is
+retired here with all old ZIP URLs preserved. See [historical Anime Sama beta9 QA](ANIME_SAMA_BETA9_QA.md)
+and [historical trio QA, exact counts and test instructions](ANIME_TRIO_QA.md).
+AniWorld remains PARTIAL: broad host media checks pass, but individual streams fail and
 native sound/physical-device/in-app offline checks remain incomplete.
 
-**AnimeKai is held**, with only 8/137 short matrix samples decoded. It is not in
-the active index. Movie Direct and Mugiwara are parked; all old ZIP/bundle URLs
+**AnimeKai is deferred to the end of the queue**, with only 8/137 short matrix samples decoded.
+The owner requested temporary removal from the official active catalogue as well;
+it is not in this testing index. Movie Direct and Mugiwara are parked; all old ZIP/bundle URLs
 are preserved. AnimeAV1 was already inactive in the preceding live index.
 
 **Synthetiq Anime 1.0.2** and
