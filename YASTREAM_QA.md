@@ -2,6 +2,13 @@
 
 ## Beta 2 changes and focused evidence
 
+S2 quick result: **FAIL - LANGUAGE_CONTRADICTION**, run
+2026-09-12T14-24-07-434Z_s2_yastream-v1_a0c19ce5. The automatic checker
+flagged several provider subtitle-language labels; these require review and
+must not be treated as verified language selections. English samples matched
+English. This package is available only for the owner's requested diagnostic
+testing, not approved for production. No native iPhone playback pass is claimed.
+
 SHA-256: ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06
 
 Featured now returns a hero section with eight real catalogue cards.
