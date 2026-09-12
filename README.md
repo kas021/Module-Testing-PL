@@ -10,14 +10,14 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**Active testing: X-Stream 1.3.0-beta.4 and Toonix 1.0.0-beta.5.**
+**Active testing: X-Stream 1.3.0-beta.4 and Toonix 1.0.0-beta.6.**
 Explicit provider servers, source-specific captions/headers, expiring link cache
 and singleton-provider retry repairs. Final-package Flutter runtime/media checks
 passed; S2 is PARTIAL, not stable certification. The broader resolver study decoded
 27/30 short host samples. See [X-Stream QA and known limits](XSTREAM_QA.md).
 
-**New active testing: Toonix 1.0.0-beta.5.** (published 2026-09-12)
-Cartoons, anime and movies from toonix.bond (213 shows, 103 movies) with V4 discovery.
+**New active testing: Toonix 1.0.0-beta.6.** (published 2026-09-12)
+Cartoons, anime and movies from toonix.bond (213 shows, 103 movies) with V4 discovery and a Featured hero row.
 Signed HLS through a three-host CDN mirror set with automatic failover, plus validated
 archive.org MP4 routes for some titles. Audio is evidence-sampled per title: Hindi dubs
 dominate, but some titles carry the English original (Avatar: The Last Airbender), so a
