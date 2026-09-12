@@ -10,7 +10,16 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**Active testing candidate: YASTREAM 1.0.1-beta.2.**
+**Active testing: X-Stream 1.3.0-beta.4.**
+Explicit provider servers, source-specific captions/headers, expiring link cache
+and singleton-provider retry repairs. Final-package Flutter runtime/media checks
+passed; S2 is PARTIAL, not stable certification. The broader resolver study decoded
+27/30 short host samples. See [X-Stream QA and known limits](XSTREAM_QA.md).
+
+**Deferred candidate retained: YASTREAM 1.0.1-beta.2.**
+Owner has paused YASTREAM because playback remains inconsistent, including
+Abra-ca-Empty S1E2. Do not treat it as reliable. Latest local fallback repairs
+have not been published. The retained beta below is unchanged.
 Adds Featured and byte-verified handling of MPEG-TS chunks mislabelled as PNG.
 Backdoor episode 3, Parasite and Train to Busan passed short host AV checks
 at the start and 90 seconds. This is not iPhone playback certification.

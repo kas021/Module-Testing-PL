@@ -3,18 +3,42 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789223089840,
+  "publishedAtMs": 1789227817556,
   "signature": "",
-  "testingIdentity": "yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
+  "testingIdentity": "xstream-v1:1.3.0-beta.4:6475c255c2be1a42ceb6aed13c912903a3f0db1b6a4a4011d2cf3ea193cc92ad|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
   "bundle": {
-    "version": 41,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-41.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-41.zip",
-    "sha256": "924e90f920ca738a24fa0748c55b9c5ceb49821358f1110a7ab914634b038f12",
+    "version": 42,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-42.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-42.zip",
+    "sha256": "9f67f98a5093e2fb1fed61777dbe57894830a36e7ce2537f28bd1a56de192f03",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
   "modules": [
+    {
+      "moduleId": "xstream-v1",
+      "moduleFamilyId": "xstream_v1",
+      "moduleIdentity": "SP-VID-048-XSTREAM",
+      "moduleIdentityNumber": 48,
+      "contentType": "video",
+      "version": "1.3.0-beta.4",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/X-Stream-1.3.0-beta.4.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/X-Stream-1.3.0-beta.4.zip",
+      "sha256": "6475c255c2be1a42ceb6aed13c912903a3f0db1b6a4a4011d2cf3ea193cc92ad",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789227817556,
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Testing only",
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png",
+        "recommended": false
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    },
     {
       "moduleId": "yastream-v1",
       "moduleFamilyId": "yastream_v1",
@@ -27,7 +51,7 @@
       "sha256": "ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789223089840,
+      "publishedAtMs": 1789227817556,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
