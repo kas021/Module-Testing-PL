@@ -1,0 +1,185 @@
+{
+  "at": "2026-09-12T09:51:26.904Z",
+  "scope": "One independent embed fetch per observed host. HTTP status is not playback validation. Unsupported hosts are not enabled by this catalogue-only repair.",
+  "rows": [
+    {
+      "host": "video.sibnet.ru",
+      "supportedByCurrentResolver": true,
+      "example": "https://video.sibnet.ru/shell.php?videoid=4826196",
+      "status": 403,
+      "contentType": "text/html",
+      "bodySha256": "c39f5caee2e1e8d05c73af3c8f8dd1268c2b4db8b8b782a96cf85abb0ef5784f",
+      "iframeSources": [],
+      "scriptSources": []
+    },
+    {
+      "host": "ansembed.net",
+      "supportedByCurrentResolver": true,
+      "example": "https://ansembed.net/embed-ze0dv8b88jpo.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bodySha256": "a865c04ae7f9f5df59e3de892ccf2943bd8dcf2703aea608f8334d3e7fb80a56",
+      "iframeSources": [],
+      "scriptSources": [
+        "https://cdn.staticmoly.me/static/jquery.min.js",
+        "https://cdn.staticmoly.me/static/jquery.cookie.js",
+        "https://cdn.jsdelivr.net/gh/InteractiveAdvertisingBureau/AdBlockDetection/adblockDetector.js",
+        "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "https://ssl.p.jwpcdn.com/player/v/8.36.4/jwplayer.js"
+      ]
+    },
+    {
+      "host": "lpayer.embed4me.com",
+      "supportedByCurrentResolver": false,
+      "example": "https://lpayer.embed4me.com/#a6ckf",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "c68ad72b74e5f78e359e213a99f4582343430b3931ad4650fd2804c07a6e2be3",
+      "iframeSources": [],
+      "scriptSources": [
+        "/assets/index-Dx4tYvjo.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-QD0EQ1F2VZ",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "/download-page-link.js"
+      ]
+    },
+    {
+      "host": "minochinos.com",
+      "supportedByCurrentResolver": false,
+      "example": "https://minochinos.com/embed/w59ve2wnd94l",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "5ca751edc9da4cce5cc16458dee1dc237888ad137360aa26b991e26394d79065",
+      "iframeSources": [],
+      "scriptSources": [
+        "/js/jquery.min.js",
+        "/js/jquery.cookie.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-48ZJD1VPGZ",
+        "/js/jquery.min.js",
+        "/js/xupload.js",
+        "/js/jquery.cookie.js",
+        "/player/jw8/jwplayer.js?v=6",
+        "/js/localstorage-slim.js",
+        "/ad?type=945255149",
+        "/assets/jquery/ev-cus100.js?type=mainstream&u=39536&v=20260808043904"
+      ]
+    },
+    {
+      "host": "sendvid.com",
+      "supportedByCurrentResolver": false,
+      "example": "https://sendvid.com/embed/fhsscqix",
+      "status": 502,
+      "contentType": "text/html",
+      "bodySha256": "4d69a08623a983e9fae7a88949feccea37202aa00381e2d1e751a6053baf2a61",
+      "iframeSources": [],
+      "scriptSources": []
+    },
+    {
+      "host": "oneupload.to",
+      "supportedByCurrentResolver": false,
+      "example": "https://oneupload.to/embed-6tog6dr3ekf9.html",
+      "status": 401,
+      "contentType": "text/html; charset=utf-8",
+      "bodySha256": "78342a0905a72ce44da083dcb5d23b8ea0c16992ba2a82eece97e033d76ba3d3",
+      "iframeSources": [],
+      "scriptSources": []
+    },
+    {
+      "host": "smoothpre.com",
+      "supportedByCurrentResolver": false,
+      "example": "https://Smoothpre.com/embed/uop331ow2gfz",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "b699e6a78ed7c6307c5ea3289c03478a23195b9d1f24c9190320e808fe625f8c",
+      "iframeSources": [],
+      "scriptSources": [
+        "/js/jquery.min.js",
+        "/js/jquery.cookie.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-48ZJD1VPGZ",
+        "/js/jquery.min.js",
+        "/js/xupload.js",
+        "/js/jquery.cookie.js",
+        "/player/jw8/jwplayer.js?v=6",
+        "/js/localstorage-slim.js",
+        "/ad?type=634381184",
+        "/assets/jquery/ev-cus100.js?type=mainstream&u=39536&v=20260808043904"
+      ]
+    },
+    {
+      "host": "dingtezuni.com",
+      "supportedByCurrentResolver": false,
+      "example": "https://dingtezuni.com/embed/9ctsfxhv618r",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "1119945f594802ce8bf9d0f6a8b7ad129be4c816415891835b584e2355ce8718",
+      "iframeSources": [],
+      "scriptSources": [
+        "/js/jquery.min.js",
+        "/js/jquery.cookie.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-48ZJD1VPGZ",
+        "/js/jquery.min.js",
+        "/js/xupload.js",
+        "/js/jquery.cookie.js",
+        "/player/jw8/jwplayer.js?v=6",
+        "/js/localstorage-slim.js",
+        "/ad?type=90548266084",
+        "/assets/jquery/ev-cus100.js?type=mainstream&u=39536&v=20260808043904"
+      ]
+    },
+    {
+      "host": "movearnpre.com",
+      "supportedByCurrentResolver": false,
+      "example": "https://movearnpre.com/embed/nwjolczqmdd4",
+      "status": 0,
+      "error": "fetch failed"
+    },
+    {
+      "host": "uqload.is",
+      "supportedByCurrentResolver": false,
+      "example": "https://uqload.is/embed-vvzh6etm0j9m.html",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "1bac60a39addf8f3ba31b3c5e1264316159b7029ec578c3c5844e7192176177c",
+      "iframeSources": [],
+      "scriptSources": [
+        "/js/jquery.min.js",
+        "/js/xupload.js",
+        "/js/jquery.cookie.js",
+        "/player/jw8/vast.js",
+        "https://pla.uqload.vc/js/pa-goXS7XjHByR3ra1IS9oLZ.js",
+        "/player/jw8/jwplayer.js?v=",
+        "/js/localstorage-slim.js",
+        "/js/pop.js",
+        "/1391381e.js"
+      ]
+    },
+    {
+      "host": "vk.com",
+      "supportedByCurrentResolver": false,
+      "example": "https://vk.com/video_ext.php?oid=755747641&id=456240218&hd=3",
+      "status": 200,
+      "contentType": "text/html; charset=windows-1251",
+      "bodySha256": "70836b0380b8e807986e79c7b9026c9961171c85efa353f16f6e03fd75269c59",
+      "iframeSources": [],
+      "scriptSources": [
+        "https://st.vk.ru/dist/webl/video_embed_error.isolated.5301f0ea.js"
+      ]
+    },
+    {
+      "host": "vkvideo.ru",
+      "supportedByCurrentResolver": false,
+      "example": "https://vkvideo.ru/video_ext.php?oid=751474887&id=456241384&hd=3",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bodySha256": "3880002a820b410850bf513925103e0c3c1a24f4641b6bc46b303f21f1a3781b",
+      "iframeSources": [],
+      "scriptSources": [
+        "https://st.vkvideo.ru/dist/projects/vkvideo-embed/entrypoints/483.ff861d9b.js",
+        "https://st.vkvideo.ru/dist/projects/vkvideo-embed/entrypoints/791.ed345fbf.js",
+        "https://st.vkvideo.ru/dist/projects/vkvideo-embed/entrypoints/error_monitoring.0b49ef04.js",
+        "https://st.vkvideo.ru/dist/projects/vkvideo-embed/entrypoints/617.f419ac85.js",
+        "https://st.vkvideo.ru/dist/projects/vkvideo-embed/entrypoints/core_spa.c43e7445.js"
+      ]
+    }
+  ]
+}

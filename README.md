@@ -10,8 +10,8 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**Active testing candidates: Anime Sama 1.1.0-beta.7 and AniWorld 1.1.0-beta.6.**
-See [trio QA, exact counts and test instructions](ANIME_TRIO_QA.md).
+**Active testing candidates: Anime Sama 1.1.0-beta.9 and AniWorld 1.1.0-beta.6.**
+See [Anime Sama beta9 QA](ANIME_SAMA_BETA9_QA.md) and [historical trio QA, exact counts and test instructions](ANIME_TRIO_QA.md).
 Both are PARTIAL: broad host media checks pass, but individual streams fail and
 native sound/physical-device/in-app offline checks remain incomplete.
 

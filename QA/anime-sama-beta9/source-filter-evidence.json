@@ -1,0 +1,151 @@
+[
+  {
+    "kind": "unfiltered",
+    "url": "https://anime-sama.to/catalogue/?search=After",
+    "sha256": "ef085b003fcf4ae6aa692af12694baa4f9935f17a6d633fb2e15828c3bf994ea",
+    "cards": [
+      {
+        "href": "https://anime-sama.to/catalogue/a-rank-party-wo-ridatsu-shita-ore-wa-moto-oshiego-tachi-to-meikyuu-shinbu-wo-mezasu",
+        "title": "A Rank Party wo Ridatsu Shita Ore wa, Moto Oshiego Tachi to Meikyuu Shinbu wo Mezasu",
+        "types": "Anime"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/after-rebirth-i-used-mirror-reversal-for-vengeance",
+        "title": "After Rebirth, I Used Mirror Reversal For Vengeance ",
+        "types": "Scans"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/after-the-moonlight-falls",
+        "title": "After the Moonlight Falls",
+        "types": "Scans"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/after-the-school-belle-dumped-me-i-became-a-martial-arts-god",
+        "title": "After the School Belle Dumped Me, I Became a Martial Arts God",
+        "types": "Scans"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/afterlife-inn-cooking",
+        "title": "Afterlife Inn Cooking",
+        "types": "Anime"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/apres-la-pluie",
+        "title": "Apr\u00e8s La Pluie",
+        "types": "Anime, Scans"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/arcane",
+        "title": "Arcane",
+        "types": "Anime"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/battle-game-in-5-seconds",
+        "title": "Battle Game in 5 Seconds",
+        "types": "Anime"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/chillin-in-my-30s-after-getting-fired-from-the-demon-kings-army",
+        "title": "Chillin' in My 30s after Getting Fired from the Demon King's Army",
+        "types": "Anime"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/clannad",
+        "title": "Clannad",
+        "types": "Anime"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/i-became-a-legend-after-my-10-year-long-last-stand",
+        "title": "I Became a Legend After My 10 Year-Long Last Stand",
+        "types": "Anime"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/i-became-an-academy-spearman",
+        "title": "I Became an Academy Spearman",
+        "types": "Scans"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/ill-retire-after-saving-the-world",
+        "title": "I'll Retire After Saving the World",
+        "types": "Scans"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/insomniacs-after-school",
+        "title": "Insomniacs After School",
+        "types": "Anime"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/le-chateau-solitaire-dans-le-miroir",
+        "title": "Le Ch\u00e2teau solitaire dans le miroir",
+        "types": "Anime, Film"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/love-after-world-domination",
+        "title": "Love After World Domination",
+        "types": "Anime"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/ninja-royale-the-strongest-ninja-across-time",
+        "title": "Ninja Royale: The Strongest Ninja Across Time",
+        "types": "Scans"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/player-who-returned-10-000-years-later",
+        "title": "Player Who Returned 10000 Years later",
+        "types": "Scans"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/shoumetsu-toshi",
+        "title": "Shoumetsu Toshi",
+        "types": "Anime"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/shuumatsu-touring",
+        "title": "Shuumatsu Touring",
+        "types": "Anime"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/the-beginning-after-the-end/",
+        "title": "The Beginning After the End",
+        "types": "Anime, Scans"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/the-dinner-table-detective",
+        "title": "The Dinner Table Detective",
+        "types": "Anime"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/the-great-mage-returns-after-4000-years",
+        "title": "The Great Mage Returns After 4000 Years",
+        "types": "Scans"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/the-misfit-of-demon-king-academy",
+        "title": "The Misfit of Demon King Academy",
+        "types": "Anime"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/the-world-after-the-fall",
+        "title": "The World After The Fall",
+        "types": "Scans"
+      },
+      {
+        "href": "https://anime-sama.to/catalogue/vtuber-legend",
+        "title": "VTuber Legend",
+        "types": "Anime"
+      }
+    ]
+  },
+  {
+    "kind": "intersection",
+    "url": "https://anime-sama.to/catalogue/?type%5B%5D=Anime&type%5B%5D=Film&search=After",
+    "sha256": "ea9668fd4ff5040c10cd2d2fde0e4808008f046d81a034b8f82f373e7035a35a",
+    "cards": [
+      {
+        "href": "https://anime-sama.to/catalogue/le-chateau-solitaire-dans-le-miroir",
+        "title": "Le Ch\u00e2teau solitaire dans le miroir",
+        "types": "Anime, Film"
+      }
+    ]
+  }
+]

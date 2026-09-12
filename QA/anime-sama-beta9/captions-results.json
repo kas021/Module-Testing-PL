@@ -1,0 +1,96 @@
+{
+  "at": "2026-09-12T09:46:28.682Z",
+  "scope": "Source embed track declarations and HLS subtitle media declarations; absence applies only to sampled responses.",
+  "embeds": [
+    {
+      "title": "One Piece",
+      "language": "vf",
+      "embed": "https://video.sibnet.ru/shell.php?videoid=4833453",
+      "status": 403,
+      "trackDeclarations": []
+    },
+    {
+      "title": "One Piece",
+      "language": "vf",
+      "embed": "https://sendvid.com/embed/fhsscqix",
+      "status": 502,
+      "trackDeclarations": []
+    },
+    {
+      "title": "One Piece",
+      "language": "vf",
+      "embed": "https://ansembed.net/embed-1j1tjy3qqbs7.html",
+      "status": 404,
+      "trackDeclarations": []
+    },
+    {
+      "title": "One Piece",
+      "language": "vf2",
+      "embed": "https://ansembed.net/embed-na2vrsevfe89.html",
+      "status": 200,
+      "trackDeclarations": [],
+      "playlist": {
+        "url": "https://prx-1546-ant.vmpx.online/hls2/01/02360/i2wuy6917obv_,n,l,.urlset/master.m3u8?t=dA7coJ3odutXJTGoqZ3TUERQtKpIrlWza9skq8OJSsQ=&s=1789206389&e=43200&v=&srv=bck-1356-ant-o&i=0.4&sp=0&asn=201838",
+        "status": 200,
+        "isHls": true,
+        "mediaDeclarations": [],
+        "variants": [
+          "#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3947469,RESOLUTION=1920x1080,FRAME-RATE=23.974,CODECS=\"avc1.640028,mp4a.40.2\",VIDEO-RANGE=SDR",
+          "#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=481301,RESOLUTION=852x480,FRAME-RATE=23.974,CODECS=\"avc1.4d401f,mp4a.40.2\",VIDEO-RANGE=SDR"
+        ]
+      }
+    },
+    {
+      "title": "Naruto",
+      "language": "vf",
+      "embed": "https://video.sibnet.ru/shell.php?videoid=4963284",
+      "status": 403,
+      "trackDeclarations": []
+    },
+    {
+      "title": "Naruto",
+      "language": "vf",
+      "embed": "https://ansembed.net/embed-v67tgm5qa53n.html",
+      "status": 200,
+      "trackDeclarations": [],
+      "playlist": {
+        "url": "https://prx-1476-ant.vmpx.online/hls2/01/02757/w7vz81yy3o0g_,n,l,.urlset/master.m3u8?t=JbR9cKKJ8ZvwF3sAYvrYp-a0JZYtl-baxVwn4so74pE=&s=1789206389&e=43200&v=&srv=bck-1356-ant-o&i=0.4&sp=0&asn=201838",
+        "status": 200,
+        "isHls": true,
+        "mediaDeclarations": [],
+        "variants": [
+          "#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1234776,RESOLUTION=1280x720,FRAME-RATE=23.980,CODECS=\"avc1.4d4028,mp4a.40.2\",VIDEO-RANGE=SDR",
+          "#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=314953,RESOLUTION=640x360,FRAME-RATE=23.974,CODECS=\"avc1.4d401f,mp4a.40.2\",VIDEO-RANGE=SDR"
+        ]
+      }
+    },
+    {
+      "title": "Naruto",
+      "language": "vf",
+      "embed": "https://lpayer.embed4me.com/#1nk1s",
+      "status": 200,
+      "trackDeclarations": []
+    },
+    {
+      "title": "Bleach",
+      "language": "vf",
+      "embed": "https://video.sibnet.ru/shell.php?videoid=4818419",
+      "status": 403,
+      "trackDeclarations": []
+    },
+    {
+      "title": "Bleach",
+      "language": "vf",
+      "embed": "https://ansembed.net/embed-5w20t7viu3zd.html",
+      "status": 404,
+      "trackDeclarations": []
+    },
+    {
+      "title": "Bleach",
+      "language": "vf",
+      "embed": "https://lpayer.embed4me.com/#nqhug",
+      "status": 200,
+      "trackDeclarations": []
+    }
+  ]
+}

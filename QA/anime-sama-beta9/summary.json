@@ -1,0 +1,267 @@
+{
+  "package": {
+    "moduleVersion": "1.1.0-beta.9",
+    "package": "anime-sama-v1-1.1.0-beta.9.zip",
+    "sha256": "2cf3f85e0e187d3d2d9e03172f5feb48a8dc3a7034500e62798911d9454e9504",
+    "indexSha256": "ab2d308471b04f29c0b4949d3af21fe8ef55ab8d00fc7a9ccd77b9873506583d",
+    "sharedMediaSha256": "ec10a317293beb543b311d02e002a1411801925eef1dc31afb623658839746b6"
+  },
+  "frozenAt": "2026-09-12T09:44:02.854Z",
+  "started": "2026-09-12T09:45:09.804Z",
+  "finished": "2026-09-12T09:51:25.084Z",
+  "seed": 2026091209,
+  "titles": 30,
+  "count": {
+    "sub": {
+      "passed": 84,
+      "total": 85,
+      "unavailable": 0
+    },
+    "dub": {
+      "passed": 58,
+      "total": 67,
+      "unavailable": 6
+    }
+  },
+  "total": {
+    "passed": 142,
+    "attempts": 152
+  },
+  "unresolved": [
+    "Attack on Titan"
+  ],
+  "home": [
+    {
+      "href": "https://anime-sama.to/catalogue/the-100-girlfriends-who-really-really-really-really-really-love-you/",
+      "title": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+      "detailsTitle": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+      "episodes": 34,
+      "ok": true
+    },
+    {
+      "href": "https://anime-sama.to/catalogue/sayonara-lara/",
+      "title": "Sayonara Lara",
+      "detailsTitle": "Sayonara Lara",
+      "episodes": 10,
+      "ok": true
+    },
+    {
+      "href": "https://anime-sama.to/catalogue/you-and-i-are-polar-opposites/",
+      "title": "You And I Are Polar Opposites",
+      "detailsTitle": "You and I Are Polar Opposites",
+      "episodes": 22,
+      "ok": true
+    },
+    {
+      "href": "https://anime-sama.to/catalogue/tetsunabe-no-jan/",
+      "title": "Tetsunabe no Jan!",
+      "detailsTitle": "Tetsunabe no Jan!",
+      "episodes": 10,
+      "ok": true
+    },
+    {
+      "href": "https://anime-sama.to/catalogue/rich-girl-caretaker/",
+      "title": "Rich Girl Caretaker",
+      "detailsTitle": "Rich Girl Caretaker",
+      "episodes": 10,
+      "ok": true
+    },
+    {
+      "href": "https://anime-sama.to/catalogue/the-furious-princess-decided-to-take-revenge/",
+      "title": "The Furious Princess Decided to Take Revenge",
+      "detailsTitle": "The Furious Princess Decided to Take Revenge",
+      "episodes": 10,
+      "ok": true
+    },
+    {
+      "href": "https://anime-sama.to/catalogue/love-unseen-beneath-the-clear-night-sky/",
+      "title": "Love Unseen Beneath the Clear Night Sky",
+      "detailsTitle": "Love Unseen Beneath the Clear Night Sky",
+      "episodes": 10,
+      "ok": true
+    },
+    {
+      "href": "https://anime-sama.to/catalogue/tenmaku-no-jaaduugar/",
+      "title": "Tenmaku No Jaaduugar",
+      "detailsTitle": "Tenmaku no Jaaduugar",
+      "episodes": 11,
+      "ok": true
+    },
+    {
+      "href": "https://anime-sama.to/catalogue/tomb-raider-king/",
+      "title": "Tomb Raider King",
+      "detailsTitle": "Tomb Raider King",
+      "episodes": 10,
+      "ok": true
+    },
+    {
+      "href": "https://anime-sama.to/catalogue/naruto-shippuden/",
+      "title": "Naruto Shippuden",
+      "detailsTitle": "Naruto Shippuden",
+      "episodes": 500,
+      "ok": true
+    }
+  ],
+  "feeds": [
+    {
+      "id": "trending",
+      "page1": 32,
+      "page2": 33,
+      "hasMore": true,
+      "uniquePage2": 33
+    },
+    {
+      "id": "popular",
+      "page1": 32,
+      "page2": 33,
+      "hasMore": true,
+      "uniquePage2": 33
+    },
+    {
+      "id": "classics",
+      "page1": 32,
+      "page2": 33,
+      "hasMore": true,
+      "uniquePage2": 33
+    }
+  ],
+  "sourceHosts": {
+    "video.sibnet.ru": {
+      "supported": true,
+      "candidates": 135
+    },
+    "ansembed.net": {
+      "supported": true,
+      "candidates": 166
+    },
+    "lpayer.embed4me.com": {
+      "supported": false,
+      "candidates": 70
+    },
+    "minochinos.com": {
+      "supported": false,
+      "candidates": 42
+    },
+    "sendvid.com": {
+      "supported": false,
+      "candidates": 59
+    },
+    "oneupload.to": {
+      "supported": false,
+      "candidates": 14
+    },
+    "smoothpre.com": {
+      "supported": false,
+      "candidates": 35
+    },
+    "dingtezuni.com": {
+      "supported": false,
+      "candidates": 8
+    },
+    "movearnpre.com": {
+      "supported": false,
+      "candidates": 3
+    },
+    "uqload.is": {
+      "supported": false,
+      "candidates": 34
+    },
+    "vk.com": {
+      "supported": false,
+      "candidates": 1
+    },
+    "vkvideo.ru": {
+      "supported": false,
+      "candidates": 1
+    }
+  },
+  "returnedServers": 151,
+  "returnedQualityRows": 282,
+  "qualityLabels": [
+    "720p",
+    "480p",
+    "1080p",
+    "360p",
+    "900p",
+    "432p",
+    "384p",
+    "402p"
+  ],
+  "failures": [
+    {
+      "title": "Bleach",
+      "language": "dub",
+      "position": "early",
+      "episode": "Avec fillers · Épisode 1",
+      "status": "NO_STREAM"
+    },
+    {
+      "title": "Death Note",
+      "language": "dub",
+      "position": "early",
+      "episode": "Saison 1 · Épisode 1",
+      "status": "NO_STREAM"
+    },
+    {
+      "title": "Fullmetal Alchemist Brotherhood",
+      "language": "dub",
+      "position": "middle",
+      "episode": "Saison 1 · Épisode 32",
+      "status": "NO_STREAM"
+    },
+    {
+      "title": "Spy x Family",
+      "language": "sub",
+      "position": "middle",
+      "episode": "Saison 2 · Épisode 7",
+      "status": "NO_STREAM"
+    },
+    {
+      "title": "Spy x Family",
+      "language": "dub",
+      "position": "early",
+      "episode": "Saison 1 partie 1 · Épisode 1",
+      "status": "NO_STREAM"
+    },
+    {
+      "title": "Sword Art Online",
+      "language": "dub",
+      "position": "late",
+      "episode": "Alternative Gun Gale Online Saison 1 · Épisode 12",
+      "status": "NO_STREAM"
+    },
+    {
+      "title": "My Hero Academia",
+      "language": "dub",
+      "position": "early",
+      "episode": "Saison 1 · Épisode 1",
+      "status": "NO_STREAM"
+    },
+    {
+      "title": "Black Clover",
+      "language": "dub",
+      "position": "early",
+      "episode": "Avec Fillers · Épisode 1",
+      "status": "NO_STREAM"
+    },
+    {
+      "title": "Black Clover",
+      "language": "dub",
+      "position": "late",
+      "episode": "Avec Fillers · Épisode 170",
+      "status": "NO_STREAM"
+    },
+    {
+      "title": "Fairy Tail",
+      "language": "dub",
+      "position": "middle",
+      "episode": "Saison 1 · Épisode 164",
+      "status": "NO_STREAM"
+    }
+  ],
+  "captionEmbeds": 10,
+  "accessibleCaptionEmbeds": 4,
+  "hlsCaptionPlaylists": 2,
+  "explicitTrackDeclarations": 0,
+  "hlsSubtitleDeclarations": 0
+}

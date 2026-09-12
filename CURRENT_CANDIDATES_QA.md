@@ -1,4 +1,4 @@
-Current active index: Anime Sama 1.1.0-beta.7 and AniWorld 1.1.0-beta.6. See [trio QA](ANIME_TRIO_QA.md). The entries below are retained history, not the active candidate list.
+Current active index: Anime Sama 1.1.0-beta.9 and AniWorld 1.1.0-beta.6. See [current Sama QA](ANIME_SAMA_BETA9_QA.md) and [historical trio QA](ANIME_TRIO_QA.md). The entries below are retained history, not the active candidate list.
 
 # Current owner testing candidates - 2026-09-12
 

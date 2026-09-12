@@ -1,0 +1,54 @@
+{
+  "at": "2026-09-12T09:45:25.990Z",
+  "live": [
+    {
+      "handler": "discoveryHome",
+      "args": [],
+      "ms": 3842,
+      "items": 51
+    },
+    {
+      "handler": "searchResults",
+      "args": [
+        "Solo Leveling"
+      ],
+      "ms": 471,
+      "items": 1
+    },
+    {
+      "handler": "searchResults",
+      "args": [
+        "After the Moonlight Falls"
+      ],
+      "ms": 3475,
+      "items": 0
+    },
+    {
+      "handler": "discoveryFeed",
+      "args": [
+        "popular",
+        1
+      ],
+      "ms": 1826,
+      "items": 32
+    }
+  ],
+  "injected": [
+    {
+      "handler": "discoveryFeed",
+      "ms": 6002,
+      "requestsStarted": 1
+    },
+    {
+      "handler": "discoveryHome",
+      "ms": 18000,
+      "requestsStarted": 17
+    },
+    {
+      "handler": "searchResults",
+      "ms": 18001,
+      "requestsStarted": 4
+    }
+  ],
+  "limitation": "Deadline stops awaiting and scheduling more work; the shipped fetch API does not cancel in-flight requests."
+}

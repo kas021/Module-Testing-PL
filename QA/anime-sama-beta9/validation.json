@@ -1,0 +1,15 @@
+{
+  "regressions": {
+    "passed": 25,
+    "failed": 0
+  },
+  "releasePolicy": {
+    "passed": 2,
+    "failed": 0
+  },
+  "resolverUnchanged": true,
+  "sharedMediaUnchanged": true,
+  "packageSourceMatches": true,
+  "nativeCertification": "NOT_RUN: no app rebuild authorized in this follow-up",
+  "inAppDownloads": "NOT_RUN: owner reports good playback and downloads, exact episode unspecified"
+}

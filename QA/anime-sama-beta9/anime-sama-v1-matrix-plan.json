@@ -1,0 +1,634 @@
+{
+  "id": "anime-sama-v1",
+  "seed": 2026091209,
+  "method": "LCG Fisher-Yates over current deduplicated Home cards, excluding exact fixed names",
+  "frozenAt": "2026-09-12T09:44:02.854Z",
+  "home": {
+    "sections": [
+      {
+        "id": "trending",
+        "title": "Tendances Anime (VOSTFR & VF)",
+        "style": "hero",
+        "items": [
+          {
+            "id": "https://anime-sama.to/catalogue/black-torch/",
+            "href": "https://anime-sama.to/catalogue/black-torch/",
+            "title": "Black Torch",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/black-torch.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/black-torch.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/black-torch.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/tenmaku-no-jaaduugar/",
+            "href": "https://anime-sama.to/catalogue/tenmaku-no-jaaduugar/",
+            "title": "Tenmaku No Jaaduugar",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/tenmaku-no-jaaduugar.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/tenmaku-no-jaaduugar.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/tenmaku-no-jaaduugar.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/tomb-raider-king/",
+            "href": "https://anime-sama.to/catalogue/tomb-raider-king/",
+            "title": "Tomb Raider King",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/tomb-raider-king.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/tomb-raider-king.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/tomb-raider-king.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/rich-girl-caretaker/",
+            "href": "https://anime-sama.to/catalogue/rich-girl-caretaker/",
+            "title": "Rich Girl Caretaker",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/rich-girl-caretaker.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/rich-girl-caretaker.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/rich-girl-caretaker.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/the-exiled-heavy-knight-knows-how-to-game-the-system/",
+            "href": "https://anime-sama.to/catalogue/the-exiled-heavy-knight-knows-how-to-game-the-system/",
+            "title": "The Exiled Heavy Knight Knows How To Game The System",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-exiled-heavy-knight-knows-how-to-game-the-system.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-exiled-heavy-knight-knows-how-to-game-the-system.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-exiled-heavy-knight-knows-how-to-game-the-system.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/smoking-behind-the-supermarket-with-you/",
+            "href": "https://anime-sama.to/catalogue/smoking-behind-the-supermarket-with-you/",
+            "title": "Smoking Behind The Supermarket With You",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/smoking-behind-the-supermarket-with-you.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/smoking-behind-the-supermarket-with-you.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/smoking-behind-the-supermarket-with-you.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/chainsmoker-cat/",
+            "href": "https://anime-sama.to/catalogue/chainsmoker-cat/",
+            "title": "Chainsmoker Cat",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/chainsmoker-cat.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/chainsmoker-cat.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/chainsmoker-cat.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/kimi-ga-shinu-made-koi-wo-shitai/",
+            "href": "https://anime-sama.to/catalogue/kimi-ga-shinu-made-koi-wo-shitai/",
+            "title": "Kimi Ga Shinu Made Koi Wo Shitai",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/kimi-ga-shinu-made-koi-wo-shitai.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/kimi-ga-shinu-made-koi-wo-shitai.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/kimi-ga-shinu-made-koi-wo-shitai.webp",
+            "type": "video"
+          }
+        ],
+        "viewAll": {
+          "mode": "feed",
+          "feedId": "trending"
+        }
+      },
+      {
+        "id": "popular",
+        "title": "Animes Populaires en Français",
+        "style": "poster",
+        "items": [
+          {
+            "id": "https://anime-sama.to/catalogue/oh-boy-was-i-wrong-about-her/",
+            "href": "https://anime-sama.to/catalogue/oh-boy-was-i-wrong-about-her/",
+            "title": "Oh Boy Was I Wrong About Her",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/oh-boy-was-i-wrong-about-her.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/oh-boy-was-i-wrong-about-her.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/oh-boy-was-i-wrong-about-her.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/hanaori-san-still-wants-to-fight-in-the-next-life/",
+            "href": "https://anime-sama.to/catalogue/hanaori-san-still-wants-to-fight-in-the-next-life/",
+            "title": "Hanaori San Still Wants To Fight In The Next Life",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/hanaori-san-still-wants-to-fight-in-the-next-life.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/hanaori-san-still-wants-to-fight-in-the-next-life.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/hanaori-san-still-wants-to-fight-in-the-next-life.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/sparks-of-tomorrow/",
+            "href": "https://anime-sama.to/catalogue/sparks-of-tomorrow/",
+            "title": "Sparks Of Tomorrow",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/sparks-of-tomorrow.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/sparks-of-tomorrow.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/sparks-of-tomorrow.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/youjo-senki/",
+            "href": "https://anime-sama.to/catalogue/youjo-senki/",
+            "title": "Youjo Senki",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/youjo-senki.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/youjo-senki.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/youjo-senki.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/katainaka-no-ossan-kensei-ni-naru/",
+            "href": "https://anime-sama.to/catalogue/katainaka-no-ossan-kensei-ni-naru/",
+            "title": "Katainaka No Ossan Kensei Ni Naru",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/katainaka-no-ossan-kensei-ni-naru.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/katainaka-no-ossan-kensei-ni-naru.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/katainaka-no-ossan-kensei-ni-naru.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/the-elusive-samurai/",
+            "href": "https://anime-sama.to/catalogue/the-elusive-samurai/",
+            "title": "The Elusive Samurai",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-elusive-samurai.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-elusive-samurai.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-elusive-samurai.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/mushoku-tensei/",
+            "href": "https://anime-sama.to/catalogue/mushoku-tensei/",
+            "title": "Mushoku Tensei",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108465-1ANspF1EWyFx.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108465-1ANspF1EWyFx.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108465-RgsRpTMhP9Sv.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/you-and-i-are-polar-opposites/",
+            "href": "https://anime-sama.to/catalogue/you-and-i-are-polar-opposites/",
+            "title": "You And I Are Polar Opposites",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/you-and-i-are-polar-opposites.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/you-and-i-are-polar-opposites.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/you-and-i-are-polar-opposites.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/grand-blue/",
+            "href": "https://anime-sama.to/catalogue/grand-blue/",
+            "title": "Grand Blue",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/grand-blue.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/grand-blue.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/grand-blue.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/digimon/",
+            "href": "https://anime-sama.to/catalogue/digimon/",
+            "title": "Digimon Beatbreak",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/digimon.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/digimon.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/digimon.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/lets-go-kaikigumi/",
+            "href": "https://anime-sama.to/catalogue/lets-go-kaikigumi/",
+            "title": "Let's Go Kaikigumi",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/lets-go-kaikigumi.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/lets-go-kaikigumi.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/lets-go-kaikigumi.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/tetsunabe-no-jan/",
+            "href": "https://anime-sama.to/catalogue/tetsunabe-no-jan/",
+            "title": "Tetsunabe no Jan!",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/tetsunabe-no-jan.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/tetsunabe-no-jan.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/tetsunabe-no-jan.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/the-worlds-strongest-rearguard/",
+            "href": "https://anime-sama.to/catalogue/the-worlds-strongest-rearguard/",
+            "title": "The World's Strongest Rearguard",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-worlds-strongest-rearguard.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-worlds-strongest-rearguard.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-worlds-strongest-rearguard.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/the-100-girlfriends-who-really-really-really-really-really-love-you/",
+            "href": "https://anime-sama.to/catalogue/the-100-girlfriends-who-really-really-really-really-really-love-you/",
+            "title": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-100-girlfriends-who-really-really-really-really-really-love-you.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-100-girlfriends-who-really-really-really-really-really-love-you.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-100-girlfriends-who-really-really-really-really-really-love-you.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/kuroneko-to-majo-no-kyoushitsu/",
+            "href": "https://anime-sama.to/catalogue/kuroneko-to-majo-no-kyoushitsu/",
+            "title": "Kuroneko to Majo no Kyoushitsu",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/kuroneko-to-majo-no-kyoushitsu.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/kuroneko-to-majo-no-kyoushitsu.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/kuroneko-to-majo-no-kyoushitsu.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/sayonara-lara/",
+            "href": "https://anime-sama.to/catalogue/sayonara-lara/",
+            "title": "Sayonara Lara",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/sayonara-lara.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/sayonara-lara.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/sayonara-lara.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/though-i-am-an-inept-villainess/",
+            "href": "https://anime-sama.to/catalogue/though-i-am-an-inept-villainess/",
+            "title": "Though I Am an Inept Villainess",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/though-i-am-an-inept-villainess.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/though-i-am-an-inept-villainess.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/though-i-am-an-inept-villainess.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/azur-lane/",
+            "href": "https://anime-sama.to/catalogue/azur-lane/",
+            "title": "Azur Lane - Bisoku Zenshin!",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/azur-lane.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/azur-lane.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/azur-lane.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/one-piece/",
+            "href": "https://anime-sama.to/catalogue/one-piece/",
+            "title": "One Piece",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/love-unseen-beneath-the-clear-night-sky/",
+            "href": "https://anime-sama.to/catalogue/love-unseen-beneath-the-clear-night-sky/",
+            "title": "Love Unseen Beneath the Clear Night Sky",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/love-unseen-beneath-the-clear-night-sky.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/love-unseen-beneath-the-clear-night-sky.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/love-unseen-beneath-the-clear-night-sky.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/the-insipid-princes-furtive-grab-for-the-throne/",
+            "href": "https://anime-sama.to/catalogue/the-insipid-princes-furtive-grab-for-the-throne/",
+            "title": "The Insipid Prince's Furtive Grab for the Throne",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-insipid-princes-furtive-grab-for-the-throne.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-insipid-princes-furtive-grab-for-the-throne.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-insipid-princes-furtive-grab-for-the-throne.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/skeleton-knight-in-another-world/",
+            "href": "https://anime-sama.to/catalogue/skeleton-knight-in-another-world/",
+            "title": "Skeleton Knight in Another World",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/skeleton-knight-in-another-world.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/skeleton-knight-in-another-world.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/skeleton-knight-in-another-world.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/the-world-is-dancing/",
+            "href": "https://anime-sama.to/catalogue/the-world-is-dancing/",
+            "title": "The World is Dancing",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-world-is-dancing.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-world-is-dancing.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-world-is-dancing.webp",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/the-furious-princess-decided-to-take-revenge/",
+            "href": "https://anime-sama.to/catalogue/the-furious-princess-decided-to-take-revenge/",
+            "title": "The Furious Princess Decided to Take Revenge",
+            "image": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-furious-princess-decided-to-take-revenge.webp",
+            "poster": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-furious-princess-decided-to-take-revenge.webp",
+            "bannerImage": "https://cdn.jsdelivr.net/gh/Anime-Sama/IMG@img/contenu/thumb/the-furious-princess-decided-to-take-revenge.webp",
+            "type": "video"
+          }
+        ],
+        "viewAll": {
+          "mode": "feed",
+          "feedId": "popular"
+        }
+      },
+      {
+        "id": "classics",
+        "title": "Grands Classiques Anime-Sama",
+        "style": "poster",
+        "items": [
+          {
+            "id": "https://anime-sama.to/catalogue/shingeki-no-kyojin/",
+            "href": "https://anime-sama.to/catalogue/shingeki-no-kyojin/",
+            "title": "Attack on Titan",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-buvcRTBx4NSm.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-buvcRTBx4NSm.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16498-8jpFCOcDmneX.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/demon-slayer/",
+            "href": "https://anime-sama.to/catalogue/demon-slayer/",
+            "title": "Demon Slayer",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-WBsBl0ClmgYL.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-WBsBl0ClmgYL.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101922-33MtJGsUSxga.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/death-note/",
+            "href": "https://anime-sama.to/catalogue/death-note/",
+            "title": "Death Note",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1535-kUgkcrfOrkUM.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1535-kUgkcrfOrkUM.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1535.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/one-piece/",
+            "href": "https://anime-sama.to/catalogue/one-piece/",
+            "title": "One Piece",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/solo-leveling/",
+            "href": "https://anime-sama.to/catalogue/solo-leveling/",
+            "title": "Solo Leveling",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151807-it355ZgzquUd.png",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151807-it355ZgzquUd.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151807-37yfQA3ym8PA.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/jujutsu-kaisen/",
+            "href": "https://anime-sama.to/catalogue/jujutsu-kaisen/",
+            "title": "Jujutsu Kaisen",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-LHBAeoZDIsnF.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-LHBAeoZDIsnF.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113415-jQBSkxWAAk83.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/my-hero-academia/",
+            "href": "https://anime-sama.to/catalogue/my-hero-academia/",
+            "title": "My Hero Academia",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21459-nYh85uj2Fuwr.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21459-nYh85uj2Fuwr.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21459-yeVkolGKdGUV.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/chainsaw-man/",
+            "href": "https://anime-sama.to/catalogue/chainsaw-man/",
+            "title": "Chainsaw Man",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-DdP4vAdssLoz.png",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-DdP4vAdssLoz.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127230-o8IRwCGVr9KW.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/bleach/",
+            "href": "https://anime-sama.to/catalogue/bleach/",
+            "title": "Bleach",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx269-d2GmRkJbMopq.png",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx269-d2GmRkJbMopq.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/269-08ar2HJOUAuL.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/naruto/",
+            "href": "https://anime-sama.to/catalogue/naruto/",
+            "title": "Naruto",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20-dE6UHbFFg1A5.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20-dE6UHbFFg1A5.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20-HHxhPj5JD13a.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/naruto-shippuden/",
+            "href": "https://anime-sama.to/catalogue/naruto-shippuden/",
+            "title": "Naruto Shippuden",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1735-kGfVm0YqCPcu.png",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1735-kGfVm0YqCPcu.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1735.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/frieren/",
+            "href": "https://anime-sama.to/catalogue/frieren/",
+            "title": "Frieren",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154587-ivXNJ23SM1xB.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/fullmetal-alchemist-brotherhood/",
+            "href": "https://anime-sama.to/catalogue/fullmetal-alchemist-brotherhood/",
+            "title": "Fullmetal Alchemist: Brotherhood",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5114-nSWCgQlmOMtj.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5114-nSWCgQlmOMtj.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5114-q0V5URebphSG.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/spy-x-family/",
+            "href": "https://anime-sama.to/catalogue/spy-x-family/",
+            "title": "Spy x Family",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140960-Kb6R5nYQfjmP.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140960-Kb6R5nYQfjmP.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/140960-Z7xSvkRxHKfj.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/mushoku-tensei/",
+            "href": "https://anime-sama.to/catalogue/mushoku-tensei/",
+            "title": "Mushoku Tensei",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108465-1ANspF1EWyFx.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108465-1ANspF1EWyFx.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108465-RgsRpTMhP9Sv.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/tokyo-revengers/",
+            "href": "https://anime-sama.to/catalogue/tokyo-revengers/",
+            "title": "Tokyo Revengers",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120120-cWDmnmeEntSe.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120120-cWDmnmeEntSe.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120120-UDYgoHA69peT.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/black-clover/",
+            "href": "https://anime-sama.to/catalogue/black-clover/",
+            "title": "Black Clover",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97940-fyh8o7gNbha0.png",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97940-fyh8o7gNbha0.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97940-1URQdQ4U1a0b.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/vinland-saga/",
+            "href": "https://anime-sama.to/catalogue/vinland-saga/",
+            "title": "Vinland Saga",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101348-2fhDFPCuMNiz.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101348-2fhDFPCuMNiz.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101348-pivKKffCAwAY.jpg",
+            "type": "video"
+          },
+          {
+            "id": "https://anime-sama.to/catalogue/86-eighty-six/",
+            "href": "https://anime-sama.to/catalogue/86-eighty-six/",
+            "title": "86 Eighty Six",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116589-KawXHB6sApFt.jpg",
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116589-KawXHB6sApFt.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116589-SqwYWzaZCdD5.jpg",
+            "type": "video"
+          }
+        ],
+        "viewAll": {
+          "mode": "feed",
+          "feedId": "classics"
+        }
+      }
+    ]
+  },
+  "titles": [
+    {
+      "query": "One Piece",
+      "kind": "fixed"
+    },
+    {
+      "query": "Naruto",
+      "kind": "fixed"
+    },
+    {
+      "query": "Bleach",
+      "kind": "fixed"
+    },
+    {
+      "query": "Death Note",
+      "kind": "fixed"
+    },
+    {
+      "query": "Attack on Titan",
+      "kind": "fixed"
+    },
+    {
+      "query": "Demon Slayer",
+      "kind": "fixed"
+    },
+    {
+      "query": "Jujutsu Kaisen",
+      "kind": "fixed"
+    },
+    {
+      "query": "Dragon Ball",
+      "kind": "fixed"
+    },
+    {
+      "query": "Hunter x Hunter",
+      "kind": "fixed"
+    },
+    {
+      "query": "Fullmetal Alchemist Brotherhood",
+      "kind": "fixed"
+    },
+    {
+      "query": "Spy x Family",
+      "kind": "fixed"
+    },
+    {
+      "query": "Dr. Stone",
+      "kind": "fixed"
+    },
+    {
+      "query": "Tokyo Ghoul",
+      "kind": "fixed"
+    },
+    {
+      "query": "Sword Art Online",
+      "kind": "fixed"
+    },
+    {
+      "query": "My Hero Academia",
+      "kind": "fixed"
+    },
+    {
+      "query": "Black Clover",
+      "kind": "fixed"
+    },
+    {
+      "query": "Chainsaw Man",
+      "kind": "fixed"
+    },
+    {
+      "query": "Fairy Tail",
+      "kind": "fixed"
+    },
+    {
+      "query": "Your Name",
+      "kind": "fixed"
+    },
+    {
+      "query": "Steins Gate",
+      "kind": "fixed"
+    },
+    {
+      "query": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+      "href": "https://anime-sama.to/catalogue/the-100-girlfriends-who-really-really-really-really-really-love-you/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Sayonara Lara",
+      "href": "https://anime-sama.to/catalogue/sayonara-lara/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "You And I Are Polar Opposites",
+      "href": "https://anime-sama.to/catalogue/you-and-i-are-polar-opposites/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Tetsunabe no Jan!",
+      "href": "https://anime-sama.to/catalogue/tetsunabe-no-jan/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Rich Girl Caretaker",
+      "href": "https://anime-sama.to/catalogue/rich-girl-caretaker/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "The Furious Princess Decided to Take Revenge",
+      "href": "https://anime-sama.to/catalogue/the-furious-princess-decided-to-take-revenge/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Love Unseen Beneath the Clear Night Sky",
+      "href": "https://anime-sama.to/catalogue/love-unseen-beneath-the-clear-night-sky/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Tenmaku No Jaaduugar",
+      "href": "https://anime-sama.to/catalogue/tenmaku-no-jaaduugar/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Tomb Raider King",
+      "href": "https://anime-sama.to/catalogue/tomb-raider-king/",
+      "kind": "seeded-home"
+    },
+    {
+      "query": "Naruto Shippuden",
+      "href": "https://anime-sama.to/catalogue/naruto-shippuden/",
+      "kind": "seeded-home"
+    }
+  ]
+}

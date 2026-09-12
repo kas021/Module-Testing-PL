@@ -1,3 +1,5 @@
+> Historical Bundle 36 / beta.7 evidence below. Current Anime Sama is beta.9; see [the new catalogue repair and fresh counts](ANIME_SAMA_BETA9_QA.md). AniWorld beta.6 remains unchanged.
+
 # Anime trio testing candidates — 12 September 2026
 
 Testing Bundle 36 contains Anime Sama **1.1.0-beta.7** and AniWorld

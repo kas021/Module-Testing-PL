@@ -1,0 +1,172 @@
+{
+  "at": "2026-09-12T09:45:55.706Z",
+  "checks": [
+    {
+      "query": "After the School Belle Dumped Me, I Became a Martial Arts God",
+      "url": "https://anime-sama.to/catalogue/?search=After%20the%20School%20Belle%20Dumped%20Me%2C%20I%20Became%20a%20Martial%20Arts%20God",
+      "sourceCards": [
+        {
+          "href": "https://anime-sama.to/catalogue/after-the-school-belle-dumped-me-i-became-a-martial-arts-god",
+          "title": "After the School Belle Dumped Me, I Became a Martial Arts God",
+          "types": "Scans"
+        }
+      ],
+      "returned": []
+    },
+    {
+      "query": "After the Moonlight Falls",
+      "url": "https://anime-sama.to/catalogue/?search=After%20the%20Moonlight%20Falls",
+      "sourceCards": [
+        {
+          "href": "https://anime-sama.to/catalogue/after-the-moonlight-falls",
+          "title": "After the Moonlight Falls",
+          "types": "Scans"
+        }
+      ],
+      "returned": []
+    },
+    {
+      "query": "Solo Leveling",
+      "url": "https://anime-sama.to/catalogue/?search=Solo%20Leveling",
+      "sourceCards": [
+        {
+          "href": "https://anime-sama.to/catalogue/solo-leveling/",
+          "title": "Solo Leveling",
+          "types": "Anime, Scans"
+        }
+      ],
+      "returned": [
+        {
+          "title": "Solo Leveling",
+          "href": "https://anime-sama.to/catalogue/solo-leveling/"
+        }
+      ]
+    },
+    {
+      "query": "The Beginning After the End",
+      "url": "https://anime-sama.to/catalogue/?search=The%20Beginning%20After%20the%20End",
+      "sourceCards": [
+        {
+          "href": "https://anime-sama.to/catalogue/the-beginning-after-the-end/",
+          "title": "The Beginning After the End",
+          "types": "Anime, Scans"
+        }
+      ],
+      "returned": [
+        {
+          "title": "The Beginning After the End",
+          "href": "https://anime-sama.to/catalogue/the-beginning-after-the-end/"
+        }
+      ]
+    }
+  ],
+  "home": [
+    {
+      "id": "trending",
+      "count": 8,
+      "titles": [
+        "Black Torch",
+        "Tenmaku No Jaaduugar",
+        "Tomb Raider King",
+        "Rich Girl Caretaker",
+        "The Exiled Heavy Knight Knows How To Game The System",
+        "Smoking Behind The Supermarket With You",
+        "Chainsmoker Cat",
+        "Kimi Ga Shinu Made Koi Wo Shitai"
+      ]
+    },
+    {
+      "id": "popular",
+      "count": 24,
+      "titles": [
+        "Oh Boy Was I Wrong About Her",
+        "Hanaori San Still Wants To Fight In The Next Life",
+        "Sparks Of Tomorrow",
+        "Youjo Senki",
+        "Katainaka No Ossan Kensei Ni Naru",
+        "The Elusive Samurai",
+        "Mushoku Tensei",
+        "You And I Are Polar Opposites",
+        "Grand Blue",
+        "Digimon Beatbreak",
+        "Let's Go Kaikigumi",
+        "Tetsunabe no Jan!",
+        "The World's Strongest Rearguard",
+        "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+        "Kuroneko to Majo no Kyoushitsu",
+        "Sayonara Lara",
+        "Though I Am an Inept Villainess",
+        "Azur Lane - Bisoku Zenshin!",
+        "One Piece",
+        "Love Unseen Beneath the Clear Night Sky",
+        "The Insipid Prince's Furtive Grab for the Throne",
+        "Skeleton Knight in Another World",
+        "The World is Dancing",
+        "The Furious Princess Decided to Take Revenge"
+      ]
+    },
+    {
+      "id": "classics",
+      "count": 19,
+      "titles": [
+        "Attack on Titan",
+        "Demon Slayer",
+        "Death Note",
+        "One Piece",
+        "Solo Leveling",
+        "Jujutsu Kaisen",
+        "My Hero Academia",
+        "Chainsaw Man",
+        "Bleach",
+        "Naruto",
+        "Naruto Shippuden",
+        "Frieren",
+        "Fullmetal Alchemist: Brotherhood",
+        "Spy x Family",
+        "Mushoku Tensei",
+        "Tokyo Revengers",
+        "Black Clover",
+        "Vinland Saga",
+        "86 Eighty Six"
+      ]
+    }
+  ],
+  "feed": {
+    "count": 32,
+    "hasMore": true,
+    "titles": [
+      "'Tis Time for \"Torture,\" Princess",
+      "07 Ghost",
+      "100 Meters",
+      "16bit Sensation: Another Layer",
+      "2.43 Seiin Koukou Danshi Volley-bu",
+      "2.5-jigen no Ririsa",
+      "29-Sai Dokushin Chuuken Boukensha no Nichijou",
+      "365 Days To The Wedding",
+      "3D Kanojo",
+      "4 Cut Hero",
+      "5cm per second",
+      "7 Jours",
+      "7 Seeds",
+      "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
+      "86 Eighty Six",
+      "91 Days",
+      "A Centaur's Life",
+      "A Certain Magical Index",
+      "A Certain Scientific Accelerator",
+      "A Certain Scientific Railgun",
+      "A Condition Called Love",
+      "A Couple of Cuckoos",
+      "A Destructive God Sits Next to Me",
+      "A Galaxy Next Door",
+      "A Girl & Her Guard Dog",
+      "A Place Further Than The Universe",
+      "A Rank Party wo Ridatsu Shita Ore wa, Moto Oshiego Tachi to Meikyuu Shinbu wo Mezasu",
+      "A Returner's Magic Should be Special",
+      "A Sign of Affection",
+      "A Silent Voice",
+      "A Star Brighter Than the Sun",
+      "A Wild Last Boss Appeared!"
+    ]
+  }
+}
