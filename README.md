@@ -10,6 +10,13 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
+**Owner-requested experimental testing: Ev01 1.1.0-beta.1.**
+Package inspection/import passes and nine fixture regressions pass. Live QA is
+blocked on the UK test connection by HTTP 451; the recorded S2 run is FAIL at
+Home, not playback-certified. Featured/endless browsing remains unfinished.
+This is an explicit testing-only handoff, NOT a stable release or a claim that
+the module works in your region. See [EV01 limitations and test steps](EV01_QA.md).
+
 **STCine 1.1.1 is now in the official repository (Bundle 120).**
 The owner approved promotion with the PARTIAL limits below. JavaScript is
 unchanged from beta.3. The beta is retired from active testing; its immutable
