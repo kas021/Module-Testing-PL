@@ -1,6 +1,13 @@
-# Current owner testing candidate - 2026-09-11
+# Current owner testing candidates - 2026-09-12
 
-**AnimeAV1 1.3.0-beta.1** is the only active candidate. Official 1.2.8 is unchanged.
+The active index contains Shahiid 2.1.0-beta.5, Mugiwara 1.1.0-beta.5,
+and Movie Direct 0.3.0-beta.2. See SHAHIID_QA.md, MUGIWARA_QA.md and
+MOVIE_DIRECT_QA.md for evidence and limitations. These are testing candidates,
+not stable approvals. AnimeAV1 is temporarily parked; its ZIP is retained.
+
+# Historical owner testing candidate - 2026-09-11
+
+**AnimeAV1 1.3.0-beta.1** was the active candidate at this checkpoint.
 13 regression tests pass; One Piece Sub and Naruto Dub pass quick S2 runtime and
 media checks. The 30-title matrix resolved 53/53 modes; 52/53 short video/audio
 seek samples decoded. Your Name Sub is the failure. Native/offline certification

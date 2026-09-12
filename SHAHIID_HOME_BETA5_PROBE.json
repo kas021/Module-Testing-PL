@@ -1,0 +1,1910 @@
+{
+  "date": "2026-09-12T01:46:28.199Z",
+  "sourceSha256": "aa6fee7dd476442eed2d6ce6d564af31bcfd06c9b92fb02cba63318588b15dfc",
+  "scope": "Live Node contract shim; Home navigation, search and short FFmpeg AV decode. Not native/device or spoken-language certification.",
+  "homeCases": [
+    {
+      "section": "featured",
+      "title": "Shiguang Dailiren مترجم",
+      "href": "/series/shiguang-dailiren-%d9%85%d8%aa%d8%b1%d8%ac%d9%85/",
+      "detailsTitle": "Shiguang Dailiren مترجم",
+      "image": true,
+      "episodes": 6,
+      "first": 1,
+      "last": 6,
+      "uniqueHrefs": 6
+    },
+    {
+      "section": "featured",
+      "title": "Star Wars: Visions Presents - The Ninth Jedi مترجم",
+      "href": "/series/star-wars-visions-presents-the-ninth-jedi-%d9%85%d8%aa%d8%b1%d8%ac%d9%85/",
+      "detailsTitle": "Star Wars: Visions Presents - The Ninth Jedi مترجم",
+      "image": false,
+      "episodes": 8,
+      "first": 1,
+      "last": 8,
+      "uniqueHrefs": 8
+    },
+    {
+      "section": "featured",
+      "title": "Mebius Dust مترجم",
+      "href": "/series/mebius-dust/",
+      "detailsTitle": "Mebius Dust مترجم",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "featured",
+      "title": "Thunder 3 مترجم",
+      "href": "/series/thunder-3/",
+      "detailsTitle": "Thunder 3 مترجم",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "featured",
+      "title": "Migawari Reijou wo Sukutta no wa Reikoku Mujihi na Koori no Ouji no Ai deshita مترجم",
+      "href": "/series/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/",
+      "error": "Shahiid: no episodes found for /series/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-d — either the title is empty upstream or the site markup changed"
+    },
+    {
+      "section": "featured",
+      "title": "Tetsunabe no Jan! مترجم",
+      "href": "/series/tetsunabe-no-jan/",
+      "detailsTitle": "Tetsunabe no Jan! مترجم",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "dubbed",
+      "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su مدبلج",
+      "href": "/seriesDubbed/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su مدبلج",
+      "image": true,
+      "episodes": 13,
+      "first": 1,
+      "last": 13,
+      "uniqueHrefs": 13
+    },
+    {
+      "section": "dubbed",
+      "title": "Zetman مدبلج",
+      "href": "/seriesDubbed/zetman-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Zetman مدبلج",
+      "image": true,
+      "episodes": 8,
+      "first": 1,
+      "last": 8,
+      "uniqueHrefs": 8
+    },
+    {
+      "section": "dubbed",
+      "title": "Thunder 3 مدبلج",
+      "href": "/seriesDubbed/thunder-3/",
+      "detailsTitle": "Thunder 3 مدبلج",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "dubbed",
+      "title": "Clevatess: Majuu no Ou to Akago to Shikabane no Yuusha مدبلج",
+      "href": "/seriesDubbed/clevatess-majuu-no-ou-to-akago-to-shikabane-no-yuusha-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Clevatess: Majuu no Ou to Akago to Shikabane no Yuusha مدبلج",
+      "image": true,
+      "episodes": 22,
+      "first": 1,
+      "last": 12,
+      "uniqueHrefs": 22
+    },
+    {
+      "section": "dubbed",
+      "title": "Yu☆Gi☆Oh! Sevens مدبلج",
+      "href": "/seriesDubbed/yu%e2%98%86gi%e2%98%86oh-sevens/",
+      "detailsTitle": "Yu☆Gi☆Oh! Sevens مدبلج",
+      "image": true,
+      "episodes": 89,
+      "first": 1,
+      "last": 89,
+      "uniqueHrefs": 89
+    },
+    {
+      "section": "dubbed",
+      "title": "Nijusseiki Denki Mokuroku: Eureka Evrika مدبلج",
+      "href": "/seriesDubbed/nijusseiki-denki-mokuroku-eureka-evrika/",
+      "detailsTitle": "Nijusseiki Denki Mokuroku: Eureka Evrika مدبلج",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "dubbed",
+      "title": "Black Torch مدبلج",
+      "href": "/seriesDubbed/black-torch/",
+      "detailsTitle": "Black Torch مدبلج",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "dubbed",
+      "title": "Haikyuu!! مدبلج كامل",
+      "href": "/seriesDubbed/haikyuu-%d9%85%d8%af%d8%a8%d9%84%d8%ac-%d9%83%d8%a7%d9%85%d9%84/",
+      "detailsTitle": "Haikyuu!! مدبلج كامل",
+      "image": false,
+      "episodes": 15,
+      "first": 1,
+      "last": 15,
+      "uniqueHrefs": 15
+    },
+    {
+      "section": "dubbed",
+      "title": "Charlotte مدبلج",
+      "href": "/seriesDubbed/charlotte-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Charlotte مدبلج",
+      "image": true,
+      "episodes": 5,
+      "first": 1,
+      "last": 5,
+      "uniqueHrefs": 5
+    },
+    {
+      "section": "dubbed",
+      "title": "Hunter x Hunter (2011) مدبلج",
+      "href": "/seriesDubbed/hunter-x-hunter-2011-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Hunter x Hunter (2011) مدبلج",
+      "image": true,
+      "episodes": 148,
+      "first": 1,
+      "last": 148,
+      "uniqueHrefs": 148
+    },
+    {
+      "section": "dubbed",
+      "title": "Shingeki no Kyojin: Kuinaki Sentaku مدبلج",
+      "href": "/seriesDubbed/shingeki-no-kyojin-kuinaki-sentaku-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Shingeki no Kyojin: Kuinaki Sentaku مدبلج",
+      "image": true,
+      "episodes": 2,
+      "first": 1,
+      "last": 2,
+      "uniqueHrefs": 2
+    },
+    {
+      "section": "dubbed",
+      "title": "Hidarikiki no Eren مدبلج",
+      "href": "/seriesDubbed/hidarikiki-no-eren-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Hidarikiki no Eren مدبلج",
+      "image": true,
+      "episodes": 13,
+      "first": 1,
+      "last": 13,
+      "uniqueHrefs": 13
+    },
+    {
+      "section": "dubbed",
+      "title": "Enen no Shouboutai مدبلج",
+      "href": "/seriesDubbed/enen-no-shouboutai-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Enen no Shouboutai مدبلج",
+      "image": true,
+      "episodes": 73,
+      "first": 1,
+      "last": 24,
+      "uniqueHrefs": 73
+    },
+    {
+      "section": "dubbed",
+      "title": "Himekishi wa Barbaroi no Yome مدبلج",
+      "href": "/seriesDubbed/himekishi-wa-barbaroi-no-yome-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Himekishi wa Barbaroi no Yome مدبلج",
+      "image": true,
+      "episodes": 12,
+      "first": 1,
+      "last": 12,
+      "uniqueHrefs": 12
+    },
+    {
+      "section": "dubbed",
+      "title": "Dragon Quest: Dai no Daibouken (2020) مدبلج",
+      "href": "/seriesDubbed/dragon-quest-dai-no-daibouken-2020-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Dragon Quest: Dai no Daibouken (2020) مدبلج",
+      "image": true,
+      "episodes": 100,
+      "first": 1,
+      "last": 100,
+      "uniqueHrefs": 100
+    },
+    {
+      "section": "dubbed",
+      "title": "Dandelion مدبلج",
+      "href": "/seriesDubbed/dandelion-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Dandelion مدبلج",
+      "image": true,
+      "episodes": 7,
+      "first": 1,
+      "last": 7,
+      "uniqueHrefs": 7
+    },
+    {
+      "section": "dubbed",
+      "title": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo? مدبلج",
+      "href": "/seriesDubbed/saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo? مدبلج",
+      "image": true,
+      "episodes": 2,
+      "first": 1,
+      "last": 2,
+      "uniqueHrefs": 2
+    },
+    {
+      "section": "dubbed",
+      "title": "Shunkashuutou Daikousha: Haru no Mai مدبلج",
+      "href": "/seriesDubbed/shunkashuutou-daikousha-haru-no-mai-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Shunkashuutou Daikousha: Haru no Mai مدبلج",
+      "image": true,
+      "episodes": 14,
+      "first": 1,
+      "last": 14,
+      "uniqueHrefs": 14
+    },
+    {
+      "section": "dubbed",
+      "title": "Baki-dou مدبلج",
+      "href": "/seriesDubbed/baki-dou-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Baki-dou مدبلج",
+      "image": true,
+      "episodes": 25,
+      "first": 1,
+      "last": 13,
+      "uniqueHrefs": 25
+    },
+    {
+      "section": "dubbed",
+      "title": "Magic Kaito 1412 مدبلج",
+      "href": "/seriesDubbed/magic-kaito-1412-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Magic Kaito 1412 مدبلج",
+      "image": true,
+      "episodes": 23,
+      "first": 1,
+      "last": 23,
+      "uniqueHrefs": 23
+    },
+    {
+      "section": "dubbed",
+      "title": "Tongari Boushi no Atelier مدبلج",
+      "href": "/seriesDubbed/tongari-boushi-no-atelier-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Tongari Boushi no Atelier مدبلج",
+      "image": true,
+      "episodes": 13,
+      "first": 1,
+      "last": 13,
+      "uniqueHrefs": 13
+    },
+    {
+      "section": "dubbed",
+      "title": "Yomi no Tsugai مدبلج",
+      "href": "/seriesDubbed/yomi-no-tsugai-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Yomi no Tsugai مدبلج",
+      "image": true,
+      "episodes": 19,
+      "first": 1,
+      "last": 19,
+      "uniqueHrefs": 19
+    },
+    {
+      "section": "dubbed",
+      "title": "Koori no Jouheki مدبلج",
+      "href": "/seriesDubbed/koori-no-jouheki-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "Koori no Jouheki مدبلج",
+      "image": true,
+      "episodes": 14,
+      "first": 1,
+      "last": 14,
+      "uniqueHrefs": 14
+    },
+    {
+      "section": "dubbed",
+      "title": "Tensei shitara Slime Datta Ken مدبلج",
+      "href": "/seriesDubbed/tensei-shitara-slime-datta-ken-%d9%85%d8%af%d8%a8%d9%84%d8%ac-2/",
+      "detailsTitle": "Tensei shitara Slime Datta Ken مدبلج",
+      "image": true,
+      "episodes": 92,
+      "first": 1,
+      "last": 24,
+      "uniqueHrefs": 92
+    },
+    {
+      "section": "movies",
+      "title": "فيلم Kidou Senshi Gundam: Senkou no Hathaway - Circe no Majo مترجم",
+      "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-kidou-senshi-gundam-senkou-no-hathaway-circe-no-majo-%d9%85%d8%aa%d8%b1%d8%ac%d9%85/",
+      "detailsTitle": "فيلم Kidou Senshi Gundam: Senkou no Hathaway - Circe no Majo مترجم - Shahiid Anime",
+      "image": true,
+      "episodes": 1,
+      "first": 1,
+      "last": 1,
+      "uniqueHrefs": 1
+    },
+    {
+      "section": "movies",
+      "title": "فيلم Meitantei Conan Movie 21: Karakurenai no Love Letter مدبلج",
+      "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-meitantei-conan-movie-21-karakurenai-no-love-letter-%d9%85%d8%af%d8%a8%d9%84%d8%ac/",
+      "detailsTitle": "فيلم Meitantei Conan Movie 21: Karakurenai no Love Letter مدبلج - Shahiid Anime",
+      "image": true,
+      "episodes": 1,
+      "first": 1,
+      "last": 1,
+      "uniqueHrefs": 1
+    },
+    {
+      "section": "movies",
+      "title": "أونا Chou Kaguya-hime! مترجم",
+      "href": "/anime/%d8%a3%d9%88%d9%86%d8%a7-chou-kaguya-hime-%d9%85%d8%aa%d8%b1%d8%ac%d9%85/",
+      "detailsTitle": "أونا Chou Kaguya-hime! مترجم - Shahiid Anime",
+      "image": true,
+      "episodes": 1,
+      "first": 1,
+      "last": 1,
+      "uniqueHrefs": 1
+    },
+    {
+      "section": "subbed",
+      "title": "Let's Go Kaiki-gumi مترجم",
+      "href": "/series/lets-go-kaiki-gumi/",
+      "detailsTitle": "Let's Go Kaiki-gumi مترجم",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "subbed",
+      "title": "Iwamoto-senpai no Suisen مترجم",
+      "href": "/series/iwamoto-senpai-no-suisen/",
+      "detailsTitle": "Iwamoto-senpai no Suisen مترجم",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "subbed",
+      "title": "Hua Xianzi: Mofa Xiang Dui Lun مترجم",
+      "href": "/series/hua-xianzi-mofa-xiang-dui-lun/",
+      "error": "Shahiid: no episodes found for /series/hua-xianzi-mofa-xiang-dui-lun/ — either the title is empty upstream or the site markup changed"
+    },
+    {
+      "section": "subbed",
+      "title": "Grow Up Show: Himawari no Circus-dan مترجم",
+      "href": "/series/grow-up-show-himawari-no-circus-dan/",
+      "detailsTitle": "Grow Up Show: Himawari no Circus-dan مترجم",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "subbed",
+      "title": "Bai Ri Cheng Wang مترجم",
+      "href": "/series/bai-ri-cheng-wang/",
+      "detailsTitle": "Bai Ri Cheng Wang مترجم",
+      "image": true,
+      "episodes": 24,
+      "first": 1,
+      "last": 24,
+      "uniqueHrefs": 24
+    },
+    {
+      "section": "subbed",
+      "title": "Uchi no Otouto-domo ga Sumimasen مترجم",
+      "href": "/series/uchi-no-otouto-domo-ga-sumimasen/",
+      "detailsTitle": "Uchi no Otouto-domo ga Sumimasen مترجم",
+      "image": true,
+      "episodes": 11,
+      "first": 1,
+      "last": 11,
+      "uniqueHrefs": 11
+    },
+    {
+      "section": "subbed",
+      "title": "Kore Kaite Shine مترجم",
+      "href": "/series/kore-kaite-shine/",
+      "detailsTitle": "Kore Kaite Shine مترجم",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "subbed",
+      "title": "BanG Dream! Yume∞Mita مترجم",
+      "href": "/series/bang-dream-yume%e2%88%9emita/",
+      "detailsTitle": "BanG Dream! Yume∞Mita مترجم",
+      "image": true,
+      "episodes": 13,
+      "first": 1,
+      "last": 13,
+      "uniqueHrefs": 13
+    },
+    {
+      "section": "subbed",
+      "title": "Reiwa no Dara-san مترجم",
+      "href": "/series/reiwa-no-dara-san/",
+      "detailsTitle": "Reiwa no Dara-san مترجم",
+      "image": true,
+      "episodes": 5,
+      "first": 1,
+      "last": 5,
+      "uniqueHrefs": 5
+    },
+    {
+      "section": "subbed",
+      "title": "Ibitte Konai Gibo to Gishi مترجم",
+      "href": "/series/ibitte-konai-gibo-to-gishi/",
+      "detailsTitle": "Ibitte Konai Gibo to Gishi مترجم",
+      "image": true,
+      "episodes": 7,
+      "first": 1,
+      "last": 7,
+      "uniqueHrefs": 7
+    },
+    {
+      "section": "subbed",
+      "title": "Suterare Seijo no Isekai Gohan Tabi: Kakure Skill de Camping Car wo Shoukan shimashita مترجم",
+      "href": "/series/suterare-seijo-no-isekai-gohan-tabi-kakure-skill-de-camping-car-wo-shoukan-shimashita/",
+      "error": "Shahiid: no episodes found for /series/suterare-seijo-no-isekai-gohan-tabi-kakure-skill-de-camping-car-wo-shouk — either the title is empty upstream or the site markup changed"
+    },
+    {
+      "section": "subbed",
+      "title": "Tefuda ga Oome no Victoria مترجم",
+      "href": "/series/tefuda-ga-oome-no-victoria/",
+      "detailsTitle": "Tefuda ga Oome no Victoria مترجم",
+      "image": true,
+      "episodes": 9,
+      "first": 1,
+      "last": 9,
+      "uniqueHrefs": 9
+    },
+    {
+      "section": "subbed",
+      "title": "&#8220;Kimi wo Aisuru Ki wa Nai\" to Itta Jiki Koushaku-sama ga Nazeka Dekiai shitekimasu مترجم",
+      "href": "/series/kimi-wo-aisuru-ki-wa-nai-to-itta-jiki-koushaku-sama-ga-nazeka-dekiai-shitekimasu/",
+      "detailsTitle": "&#8220;Kimi wo Aisuru Ki wa Nai\" to Itta Jiki Koushaku-sama ga Nazeka Dekiai shitekimasu مترجم",
+      "image": false,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "subbed",
+      "title": "Mahou Shoujo Lyrical Nanoha EXCEEDS: Gun Blaze Vengeance مترجم",
+      "href": "/series/mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance/",
+      "detailsTitle": "Mahou Shoujo Lyrical Nanoha EXCEEDS: Gun Blaze Vengeance مترجم",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "subbed",
+      "title": "Sora wa Akai Kawa no Hotori مترجم",
+      "href": "/series/sora-wa-akai-kawa-no-hotori/",
+      "detailsTitle": "Sora wa Akai Kawa no Hotori مترجم",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "subbed",
+      "title": "Mujikaku Seijo wa Kyou mo Muishiki ni Chikara wo Tare Nagasu مترجم",
+      "href": "/series/mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu/",
+      "detailsTitle": "Mujikaku Seijo wa Kyou mo Muishiki ni Chikara wo Tare Nagasu مترجم",
+      "image": true,
+      "episodes": 11,
+      "first": 1,
+      "last": 11,
+      "uniqueHrefs": 11
+    },
+    {
+      "section": "subbed",
+      "title": "Oni no Hanayome مترجم",
+      "href": "/series/oni-no-hanayome/",
+      "detailsTitle": "Oni no Hanayome مترجم",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    },
+    {
+      "section": "subbed",
+      "title": "Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha مترجم",
+      "href": "/series/sekai-saikyou-no-kouei-meikyuukoku-no-shinjin-tansakusha/",
+      "detailsTitle": "Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha مترجم",
+      "image": true,
+      "episodes": 10,
+      "first": 1,
+      "last": 10,
+      "uniqueHrefs": 10
+    }
+  ],
+  "requests": [
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 857
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 831
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 761
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1249
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1756
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 910
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1145
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1245
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 950
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1159
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1167
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 905
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1706
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1244
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1013
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1243
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1739
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 947
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1161
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1271
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 921
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1184
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1152
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1607
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1190
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1246
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1762
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1203
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1254
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1657
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1166
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1369
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1710
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1597
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1179
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1288
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1700
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1813
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1766
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1715
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1679
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1301
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1315
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1645
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1179
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1200
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1901
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1141
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1319
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 2349
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1346
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1541
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1819
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1142
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1235
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1911
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 2141
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 2133
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1862
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1772
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1709
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1844
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1824
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1389
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1226
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1622
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1262
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1159
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1594
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1179
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1297
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1887
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1778
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1894
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1822
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1852
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 2044
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1362
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1260
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1827
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1204
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1180
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1839
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1814
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1864
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1801
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1797
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1350
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1262
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1880
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1252
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1194
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1595
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1289
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1212
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1720
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1232
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1217
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1627
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1713
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1341
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1197
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1760
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1658
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1172
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1359
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1922
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1223
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1258
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1687
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1251
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1227
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1979
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1330
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1245
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1968
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 2102
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 2310
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 2351
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 2561
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 2015
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1865
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 722
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 718
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 710
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1264
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1189
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 938
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1156
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1199
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1000
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1265
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1238
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 932
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1188
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1355
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1423
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1180
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1144
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 980
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 979
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1169
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1664
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 987
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1258
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1146
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 949
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1250
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1166
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 944
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1219
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1185
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1048
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1245
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1161
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 889
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1195
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1174
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1031
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1252
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1165
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 904
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1313
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1145
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 957
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1240
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1308
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 930
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1649
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1213
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1186
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1397
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1256
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1014
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1208
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1239
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1018
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1246
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1287
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 940
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 916
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 784
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 785
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 766
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 7240
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1292
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1433
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1159
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1210
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1178
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1284
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1203
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1067
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1564
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1039
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1088
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1157
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1059
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1062
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1057
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 992
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1047
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1244
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1009
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1012
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 976
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1011
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1480
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1104
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 1032
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 3010
+    },
+    {
+      "host": "share4max.com",
+      "status": 200,
+      "ms": 516
+    },
+    {
+      "host": "share4max.com",
+      "status": 200,
+      "ms": 278
+    },
+    {
+      "host": "streamtape.com",
+      "status": 200,
+      "ms": 74
+    },
+    {
+      "host": "lulustream.com",
+      "status": 200,
+      "ms": 343
+    },
+    {
+      "host": "cdn1018.cdn-tnmr.org",
+      "status": 200,
+      "ms": 44
+    },
+    {
+      "host": "cdn1018.cdn-tnmr.org",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "host": "cdn1018.cdn-tnmr.org",
+      "status": 206,
+      "ms": 24
+    },
+    {
+      "host": "voe.sx",
+      "status": 200,
+      "ms": 67
+    },
+    {
+      "host": "streamwish.to",
+      "status": 200,
+      "ms": 50
+    },
+    {
+      "host": "krakenfiles.com",
+      "status": 200,
+      "ms": 336
+    },
+    {
+      "host": "hexload.com",
+      "status": 200,
+      "ms": 186
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 2378
+    },
+    {
+      "host": "share4max.com",
+      "status": 200,
+      "ms": 367
+    },
+    {
+      "host": "share4max.com",
+      "status": 200,
+      "ms": 317
+    },
+    {
+      "host": "streamtape.com",
+      "status": 200,
+      "ms": 66
+    },
+    {
+      "host": "lulustream.com",
+      "status": 200,
+      "ms": 214
+    },
+    {
+      "host": "lda1qrb9gmut.tnmr.org",
+      "status": 200,
+      "ms": 119
+    },
+    {
+      "host": "lda1qrb9gmut.tnmr.org",
+      "status": 200,
+      "ms": 20
+    },
+    {
+      "host": "lda1qrb9gmut.tnmr.org",
+      "status": 206,
+      "ms": 101
+    },
+    {
+      "host": "voe.sx",
+      "status": 200,
+      "ms": 43
+    },
+    {
+      "host": "krakenfiles.com",
+      "status": 200,
+      "ms": 243
+    },
+    {
+      "host": "mp4upload.com",
+      "status": 200,
+      "ms": 236
+    },
+    {
+      "host": "hexload.com",
+      "status": 200,
+      "ms": 428
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 4412
+    },
+    {
+      "host": "shahiid-anime.net",
+      "status": 200,
+      "ms": 429
+    },
+    {
+      "host": "docs.google.com",
+      "status": 403,
+      "ms": 223
+    }
+  ],
+  "home": [
+    {
+      "id": "featured",
+      "items": 6,
+      "episodeLinks": 0,
+      "posters": 6
+    },
+    {
+      "id": "dubbed",
+      "items": 24,
+      "episodeLinks": 0,
+      "posters": 24
+    },
+    {
+      "id": "movies",
+      "items": 24,
+      "episodeLinks": 0,
+      "posters": 24
+    },
+    {
+      "id": "subbed",
+      "items": 24,
+      "episodeLinks": 0,
+      "posters": 24
+    }
+  ],
+  "feeds": [
+    {
+      "feed": "latest",
+      "page": 2,
+      "count": 30,
+      "hasMore": true,
+      "episodeLinks": 0
+    },
+    {
+      "feed": "featured",
+      "page": 2,
+      "count": 30,
+      "hasMore": true,
+      "episodeLinks": 0
+    },
+    {
+      "feed": "subbed",
+      "page": 2,
+      "count": 30,
+      "hasMore": true,
+      "episodeLinks": 0
+    },
+    {
+      "feed": "dubbed",
+      "page": 2,
+      "count": 5,
+      "hasMore": false,
+      "episodeLinks": 0
+    }
+  ],
+  "search": {
+    "coldMs": 7243,
+    "count": 20,
+    "repeatMs": 0,
+    "titles": [
+      {
+        "title": "One Piece: Heroines حلقة خاصة مترجمة",
+        "href": "/seasons/one-piece-heroines/"
+      },
+      {
+        "title": "أنمي One Piece: Gyojin Tou-hen ون بيس جزيرة البرمائيين مترجم",
+        "href": "/seasons/%d8%a3%d9%86%d9%85%d9%8a-one-piece-gyojin-tou-hen-%d9%88%d9%86-%d8%a8%d9%8a%d8%b3-%d8%ac%d8%b2%d9%8a%d8%b1%d8%a9-%d8%a7%d9%84%d8%a8%d8%b1%d9%85%d8%a7%d8%a6%d9%8a%d9%8a%d9%86-%d9%85%d8%aa%d8%b1%d8%ac/"
+      },
+      {
+        "title": "جميع حلقات ون بيس One Piece الخاصة+الأوفات مترجمة",
+        "href": "/seasons/%d8%ac%d9%85%d9%8a%d8%b9-%d8%ad%d9%84%d9%82%d8%a7%d8%aa-%d9%88%d9%86-%d8%a8%d9%8a%d8%b3-one-piece-%d8%a7%d9%84%d8%ae%d8%a7%d8%b5%d8%a9%d8%a7%d9%84%d8%a3%d9%88%d9%81%d8%a7%d8%aa-%d9%85%d8%aa%d8%b1/"
+      },
+      {
+        "title": "انمي One Piece ون بيس مترجم",
+        "href": "/seasons/%d9%88%d9%86-%d8%a8%d9%8a%d8%b3-one-piece-%d9%85%d8%aa%d8%b1%d8%ac%d9%85/"
+      },
+      {
+        "title": "أنمي One Piece ون بيس مترجم",
+        "href": "/series/one-piece-%d9%88%d9%86-%d8%a8%d9%8a%d8%b3/"
+      },
+      {
+        "title": "فيلم One Piece Film: Red مترجم",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-one-piece-film-red-%d9%85%d8%aa%d8%b1%d8%ac%d9%85/"
+      },
+      {
+        "title": "فيلم ون بيس One Piece Movie 14: Stampede مترجم اون لاين وتحميل",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-%d9%88%d9%86-%d8%a8%d9%8a%d8%b3-one-piece-movie-14-stampede/"
+      },
+      {
+        "title": "فيلم ONE PIECE MOVIE 13 : Gold مترجم + اونلاين",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-one-piece-movie-13-gold-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-%d8%a7%d9%88%d9%86%d9%84%d8%a7%d9%8a%d9%86/"
+      },
+      {
+        "title": "فيلم ONE PIECE MOVIE 12 : FILM Z مترجم + اونلاين",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-one-piece-movie-12-film-z-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-%d8%a7%d9%88%d9%86%d9%84%d8%a7%d9%8a%d9%86/"
+      },
+      {
+        "title": "فيلم One Piece 11 : Mugiwara Chase مترجم + اونلاين",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-one-piece-3d-mugiwara-chase-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-%d8%a7%d9%88%d9%86%d9%84%d8%a7%d9%8a%d9%86/"
+      },
+      {
+        "title": "فيلم One Piece 10 : Strong World مترجم + اونلاين",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-one-piece-10-strong-world-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-%d8%a7%d9%88%d9%86%d9%84%d8%a7%d9%8a%d9%86/"
+      },
+      {
+        "title": "فيلم One Piece Movie 9: Episode of Chopper Plus - Fuyu ni Saku, Kiseki no Sakura مترجم + اونلاين",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-one-piece-movie-9-episode-of-chopper-plus-fuyu-ni-saku-kiseki-no-sakura-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-%d8%a7%d9%88%d9%86%d9%84%d8%a7%d9%8a%d9%86/"
+      },
+      {
+        "title": "فيلم One Piece Movie 8: Episode of Alabasta - Sabaku no Oujo to Kaizoku-tachi مترجم + اونلاين",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-one-piece-movie-5-norowareta-seiken-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-%d8%a7%d9%88%d9%86%d9%84%d8%a7%d9%8a%d9%86-2/"
+      },
+      {
+        "title": "فيلم One Piece Movie 7: Karakuri-jou no Mecha Kyohei مترجم + اونلاين",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-one-piece-movie-7-karakuri-jou-no-mecha-kyohei-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-%d8%a7%d9%88%d9%86%d9%84%d8%a7%d9%8a%d9%86/"
+      },
+      {
+        "title": "فيلم One Piece Movie 6: Omatsuri Danshaku to Himitsu no Shima مترجم + اونلاين",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-one-piece-movie-6-omatsuri-danshaku-to-himitsu-no-shima-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-%d8%a7%d9%88%d9%86%d9%84%d8%a7%d9%8a%d9%86/"
+      },
+      {
+        "title": "فيلم ون بيس One Piece 1 مترجم + اونلاين",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-%d9%88%d9%86-%d8%a8%d9%8a%d8%b3-one-piece-1-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-%d8%a7%d9%88%d9%86%d9%84%d8%a7%d9%8a%d9%86/"
+      },
+      {
+        "title": "فيلم One Piece Movie 2: Nejimaki-jima no Daibouken مترجم + اونلاين",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-one-piece-movie-2-nejimaki-jima-no-daibouken-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-%d8%a7%d9%88%d9%86%d9%84%d8%a7%d9%8a%d9%86/"
+      },
+      {
+        "title": "فيلم One Piece Movie 3: Chinjuu-jima no Chopper Oukoku مترجم + اونلاين",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-one-piece-movie-3-chinjuu-jima-no-chopper-oukoku-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-%d8%a7%d9%88%d9%86%d9%84%d8%a7%d9%8a%d9%86/"
+      },
+      {
+        "title": "فيلم One Piece Movie 4: Dead End no Bouken مترجم + اونلاين",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-one-piece-movie-4-dead-end-no-bouken-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-%d8%a7%d9%88%d9%86%d9%84%d8%a7%d9%8a%d9%86/"
+      },
+      {
+        "title": "فيلم One Piece Movie 5: Norowareta Seiken مترجم + اونلاين",
+        "href": "/anime/%d9%81%d9%8a%d9%84%d9%85-one-piece-movie-5-norowareta-seiken-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-%d8%a7%d9%88%d9%86%d9%84%d8%a7%d9%8a%d9%86/"
+      }
+    ]
+  },
+  "regularOnePiece": {
+    "title": "انمي One Piece ون بيس مترجم",
+    "episodes": 500,
+    "probes": [
+      {
+        "number": 1,
+        "href": "/episodes/one-piece-%d8%a7%d9%84%d8%ad%d9%84%d9%82%d8%a9-01-%d9%85%d8%aa%d8%b1%d8%ac%d9%85%d8%a9-%d8%a7%d9%88%d9%86-%d9%84%d8%a7%d9%8a%d9%86/",
+        "servers": 2,
+        "decode": true
+      },
+      {
+        "number": 251,
+        "href": "/episodes/one-piece-%d8%a7%d9%84%d8%ad%d9%84%d9%82%d8%a9-251-%d9%85%d8%aa%d8%b1%d8%ac%d9%85%d8%a9-%d8%a7%d9%88%d9%86-%d9%84%d8%a7%d9%8a%d9%86/",
+        "servers": 2,
+        "decode": true
+      }
+    ]
+  },
+  "reportedSpecial": {
+    "resolved": false,
+    "error": "Shahiid: no playable stream could be extracted for /episodes/one-piece-%D9%88%D9%86-%D8%A8%D9%8A%D8%B3-%D8%A7%D9%84%D8%AD%D9%84%D9% — every server on this episode failed validation (1 upstream servers tried)"
+  },
+  "summary": {
+    "homeChecked": 51,
+    "homeLoaded": 48,
+    "homeMultipleEpisodes": 45
+  }
+}
