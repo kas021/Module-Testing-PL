@@ -10,11 +10,24 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**Active testing: X-Stream 1.3.0-beta.4.**
+**Active testing: X-Stream 1.3.0-beta.4 and Toonix 1.0.0-beta.5.**
 Explicit provider servers, source-specific captions/headers, expiring link cache
 and singleton-provider retry repairs. Final-package Flutter runtime/media checks
 passed; S2 is PARTIAL, not stable certification. The broader resolver study decoded
 27/30 short host samples. See [X-Stream QA and known limits](XSTREAM_QA.md).
+
+**New active testing: Toonix 1.0.0-beta.5.** (published 2026-09-12)
+Cartoons, anime and movies from toonix.bond (213 shows, 103 movies) with V4 discovery.
+Signed HLS through a three-host CDN mirror set with automatic failover, plus validated
+archive.org MP4 routes for some titles. Audio is evidence-sampled per title: Hindi dubs
+dominate, but some titles carry the English original (Avatar: The Last Airbender), so a
+route label names a language only where sampling evidence exists and the manifest declares
+"Hindi + English (mixed)". 17/17 regression tests, node contract tester 28 PASS / 0 FAIL,
+S2 quick and S2 standard PASS on the app's simulator stack (seek verified), and the release
+gate ALL_PASSED 4/4 titles on the first attempt (three HLS titles + one archive MP4 title).
+Not a certified stable release: audible playback, offline/download and physical-device
+checks are incomplete, the episode list caps at 400 per series, and several anime and
+[SUB]-tagged titles have no upstream source. See [Toonix QA and known limits](TOONIX_QA.md).
 
 **Deferred candidate retained: YASTREAM 1.0.1-beta.2.**
 Owner has paused YASTREAM because playback remains inconsistent, including
