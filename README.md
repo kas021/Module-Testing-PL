@@ -10,13 +10,16 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**STCine 1.1.0-beta.3 is available for owner testing.**
+**STCine 1.1.1 is now in the official repository (Bundle 120).**
+The owner approved promotion with the PARTIAL limits below. JavaScript is
+unchanged from beta.3. The beta is retired from active testing; its immutable
+ZIP and old bundles remain reachable. Use the official repository for updates.
 Updated paginated discovery, complete season mapping, explicit provider choices,
 checked qualities and source-specific multilingual captions. 14 regression tests
 pass. Final S2 standard is PARTIAL: runtime/media checks and simulator video
 advancement passed, but audible sound, spoken language, full offline playback and
 cross-server/quality caption behavior are not certified. See [STCine QA](STCINE_QA.md)
-for the exact matrix and known failures. This is not a production release.
+for the exact matrix and known failures. Promotion does not clear these QA limits.
 
 **X-Stream 1.3.1 is now released in the official repository (Bundle 119).**
 The owner approved promotion with the PARTIAL QA limits below. Its JavaScript
