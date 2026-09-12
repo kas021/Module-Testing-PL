@@ -44,3 +44,9 @@ Try Inception, Breaking Bad S3E7 and Silo S1E1. Confirm audible dialogue, captio
 quality changes, each available server, long seeks and background/resume. Test a
 complete download separately with networking disabled. Report exact title,
 season/episode, selected server and module version if anything fails.
+# Promotion: 2026-09-12
+
+Owner-approved stable 1.3.1 is published in Synthetiq-Modules Bundle 119.
+JavaScript is byte-for-byte identical to this beta.4 candidate. This promotion
+does not remove the PARTIAL QA limits recorded below. The beta is retired from
+the active testing index, with immutable package URLs preserved.

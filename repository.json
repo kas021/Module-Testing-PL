@@ -3,14 +3,14 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789232125860,
+  "publishedAtMs": 1789242120910,
   "signature": "",
-  "testingIdentity": "toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca|xstream-v1:1.3.0-beta.4:6475c255c2be1a42ceb6aed13c912903a3f0db1b6a4a4011d2cf3ea193cc92ad|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
+  "testingIdentity": "toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
   "bundle": {
-    "version": 44,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-44.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-44.zip",
-    "sha256": "97778309d3c5f9d4c22a557db7bcd67f1105c21b1f96ac38f0dde57fd51c9116",
+    "version": 45,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-45.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-45.zip",
+    "sha256": "b8da0fca3b8fb494d69f7c5c95f269f7509307ad0499e1e8b6d6df6c10a52f61",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
@@ -27,37 +27,13 @@
       "sha256": "ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789232125860,
+      "publishedAtMs": 1789242120910,
       "presentation": {
         "category": "Cartoons",
         "purpose": "Testing only",
         "recommended": false,
         "language": "Hindi + English (mixed)",
         "iconUrl": "https://toonix.bond/logo.png"
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    },
-    {
-      "moduleId": "xstream-v1",
-      "moduleFamilyId": "xstream_v1",
-      "moduleIdentity": "SP-VID-048-XSTREAM",
-      "moduleIdentityNumber": 48,
-      "contentType": "video",
-      "version": "1.3.0-beta.4",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/X-Stream-1.3.0-beta.4.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/X-Stream-1.3.0-beta.4.zip",
-      "sha256": "6475c255c2be1a42ceb6aed13c912903a3f0db1b6a4a4011d2cf3ea193cc92ad",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789232125860,
-      "presentation": {
-        "category": "Movies & TV",
-        "purpose": "Testing only",
-        "language": "English",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png",
-        "recommended": false
       },
       "changelog": [
         "TEST CANDIDATE: not certified for stable release. See repository QA notes."
@@ -75,7 +51,7 @@
       "sha256": "ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789232125860,
+      "publishedAtMs": 1789242120910,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
