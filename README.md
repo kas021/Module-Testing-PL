@@ -10,9 +10,12 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**Active testing candidate: AniWorld 1.1.0-beta.6.**
-Anime Sama 1.1.1 is owner-approved for the official repository; its beta.9 is
-retired here with all old ZIP URLs preserved. See [historical Anime Sama beta9 QA](ANIME_SAMA_BETA9_QA.md)
+**No active testing candidates.**
+AniWorld 1.1.1 and Anime Sama 1.1.1 are now in the official repository; their betas are
+retired here with all old ZIP URLs preserved. AniWorld's expanded checks decoded
+234/249 host samples; known coverage gaps and incomplete native sound certification
+remain documented in the [official release notes](https://github.com/kas021/Synthetiq-Modules/blob/main/docs/ANIWORLD_1_1_1_RELEASE.md).
+See [historical Anime Sama beta9 QA](ANIME_SAMA_BETA9_QA.md)
 and [historical trio QA, exact counts and test instructions](ANIME_TRIO_QA.md).
 AniWorld remains PARTIAL: broad host media checks pass, but individual streams fail and
 native sound/physical-device/in-app offline checks remain incomplete.

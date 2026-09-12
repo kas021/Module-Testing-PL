@@ -2,39 +2,17 @@
   "schemaVersion": 1,
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
-  "enabled": true,
-  "publishedAtMs": 1789207272486,
+  "enabled": false,
+  "publishedAtMs": 1789209341741,
   "signature": "",
-  "testingIdentity": "aniworld-v1:1.1.0-beta.6:08cf951eae3b90551b5e7120201a73bcd11fc298ba70a5c7dd388a6082091854",
+  "testingIdentity": "",
   "bundle": {
-    "version": 38,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-38.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-38.zip",
-    "sha256": "60ff4e584ecb5892629af56c7459b781bdc2e28720f723755dd65710a70a1c7b",
+    "version": 39,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-39.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-39.zip",
+    "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
-  "modules": [
-    {
-      "moduleId": "aniworld-v1",
-      "moduleFamilyId": "aniworld_v1",
-      "moduleIdentity": "SP-VID-050-ANIWORLD",
-      "moduleIdentityNumber": 50,
-      "contentType": "video",
-      "version": "1.1.0-beta.6",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/aniworld-v1-1.1.0-beta.6.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/aniworld-v1-1.1.0-beta.6.zip",
-      "sha256": "08cf951eae3b90551b5e7120201a73bcd11fc298ba70a5c7dd388a6082091854",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789207272486,
-      "presentation": {
-        "recommended": false,
-        "purpose": "Testing only"
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    }
-  ]
+  "modules": []
 }
