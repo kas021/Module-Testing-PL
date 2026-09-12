@@ -56,6 +56,25 @@ for seasons 1–4 and for every episode tried, on all three CDN mirrors (v1/v2/v
 device report for `/show/ninja-hattori-kun-returns/1/14` reproduces this exactly (`503`, 45
 bytes → module error `Source unavailable for this episode (upstream stream token missing)`).
 
+### Per-title outcome of that sample
+
+**Playable (21):** 1001-nights · x-men · the-smurfs · spongebob-squarepants · chhota-bheem ·
+transformers-robots-in-disguise · roll-no-21 · baby-looney-tunes · shiva · dora-the-explorer ·
+scooby-doo · ben-10-ultimate-alien · marvels-hulk-and-the-agents-of-smash ·
+billy-mandy-aur-life-mein-haddi-cn · ultra-b · turning-mecard · tom-and-jerry · kiteretsu ·
+ben-10 · justice-league-unlimited · ben-10-omniverse
+
+**Worker stub, `503` "Stream token not set" (17):** zatch-bell · english-toradora ·
+trillion-game · chorr-police · mr-bean · chacha-chaudhary · sergeant-keroro-sgt-frog ·
+lanfeust-quest · fairy-tail · the-daily-life-of-the-immortal-king · the-adventures-of-tintin ·
+mr-bean-the-animated-series · yo-kai-watch · english-the-simpsons · assassination-classroom ·
+love-death-robots · my-family
+
+**No player source at all (2):** ghost-in-the-shell-stand-alone-complex · perman-remastered
+
+Separately verified dead (outside this random sample): attack-on-titan · bleach · death-note ·
+one-piece-sony · looney-tunes · **ninja-hattori-kun-returns** (all four seasons).
+
 ## Verified before publish
 
 - **18/18** module regression tests; node contract tester **28 PASS / 0 FAIL / 2 WARN**
@@ -76,11 +95,12 @@ bytes → module error `Source unavailable for this episode (upstream stream tok
    `Could not open/initialize audio device -> no sound` at every checkpoint: video advance and
    seeking are proven, sound and physical-device playback are not. Please check sound on your
    device.
-2. **About half the catalogue is unavailable upstream** (see the table above). The `[SUB]`-tagged
-   titles (4 Doraemon movies + KochiKame) and sampled anime titles (Attack on Titan, Bleach,
-   Death Note, One Piece-Sony, Fairy Tail, Yo-Kai Watch, Mr Bean, Simpsons, Zatch Bell, Looney
-   Tunes, many more) answer with the stub or have no source. Reported as unavailable, never
-   substituted with something else.
+2. **About half the catalogue is unavailable upstream.** Use the per-title lists above before
+   reporting a failure — the `[SUB]`-tagged titles (4 Doraemon movies + KochiKame) plus every
+   title in the *stub* and *no source* lists cannot play for anyone, including on the source
+   site. Such titles are reported as unavailable and never substituted with something else.
+   Availability is not constant, so a title listed as dead may start working later (and vice
+   versa) — re-probe rather than assume.
 3. **archive.org routes depend on archive.org**: it answered 502/503 for every item (including
    a control item) during part of the audit and recovered. Those routes are validated at
    runtime (redirect resolution + ranged probe + `ftyp`/content-type) and report unavailable
