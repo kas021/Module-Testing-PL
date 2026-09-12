@@ -2,17 +2,45 @@
   "schemaVersion": 1,
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
-  "enabled": false,
-  "publishedAtMs": 1789209341741,
+  "enabled": true,
+  "publishedAtMs": 1789222595838,
   "signature": "",
-  "testingIdentity": "",
+  "testingIdentity": "yastream-v1:1.0.1-beta.1:9b203d392a9b5338d8acdb41215ddfc659c4f9ca4e9a37af771648b8e73766cc",
   "bundle": {
-    "version": 39,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-39.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-39.zip",
-    "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "version": 40,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-40.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-40.zip",
+    "sha256": "fb8d8972c28f4e478a3477045ecfe0420990cff318fde60a86f6069bd46cbd3a",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
-  "modules": []
+  "modules": [
+    {
+      "moduleId": "yastream-v1",
+      "moduleFamilyId": "yastream_v1",
+      "moduleIdentity": "SP-VID-200-YASTREAM",
+      "moduleIdentityNumber": 200,
+      "contentType": "video",
+      "version": "1.0.1-beta.1",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/YASTREAM-1.0.1-beta.1.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/YASTREAM-1.0.1-beta.1.zip",
+      "sha256": "9b203d392a9b5338d8acdb41215ddfc659c4f9ca4e9a37af771648b8e73766cc",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789222595838,
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Testing only",
+        "recommended": false,
+        "language": "Original audio",
+        "languages": [
+          "sub"
+        ],
+        "iconUrl": "https://yastream.tamthai.de/img/yas.png"
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    }
+  ]
 }

@@ -10,7 +10,12 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**No active testing candidates.**
+**Active testing candidate: YASTREAM 1.0.1-beta.1.**
+Owner-requested testing only, not a certified stable release. Search, episode
+identity and provider-header handling were updated; 10 regression tests passed.
+Broader live QA was interrupted by disk exhaustion. Some provider streams are
+rejected and metadata can contain upstream errors. Native playback, download,
+offline and language certification are incomplete. See [YASTREAM QA](YASTREAM_QA.md).
 AniWorld 1.1.1 and Anime Sama 1.1.1 are now in the official repository; their betas are
 retired here with all old ZIP URLs preserved. AniWorld's expanded checks decoded
 234/249 host samples; known coverage gaps and incomplete native sound certification
