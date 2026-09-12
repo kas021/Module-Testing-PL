@@ -10,9 +10,12 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**Active testing candidate: YASTREAM 1.0.1-beta.1.**
+**Active testing candidate: YASTREAM 1.0.1-beta.2.**
+Adds Featured and byte-verified handling of MPEG-TS chunks mislabelled as PNG.
+Backdoor episode 3, Parasite and Train to Busan passed short host AV checks
+at the start and 90 seconds. This is not iPhone playback certification.
 Owner-requested testing only, not a certified stable release. Search, episode
-identity and provider-header handling were updated; 10 regression tests passed.
+identity and provider-header handling were updated; 11 regression tests passed.
 Broader live QA was interrupted by disk exhaustion. Some provider streams are
 rejected and metadata can contain upstream errors. Native playback, download,
 offline and language certification are incomplete. See [YASTREAM QA](YASTREAM_QA.md).
