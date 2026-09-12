@@ -1,9 +1,10 @@
 # Current owner testing candidates - 2026-09-12
 
-The active index contains Shahiid 2.1.0-beta.5, Mugiwara 1.1.0-beta.5,
-and Movie Direct 0.3.0-beta.2. See SHAHIID_QA.md, MUGIWARA_QA.md and
-MOVIE_DIRECT_QA.md for evidence and limitations. These are testing candidates,
-not stable approvals. AnimeAV1 is temporarily parked; its ZIP is retained.
+The active index contains Mugiwara 1.1.0-beta.5 and Movie Direct 0.3.0-beta.2.
+See MUGIWARA_QA.md and MOVIE_DIRECT_QA.md for evidence and limitations.
+Shahiid was owner-approved for official 2.1.1 with its documented limitations;
+its beta is no longer active. Old ZIPs remain reachable. AnimeAV1 is temporarily
+parked; its ZIP is retained.
 
 # Historical owner testing candidate - 2026-09-11
 

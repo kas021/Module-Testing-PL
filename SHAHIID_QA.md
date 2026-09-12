@@ -1,6 +1,9 @@
 # Shahiid 2.1.0-beta.5 - Home and episode-list repair
 
-Testing only. Official Shahiid remains unchanged.
+Historical candidate: owner approved official Shahiid 2.1.1 on 2026-09-12.
+JavaScript is unchanged; release metadata only. Beta.5 is retired from the active
+testing index. Its original ZIP remains reachable. The PARTIAL evidence and
+known failures below are not resolved by publication.
 SHA-256: 7748ea01a4cbdfe574577d1d795695ac1555882d7292d18c1d518fa3b80bbb55
 
 ## Corrections

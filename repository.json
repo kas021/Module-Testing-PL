@@ -3,14 +3,14 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789177806302,
+  "publishedAtMs": 1789178549388,
   "signature": "",
-  "testingIdentity": "movie-direct-v1:0.3.0-beta.2:9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8|mugiwara-v1:1.1.0-beta.5:be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857|shahiid-v1:2.1.0-beta.5:7748ea01a4cbdfe574577d1d795695ac1555882d7292d18c1d518fa3b80bbb55",
+  "testingIdentity": "movie-direct-v1:0.3.0-beta.2:9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8|mugiwara-v1:1.1.0-beta.5:be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857",
   "bundle": {
-    "version": 34,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-34.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-34.zip",
-    "sha256": "bb13fd3bf08e48984e2c07117b5dcd4b820ded6da311a4752c6a477baa9e6547",
+    "version": 35,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-35.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-35.zip",
+    "sha256": "69656b9129da69ab20bd1214e12d7dfc71133d59f3b9217118e30484df80ae59",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
@@ -27,7 +27,7 @@
       "sha256": "9ed5cb857debab8751cb8305d285715aedcd89fb2e9fefafa9d0f33921de75e8",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789177806302,
+      "publishedAtMs": 1789178549388,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
@@ -50,7 +50,7 @@
       "sha256": "be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789177806302,
+      "publishedAtMs": 1789178549388,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -61,30 +61,6 @@
           "dub"
         ],
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mugiwara.png"
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    },
-    {
-      "moduleId": "shahiid-v1",
-      "moduleFamilyId": "shahiid_v1",
-      "moduleIdentity": "SP-VID-055-SHAHIID",
-      "moduleIdentityNumber": 55,
-      "contentType": "video",
-      "version": "2.1.0-beta.5",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Shahiid-2.1.0-beta.5.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/Shahiid-2.1.0-beta.5.zip",
-      "sha256": "7748ea01a4cbdfe574577d1d795695ac1555882d7292d18c1d518fa3b80bbb55",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789177806302,
-      "presentation": {
-        "category": "Anime",
-        "purpose": "Testing only",
-        "language": "Arabic Sub/Dub",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/shahiid.png",
-        "recommended": false
       },
       "changelog": [
         "TEST CANDIDATE: not certified for stable release. See repository QA notes."
