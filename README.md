@@ -10,7 +10,10 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**MegaKino (Deutsch) 1.1.0-beta.3 is available for owner testing.**
+**MegaKino (Deutsch) 1.1.1 is promoted to the official repository (Bundle 121).**
+The owner approved promotion with the QA limitations below. Playback JavaScript
+is unchanged from beta.3. Its beta is retired from active testing; historical
+packages and bundles remain reachable. Use the official repository for updates.
 Repairs the moved catalogue domain, preserves old saved links, and adds paginated
 feeds plus available server/quality choices. 15 regression tests, 30/30 short host
 video/audio samples and 30/30 poster responses pass. No external captions returned
