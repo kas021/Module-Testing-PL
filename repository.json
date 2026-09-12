@@ -3,18 +3,42 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789227817556,
+  "publishedAtMs": 1789230075551,
   "signature": "",
-  "testingIdentity": "xstream-v1:1.3.0-beta.4:6475c255c2be1a42ceb6aed13c912903a3f0db1b6a4a4011d2cf3ea193cc92ad|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
+  "testingIdentity": "toonix-v1:1.0.0-beta.5:f281f24350fb239cb21c8d52db61102f87ed43974d461619aa045deb00bb1c55|xstream-v1:1.3.0-beta.4:6475c255c2be1a42ceb6aed13c912903a3f0db1b6a4a4011d2cf3ea193cc92ad|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
   "bundle": {
-    "version": 42,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-42.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-42.zip",
-    "sha256": "9f67f98a5093e2fb1fed61777dbe57894830a36e7ce2537f28bd1a56de192f03",
+    "version": 43,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-43.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-43.zip",
+    "sha256": "617ac05094ab9a656b60e9efdea84944715da5303b6f2401adb02cf55078f47b",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
   "modules": [
+    {
+      "moduleId": "toonix-v1",
+      "moduleFamilyId": "toonix_v1",
+      "moduleIdentity": "SP-VID-076-TOONIX",
+      "moduleIdentityNumber": 76,
+      "contentType": "video",
+      "version": "1.0.0-beta.5",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Toonix-1.0.0-beta.5.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/Toonix-1.0.0-beta.5.zip",
+      "sha256": "f281f24350fb239cb21c8d52db61102f87ed43974d461619aa045deb00bb1c55",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789230075551,
+      "presentation": {
+        "category": "Cartoons",
+        "purpose": "Testing only",
+        "recommended": false,
+        "language": "Hindi + English (mixed)",
+        "iconUrl": "https://toonix.bond/logo.png"
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    },
     {
       "moduleId": "xstream-v1",
       "moduleFamilyId": "xstream_v1",
@@ -27,7 +51,7 @@
       "sha256": "6475c255c2be1a42ceb6aed13c912903a3f0db1b6a4a4011d2cf3ea193cc92ad",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789227817556,
+      "publishedAtMs": 1789230075551,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
@@ -51,7 +75,7 @@
       "sha256": "ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789227817556,
+      "publishedAtMs": 1789230075551,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
