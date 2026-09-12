@@ -10,7 +10,9 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**Owner-requested experimental testing: Ev01 1.1.0-beta.1.**
+**EV01 withdrawn from active testing at the owner's request.**
+Its package and historical bundles remain reachable for cached-index compatibility.
+The official repository is unchanged. Historical beta limitations follow:
 Package inspection/import passes and nine fixture regressions pass. Live QA is
 blocked on the UK test connection by HTTP 451; the recorded S2 run is FAIL at
 Home, not playback-certified. Featured/endless browsing remains unfinished.

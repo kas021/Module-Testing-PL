@@ -3,39 +3,18 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789249750945,
+  "publishedAtMs": 1789250359506,
   "signature": "",
-  "testingIdentity": "ev01-v1:1.1.0-beta.1:18b129ef10eb1b05e5018e3815895cc86b659568dc28210c8eb6238786bbf6e3|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
+  "testingIdentity": "toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
   "bundle": {
-    "version": 48,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-48.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-48.zip",
-    "sha256": "d7eb65a134dc3356692028063b52665a07d3790b138a9f84dcdfaf48c036b8c2",
+    "version": 49,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-49.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-49.zip",
+    "sha256": "b8da0fca3b8fb494d69f7c5c95f269f7509307ad0499e1e8b6d6df6c10a52f61",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
   "modules": [
-    {
-      "moduleId": "ev01-v1",
-      "moduleFamilyId": "ev01_v1",
-      "moduleIdentity": "SP-VID-046-EV01",
-      "moduleIdentityNumber": 46,
-      "contentType": "video",
-      "version": "1.1.0-beta.1",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Ev01-1.1.0-beta.1.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/Ev01-1.1.0-beta.1.zip",
-      "sha256": "18b129ef10eb1b05e5018e3815895cc86b659568dc28210c8eb6238786bbf6e3",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789249750945,
-      "presentation": {
-        "recommended": false,
-        "purpose": "Testing only"
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    },
     {
       "moduleId": "toonix-v1",
       "moduleFamilyId": "toonix_v1",
@@ -48,7 +27,7 @@
       "sha256": "ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789249750945,
+      "publishedAtMs": 1789250359506,
       "presentation": {
         "category": "Cartoons",
         "purpose": "Testing only",
@@ -72,7 +51,7 @@
       "sha256": "ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789249750945,
+      "publishedAtMs": 1789250359506,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",

@@ -1,5 +1,7 @@
 # EV01 1.1.0-beta.1: Experimental Testing
 
+Withdrawn from active testing at the owner's request. Retained as historical evidence only.
+
 Published for owner-requested testing only, 12 September 2026. Not certified for
 stable release. The official EV01 package is unchanged.
 
