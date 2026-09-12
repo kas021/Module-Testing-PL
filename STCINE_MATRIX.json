@@ -1,0 +1,2503 @@
+{
+  "started": "2026-09-12T20:31:37.637Z",
+  "version": "1.1.0-beta.3",
+  "seed": 2026091256,
+  "home": {
+    "ms": 498,
+    "sections": [
+      {
+        "title": "Featured",
+        "count": 8,
+        "missingImages": 0
+      },
+      {
+        "title": "Top 10",
+        "count": 10,
+        "missingImages": 0
+      },
+      {
+        "title": "Popular movies",
+        "count": 19,
+        "missingImages": 0
+      },
+      {
+        "title": "Popular TV",
+        "count": 20,
+        "missingImages": 0
+      }
+    ],
+    "feed1": 19,
+    "feed2": 20,
+    "feed2New": 20
+  },
+  "plan": [
+    [
+      "Inception",
+      "movie:27205"
+    ],
+    [
+      "Interstellar",
+      "movie:157336"
+    ],
+    [
+      "The Matrix",
+      "movie:603"
+    ],
+    [
+      "Titanic",
+      "movie:597"
+    ],
+    [
+      "The Dark Knight",
+      "movie:155"
+    ],
+    [
+      "Parasite",
+      "movie:496243"
+    ],
+    [
+      "Spirited Away",
+      "movie:129"
+    ],
+    [
+      "Coco",
+      "movie:354912"
+    ],
+    [
+      "Moana",
+      "movie:277834"
+    ],
+    [
+      "Dune: Part Two",
+      "movie:693134"
+    ],
+    [
+      "The Shawshank Redemption",
+      "movie:278"
+    ],
+    [
+      "Train to Busan",
+      "movie:396535"
+    ],
+    [
+      "Breaking Bad",
+      "tv:1396:1:1"
+    ],
+    [
+      "Breaking Bad",
+      "tv:1396:3:7"
+    ],
+    [
+      "Breaking Bad",
+      "tv:1396:5:16"
+    ],
+    [
+      "Silo",
+      "tv:125988:1:1"
+    ],
+    [
+      "Game of Thrones",
+      "tv:1399:1:1"
+    ],
+    [
+      "Stranger Things",
+      "tv:66732:1:1"
+    ],
+    [
+      "The Office",
+      "tv:2316:9:1"
+    ],
+    [
+      "Chernobyl",
+      "tv:87108:1:1"
+    ],
+    [
+      "Tomorrow Is Ours",
+      "tv:72879:1:1"
+    ],
+    [
+      "Rage of Stars",
+      "movie:1323244"
+    ],
+    [
+      "Spider-Man: Brand New Day",
+      "movie:969681"
+    ],
+    [
+      "The Runner",
+      "movie:1386315"
+    ],
+    [
+      "The Odyssey",
+      "movie:1368337"
+    ],
+    [
+      "Obsession",
+      "movie:1339713"
+    ],
+    [
+      "Clash of the Thundermans",
+      "movie:1506560"
+    ],
+    [
+      "House Rules",
+      "tv:49847:1:1"
+    ],
+    [
+      "Colony",
+      "movie:1375646"
+    ],
+    [
+      "Ghost in the Cell",
+      "movie:1393326"
+    ]
+  ],
+  "rows": [
+    {
+      "title": "Inception",
+      "href": "movie:27205",
+      "searchFound": true,
+      "actualTitle": "Inception",
+      "episodeCount": 1,
+      "resolveMs": 7551,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": [
+            "eng"
+          ]
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "ar",
+            "sq",
+            "pt-BR",
+            "pl",
+            "da",
+            "sr",
+            "el",
+            "et",
+            "he",
+            "vi",
+            "fr",
+            "sv",
+            "ro",
+            "nl",
+            "es",
+            "bs",
+            "hr",
+            "bg",
+            "tr",
+            "ea",
+            "id",
+            "ko",
+            "de",
+            "hu",
+            "fi",
+            "pt",
+            "sl",
+            "ja",
+            "Mongolian",
+            "fa",
+            "si",
+            "ms",
+            "zh-tw",
+            "th",
+            "bn",
+            "it",
+            "cs",
+            "Ukrainian",
+            "ru",
+            "zh-ca",
+            "zh-cn",
+            "Hindi",
+            "Norwegian",
+            "is",
+            "Telugu",
+            "be",
+            "Malayalam",
+            "az-zb",
+            "mk",
+            "Lithuanian",
+            "Burmese",
+            "Urdu",
+            "ze",
+            "Slovak"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "seek90": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 136655
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 100074
+        }
+      ]
+    },
+    {
+      "title": "Interstellar",
+      "href": "movie:157336",
+      "searchFound": true,
+      "actualTitle": "Interstellar",
+      "episodeCount": 1,
+      "resolveMs": 4980,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": [
+            "eng"
+          ]
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "he",
+            "tr",
+            "el",
+            "es",
+            "pt",
+            "ro",
+            "hr",
+            "fr",
+            "fa",
+            "pt-BR",
+            "de",
+            "nl",
+            "ar",
+            "pl",
+            "ea",
+            "Hindi",
+            "vi",
+            "Mongolian",
+            "sq",
+            "th",
+            "zh-tw",
+            "Ukrainian",
+            "it",
+            "Telugu",
+            "Kurdish",
+            "Slovak",
+            "Malayalam",
+            "bn",
+            "az-zb",
+            "Burmese",
+            "ta",
+            "id",
+            "ms",
+            "ja",
+            "zh-cn",
+            "bs",
+            "Latvian",
+            "sv",
+            "Nepali",
+            "Abkhazian",
+            "ze"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "En"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "seek90": {
+        "ok": false,
+        "error": "[tls @ 0x808c3c000] IO error: Operation timed out\n[in#0 @ 0x809018000] Error opening input: Operation timed out\nError opening input file [URL]\nError opening input files: Operation timed out\n"
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 150172
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 68478
+        }
+      ]
+    },
+    {
+      "title": "The Matrix",
+      "href": "movie:603",
+      "searchFound": true,
+      "actualTitle": "The Matrix",
+      "episodeCount": 1,
+      "resolveMs": 2094,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": [
+            "eng",
+            "bul",
+            "cat",
+            "cze",
+            "dan",
+            "t13",
+            "spa",
+            "fin",
+            "fre",
+            "hrv",
+            "hun",
+            "ice",
+            "lit",
+            "lav",
+            "mac",
+            "nob",
+            "dut",
+            "pol",
+            "por",
+            "rum",
+            "rus",
+            "slo",
+            "slv",
+            "srp",
+            "swe"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN"
+          ]
+        }
+      ],
+      "qualities": [
+        "1080p",
+        "720p",
+        "480p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "seek90": {
+        "ok": true
+      },
+      "captionChecks": []
+    },
+    {
+      "title": "Titanic",
+      "href": "movie:597",
+      "searchFound": true,
+      "actualTitle": "Titanic",
+      "episodeCount": 1,
+      "resolveMs": 1428,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN"
+          ]
+        }
+      ],
+      "qualities": [
+        "1080p",
+        "720p",
+        "480p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": []
+    },
+    {
+      "title": "The Dark Knight",
+      "href": "movie:155",
+      "searchFound": true,
+      "actualTitle": "The Dark Knight",
+      "episodeCount": 1,
+      "resolveMs": 1261,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN"
+          ]
+        }
+      ],
+      "qualities": [
+        "1080p",
+        "720p",
+        "480p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": []
+    },
+    {
+      "title": "Parasite",
+      "href": "movie:496243",
+      "searchFound": true,
+      "actualTitle": "Parasite",
+      "episodeCount": 1,
+      "resolveMs": 10280,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "ar",
+            "es",
+            "ea",
+            "ze",
+            "zh-tw",
+            "sv",
+            "da",
+            "zh-cn",
+            "it",
+            "nl",
+            "fi",
+            "de",
+            "ja",
+            "Aragonese",
+            "fr",
+            "pl",
+            "ms",
+            "id",
+            "fa",
+            "pt",
+            "bn",
+            "pt-BR",
+            "sr",
+            "bs",
+            "el",
+            "tr",
+            "is",
+            "hu",
+            "vi",
+            "th",
+            "Ukrainian",
+            "Sindhi",
+            "mk",
+            "Lithuanian"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": []
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 110814
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 106907
+        }
+      ]
+    },
+    {
+      "title": "Spirited Away",
+      "href": "movie:129",
+      "searchFound": true,
+      "actualTitle": "Spirited Away",
+      "episodeCount": 1,
+      "resolveMs": 5757,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": [
+            "eng"
+          ]
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "fr",
+            "nl",
+            "sv",
+            "ja",
+            "it",
+            "ar",
+            "id",
+            "fa",
+            "tr",
+            "es",
+            "pl",
+            "ru",
+            "sl",
+            "de",
+            "hr",
+            "sr",
+            "pt",
+            "pt-BR",
+            "he",
+            "vi",
+            "et",
+            "cs",
+            "bg",
+            "Lithuanian",
+            "bs",
+            "zh-CN",
+            "hu",
+            "Latvian",
+            "Slovak",
+            "da",
+            "Norwegian",
+            "ms",
+            "bn",
+            "Urdu",
+            "ro",
+            "Esperanto",
+            "Ukrainian",
+            "zh-tw",
+            "el",
+            "th",
+            "zh-cn",
+            "ko",
+            "kk",
+            "fi",
+            "Malayalam",
+            "Hindi",
+            "be",
+            "sq",
+            "Mongolian"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "eng"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 68115
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 62877
+        }
+      ]
+    },
+    {
+      "title": "Coco",
+      "href": "movie:354912",
+      "searchFound": true,
+      "actualTitle": "Coco",
+      "episodeCount": 1,
+      "resolveMs": 884,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        }
+      ],
+      "qualities": [
+        "1080p",
+        "720p",
+        "480p",
+        "2160p"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": []
+    },
+    {
+      "title": "Moana",
+      "href": "movie:277834",
+      "searchFound": true,
+      "actualTitle": "Moana",
+      "episodeCount": 1,
+      "resolveMs": 3954,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "mk",
+            "ar",
+            "tr",
+            "bg",
+            "ro",
+            "Burmese",
+            "vi",
+            "fa",
+            "bn",
+            "fr",
+            "it",
+            "id",
+            "bs",
+            "da",
+            "zh-ca",
+            "zh-tw",
+            "Central",
+            "pl",
+            "ja",
+            "th",
+            "Lithuanian",
+            "ta",
+            "he",
+            "el",
+            "Ukrainian",
+            "be",
+            "hr",
+            "Hindi",
+            "Somali",
+            "es",
+            "ko",
+            "de",
+            "nl",
+            "ru"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 77113
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 102000
+        }
+      ]
+    },
+    {
+      "title": "Dune: Part Two",
+      "href": "movie:693134",
+      "searchFound": true,
+      "actualTitle": "Dune: Part Two",
+      "episodeCount": 1,
+      "resolveMs": 3401,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": [
+            "eng",
+            "eng (SDH)",
+            "bul",
+            "cat",
+            "cze",
+            "dan",
+            "spa",
+            "spa (SDH)",
+            "spa (2)",
+            "fin",
+            "fre",
+            "hrv",
+            "hun",
+            "mac",
+            "nob",
+            "dut",
+            "pol",
+            "por",
+            "por (2)",
+            "rum",
+            "slo",
+            "slv",
+            "srp",
+            "swe"
+          ]
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "ar",
+            "hr",
+            "fr",
+            "es",
+            "nl",
+            "pt-BR",
+            "he",
+            "tr",
+            "ro",
+            "ea",
+            "sr",
+            "bg",
+            "sv",
+            "de",
+            "mk",
+            "it",
+            "zh-cn",
+            "ja",
+            "fa",
+            "pt",
+            "Slovak",
+            "bs",
+            "vi",
+            "Abkhazian",
+            "hu",
+            "el",
+            "id",
+            "ru",
+            "fi",
+            "pl",
+            "ko",
+            "sl",
+            "th",
+            "ms",
+            "zh-tw",
+            "da",
+            "is",
+            "cs",
+            "et",
+            "az-zb",
+            "sq",
+            "zh-ca",
+            "Kurdish",
+            "Telugu",
+            "Burmese",
+            "ka",
+            "Ukrainian",
+            "bn",
+            "Latvian",
+            "Norwegian",
+            "Lithuanian",
+            "be",
+            "Amharic"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 12387
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 62633
+        }
+      ]
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "href": "movie:278",
+      "searchFound": true,
+      "actualTitle": "The Shawshank Redemption",
+      "episodeCount": 1,
+      "resolveMs": 5313,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": [
+            "eng"
+          ]
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "he",
+            "fr",
+            "id",
+            "hr",
+            "es",
+            "ro",
+            "pt-BR",
+            "ar",
+            "ko",
+            "zh-tw",
+            "fi",
+            "nl",
+            "Slovak",
+            "de",
+            "vi",
+            "zh-cn",
+            "Kurdish",
+            "Norwegian",
+            "it",
+            "ja",
+            "bn",
+            "da",
+            "ms",
+            "fa",
+            "az-zb",
+            "Burmese",
+            "th",
+            "tr",
+            "ru",
+            "el",
+            "Sindhi",
+            "sq",
+            "pl",
+            "et"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 126054
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 40642
+        }
+      ]
+    },
+    {
+      "title": "Train to Busan",
+      "href": "movie:396535",
+      "searchFound": true,
+      "actualTitle": "Train to Busan",
+      "episodeCount": 1,
+      "resolveMs": 9956,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "el",
+            "id",
+            "fr",
+            "nl",
+            "es",
+            "zh-CN",
+            "ar",
+            "pt",
+            "pt-BR",
+            "ms",
+            "ja",
+            "Malayalam",
+            "it",
+            "bn",
+            "da",
+            "fi",
+            "zh-tw",
+            "de",
+            "sv",
+            "fa",
+            "vi",
+            "Burmese",
+            "ko",
+            "pl",
+            "bs",
+            "tr",
+            "cs",
+            "hr",
+            "Catalan",
+            "Ukrainian",
+            "ro",
+            "sr",
+            "et",
+            "hu",
+            "Somali",
+            "ru",
+            "bg",
+            "he",
+            "zh-cn",
+            "Slovak",
+            "Basque",
+            "si",
+            "sl",
+            "Tagalog",
+            "Norwegian",
+            "th"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 37569
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 45669
+        }
+      ]
+    },
+    {
+      "title": "Breaking Bad",
+      "href": "tv:1396:1:1",
+      "searchFound": true,
+      "actualTitle": "Breaking Bad",
+      "episodeCount": 62,
+      "resolveMs": 13076,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "sv",
+            "fi",
+            "ar",
+            "he",
+            "vi",
+            "el",
+            "es",
+            "de",
+            "sr",
+            "id",
+            "hr",
+            "pt-BR",
+            "sl",
+            "bn",
+            "zh-tw",
+            "th",
+            "nl",
+            "fr",
+            "sq",
+            "ro",
+            "bg",
+            "ru",
+            "it",
+            "fa",
+            "da",
+            "hu",
+            "ta",
+            "zh-cn",
+            "si",
+            "ko",
+            "kk",
+            "tr",
+            "is",
+            "mk",
+            "bs",
+            "ms",
+            "be"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 46383
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 37041
+        }
+      ]
+    },
+    {
+      "title": "Breaking Bad",
+      "href": "tv:1396:3:7",
+      "searchFound": true,
+      "actualTitle": "Breaking Bad",
+      "episodeCount": 62,
+      "resolveMs": 5554,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "fr",
+            "mk",
+            "el",
+            "pt",
+            "pl",
+            "fi",
+            "ja",
+            "cs",
+            "tr",
+            "de",
+            "ar",
+            "nl",
+            "hr",
+            "sr",
+            "es",
+            "he",
+            "fa",
+            "da",
+            "ro",
+            "it",
+            "pt-BR",
+            "sv",
+            "et",
+            "bg",
+            "sl",
+            "id",
+            "Ukrainian",
+            "vi",
+            "zh-cn",
+            "ko",
+            "ru",
+            "Norwegian",
+            "ze",
+            "th",
+            "hu",
+            "bn",
+            "zh-tw",
+            "Malayalam",
+            "is"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 33153
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 32295
+        }
+      ]
+    },
+    {
+      "title": "Breaking Bad",
+      "href": "tv:1396:5:16",
+      "searchFound": true,
+      "actualTitle": "Breaking Bad",
+      "episodeCount": 62,
+      "resolveMs": 9727,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "de",
+            "ar",
+            "fi",
+            "es",
+            "nl",
+            "et",
+            "ru",
+            "zh-cn",
+            "sl",
+            "he",
+            "pl",
+            "ro",
+            "bg",
+            "id",
+            "fr",
+            "el",
+            "ja",
+            "fa",
+            "pt-BR",
+            "is",
+            "sr",
+            "hr",
+            "hu",
+            "ko",
+            "bn",
+            "tr",
+            "pt",
+            "it",
+            "vi",
+            "cs",
+            "th",
+            "Norwegian",
+            "mk",
+            "Ukrainian"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 39595
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 31759
+        }
+      ]
+    },
+    {
+      "title": "Silo",
+      "href": "tv:125988:1:1",
+      "searchFound": true,
+      "actualTitle": "Silo",
+      "episodeCount": 30,
+      "resolveMs": 4049,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "ar",
+            "bg",
+            "Chinese",
+            "cs",
+            "da",
+            "de",
+            "el",
+            "es",
+            "et",
+            "fi",
+            "fr",
+            "Hindi",
+            "hu",
+            "it",
+            "ja",
+            "ko",
+            "Lithuanian",
+            "ms",
+            "nl",
+            "Norwegian",
+            "pl",
+            "pt",
+            "ru",
+            "Slovak",
+            "sl",
+            "sv",
+            "ta",
+            "Telugu",
+            "th",
+            "tr",
+            "Ukrainian",
+            "vi",
+            "sr",
+            "ro",
+            "he",
+            "pt-BR",
+            "hr",
+            "fa",
+            "bn",
+            "id",
+            "sq",
+            "zh-cn",
+            "bs",
+            "ea",
+            "zh-tw",
+            "Latvian",
+            "ze"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 52445
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 42854
+        }
+      ]
+    },
+    {
+      "title": "Game of Thrones",
+      "href": "tv:1399:1:1",
+      "searchFound": true,
+      "actualTitle": "Game of Thrones",
+      "episodeCount": 73,
+      "resolveMs": 4982,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "ko",
+            "pl",
+            "fi",
+            "he",
+            "pt-BR",
+            "es",
+            "tr",
+            "ar",
+            "sv",
+            "nl",
+            "it",
+            "fr",
+            "id",
+            "da",
+            "zh-ca",
+            "Lithuanian",
+            "el",
+            "Nepali",
+            "Hindi",
+            "Urdu",
+            "bg",
+            "ro",
+            "hr",
+            "et",
+            "cs",
+            "sl",
+            "fa",
+            "pt",
+            "Telugu",
+            "de",
+            "ja",
+            "Sindhi",
+            "si",
+            "zh-tw",
+            "th",
+            "bn",
+            "sr",
+            "ru",
+            "Ukrainian",
+            "vi",
+            "ta",
+            "Norwegian",
+            "Latvian",
+            "mk",
+            "Slovak",
+            "Malayalam",
+            "hu",
+            "Burmese",
+            "zh-cn",
+            "bs",
+            "ms",
+            "is",
+            "be",
+            "ze"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN",
+            "eng1"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 43709
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 33218
+        }
+      ]
+    },
+    {
+      "title": "Stranger Things",
+      "href": "tv:66732:1:1",
+      "searchFound": true,
+      "actualTitle": "Stranger Things",
+      "episodeCount": 42,
+      "resolveMs": 4705,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "bg",
+            "id",
+            "ja",
+            "pt-BR",
+            "fr",
+            "ar",
+            "sr",
+            "ru",
+            "el",
+            "he",
+            "pl",
+            "fi",
+            "de",
+            "sl",
+            "nl",
+            "et",
+            "ro",
+            "hr",
+            "pt",
+            "it",
+            "cs",
+            "es",
+            "ea",
+            "zh-cn",
+            "ms",
+            "hu",
+            "tr",
+            "sv",
+            "mk",
+            "fa",
+            "ko",
+            "bn",
+            "Slovak",
+            "da",
+            "th",
+            "Norwegian",
+            "Ukrainian",
+            "Kannada",
+            "zh-tw",
+            "vi",
+            "sp"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 42787
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 40963
+        }
+      ]
+    },
+    {
+      "title": "The Office",
+      "href": "tv:2316:9:1",
+      "searchFound": true,
+      "actualTitle": "The Office",
+      "episodeCount": 186,
+      "resolveMs": 6000,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "1080p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "720p",
+          "subtitleLanguages": [
+            "en",
+            "fi",
+            "pl",
+            "fr",
+            "es",
+            "sv",
+            "ru",
+            "ar",
+            "hr",
+            "he",
+            "pt-BR",
+            "it",
+            "sr",
+            "bs",
+            "de",
+            "el",
+            "nl",
+            "ro",
+            "pt",
+            "fa",
+            "Norwegian",
+            "id",
+            "da",
+            "th",
+            "vi",
+            "ko",
+            "tr",
+            "cs",
+            "hu"
+          ]
+        }
+      ],
+      "qualities": [
+        "720p",
+        "1080p",
+        "480p"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 33810
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 26045
+        }
+      ]
+    },
+    {
+      "title": "Chernobyl",
+      "href": "tv:87108:1:1",
+      "searchFound": true,
+      "actualTitle": "Chernobyl",
+      "episodeCount": 5,
+      "resolveMs": 9482,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "fr",
+            "nl",
+            "pl",
+            "es",
+            "sv",
+            "he",
+            "bn",
+            "it",
+            "el",
+            "de",
+            "hu",
+            "pt-BR",
+            "ar",
+            "tr",
+            "cs",
+            "fa",
+            "sr",
+            "hr",
+            "ru",
+            "Hindi",
+            "ro",
+            "vi",
+            "fi",
+            "pt",
+            "zh-cn",
+            "bg",
+            "zh-tw",
+            "id",
+            "ja",
+            "da",
+            "sl",
+            "ms",
+            "si",
+            "ko",
+            "et",
+            "mk",
+            "Slovak",
+            "bs",
+            "Norwegian",
+            "sq",
+            "th",
+            "ze",
+            "Malayalam",
+            "Kurdish",
+            "Ukrainian"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 44206
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 36926
+        }
+      ]
+    },
+    {
+      "title": "Tomorrow Is Ours",
+      "href": "tv:72879:1:1",
+      "searchFound": true,
+      "actualTitle": "Tomorrow Is Ours",
+      "episodeCount": 2290,
+      "resolveMs": 918,
+      "servers": [],
+      "qualities": [],
+      "status": "NO_STREAM"
+    },
+    {
+      "title": "Rage of Stars",
+      "href": "movie:1323244",
+      "searchFound": true,
+      "actualTitle": "Rage of Stars",
+      "episodeCount": 1,
+      "resolveMs": 2167,
+      "servers": [
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": []
+        }
+      ],
+      "qualities": [
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": []
+    },
+    {
+      "title": "Spider-Man: Brand New Day",
+      "href": "movie:969681",
+      "searchFound": true,
+      "actualTitle": "Spider-Man: Brand New Day",
+      "episodeCount": 1,
+      "resolveMs": 4405,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "1080p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "Mongolian",
+            "sq",
+            "pt-BR",
+            "vi",
+            "hu",
+            "ea",
+            "nl",
+            "tr",
+            "pl",
+            "bn",
+            "ms",
+            "sv",
+            "sl",
+            "et",
+            "it",
+            "Burmese",
+            "fa",
+            "Bokmål",
+            "ja",
+            "hr",
+            "ar",
+            "ko",
+            "el",
+            "fr",
+            "he",
+            "bg",
+            "id",
+            "es",
+            "cs",
+            "Slovak",
+            "ro",
+            "ru",
+            "da"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 117139
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 112028
+        }
+      ]
+    },
+    {
+      "title": "The Runner",
+      "href": "movie:1386315",
+      "searchFound": true,
+      "actualTitle": "The Runner",
+      "episodeCount": 1,
+      "resolveMs": 3324,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "de",
+            "hu",
+            "ar",
+            "zh-tw",
+            "da",
+            "ja",
+            "pt",
+            "es",
+            "ea",
+            "sv",
+            "ro",
+            "fr",
+            "Basque",
+            "nl",
+            "id",
+            "sl",
+            "mk",
+            "fa",
+            "th",
+            "el",
+            "fi",
+            "pl",
+            "pt-BR",
+            "hr",
+            "Malayalam",
+            "ms",
+            "Norwegian",
+            "tr",
+            "Telugu",
+            "ko",
+            "Kannada",
+            "it",
+            "et",
+            "ta",
+            "Hindi",
+            "Galician",
+            "Catalan",
+            "cs",
+            "he",
+            "zh-cn"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": []
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 71656
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 54512
+        }
+      ]
+    },
+    {
+      "title": "The Odyssey",
+      "href": "movie:1368337",
+      "searchFound": true,
+      "actualTitle": "The Odyssey",
+      "episodeCount": 1,
+      "resolveMs": 3984,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "1080p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "nl",
+            "sv",
+            "hr",
+            "Ukrainian",
+            "fr",
+            "pt",
+            "de",
+            "ar",
+            "tr",
+            "pl",
+            "es",
+            "el"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": []
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 90149
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 85618
+        }
+      ]
+    },
+    {
+      "title": "Obsession",
+      "href": "movie:1339713",
+      "searchFound": true,
+      "actualTitle": "Obsession",
+      "episodeCount": 1,
+      "resolveMs": 6947,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": [
+            "eng",
+            "chi",
+            "dan",
+            "dut",
+            "fin",
+            "fre",
+            "ger",
+            "gre",
+            "hin",
+            "ita",
+            "nor",
+            "pol",
+            "por",
+            "rum",
+            "spa",
+            "swe",
+            "vie"
+          ]
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "sl",
+            "ar",
+            "ea",
+            "zh-tw",
+            "it",
+            "he",
+            "nl",
+            "de",
+            "ja",
+            "sv",
+            "fa",
+            "fi",
+            "zh-cn",
+            "tr",
+            "ro",
+            "Mongolian",
+            "Urdu",
+            "pl",
+            "sr",
+            "pt",
+            "ru",
+            "vi",
+            "es",
+            "id",
+            "Ukrainian",
+            "pt-BR",
+            "da",
+            "bg",
+            "el",
+            "et",
+            "Malayalam",
+            "sq",
+            "hr",
+            "hu",
+            "ms",
+            "cs",
+            "fr",
+            "Norwegian"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "En"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 111171
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 99181
+        }
+      ]
+    },
+    {
+      "title": "Clash of the Thundermans",
+      "href": "movie:1506560",
+      "searchFound": true,
+      "actualTitle": "Clash of the Thundermans",
+      "episodeCount": 1,
+      "resolveMs": 5480,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "1080p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "ro",
+            "nl",
+            "el",
+            "pt-BR",
+            "da"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": []
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 89030
+        }
+      ]
+    },
+    {
+      "title": "House Rules",
+      "href": "tv:49847:1:1",
+      "searchFound": true,
+      "actualTitle": "House Rules",
+      "episodeCount": 293,
+      "resolveMs": 482,
+      "servers": [],
+      "qualities": [],
+      "status": "NO_STREAM"
+    },
+    {
+      "title": "Colony",
+      "href": "movie:1375646",
+      "searchFound": true,
+      "actualTitle": "Colony",
+      "episodeCount": 1,
+      "resolveMs": 3704,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "2160p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "ms",
+            "ea",
+            "ru",
+            "ja",
+            "fa",
+            "ro",
+            "bn",
+            "sq",
+            "es",
+            "vi",
+            "fr",
+            "Slovak",
+            "pt-BR",
+            "bg",
+            "ar",
+            "th",
+            "nl",
+            "Bokmål",
+            "Ukrainian",
+            "hr",
+            "hu",
+            "pt",
+            "Malayalam",
+            "el",
+            "Mongolian",
+            "tr",
+            "de",
+            "it",
+            "fi",
+            "pl",
+            "sv",
+            "zh-cn",
+            "et"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "En"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "2160p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 80099
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 78683
+        }
+      ]
+    },
+    {
+      "title": "Ghost in the Cell",
+      "href": "movie:1393326",
+      "searchFound": true,
+      "actualTitle": "Ghost in the Cell",
+      "episodeCount": 1,
+      "resolveMs": 2647,
+      "servers": [
+        {
+          "name": "videasy-cdn",
+          "quality": "1080p",
+          "subtitleLanguages": []
+        },
+        {
+          "name": "lookmovie",
+          "quality": "480p",
+          "subtitleLanguages": [
+            "en",
+            "vi",
+            "cs",
+            "fi",
+            "pl",
+            "it",
+            "el",
+            "fr",
+            "es",
+            "tr",
+            "de",
+            "nl",
+            "ar",
+            "bn",
+            "pt-BR",
+            "Slovak",
+            "ms",
+            "id"
+          ]
+        },
+        {
+          "name": "videasy-m4uhd",
+          "quality": "Auto HLS",
+          "subtitleLanguages": [
+            "EN"
+          ]
+        }
+      ],
+      "qualities": [
+        "480p",
+        "1080p",
+        "720p",
+        "Auto HLS"
+      ],
+      "status": "HOST_AV_DECODE",
+      "decode": {
+        "ok": true
+      },
+      "captionChecks": [
+        {
+          "lang": "en",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": false,
+          "length": 93078
+        },
+        {
+          "lang": "ar",
+          "status": 200,
+          "hasCues": true,
+          "hasArabic": true,
+          "length": 89169
+        }
+      ]
+    }
+  ],
+  "finished": "2026-09-12T20:36:46.265Z"
+}
