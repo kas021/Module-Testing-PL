@@ -10,10 +10,13 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**Alpha Movies 0.1.0-beta.3 is available for experimental owner testing.**
+**Alpha Movies 0.1.0-beta.4 is available for experimental owner testing.**
+Homepage hotfix: small initial catalogue batches replace the eager multi-feed
+SPARQL load. Failed catalogue requests no longer become a cached empty homepage.
+Featured, Movies and TV rows load before the larger View All feed is requested.
 Separate provider-direct movie/TV source with Cinejoy-first subtitles and the
 existing subtitle-service fallback. It does not replace Synthetiq Movies.
-28 regression tests pass and six selected titles resolve with captions, but the
+34 regression tests pass; the previous six selected titles resolved with captions, but the
 reviewed S2 standard run FAILED simulator playback with a network-read error.
 Slow/failed sources, audio and offline checks remain unresolved. See
 [Alpha Movies QA and test steps](ALPHA_MOVIES_QA.md).
