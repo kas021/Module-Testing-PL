@@ -3,46 +3,18 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789258172257,
+  "publishedAtMs": 1789259201825,
   "signature": "",
-  "testingIdentity": "synthetiq-anime-direct:0.1.0-beta.7:acd9553ecf78ccc594b94ef301bcac0f717a773c184fa0ff26c4a521d9626828|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
+  "testingIdentity": "testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
   "bundle": {
-    "version": 53,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-53.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-53.zip",
-    "sha256": "d0e425fb3342392050c748fce87f5be7e2406ad10134f693cfc0a434113003da",
+    "version": 54,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-54.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-54.zip",
+    "sha256": "ab0e29f3451fd68f8a74889bc4c8c1bfa29bdddf344bd5b43df150c0eb14d139",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
   "modules": [
-    {
-      "moduleId": "synthetiq-anime-direct",
-      "moduleFamilyId": "synthetiq_anime_direct_v1",
-      "moduleIdentity": "SP-VID-077-ANIME-DIRECT",
-      "moduleIdentityNumber": 77,
-      "contentType": "video",
-      "version": "0.1.0-beta.7",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Anikoto-2-0.1.0-beta.7.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/Anikoto-2-0.1.0-beta.7.zip",
-      "sha256": "acd9553ecf78ccc594b94ef301bcac0f717a773c184fa0ff26c4a521d9626828",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789258172257,
-      "presentation": {
-        "category": "Anime",
-        "purpose": "Testing only",
-        "recommended": false,
-        "language": "English Sub/Dub",
-        "languages": [
-          "sub",
-          "dub"
-        ],
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-anime-1.0.2.png"
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    },
     {
       "moduleId": "testing-123-v1",
       "moduleFamilyId": "testing_123_v1",
@@ -55,7 +27,7 @@
       "sha256": "ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789258172257,
+      "publishedAtMs": 1789259201825,
       "presentation": {
         "category": "Anime",
         "language": "Intentional failure test",
@@ -78,7 +50,7 @@
       "sha256": "ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789258172257,
+      "publishedAtMs": 1789259201825,
       "presentation": {
         "category": "Cartoons",
         "purpose": "Testing only",
@@ -102,7 +74,7 @@
       "sha256": "ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789258172257,
+      "publishedAtMs": 1789259201825,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
