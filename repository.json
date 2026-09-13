@@ -3,18 +3,44 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789259201825,
+  "publishedAtMs": 1789299880931,
   "signature": "",
-  "testingIdentity": "testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
+  "testingIdentity": "alpha-movies:0.1.0-beta.3:bcc468dea865e43efe42b18d4d8b707e6658b058fbaa806e6f5c4d1df85179b0|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
   "bundle": {
-    "version": 54,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-54.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-54.zip",
-    "sha256": "ab0e29f3451fd68f8a74889bc4c8c1bfa29bdddf344bd5b43df150c0eb14d139",
+    "version": 55,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-55.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-55.zip",
+    "sha256": "838309904ac740141336500352e043c8995b80022c04e8fa4b059fd5d0df5823",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
   "modules": [
+    {
+      "moduleId": "alpha-movies",
+      "moduleFamilyId": "alpha_movies_v1",
+      "moduleIdentity": "SP-VID-079-ALPHA-MOVIES",
+      "moduleIdentityNumber": 79,
+      "contentType": "video",
+      "version": "0.1.0-beta.3",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Alpha-Movies-0.1.0-beta.3.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/Alpha-Movies-0.1.0-beta.3.zip",
+      "sha256": "bcc468dea865e43efe42b18d4d8b707e6658b058fbaa806e6f5c4d1df85179b0",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789299880931,
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Testing only",
+        "recommended": false,
+        "language": "Original audio",
+        "languages": [
+          "sub"
+        ]
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    },
     {
       "moduleId": "testing-123-v1",
       "moduleFamilyId": "testing_123_v1",
@@ -27,7 +53,7 @@
       "sha256": "ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789259201825,
+      "publishedAtMs": 1789299880931,
       "presentation": {
         "category": "Anime",
         "language": "Intentional failure test",
@@ -50,7 +76,7 @@
       "sha256": "ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789259201825,
+      "publishedAtMs": 1789299880931,
       "presentation": {
         "category": "Cartoons",
         "purpose": "Testing only",
@@ -74,7 +100,7 @@
       "sha256": "ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789259201825,
+      "publishedAtMs": 1789299880931,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
