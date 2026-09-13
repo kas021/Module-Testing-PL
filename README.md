@@ -10,7 +10,10 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**DramaFun 4.0.0-beta.6 is available for owner testing, not fully fixed.**
+**DramaFun 4.0.1 is released in the official repository (Bundle 125).**
+Owner-approved promotion with byte-identical beta.6 playback JavaScript and the
+limitations below. Beta.6 is retired from active testing, not deleted. Use the
+official repository for its update. The following is the retained beta QA record.
 Repairs quoted JSON and HTML caption-track parsing, including extensionless
 caption endpoints. 38 regression tests pass. New sample: 29/30 links resolved,
 28/30 short host decodes, 30/30 posters and 24/30 with multiple servers.

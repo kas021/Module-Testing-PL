@@ -3,14 +3,14 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789309299501,
+  "publishedAtMs": 1789310218573,
   "signature": "",
-  "testingIdentity": "alpha-movies:0.1.0-beta.5:e67934735db4d8aaee2f65adc7060cd63abde10f8c2ea2291b7f98f54e3579b8|dramafun-v3:4.0.0-beta.6:a7f9cfe3d31a5daceb2c8d36dc51765265100702249e74f89fb7fbd3856efc46|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
+  "testingIdentity": "alpha-movies:0.1.0-beta.5:e67934735db4d8aaee2f65adc7060cd63abde10f8c2ea2291b7f98f54e3579b8|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
   "bundle": {
-    "version": 59,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-59.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-59.zip",
-    "sha256": "cf322a26c4bbab481292e7131762c991ebc8c5bb386ca60f6eb7ea85f5e82f0c",
+    "version": 60,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-60.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-60.zip",
+    "sha256": "68caaaa68bba38701319ff681f5282e9cb732646ffd8e8ca48a913127836a97b",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
@@ -27,7 +27,7 @@
       "sha256": "e67934735db4d8aaee2f65adc7060cd63abde10f8c2ea2291b7f98f54e3579b8",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789309299501,
+      "publishedAtMs": 1789310218573,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
@@ -36,27 +36,6 @@
         "languages": [
           "sub"
         ]
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    },
-    {
-      "moduleId": "dramafun-v3",
-      "moduleFamilyId": "dramafun-v3",
-      "moduleIdentity": "SP-VID-035-DRAMAFUN",
-      "moduleIdentityNumber": 35,
-      "contentType": "video",
-      "version": "4.0.0-beta.6",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/DramaFun-4.0.0-beta.6.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/DramaFun-4.0.0-beta.6.zip",
-      "sha256": "a7f9cfe3d31a5daceb2c8d36dc51765265100702249e74f89fb7fbd3856efc46",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789309299501,
-      "presentation": {
-        "recommended": false,
-        "purpose": "Testing only"
       },
       "changelog": [
         "TEST CANDIDATE: not certified for stable release. See repository QA notes."
@@ -74,7 +53,7 @@
       "sha256": "ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789309299501,
+      "publishedAtMs": 1789310218573,
       "presentation": {
         "category": "Anime",
         "language": "Intentional failure test",
@@ -97,7 +76,7 @@
       "sha256": "ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789309299501,
+      "publishedAtMs": 1789310218573,
       "presentation": {
         "category": "Cartoons",
         "purpose": "Testing only",
