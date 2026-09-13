@@ -58,3 +58,24 @@ Check Home, Featured, several feed pages, search and first/middle/latest episode
 Try Valentina Valiente E1, Tuzlu Kahve E2 and Senora del Destino E53, then verify
 sound, seek far ahead, change server/quality, background/resume and download.
 Report the title, episode, selected server and Player playback report for failures.
+# Current: 4.0.0-beta.6 (2026-09-13)
+
+Testing-only; overall PARTIAL, not fully fixed. Root ZIP SHA-256:
+`a7f9cfe3d31a5daceb2c8d36dc51765265100702249e74f89fb7fbd3856efc46`.
+
+- Repairs quoted JSON keys, HTML track tags and extensionless declared captions.
+  Actual timed text is required; empty placeholders and thumbnails stay excluded.
+- 38/38 regression tests; frozen 30-title sample: 29 resolve, 28 clean short host
+  decodes, 30 posters, 24 with multiple servers, 3/3 sampled 600-second seeks.
+- Al Fondo Hay Sitio S11E1: playback HTTP 403. Luz de Luna S2E71: no verified route.
+- No usable external captions returned across 73 server results. No invented translations.
+- Read-only actual Dart parser audit: three fixture servers and captions survive,
+  but nested quality lists are discarded. Quality choices after switching need an
+  app-side repair; this module update does not fix that. No app code changed.
+- S2 `2026-09-13T14-19-44-459Z_s2_dramafun-v3_a4d7adf5` machine PASS,
+  Flutter import/Home/search/details/episodes/stream pass. Screenshot after seek
+  shows video at 124s AND an audio-device initialization error. Sound is unverified.
+- Physical-device playback, full WatchScreen switching and app offline remain unverified.
+- Still requires DramaFun's episode-to-provider mapping. Beta.5 bytes retained.
+
+The report below describes the older beta.5, not this version.

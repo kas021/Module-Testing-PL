@@ -10,15 +10,15 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**DramaFun 4.0.0-beta.5 is available for owner testing.**
-Featured content, paginated discovery, repaired posters, fresh provider links,
-multiple checked servers and source quality options. Final sample: 30/30 links
-resolved, but only 26/30 short host decodes passed; four Vidspeed-only routes
-returned 403 during playback. 35 regression tests and 30/30 posters passed.
-One complete 53-minute host download passed local-only decode/seek checks.
-S2 reported PASS, but simulator screenshots show an audio-device error, so
-native sound and physical-device playback are not certified. This is still
-site-assisted, not independent of DramaFun. See [DramaFun QA](DRAMAFUN_QA.md).
+**DramaFun 4.0.0-beta.6 is available for owner testing, not fully fixed.**
+Repairs quoted JSON and HTML caption-track parsing, including extensionless
+caption endpoints. 38 regression tests pass. New sample: 29/30 links resolved,
+28/30 short host decodes, 30/30 posters and 24/30 with multiple servers.
+No usable external captions returned across 73 server results. The current app
+drops per-server quality lists after switching; no app changes were made here.
+S2 machine PASS, but its screenshot still shows an audio-device error, so native
+sound remains unverified. Site-assisted, not independent of DramaFun.
+See [DramaFun QA](DRAMAFUN_QA.md).
 Paused YASTREAM is retired from active testing to keep three candidate slots;
 its immutable ZIP and previous bundle links remain available.
 
