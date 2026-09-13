@@ -10,6 +10,18 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
+**DramaFun 4.0.0-beta.5 is available for owner testing.**
+Featured content, paginated discovery, repaired posters, fresh provider links,
+multiple checked servers and source quality options. Final sample: 30/30 links
+resolved, but only 26/30 short host decodes passed; four Vidspeed-only routes
+returned 403 during playback. 35 regression tests and 30/30 posters passed.
+One complete 53-minute host download passed local-only decode/seek checks.
+S2 reported PASS, but simulator screenshots show an audio-device error, so
+native sound and physical-device playback are not certified. This is still
+site-assisted, not independent of DramaFun. See [DramaFun QA](DRAMAFUN_QA.md).
+Paused YASTREAM is retired from active testing to keep three candidate slots;
+its immutable ZIP and previous bundle links remain available.
+
 **Alpha Movies 0.1.0-beta.5 is available for experimental owner testing.**
 Fixes the invalid Home pagination descriptor and adds real continuation pages.
 Missing posters fall back to the exact title's TMDB artwork when available.
@@ -75,7 +87,7 @@ Not a certified stable release: audible playback, offline/download and physical-
 checks are incomplete, the episode list caps at 400 per series, and several anime and
 [SUB]-tagged titles have no upstream source. See [Toonix QA and known limits](TOONIX_QA.md).
 
-**Deferred candidate retained: YASTREAM 1.0.1-beta.2.**
+**Deferred candidate archived: YASTREAM 1.0.1-beta.2.**
 Owner has paused YASTREAM because playback remains inconsistent, including
 Abra-ca-Empty S1E2. Do not treat it as reliable. Latest local fallback repairs
 have not been published. The retained beta below is unchanged.

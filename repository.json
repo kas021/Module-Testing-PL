@@ -3,14 +3,14 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789302100560,
+  "publishedAtMs": 1789306295469,
   "signature": "",
-  "testingIdentity": "alpha-movies:0.1.0-beta.5:e67934735db4d8aaee2f65adc7060cd63abde10f8c2ea2291b7f98f54e3579b8|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca|yastream-v1:1.0.1-beta.2:ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
+  "testingIdentity": "alpha-movies:0.1.0-beta.5:e67934735db4d8aaee2f65adc7060cd63abde10f8c2ea2291b7f98f54e3579b8|dramafun-v3:4.0.0-beta.5:c6bdabc1e044ece0f67ec1bebf8340b2e6f80227dd1a6f479b37be7928c8d501|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
   "bundle": {
-    "version": 57,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-57.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-57.zip",
-    "sha256": "bee0b50ed9e7c2e3bb7e3256dedd5276231fdb77068221ee09c3ef2f5afb1b5d",
+    "version": 58,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-58.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-58.zip",
+    "sha256": "fc5b4d557f002df13d51e88c18f9ae2830f49851889cbdadb78f4f4104780565",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
@@ -27,7 +27,7 @@
       "sha256": "e67934735db4d8aaee2f65adc7060cd63abde10f8c2ea2291b7f98f54e3579b8",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789302100560,
+      "publishedAtMs": 1789306295469,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
@@ -36,6 +36,27 @@
         "languages": [
           "sub"
         ]
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    },
+    {
+      "moduleId": "dramafun-v3",
+      "moduleFamilyId": "dramafun-v3",
+      "moduleIdentity": "SP-VID-035-DRAMAFUN",
+      "moduleIdentityNumber": 35,
+      "contentType": "video",
+      "version": "4.0.0-beta.5",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/DramaFun-4.0.0-beta.5.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/DramaFun-4.0.0-beta.5.zip",
+      "sha256": "c6bdabc1e044ece0f67ec1bebf8340b2e6f80227dd1a6f479b37be7928c8d501",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789306295469,
+      "presentation": {
+        "recommended": false,
+        "purpose": "Testing only"
       },
       "changelog": [
         "TEST CANDIDATE: not certified for stable release. See repository QA notes."
@@ -53,7 +74,7 @@
       "sha256": "ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789302100560,
+      "publishedAtMs": 1789306295469,
       "presentation": {
         "category": "Anime",
         "language": "Intentional failure test",
@@ -76,40 +97,13 @@
       "sha256": "ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789302100560,
+      "publishedAtMs": 1789306295469,
       "presentation": {
         "category": "Cartoons",
         "purpose": "Testing only",
         "recommended": false,
         "language": "Hindi + English (mixed)",
         "iconUrl": "https://toonix.bond/logo.png"
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    },
-    {
-      "moduleId": "yastream-v1",
-      "moduleFamilyId": "yastream_v1",
-      "moduleIdentity": "SP-VID-200-YASTREAM",
-      "moduleIdentityNumber": 200,
-      "contentType": "video",
-      "version": "1.0.1-beta.2",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/YASTREAM-1.0.1-beta.2.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/YASTREAM-1.0.1-beta.2.zip",
-      "sha256": "ab06cdf2076ebc669090dfb5534e27afb15fd88a1f99ee5190a060ce25a44e06",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789302100560,
-      "presentation": {
-        "category": "Movies & TV",
-        "purpose": "Testing only",
-        "recommended": false,
-        "language": "Original audio",
-        "languages": [
-          "sub"
-        ],
-        "iconUrl": "https://yastream.tamthai.de/img/yas.png"
       },
       "changelog": [
         "TEST CANDIDATE: not certified for stable release. See repository QA notes."
