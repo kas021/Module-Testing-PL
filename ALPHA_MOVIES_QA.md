@@ -36,6 +36,13 @@ Source-hashed evidence: `home-2026-09-13T11-56-02-543Z.json` in the local review
 Final-package Flutter runtime home returned 20 entries in 960ms. Search and
 the runtime contract passed. These do not constitute physical-phone UI proof.
 
+Final beta.4 S2 standard run `2026-09-13T11-56-01-488Z_s2_alpha-movies_5aa229d1`:
+runtime and all three host media checks passed. Simulator video advancement and
+seek checks passed this time, but telemetry reported audio-device initialization
+failure (no sound). Overall S2 remains FAIL for subtitle-language contradictions.
+Do not interpret this intermittent playback result as an audio/physical-device
+certification or a repair of the untouched playback resolver.
+
 Test this fix by updating to beta.4, switching to Alpha Movies, loading Home,
 opening a Featured title, then returning to Home. Search and other modules should
 remain unchanged. If Home still fails, share a support report with module version
