@@ -28,6 +28,15 @@ Beta.3 changes only package version, identity and testing description.
   and full subtitle synchronization remain unverified. Multiple server names
   still depend on one provider, not independent providers.
 
+Final beta.3 package SHA-256:
+`bcc468dea865e43efe42b18d4d8b707e6658b058fbaa806e6f5c4d1df85179b0`.
+Final-package S2 quick run `2026-09-13T11-44-07-337Z_s2_alpha-movies_2421776d`:
+Flutter runtime passed; all three media checks passed; overall FAIL for
+`LANGUAGE_CONTRADICTION`. The detector flagged several additional caption
+languages beyond Persian. These have not been individually adjudicated; do not
+assume all captions are correctly labelled. Quick does not retest the unresolved
+simulator failure. Owner requested experimental testing with known failures.
+
 ## Owner Test
 
 1. Select Alpha Movies, search Inception (2010), and play Movie.
