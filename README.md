@@ -10,16 +10,17 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**Alpha Movies 0.1.0-beta.4 is available for experimental owner testing.**
-Homepage hotfix: small initial catalogue batches replace the eager multi-feed
-SPARQL load. Failed catalogue requests no longer become a cached empty homepage.
-Featured, Movies and TV rows load before the larger View All feed is requested.
+**Alpha Movies 0.1.0-beta.5 is available for experimental owner testing.**
+Fixes the invalid Home pagination descriptor and adds real continuation pages.
+Missing posters fall back to the exact title's TMDB artwork when available.
 Separate provider-direct movie/TV source with Cinejoy-first subtitles and the
 existing subtitle-service fallback. It does not replace Synthetiq Movies.
-34 regression tests pass; the previous six selected titles resolved with captions, but the
-reviewed S2 standard run FAILED simulator playback with a network-read error.
-Slow/failed sources, audio and offline checks remain unresolved. See
+39 regression tests pass. Another World (2025) resolves and simulator video
+advances, but its phone loading issue is NOT claimed fixed. Continuity, audio,
+subtitle-language and offline certification limits remain. See
 [Alpha Movies QA and test steps](ALPHA_MOVIES_QA.md).
+Beta.5 native certification is BLOCKED by the Mac test host running out of disk
+space during Flutter compilation. Host checks do not replace phone testing.
 
 **MegaKino (Deutsch) 1.1.1 is promoted to the official repository (Bundle 121).**
 The owner approved promotion with the QA limitations below. Playback JavaScript

@@ -1,5 +1,48 @@
 # Alpha Movies 0.1.0-beta.3
 
+## Beta 5 Pagination And Poster Fix (2026-09-13)
+
+Current candidate: `Alpha-Movies-0.1.0-beta.5.zip`, same identity 79.
+SHA-256: `e67934735db4d8aaee2f65adc7060cd63abde10f8c2ea2291b7f98f54e3579b8`.
+Index SHA-256: `24ba2f8451ac98be8b839e602e2cb6ae0f772671a12ad908dbe1178cabb56ba4`.
+
+The old `viewAll` string did not match the app's object contract, disabling
+scrolling. Correct feed descriptors and real MediaWiki cursor pages replace
+the capped full-pool feed. Failed identity lookups preserve the next page;
+concurrent calls and page revisits retain stable title identities.
+Missing posters use the exact TMDB canonical page as a fallback. No unrelated
+image is substituted when both metadata sources lack artwork.
+
+39/39 mocked regression tests passed. A live development snapshot returned
+20 home cards in 2.442s, recovering five of six missing images. Movie pages
+two/three returned 17/17 additional cards; TV pages returned 2/1. All four
+pages had no duplicates and offered continuation. These are host checks,
+not a physical-device scroll certification or unlimited catalogue coverage.
+
+Another World (2025), TMDB 1470329, is correctly matched. Its beta.4 baseline
+returned two servers and simulator video advanced to 113 seconds, but audio
+initialization failed and a host continuity check timed out with corrupt-packet
+warnings. Its phone loading issue is still unresolved. No playback fix is
+claimed by this catalogue update. Overall certification remains experimental;
+full phone/audio/offline checks and subtitle language review are outstanding.
+Final beta.5 S2 standard `2026-09-13T12-20-32-083Z_s2_alpha-movies_524f4157`:
+BLOCKED. Flutter compilation failed copying its test cache with errno 28,
+No space left on device; runtime timeout followed without module results.
+No beta.5 native playback pass is claimed. This remains the owner's experimental
+testing channel, not a stable release or Synthetiq Movies replacement.
+
+Exact beta.5 host recheck: Home 2.003s, 20 cards, one missing image. Movie
+continuation pages returned 17/17 and TV pages 2/1 additional cards with no
+duplicates. Both Another World servers decoded 20-second host samples when
+explicitly treated as HLS, but both emitted packet-corruption warnings. These
+warnings do not establish the cause of the phone hang. Playback code is
+unchanged from beta.4. No complete download, offline or phone QA is claimed.
+
+Update to beta.5, reopen Alpha Movies, scroll beyond the initial Home rows and
+open View All. Check poster recovery, then send the phone playback report for
+Another World if it still hangs. Do not reset account data or remove other sources.
+Old package and bundle URLs are retained. No official module or app changes.
+
 ## Beta 4 Homepage Hotfix (2026-09-13)
 
 Current testing package: `Alpha-Movies-0.1.0-beta.4.zip`, same identity 79.
