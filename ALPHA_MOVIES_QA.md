@@ -1,5 +1,42 @@
 # Alpha Movies 0.1.0-beta.3
 
+## Beta 12 Update (2026-09-14)
+
+Current candidate: `Alpha-Movies-0.1.0-beta.12.zip`, same identity 79.
+SHA-256: `41090c92bd203ba0152d3f3448d6b96adf58c888a2b98117d001f3359ac2a617`.
+Runtime JavaScript SHA-256:
+`ef8f9b46a0780eaaff72c66e15525177b20964316ac3cebadcb6187c0ba6e8f9`.
+
+TV category pages are now filled across bounded batches instead of stopping at the
+first non-empty batch (observed 3--5 to 11--13 cards, no duplicates). Title ranking
+is two-tier so loose matches can never collapse the home rows; poster recovery keeps
+the "every missing poster recovered, never substituted" contract with six workers;
+caption files get timing-sanity checks (ordering, non-positive durations) while
+single-cue files stay valid. The beta.6 Another World loading fix is unchanged.
+
+66/66 mocked regression tests pass. Live: a 12-case journey (Another World 2025,
+Silo S2E9, Game of Thrones S8E6 and others) returned exact identities, posters,
+episode identities and English captions 12/12; a 30-title sample decoded audio and
+video on all 30 with zero corrupt-packet warnings (resolve median 2.67 s, p90 5.1 s);
+Avatar's seven routes all decoded 20-second samples from a 30-second seek; a 66.8 MB
+episode was downloaded once and decoded offline at three offsets with no warnings.
+Another World resolves in ~1.4--1.8 s on the host. Playback paths are unchanged from
+the reviewed beta.11 except the feed and caption logic above (108 of 1,899 lines).
+
+S2 note: the current S2 build reports FAIL for this candidate on two tester-side
+defects -- its HLS demuxer flags are gated on a URL-suffix check (opaque playlist
+URLs are probed without the flags) and its language detector lacks hints for 13 of
+the 14 declared caption languages (its `pt` hints even include single letters that
+score any Latin text at confidence 1.0). Evidence and a proposed tester repair are
+in the module's TESTER_REPAIR_PROPOSAL.md; the production tester was NOT modified.
+With those defects neutralised in a scratch tester, the same candidate runs to zero
+failure codes.
+
+Physical-phone playback, audible sound, subtitle-language review and offline checks
+remain outstanding. Another World's original phone hang is fixed on host/simulator
+evidence only -- re-test on your phone. Old package and bundle URLs are retained.
+
+
 ## Beta 5 Pagination And Poster Fix (2026-09-13)
 
 Current candidate: `Alpha-Movies-0.1.0-beta.5.zip`, same identity 79.

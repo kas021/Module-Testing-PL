@@ -10,6 +10,18 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
+**New active testing: FRAnime Direct 0.1.0-beta.1.** (published 2026-09-14)
+French anime (VOSTFR / VF) from franime.fr. The module uses the site's public API and
+decodes its obfuscated player tokens locally in pure JavaScript -- the protected player
+page is never loaded -- then resolves real Sibnet / Vidmoly / Uqload / SendVid streams
+and probes them before offering playback. 15/15 regression tests, a 10-title sweep
+resolved sub, dub and mid-episode routes 10/10 with every probe passing, S2 quick and
+S2 standard PASS on the app's simulator stack, and the release gate ALL_PASSED 3/3 on
+the first attempt. Not a certified stable release: audible sound, physical-device and
+offline checks are incomplete, SendVid is in a site-wide outage, and some entries use
+hosts that are not resolvable yet (filemoon/Byse, VK). See
+[FRAnime Direct QA and test steps](FRANIME_QA.md).
+
 **DramaFun 4.0.1 is released in the official repository (Bundle 125).**
 Owner-approved promotion with byte-identical beta.6 playback JavaScript and the
 limitations below. Beta.6 is retired from active testing, not deleted. Use the
@@ -25,17 +37,17 @@ See [DramaFun QA](DRAMAFUN_QA.md).
 Paused YASTREAM is retired from active testing to keep three candidate slots;
 its immutable ZIP and previous bundle links remain available.
 
-**Alpha Movies 0.1.0-beta.5 is available for experimental owner testing.**
-Fixes the invalid Home pagination descriptor and adds real continuation pages.
-Missing posters fall back to the exact title's TMDB artwork when available.
-Separate provider-direct movie/TV source with Cinejoy-first subtitles and the
-existing subtitle-service fallback. It does not replace Synthetiq Movies.
-39 regression tests pass. Another World (2025) resolves and simulator video
-advances, but its phone loading issue is NOT claimed fixed. Continuity, audio,
-subtitle-language and offline certification limits remain. See
-[Alpha Movies QA and test steps](ALPHA_MOVIES_QA.md).
-Beta.5 native certification is BLOCKED by the Mac test host running out of disk
-space during Flutter compilation. Host checks do not replace phone testing.
+**Alpha Movies 0.1.0-beta.12 is available for experimental owner testing.**
+Fills TV category pages across bounded batches instead of the first non-empty one
+(3--5 to 11--13 cards, no duplicates), keeps loose matches from collapsing the home
+rows, and adds caption timing-sanity checks. The beta.6 Another World loading fix
+is unchanged. 66 regression tests pass; a 12-case journey and a 30-title sample all
+resolved with decoded audio/video and zero corrupt-packet warnings, and Avatar's
+seven routes decoded from a 30 s seek. Separate provider-direct movie/TV source; it
+does not replace Synthetiq Movies. Another World's phone behaviour is still NOT
+claimed fixed; audible, subtitle-language and offline certification limits remain,
+and the current S2 build carries two documented tester-side defects (see QA notes).
+See [Alpha Movies QA and test steps](ALPHA_MOVIES_QA.md).
 
 **MegaKino (Deutsch) 1.1.1 is promoted to the official repository (Bundle 121).**
 The owner approved promotion with the QA limitations below. Playback JavaScript
