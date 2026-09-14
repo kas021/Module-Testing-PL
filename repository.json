@@ -3,14 +3,14 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789310218573,
+  "publishedAtMs": 1789406218439,
   "signature": "",
-  "testingIdentity": "alpha-movies:0.1.0-beta.5:e67934735db4d8aaee2f65adc7060cd63abde10f8c2ea2291b7f98f54e3579b8|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
+  "testingIdentity": "alpha-movies:0.1.0-beta.12:41090c92bd203ba0152d3f3448d6b96adf58c888a2b98117d001f3359ac2a617|franime-direct:0.1.0-beta.1:756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
   "bundle": {
-    "version": 60,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-60.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-60.zip",
-    "sha256": "68caaaa68bba38701319ff681f5282e9cb732646ffd8e8ca48a913127836a97b",
+    "version": 61,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-61.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-61.zip",
+    "sha256": "88e2acc218fbcbfe7ffee3b3cc0e441f4ec598535462cb417b5212ff827afd12",
     "signature": "",
     "minAppVersion": "8.5.33"
   },
@@ -21,13 +21,13 @@
       "moduleIdentity": "SP-VID-079-ALPHA-MOVIES",
       "moduleIdentityNumber": 79,
       "contentType": "video",
-      "version": "0.1.0-beta.5",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Alpha-Movies-0.1.0-beta.5.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/Alpha-Movies-0.1.0-beta.5.zip",
-      "sha256": "e67934735db4d8aaee2f65adc7060cd63abde10f8c2ea2291b7f98f54e3579b8",
+      "version": "0.1.0-beta.12",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Alpha-Movies-0.1.0-beta.12.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/Alpha-Movies-0.1.0-beta.12.zip",
+      "sha256": "41090c92bd203ba0152d3f3448d6b96adf58c888a2b98117d001f3359ac2a617",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789310218573,
+      "publishedAtMs": 1789406218439,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
@@ -35,6 +35,33 @@
         "language": "Original audio",
         "languages": [
           "sub"
+        ]
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    },
+    {
+      "moduleId": "franime-direct",
+      "moduleFamilyId": "franime_direct_v1",
+      "moduleIdentity": "SP-VID-080-FRANIME-DIRECT",
+      "moduleIdentityNumber": 80,
+      "contentType": "video",
+      "version": "0.1.0-beta.1",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Franime-Direct-0.1.0-beta.1.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/Franime-Direct-0.1.0-beta.1.zip",
+      "sha256": "756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789406218439,
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Testing only",
+        "recommended": false,
+        "language": "French (VOSTFR / VF)",
+        "languages": [
+          "sub",
+          "dub"
         ]
       },
       "changelog": [
@@ -53,7 +80,7 @@
       "sha256": "ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789310218573,
+      "publishedAtMs": 1789406218439,
       "presentation": {
         "category": "Anime",
         "language": "Intentional failure test",
@@ -76,7 +103,7 @@
       "sha256": "ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789310218573,
+      "publishedAtMs": 1789406218439,
       "presentation": {
         "category": "Cartoons",
         "purpose": "Testing only",
