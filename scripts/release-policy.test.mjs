@@ -13,6 +13,13 @@ test('stable release retires corresponding and older betas', () => {
   assert.equal(supersedesCandidate('1.2.4', '1.2.4-beta.4'), true);
   assert.equal(supersedesCandidate('1.10.0', '1.9.9-beta.1'), true);
 });
+test('one explicitly identified V9 live candidate can coexist with existing tests', () => {
+  const candidates = [{id:'a'}, {id:'b'}, {id:'c'}];
+  const live = {id:'dw-live-v1', moduleIdentityNumber:77, config:{capabilities:{live_discovery_v1:true}}};
+  assert.doesNotThrow(() => assertTestingCapacity([...candidates, live]));
+  assert.throws(() => assertTestingCapacity([...candidates, live, live]));
+  assert.throws(() => assertTestingCapacity([...candidates, {...live, id:'other'}]));
+});
 test('older releases do not retire new work', () => {
   assert.equal(supersedesCandidate('1.0.4', '1.1.0-beta.2'), false);
   assert.equal(supersedesCandidate('1.2.3', '1.2.4-beta.4'), false);

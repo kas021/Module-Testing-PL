@@ -29,6 +29,7 @@ const identity = active.map(x => `${x.manifest.id}:${x.manifest.moduleVersion}:$
 if (previous && previous.testingIdentity === identity) process.exit(0);
 const version = (previous?.bundle.version ?? 0) + 1;
 const publishedAtMs = Date.now();
+const minimumVersion = m => m.config?.capabilities?.live_discovery_v1 === true ? '9.0.0' : '8.5.33';
 const base = 'https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/';
 const info = file => ({packageUrl:base+file, packagePath:new URL(base+file).pathname, sha256:hash(file), signature:'', minAppVersion:'8.5.33'});
 fs.mkdirSync('bundles', {recursive:true});
@@ -41,7 +42,7 @@ else {
 const modules = active.map(({file,manifest:m}) => ({
   moduleId:m.id, moduleFamilyId:m.moduleFamilyId, moduleIdentity:m.moduleIdentity,
   moduleIdentityNumber:m.moduleIdentityNumber, contentType:m.contentType,
-  version:m.moduleVersion, ...info(`modules/${file}`), publishedAtMs,
+  version:m.moduleVersion, ...info(`modules/${file}`), minAppVersion:minimumVersion(m), publishedAtMs,
   presentation:{...previous?.modules?.find(x => x.moduleId === m.id)?.presentation,
     ...m.presentation,recommended:false,
     purpose:m.qaFixture === 'intentional-playback-failure' ? 'QA only: playback deliberately fails' : 'Testing only'},
@@ -49,6 +50,6 @@ const modules = active.map(({file,manifest:m}) => ({
     ? 'Intentional failure fixture: One Piece episode 1. No video is provided. Test Try another source in Player 8.5.55+117.'
     : 'TEST CANDIDATE: not certified for stable release. See repository QA notes.'],
 }));
-fs.writeFileSync('repository.json', JSON.stringify({schemaVersion:1,repositoryId:'module-testing-pl',name:'Module Testing PL',enabled:!!active.length,publishedAtMs,signature:'',testingIdentity:identity,bundle:{version,...info(bundleFile)},modules},null,2)+'\n');
+fs.writeFileSync('repository.json', JSON.stringify({schemaVersion:1,repositoryId:'module-testing-pl',name:'Module Testing PL',enabled:!!active.length,publishedAtMs,signature:'',testingIdentity:identity,bundle:{version,...info(bundleFile),minAppVersion:active.some(x => minimumVersion(x.manifest) === '9.0.0') ? '9.0.0' : '8.5.33'},modules},null,2)+'\n');
 // Retain immutable previous bundles so cached indexes do not encounter a 404.
 console.log(`Published index for ${modules.length} testing candidates`);

@@ -3,16 +3,16 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789406218439,
+  "publishedAtMs": 1789505722211,
   "signature": "",
-  "testingIdentity": "alpha-movies:0.1.0-beta.12:41090c92bd203ba0152d3f3448d6b96adf58c888a2b98117d001f3359ac2a617|franime-direct:0.1.0-beta.1:756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
+  "testingIdentity": "alpha-movies:0.1.0-beta.12:41090c92bd203ba0152d3f3448d6b96adf58c888a2b98117d001f3359ac2a617|dw-live-v1:0.1.0-beta.1:8fa103a71b26e6e12f10ec59024db0fa64480df14327580706251e9b703fbe5a|franime-direct:0.1.0-beta.1:756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
   "bundle": {
-    "version": 61,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-61.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-61.zip",
-    "sha256": "88e2acc218fbcbfe7ffee3b3cc0e441f4ec598535462cb417b5212ff827afd12",
+    "version": 62,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-62.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-62.zip",
+    "sha256": "8860c2af87f82e6fbf9c0dfcfb7a00c4afd37a886801488ccc3dc62853d78ab0",
     "signature": "",
-    "minAppVersion": "8.5.33"
+    "minAppVersion": "9.0.0"
   },
   "modules": [
     {
@@ -27,7 +27,7 @@
       "sha256": "41090c92bd203ba0152d3f3448d6b96adf58c888a2b98117d001f3359ac2a617",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789406218439,
+      "publishedAtMs": 1789505722211,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
@@ -36,6 +36,27 @@
         "languages": [
           "sub"
         ]
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    },
+    {
+      "moduleId": "dw-live-v1",
+      "moduleFamilyId": "dw_live_v1",
+      "moduleIdentity": "SP-VID-077-DW-LIVE",
+      "moduleIdentityNumber": 77,
+      "contentType": "video",
+      "version": "0.1.0-beta.1",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/DW-Live-0.1.0-beta.1.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/DW-Live-0.1.0-beta.1.zip",
+      "sha256": "8fa103a71b26e6e12f10ec59024db0fa64480df14327580706251e9b703fbe5a",
+      "signature": "",
+      "minAppVersion": "9.0.0",
+      "publishedAtMs": 1789505722211,
+      "presentation": {
+        "recommended": false,
+        "purpose": "Testing only"
       },
       "changelog": [
         "TEST CANDIDATE: not certified for stable release. See repository QA notes."
@@ -53,7 +74,7 @@
       "sha256": "756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789406218439,
+      "publishedAtMs": 1789505722211,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -80,7 +101,7 @@
       "sha256": "ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789406218439,
+      "publishedAtMs": 1789505722211,
       "presentation": {
         "category": "Anime",
         "language": "Intentional failure test",
@@ -103,7 +124,7 @@
       "sha256": "ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789406218439,
+      "publishedAtMs": 1789505722211,
       "presentation": {
         "category": "Cartoons",
         "purpose": "Testing only",
