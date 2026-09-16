@@ -34,7 +34,13 @@ payload decoded in-module (pure JS) → HLS URL handed to the player together wi
 2. **The CDN requires `Referer`** — the module supplies it per stream; if a device player
    ignores stream headers, playback could fail on that platform. Please report the platform
    if you see it (this is the main thing device testing should confirm).
-3. Sub/dub: live events are single-language; `sub` is a legacy argument (dub is rejected).
+3. **The house QA harness's media-download leg fails on this provider (expected).** That check
+   downloads the stream with a **Node** client, and this CDN rejects Node clients (403) while
+   `curl`, Dart and browsers get 200 on the same fresh URL — and media tokens are **single-use**,
+   so a URL works for exactly one fetch. Media was therefore verified with curl + the app's own
+   Dart transport (200 `#EXTM3U`); treat the harness FAIL on that leg as a harness transport
+   artifact, not a module defect.
+4. Sub/dub: live events are single-language; `sub` is a legacy argument (dub is rejected).
 4. The `delta`/`echo` sources occasionally serve an ad interstitial instead of a player; the
    module refuses those explicitly.
 
