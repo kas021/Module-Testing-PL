@@ -1,8 +1,8 @@
-# TVApp Live 0.1.0-beta.3 — QA notes (owner testing)
+# TVApp Live 0.1.0-beta.4 — QA notes (owner testing)
 
 Identity `SP-VID-081-TVAPP-LIVE` (#81) · contract v4 · `live_discovery_v1` · V9 `9.0.0+144`.
 
-**beta.2** fixed a manifest rejection (`caps.homeMaxResults` must be 1–120). **beta.3** adds `streamType: 'hls'` (the field the app reads for player routing) and the placeholder note below.
+**beta.2** fixed a manifest rejection (`caps.homeMaxResults` must be 1–120). **beta.3** added `streamType: 'hls'`. **beta.4** adds a non-blocking off-air check: after a play attempt, a channel whose media is the provider's placeholder image is reported as `unknown` (no LIVE badge) for 15 minutes, matching the app's Off-air tile marking — and the mark clears as soon as a real segment is seen.
 The package is pre-flighted against the app's own validator (`module_contract_v2.dart`) before publishing.
 
 ## Scope
