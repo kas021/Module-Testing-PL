@@ -1,6 +1,6 @@
 # Module Testing PL
 
-Public, opt-in Synthetiq Player testing repository. Maximum three active modules.
+Public, opt-in Synthetiq Player testing repository. Maximum ten active testing candidates (plus one intentional failure fixture).
 
 Add this repository in Player:
 https://github.com/kas021/Module-Testing-PL

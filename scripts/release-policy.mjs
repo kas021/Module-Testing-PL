@@ -1,11 +1,11 @@
 export function assertTestingCapacity(manifests) {
   const fixtures = manifests.filter(m => m.id === 'testing-123-v1' &&
     m.moduleIdentityNumber === 998 && m.qaFixture === 'intentional-playback-failure');
-  const liveIds = new Map([['dw-live-v1', 77], ['tagesschau-live-v1', 78]]);
+  const liveIds = new Map([['dw-live-v1', 77], ['tagesschau-live-v1', 78], ['tvapp-live-v1', 81]]);
   const live = manifests.filter(m => liveIds.get(m.id) === m.moduleIdentityNumber &&
     m.config?.capabilities?.live_discovery_v1 === true);
-  if (fixtures.length > 1 || new Set(live.map(m => m.id)).size !== live.length || manifests.length - fixtures.length - live.length > 3) {
-    throw new Error('Maximum three testing candidates, one of each approved Live candidate and one intentional failure fixture');
+  if (fixtures.length > 1 || new Set(live.map(m => m.id)).size !== live.length || manifests.length - fixtures.length - live.length > 10) {
+    throw new Error('Maximum ten testing candidates, one of each approved Live candidate and one intentional failure fixture');
   }
 }
 

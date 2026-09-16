@@ -1,12 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { supersedesCandidate, assertTestingCapacity } from './release-policy.mjs';
-test('three candidates and one explicit failure fixture, not unlimited modules', () => {
-  const candidates = [{id:'a'}, {id:'b'}, {id:'c'}];
+test('ten candidates and one explicit failure fixture, not unlimited modules', () => {
+  const candidates = Array.from({ length: 10 }, (_, i) => ({ id: 'c' + i }));
   const fixture = {id:'testing-123-v1', moduleIdentityNumber:998, qaFixture:'intentional-playback-failure'};
   assert.doesNotThrow(() => assertTestingCapacity([...candidates, fixture]));
-  assert.throws(() => assertTestingCapacity([...candidates, {id:'d'}]));
-  assert.throws(() => assertTestingCapacity([...candidates, fixture, fixture]));
+  assert.throws(() => assertTestingCapacity([...candidates, {id:'overflow'}]));
+  assert.throws(() => assertTestingCapacity([...candidates.slice(0, 3), fixture, fixture]));
 });
 test('stable release retires corresponding and older betas', () => {
   assert.equal(supersedesCandidate('1.1.1', '1.1.0-beta.2'), true);
@@ -14,7 +14,7 @@ test('stable release retires corresponding and older betas', () => {
   assert.equal(supersedesCandidate('1.10.0', '1.9.9-beta.1'), true);
 });
 test('one explicitly identified V9 live candidate can coexist with existing tests', () => {
-  const candidates = [{id:'a'}, {id:'b'}, {id:'c'}];
+  const candidates = Array.from({ length: 10 }, (_, i) => ({ id: 'c' + i }));
   const live = {id:'dw-live-v1', moduleIdentityNumber:77, config:{capabilities:{live_discovery_v1:true}}};
   assert.doesNotThrow(() => assertTestingCapacity([...candidates, live]));
   assert.throws(() => assertTestingCapacity([...candidates, live, live]));
@@ -27,10 +27,15 @@ test('older releases do not retire new work', () => {
   assert.equal(supersedesCandidate('unknown', '1.2.4-beta.4'), false);
 });
 test('approved broadcaster packages coexist without allowing arbitrary live modules', () => {
-  const candidates = [{id:'a'}, {id:'b'}, {id:'c'}];
+  const candidates = Array.from({ length: 10 }, (_, i) => ({ id: 'c' + i }));
   const dw = {id:'dw-live-v1', moduleIdentityNumber:77, config:{capabilities:{live_discovery_v1:true}}};
   const ts = {id:'tagesschau-live-v1', moduleIdentityNumber:78, config:{capabilities:{live_discovery_v1:true}}};
   assert.doesNotThrow(() => assertTestingCapacity([...candidates, dw, ts]));
-  assert.throws(() => assertTestingCapacity([...candidates, dw, ts, ts]));
-  assert.throws(() => assertTestingCapacity([...candidates, dw, {...ts, moduleIdentityNumber:79}]));
+  assert.throws(() => assertTestingCapacity([...candidates, dw, ts, {...ts, moduleIdentityNumber:79}]));
+});
+test('tvapp-live-v1 identified V9 live candidate is approved', () => {
+  const candidates = Array.from({ length: 10 }, (_, i) => ({ id: 'c' + i }));
+  const tv = {id:'tvapp-live-v1', moduleIdentityNumber:81, config:{capabilities:{live_discovery_v1:true}}};
+  assert.doesNotThrow(() => assertTestingCapacity([...candidates, tv]));
+  assert.throws(() => assertTestingCapacity([...candidates, {...tv, moduleIdentityNumber:80}]));
 });
