@@ -10,6 +10,11 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
+**New active testing: TVApp Live 0.1.0-beta.1.** (published 2026-09-16) — Live TV guide
+(sports events + 24/7 channels) from tvapp1.com with working native resolution; media
+verified through the app's own transport, device playback pending owner testing. See
+[TVApp Live QA notes](TVAPP_LIVE_QA.md).
+
 **New active testing: FRAnime Direct 0.1.0-beta.1.** (published 2026-09-14)
 French anime (VOSTFR / VF) from franime.fr. The module uses the site's public API and
 decodes its obfuscated player tokens locally in pure JavaScript -- the protected player
