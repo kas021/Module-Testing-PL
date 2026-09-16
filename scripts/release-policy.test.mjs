@@ -26,3 +26,11 @@ test('older releases do not retire new work', () => {
   assert.equal(supersedesCandidate('1.2.4-beta.5', '1.2.4-beta.4'), false);
   assert.equal(supersedesCandidate('unknown', '1.2.4-beta.4'), false);
 });
+test('approved broadcaster packages coexist without allowing arbitrary live modules', () => {
+  const candidates = [{id:'a'}, {id:'b'}, {id:'c'}];
+  const dw = {id:'dw-live-v1', moduleIdentityNumber:77, config:{capabilities:{live_discovery_v1:true}}};
+  const ts = {id:'tagesschau-live-v1', moduleIdentityNumber:78, config:{capabilities:{live_discovery_v1:true}}};
+  assert.doesNotThrow(() => assertTestingCapacity([...candidates, dw, ts]));
+  assert.throws(() => assertTestingCapacity([...candidates, dw, ts, ts]));
+  assert.throws(() => assertTestingCapacity([...candidates, dw, {...ts, moduleIdentityNumber:79}]));
+});
