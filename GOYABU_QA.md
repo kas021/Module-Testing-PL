@@ -4,7 +4,7 @@
 goyabu.io. Both **Dublado** (dub) and **Legendado** (sub) runs appear as separate
 catalogue entries, exactly like on the site.
 
-**Identity:** SP-VID-082-GOYABU (#82) · contract v4 · `discovery_v1` · version 1.0.0-beta.4 · SHA256 1ed637a3f0d1cb79944b2b1cc671d0acd299af761dcf75982997a2090f8cf488
+**Identity:** SP-VID-082-GOYABU (#82) · contract v4 · `discovery_v1` · version 1.0.0-beta.5 · SHA256 8f9d23da9af3778a708a0f78beaa1b739e1d67ef838711fba1c3097fb7acdef1
 
 ## What to test
 
