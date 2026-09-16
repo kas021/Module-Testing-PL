@@ -4,7 +4,11 @@
 goyabu.io. Both **Dublado** (dub) and **Legendado** (sub) runs appear as separate
 catalogue entries, exactly like on the site.
 
-**Identity:** SP-VID-082-GOYABU (#82) · contract v4 · `discovery_v1` · version 1.0.0-beta.5 · SHA256 8f9d23da9af3778a708a0f78beaa1b739e1d67ef838711fba1c3097fb7acdef1
+**Identity:** SP-VID-082-GOYABU (#82) · contract v4 · `discovery_v1` · version 1.0.0-beta.6 · SHA256 2da4b2eafbb7e534eef1d2bbec31becc280d3533dbbadc3e6d5e486981f82bdb
+
+**beta.6 adds:** infinite-scroll home feed (the site's own catalogue API, 59 pages), +18 titles removed
+from search and every discovery row (harvested from the site's own +18 genre), Dublado/Legendado labels
+on every card, a Dublado row on home, and a one-shot retry with a fresh resolve on the play path.
 
 ## What to test
 

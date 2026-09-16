@@ -10,9 +10,10 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**New active testing: Goyabu 1.0.0-beta.5.** (published 2026-09-16; supersedes beta.4 — beta.4's
-icon URL pointed at a file that was never uploaded, so the candidate card could not render its
-artwork; beta.5 points at the site's own public icon)
+**New active testing: Goyabu 1.0.0-beta.6.** (published 2026-09-16; supersedes beta.5 — infinite-scroll
+home feed (59 pages), the +18 title removed from search and every home/discovery row, clear
+Dublado/Legendado labels on every card, and a Dublado row on home; play path now retries once with a
+fresh resolve)
 Brazilian Portuguese anime from goyabu.io — Dublado and Legendado runs, full episode
 lists, direct MP4 playback resolved from the site's Blogger players. Verified live:
 search, details, episode lists (Naruto Dublado 102 eps; Frieren Legendado 28 eps) and
