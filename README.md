@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
-**New active testing: TVApp Live 0.1.0-beta.1.** (published 2026-09-16) — Live TV guide
+**New active testing: TVApp Live 0.1.0-beta.2.** (published 2026-09-16; beta.1 superseded — its manifest declared an out-of-range caps.homeMaxResults that the app rejected at verify_package) — Live TV guide
 (sports events + 24/7 channels) from tvapp1.com with working native resolution; media
 verified through the app's own transport, device playback pending owner testing. See
 [TVApp Live QA notes](TVAPP_LIVE_QA.md).
