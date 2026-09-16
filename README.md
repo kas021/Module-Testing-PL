@@ -10,6 +10,13 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
+**New active testing: Goyabu 1.0.0-beta.4.** (published 2026-09-16; first testing build)
+Brazilian Portuguese anime from goyabu.io — Dublado and Legendado runs, full episode
+lists, direct MP4 playback resolved from the site's Blogger players. Verified live:
+search, details, episode lists (Naruto Dublado 102 eps; Frieren Legendado 28 eps) and
+stream resolution for both runs; house tester 29 PASS / 0 FAIL and a 65 KB video/mp4
+sample download. See [Goyabu QA notes](GOYABU_QA.md).
+
 **New active testing: TVApp Live 0.1.0-beta.4.** (published 2026-09-16; supersedes beta.3 — the guide now clears the LIVE badge for channels it has verified off-air, cooperating with the app's 15-minute Off-air marking) — Live TV guide
 (sports events + 24/7 channels) from tvapp1.com with working native resolution; media
 verified through the app's own transport, device playback pending owner testing. See
