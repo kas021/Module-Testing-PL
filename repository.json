@@ -3,14 +3,14 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789564445461,
+  "publishedAtMs": 1789580298896,
   "signature": "",
-  "testingIdentity": "alpha-movies:0.1.0-beta.12:41090c92bd203ba0152d3f3448d6b96adf58c888a2b98117d001f3359ac2a617|dw-live-v1:0.1.0-beta.2:12118164347c391422b5a4cc087d6858e4555b4c1f9f6b147cc3a1879c188fed|franime-direct:0.1.0-beta.1:756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d|tvapp-live-v1:0.1.0-beta.4:4cd8d8d78278ba0281a36eeeea1b9acf230da587c7a17522bd46cd3a45d9e7cf|tagesschau-live-v1:0.1.0-beta.2:149f9a3e07d4a14d09f411c06f4d0315dd306b78234427b45e975249ffbf3d9a|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
+  "testingIdentity": "alpha-movies:0.1.0-beta.12:41090c92bd203ba0152d3f3448d6b96adf58c888a2b98117d001f3359ac2a617|dw-live-v1:0.1.0-beta.2:12118164347c391422b5a4cc087d6858e4555b4c1f9f6b147cc3a1879c188fed|franime-direct:0.1.0-beta.1:756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d|goyabu-v1:1.0.0-beta.4:1ed637a3f0d1cb79944b2b1cc671d0acd299af761dcf75982997a2090f8cf488|tvapp-live-v1:0.1.0-beta.4:4cd8d8d78278ba0281a36eeeea1b9acf230da587c7a17522bd46cd3a45d9e7cf|tagesschau-live-v1:0.1.0-beta.2:149f9a3e07d4a14d09f411c06f4d0315dd306b78234427b45e975249ffbf3d9a|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
   "bundle": {
-    "version": 67,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-67.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-67.zip",
-    "sha256": "3f7091168c74dc46fef9013f885c59614c61e6ae900b3c647e3078c152fb2331",
+    "version": 68,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-68.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-68.zip",
+    "sha256": "b8dc1db9d9de33a8f42667379b9a94c03f28aba5fd142cbe2b8a45190d2c7ff6",
     "signature": "",
     "minAppVersion": "9.0.0"
   },
@@ -27,7 +27,7 @@
       "sha256": "41090c92bd203ba0152d3f3448d6b96adf58c888a2b98117d001f3359ac2a617",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789564445461,
+      "publishedAtMs": 1789580298896,
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Testing only",
@@ -53,7 +53,7 @@
       "sha256": "12118164347c391422b5a4cc087d6858e4555b4c1f9f6b147cc3a1879c188fed",
       "signature": "",
       "minAppVersion": "9.0.0",
-      "publishedAtMs": 1789564445461,
+      "publishedAtMs": 1789580298896,
       "presentation": {
         "recommended": false,
         "purpose": "Testing only",
@@ -77,7 +77,7 @@
       "sha256": "756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789564445461,
+      "publishedAtMs": 1789580298896,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -87,6 +87,34 @@
           "sub",
           "dub"
         ]
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    },
+    {
+      "moduleId": "goyabu-v1",
+      "moduleFamilyId": "goyabu_v1",
+      "moduleIdentity": "SP-VID-082-GOYABU",
+      "moduleIdentityNumber": 82,
+      "contentType": "video",
+      "version": "1.0.0-beta.4",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Goyabu-1.0.0-beta.4.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/Goyabu-1.0.0-beta.4.zip",
+      "sha256": "1ed637a3f0d1cb79944b2b1cc671d0acd299af761dcf75982997a2090f8cf488",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1789580298896,
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Testing only",
+        "recommended": false,
+        "language": "Portuguese (Dublado / Legendado)",
+        "languages": [
+          "dub",
+          "sub"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/goyabu.png"
       },
       "changelog": [
         "TEST CANDIDATE: not certified for stable release. See repository QA notes."
@@ -104,7 +132,7 @@
       "sha256": "4cd8d8d78278ba0281a36eeeea1b9acf230da587c7a17522bd46cd3a45d9e7cf",
       "signature": "",
       "minAppVersion": "9.0.0",
-      "publishedAtMs": 1789564445461,
+      "publishedAtMs": 1789580298896,
       "presentation": {
         "category": "Live TV",
         "language": "English",
@@ -128,7 +156,7 @@
       "sha256": "149f9a3e07d4a14d09f411c06f4d0315dd306b78234427b45e975249ffbf3d9a",
       "signature": "",
       "minAppVersion": "9.0.0",
-      "publishedAtMs": 1789564445461,
+      "publishedAtMs": 1789580298896,
       "presentation": {
         "category": "Live TV",
         "language": "German",
@@ -152,7 +180,7 @@
       "sha256": "ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789564445461,
+      "publishedAtMs": 1789580298896,
       "presentation": {
         "category": "Anime",
         "language": "Intentional failure test",
@@ -175,7 +203,7 @@
       "sha256": "ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789564445461,
+      "publishedAtMs": 1789580298896,
       "presentation": {
         "category": "Cartoons",
         "purpose": "Testing only",
