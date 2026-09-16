@@ -1,8 +1,8 @@
-# TVApp Live 0.1.0-beta.2 — QA notes (owner testing)
+# TVApp Live 0.1.0-beta.3 — QA notes (owner testing)
 
 Identity `SP-VID-081-TVAPP-LIVE` (#81) · contract v4 · `live_discovery_v1` · V9 `9.0.0+144`.
 
-**beta.2** fixes the manifest rejection seen in the app (`caps.homeMaxResults` must be 1–120; now 120).
+**beta.2** fixed a manifest rejection (`caps.homeMaxResults` must be 1–120). **beta.3** adds `streamType: 'hls'` (the field the app reads for player routing) and the placeholder note below.
 The package is pre-flighted against the app's own validator (`module_contract_v2.dart`) before publishing.
 
 ## Scope
