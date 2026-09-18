@@ -1,5 +1,42 @@
 # Alpha Movies 0.1.0-beta.3
 
+## 0.2.0-beta.1 Update (2026-09-18) -- FIRST MULTI-SOURCE BUILD
+
+Current candidate: `Alpha-Movies-0.2.0-beta.1.zip`, same identity 79.
+ZIP SHA-256: `d7f8507509af725809420a14ee0f0a5e74e48978f2ca2e49aecaa493c6ec50d8`.
+Runtime JavaScript SHA-256: `7776aa8b79d1ddc15ea11b388c42226c918239bee7df626e809c3e8b6a1a121d`.
+
+This is the build the owner asked for: instead of one stream source, the module now
+aggregates THREE independent sources behind one pipeline -- Vidrock (as before), Videasy
+(api.speedracelight.com, English endpoints) and Stream Unity (streamingunity.vip ->
+vixcloud.co, phone-side English HLS). All three are queried in parallel; one source being
+down can never remove another source's streams; and every play returns MULTIPLE validated
+servers so a dead link no longer dead-ends (the "video failed to start" report).
+Each source keeps its own required request headers. English audio only; captions are
+offered in any language the sources provide (Cinejoy-first with the existing fallback).
+AES-128 encrypted HLS (the vixcloud case) is now validated positively via its key
+resource instead of being rejected for lacking a plaintext signature.
+
+Evidence so far: 69/69 mocked regression tests (3 new provider tests, incl. a
+videasy payload known-answer fixture and the full Stream Unity chain). Live host run:
+Inception -> 10 candidates from all three sources -> 7 validated servers in 2.8 s, with
+28 caption languages and English captions hydrated; The Office S1E1 -> 5 servers in 3.2 s.
+
+KNOWN LIMITS (honest): the app-runtime/S2 check has NOT yet been run for THIS package;
+physical-device playback, audible-audio and caption synchronisation remain unverified;
+the earlier tester-side items (language detector, media-offset intermittency) are
+inherited and unchanged; caption labels beyond the sampled titles are not individually
+adjudicated; no module artwork icon yet. Recommend testing on titles that FAILED before
+(e.g. Chess in Concert, Another World) to see whether a second source now recovers them.
+
+How to test: install this candidate from the testing repository, then
+1. Search Inception (2010) and play it; in the play screen, switch between the offered
+   servers/qualities -- each should play.
+2. Try The Office S1E1 and one title that previously failed for you.
+3. Open the caption menu and switch between languages; the list should be longer than
+   before (up to ~28 languages on popular titles).
+4. Send a playback report for any failure with title, episode and module version.
+
 ## Beta 12 Update (2026-09-14)
 
 Current candidate: `Alpha-Movies-0.1.0-beta.12.zip`, same identity 79.

@@ -10,6 +10,12 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
+**New active testing: Alpha Movies 0.2.0-beta.1.** (published 2026-09-18; supersedes 0.1.0-beta.12 -- first multi-source build)
+Movies and TV with THREE independent stream sources (Vidrock + Videasy + Stream Unity/vixcloud)
+queried in parallel; every play now offers multiple validated servers so a dead link fails over
+instead of dead-ending. English audio, captions in any language. 69/69 mocked tests; live 7-server
+resolution in ~3 s on both a movie and a TV episode. See [Alpha Movies QA notes](ALPHA_MOVIES_QA.md).
+
 **New active testing: Goyabu 1.0.0-beta.6.** (published 2026-09-16; supersedes beta.5 — infinite-scroll
 home feed (59 pages), the +18 title removed from search and every home/discovery row, clear
 Dublado/Legendado labels on every card, and a Dublado row on home; play path now retries once with a
