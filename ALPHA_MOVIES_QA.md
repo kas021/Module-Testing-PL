@@ -1,5 +1,35 @@
 # Alpha Movies 0.1.0-beta.3
 
+## 0.2.0-beta.2 Update (2026-09-19) -- POSTER FIX + AUDIO OPTIONS
+
+Current candidate: `Alpha-Movies-0.2.0-beta.2.zip`, same identity 79.
+ZIP SHA-256: `86146124f0e4d3a5c4de8c3ec44a93c508db01bd7145913477feaf97d4f3a5f3`.
+Runtime JavaScript SHA-256: `566c1e4e6fcc3dcaee9c6488877f703c77b9a4b94511c231733deb96e17e22fd`.
+
+Two owner-reported issues, fixed module-side:
+
+1. POSTERS ("sometimes it fails to fetch the images for movies") -- root-caused and proven:
+   Wikimedia throttles bursts of image loads by User-Agent; the app's generic loader UA gets
+   HTTP 429s (reproduced: 14 of 18 concurrent posters failed; same burst with a descriptive
+   UA passed 18/18). Posters now load through a caching resolver proxy, so devices never hit
+   Wikimedia in bursts. Verified after the change: 31/31 home posters loaded in one concurrent
+   burst with the app's UA. Titles that showed broken tiles (e.g. The Dog Stars, Backrooms)
+   return proper poster URLs now.
+2. AUDIO -- alternate-language stream sources are no longer discarded. They stay in the
+   server list, clearly labelled and sorted after the English ones (English remains the
+   default). Where a stream carries multiple audio tracks in the playlist itself, the server
+   label now shows the languages (e.g. "English audio - Stream Unity - ITA+ENG audio"), so the
+   playback settings Audio selector can offer them. "Dub" requests still return English-only.
+
+Evidence: 72/72 mocked tests (new: poster-rewrite rules + home integration, and a dub-mode
+guard). Live: Inception returns 8 validated servers, English-first, in under 3 s.
+
+KNOWN LIMITS (honest): app-runtime/S2 check has NOT been run for this package; physical-device
+verification of posters and the audio selector is needed from the owner's phone; poster loading
+now depends on the resolver proxy host (it caches + serves stale on upstream hiccups); the
+earlier inherited items (tester-side language detector, no module artwork icon) are unchanged.
+
+
 ## 0.2.0-beta.1 Update (2026-09-18) -- FIRST MULTI-SOURCE BUILD
 
 Current candidate: `Alpha-Movies-0.2.0-beta.1.zip`, same identity 79.
