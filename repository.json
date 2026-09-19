@@ -3,44 +3,18 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789774721304,
+  "publishedAtMs": 1789807827165,
   "signature": "",
-  "testingIdentity": "alpha-movies:0.2.0-beta.2:86146124f0e4d3a5c4de8c3ec44a93c508db01bd7145913477feaf97d4f3a5f3|dw-live-v1:0.1.0-beta.2:12118164347c391422b5a4cc087d6858e4555b4c1f9f6b147cc3a1879c188fed|franime-direct:0.1.0-beta.1:756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d|goyabu-v1:1.0.0-beta.6:2da4b2eafbb7e534eef1d2bbec31becc280d3533dbbadc3e6d5e486981f82bdb|tvapp-live-v1:0.1.0-beta.4:4cd8d8d78278ba0281a36eeeea1b9acf230da587c7a17522bd46cd3a45d9e7cf|tagesschau-live-v1:0.1.0-beta.2:149f9a3e07d4a14d09f411c06f4d0315dd306b78234427b45e975249ffbf3d9a|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
+  "testingIdentity": "dw-live-v1:0.1.0-beta.2:12118164347c391422b5a4cc087d6858e4555b4c1f9f6b147cc3a1879c188fed|franime-direct:0.1.0-beta.1:756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d|goyabu-v1:1.0.0-beta.6:2da4b2eafbb7e534eef1d2bbec31becc280d3533dbbadc3e6d5e486981f82bdb|tvapp-live-v1:0.1.0-beta.4:4cd8d8d78278ba0281a36eeeea1b9acf230da587c7a17522bd46cd3a45d9e7cf|tagesschau-live-v1:0.1.0-beta.2:149f9a3e07d4a14d09f411c06f4d0315dd306b78234427b45e975249ffbf3d9a|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
   "bundle": {
-    "version": 72,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-72.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-72.zip",
-    "sha256": "1940abbc138f1cfb74ec4957928a7adfbcec86628640ea9c4221be0bf6b80d67",
+    "version": 73,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-73.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-73.zip",
+    "sha256": "0efa1406ac13a9797d89e6ac6b296cd533c2216babf59cfad15fc5e131dd9dd5",
     "signature": "",
     "minAppVersion": "9.0.0"
   },
   "modules": [
-    {
-      "moduleId": "alpha-movies",
-      "moduleFamilyId": "alpha_movies_v1",
-      "moduleIdentity": "SP-VID-079-ALPHA-MOVIES",
-      "moduleIdentityNumber": 79,
-      "contentType": "video",
-      "version": "0.2.0-beta.2",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Alpha-Movies-0.2.0-beta.2.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/Alpha-Movies-0.2.0-beta.2.zip",
-      "sha256": "86146124f0e4d3a5c4de8c3ec44a93c508db01bd7145913477feaf97d4f3a5f3",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789774721304,
-      "presentation": {
-        "category": "Movies & TV",
-        "purpose": "Testing only",
-        "recommended": false,
-        "language": "Original audio",
-        "languages": [
-          "sub"
-        ]
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    },
     {
       "moduleId": "dw-live-v1",
       "moduleFamilyId": "dw_live_v1",
@@ -53,7 +27,7 @@
       "sha256": "12118164347c391422b5a4cc087d6858e4555b4c1f9f6b147cc3a1879c188fed",
       "signature": "",
       "minAppVersion": "9.0.0",
-      "publishedAtMs": 1789774721304,
+      "publishedAtMs": 1789807827165,
       "presentation": {
         "recommended": false,
         "purpose": "Testing only",
@@ -77,7 +51,7 @@
       "sha256": "756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789774721304,
+      "publishedAtMs": 1789807827165,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -104,7 +78,7 @@
       "sha256": "2da4b2eafbb7e534eef1d2bbec31becc280d3533dbbadc3e6d5e486981f82bdb",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789774721304,
+      "publishedAtMs": 1789807827165,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -132,7 +106,7 @@
       "sha256": "4cd8d8d78278ba0281a36eeeea1b9acf230da587c7a17522bd46cd3a45d9e7cf",
       "signature": "",
       "minAppVersion": "9.0.0",
-      "publishedAtMs": 1789774721304,
+      "publishedAtMs": 1789807827165,
       "presentation": {
         "category": "Live TV",
         "language": "English",
@@ -156,7 +130,7 @@
       "sha256": "149f9a3e07d4a14d09f411c06f4d0315dd306b78234427b45e975249ffbf3d9a",
       "signature": "",
       "minAppVersion": "9.0.0",
-      "publishedAtMs": 1789774721304,
+      "publishedAtMs": 1789807827165,
       "presentation": {
         "category": "Live TV",
         "language": "German",
@@ -180,7 +154,7 @@
       "sha256": "ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789774721304,
+      "publishedAtMs": 1789807827165,
       "presentation": {
         "category": "Anime",
         "language": "Intentional failure test",
@@ -203,7 +177,7 @@
       "sha256": "ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789774721304,
+      "publishedAtMs": 1789807827165,
       "presentation": {
         "category": "Cartoons",
         "purpose": "Testing only",
