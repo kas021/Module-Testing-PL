@@ -10,6 +10,15 @@ https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
 
+**New active testing: Aniworld 1.2.0-beta.4.** (published 2026-09-20; first Aniworld candidate here — reliability rebuild of the German anime source)
+Fixes the "works sometimes" coin-flip: hosts are now raced (first verified route wins,
+rest stay as server choices), dead/throttled hosts get cooled down instead of hammered,
+Doodstream joins as a third working resolver, and a labelled Vidhawk subtitle-backbone
+fallback rescues episodes when the German hosts all fail (German captions first where
+available; its audio is not German). 9/9 mocked tests, live matrix parity with the
+official build at 0.3-1.6 s per resolve, app-runtime PASS, S2 certification gates PASS,
+release gate ALL_PASSED 3/3. See [Aniworld QA notes](ANIWORLD_RELIABILITY_QA.md).
+
 **New active testing: Alpha Movies 0.2.0-beta.1.** (published 2026-09-18; supersedes 0.1.0-beta.12 -- first multi-source build)
 Movies and TV with THREE independent stream sources (Vidrock + Videasy + Stream Unity/vixcloud)
 queried in parallel; every play now offers multiple validated servers so a dead link fails over
