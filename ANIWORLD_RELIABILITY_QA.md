@@ -52,6 +52,21 @@ KNOWN LIMITS (honest):
 - Vidhawk fallback is subtitle-first: German *audio* still requires a working German hoster.
 - Physical-device playback check is still needed from the owner (simulator/S2 and harness only).
 
-How to test (owner): Naruto and Jujutsu Kaisen, Sub and Deutsch; a movie entry; then a title where
-the Servers list shows a Vidhawk entry (Jujutsu Kaisen Sub) and play it — captions should offer
+How to test — install path (corrected 2026-09-20, verified in app source):
+
+- If Aniworld is NOT yet installed: Settings → Media & Sources → Check → install `aniworld-v1
+  1.2.0-beta.4` from the "New source available" card (the Module-Testing-PL community repo must be
+  added). After that, future candidates arrive as normal "Update available" cards.
+- If Aniworld IS already installed (e.g. official 1.1.2): the app's Check offers updates only for
+  modules bound to the repository they were installed from, and never lists an already-installed
+  module id as a "new source" — so the testing build is not offered automatically. Install it:
+  delete the old Aniworld first (two active copies of one module crash), then run **Check** and
+  install from the "New source available" card (Aniworld then binds to this testing repo), or use
+  Settings → Sources → Advanced → **Import ZIP** with this ZIP as the offline path.
+- Apps older than 9.0.0 cannot ADD this repository from scratch: the active Live-TV candidates force
+  the bundle to `minAppVersion` 9.0.0 ("Bundle N requires app 9.0.0 or newer"). A repository that is
+  already bound keeps working for checks and candidate installs.
+
+Then test: Naruto and Jujutsu Kaisen, Sub and Deutsch; a movie entry; then a title where the
+Servers list shows a Vidhawk entry (Jujutsu Kaisen Sub) and play it — captions should offer
 German. Double-tap retries should reuse the cached verified route instead of re-resolving.
