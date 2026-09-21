@@ -28,7 +28,7 @@ payload decoded in-module (pure JS) → HLS URL handed to the player together wi
 | Media check via curl with the module's headers | Tennis Channel / NFL Network / Fox Footy → **200 `#EXTM3U`** |
 | Payload decoder validation | 220+ live captures replay to well-formed URLs; decoder self-tests 14/14 |
 | Live channel chain (2026-09-21) | **Rally TV: resolved → master (7 variants) → variant → segment = real MPEG-TS (6.2 MB)**; app Dart transport fetches the Akamai master (206 / `#EXTM3U`) |
-| Off-air suite (stubbed, deterministic) | **17 / 17 pass** — slack: sleepercdn + tiktokcdn placeholders marked off-air; real chains stay live; akamaized accepted; non-allowlisted host rejected visibly |
+| Off-air suite (stubbed, deterministic) | **17 / 17 pass** — sleepercdn + tiktokcdn placeholders marked off-air; real chains stay live; akamaized accepted; non-allowlisted host rejected visibly |
 | Device/simulator playback | **NOT RUN** — needs your desk |
 
 ## Known limits (read before testing)
