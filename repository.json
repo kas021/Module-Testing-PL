@@ -3,42 +3,18 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1789928982404,
+  "publishedAtMs": 1789984825409,
   "signature": "",
-  "testingIdentity": "aniworld-v1:1.2.0-beta.4:b35a0c82b30a8883fd68ce0f798150410a732478f2cb074ab3011df4d2921df9|dw-live-v1:0.1.0-beta.2:12118164347c391422b5a4cc087d6858e4555b4c1f9f6b147cc3a1879c188fed|franime-direct:0.1.0-beta.1:756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d|goyabu-v1:1.0.0-beta.6:2da4b2eafbb7e534eef1d2bbec31becc280d3533dbbadc3e6d5e486981f82bdb|tvapp-live-v1:0.1.0-beta.4:4cd8d8d78278ba0281a36eeeea1b9acf230da587c7a17522bd46cd3a45d9e7cf|tagesschau-live-v1:0.1.0-beta.2:149f9a3e07d4a14d09f411c06f4d0315dd306b78234427b45e975249ffbf3d9a|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
+  "testingIdentity": "dw-live-v1:0.1.0-beta.2:12118164347c391422b5a4cc087d6858e4555b4c1f9f6b147cc3a1879c188fed|franime-direct:0.1.0-beta.1:756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d|goyabu-v1:1.0.0-beta.6:2da4b2eafbb7e534eef1d2bbec31becc280d3533dbbadc3e6d5e486981f82bdb|tvapp-live-v1:0.1.0-beta.4:4cd8d8d78278ba0281a36eeeea1b9acf230da587c7a17522bd46cd3a45d9e7cf|tagesschau-live-v1:0.1.0-beta.2:149f9a3e07d4a14d09f411c06f4d0315dd306b78234427b45e975249ffbf3d9a|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
   "bundle": {
-    "version": 74,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-74.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-74.zip",
-    "sha256": "b211ff39ff2e05fd5b42a2b876aae9f5ddc74975201bf2a1e9adf76ffc23b1f4",
+    "version": 75,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-75.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-75.zip",
+    "sha256": "0092f58e9b589f617ddc3267b22cf4df73fcc64344c7b5ee07d7556127b18306",
     "signature": "",
     "minAppVersion": "9.0.0"
   },
   "modules": [
-    {
-      "moduleId": "aniworld-v1",
-      "moduleFamilyId": "aniworld_v1",
-      "moduleIdentity": "SP-VID-050-ANIWORLD",
-      "moduleIdentityNumber": 50,
-      "contentType": "video",
-      "version": "1.2.0-beta.4",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Aniworld-1.2.0-beta.4.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/Aniworld-1.2.0-beta.4.zip",
-      "sha256": "b35a0c82b30a8883fd68ce0f798150410a732478f2cb074ab3011df4d2921df9",
-      "signature": "",
-      "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789928982404,
-      "presentation": {
-        "category": "Anime",
-        "purpose": "Testing only",
-        "language": "German",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/aniworld.png?v=20260812-2",
-        "recommended": false
-      },
-      "changelog": [
-        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
-      ]
-    },
     {
       "moduleId": "dw-live-v1",
       "moduleFamilyId": "dw_live_v1",
@@ -51,7 +27,7 @@
       "sha256": "12118164347c391422b5a4cc087d6858e4555b4c1f9f6b147cc3a1879c188fed",
       "signature": "",
       "minAppVersion": "9.0.0",
-      "publishedAtMs": 1789928982404,
+      "publishedAtMs": 1789984825409,
       "presentation": {
         "recommended": false,
         "purpose": "Testing only",
@@ -75,7 +51,7 @@
       "sha256": "756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789928982404,
+      "publishedAtMs": 1789984825409,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -102,7 +78,7 @@
       "sha256": "2da4b2eafbb7e534eef1d2bbec31becc280d3533dbbadc3e6d5e486981f82bdb",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789928982404,
+      "publishedAtMs": 1789984825409,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -130,7 +106,7 @@
       "sha256": "4cd8d8d78278ba0281a36eeeea1b9acf230da587c7a17522bd46cd3a45d9e7cf",
       "signature": "",
       "minAppVersion": "9.0.0",
-      "publishedAtMs": 1789928982404,
+      "publishedAtMs": 1789984825409,
       "presentation": {
         "category": "Live TV",
         "language": "English",
@@ -154,7 +130,7 @@
       "sha256": "149f9a3e07d4a14d09f411c06f4d0315dd306b78234427b45e975249ffbf3d9a",
       "signature": "",
       "minAppVersion": "9.0.0",
-      "publishedAtMs": 1789928982404,
+      "publishedAtMs": 1789984825409,
       "presentation": {
         "category": "Live TV",
         "language": "German",
@@ -178,7 +154,7 @@
       "sha256": "ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789928982404,
+      "publishedAtMs": 1789984825409,
       "presentation": {
         "category": "Anime",
         "language": "Intentional failure test",
@@ -201,7 +177,7 @@
       "sha256": "ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1789928982404,
+      "publishedAtMs": 1789984825409,
       "presentation": {
         "category": "Cartoons",
         "purpose": "Testing only",
