@@ -1,8 +1,9 @@
-# TVApp Live 0.1.0-beta.4 — QA notes (owner testing)
+# TVApp Live 0.1.0-beta.5 — QA notes (owner testing)
 
 Identity `SP-VID-081-TVAPP-LIVE` (#81) · contract v4 · `live_discovery_v1` · V9 `9.0.0+144`.
 
 **beta.2** fixed a manifest rejection (`caps.homeMaxResults` must be 1–120). **beta.3** added `streamType: 'hls'`. **beta.4** adds a non-blocking off-air check: after a play attempt, a channel whose media is the provider's placeholder image is reported as `unknown` (no LIVE badge) for 15 minutes, matching the app's Off-air tile marking — and the mark clears as soon as a real segment is seen.
+**beta.5** widens the reviewed media-host allowlist to `akamaized.net` (the provider mixes in Akamai-hosted feeds — Rally TV; verified live: master → variant → first segment = real MPEG-TS), the off-air check now also detects the current TikTok-CDN `.image` placeholders (plus a byte-sniff fallback for future shapes), and decode failures name the reason (e.g. `reason=host-not-allowlisted:<host>`).
 The package is pre-flighted against the app's own validator (`module_contract_v2.dart`) before publishing.
 
 ## Scope
@@ -26,6 +27,8 @@ payload decoded in-module (pure JS) → HLS URL handed to the player together wi
 | Media check via the app's own transport (Dart `HttpClient`) | `/fetch` POST → 200 with key header; decoded m3u8 → **200 `#EXTM3U`** |
 | Media check via curl with the module's headers | Tennis Channel / NFL Network / Fox Footy → **200 `#EXTM3U`** |
 | Payload decoder validation | 220+ live captures replay to well-formed URLs; decoder self-tests 14/14 |
+| Live channel chain (2026-09-21) | **Rally TV: resolved → master (7 variants) → variant → segment = real MPEG-TS (6.2 MB)**; app Dart transport fetches the Akamai master (206 / `#EXTM3U`) |
+| Off-air suite (stubbed, deterministic) | **17 / 17 pass** — slack: sleepercdn + tiktokcdn placeholders marked off-air; real chains stay live; akamaized accepted; non-allowlisted host rejected visibly |
 | Device/simulator playback | **NOT RUN** — needs your desk |
 
 ## Known limits (read before testing)
@@ -52,8 +55,9 @@ payload decoded in-module (pure JS) → HLS URL handed to the player together wi
 1. Add the testing repository in Player and install/update **TVApp Live**.
 2. Open **Live** → the guide fills with events and channels; search works (try "tennis",
    "NFL", "F1").
-3. Open a 24/7 channel (e.g. Tennis Channel, NFL Network, Fox Footy) and press Play —
-   that is the expected-working path.
+3. Open a channel and press Play. **Rally TV is the known-good live test right now** (real Akamai feed).
+   24/7 channels (Tennis Channel, NFL Network, Fox Footy…) may be off-air at this hour — the tap then
+   shows the Off-air message and the tile clears its LIVE badge for the session (expected behaviour).
 4. Try a live event row too; if it errors, note the title (availability varies by hour).
 5. Report with: item title, platform, what you saw on screen.
 

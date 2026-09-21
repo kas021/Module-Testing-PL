@@ -35,9 +35,9 @@ search, details, episode lists (Naruto Dublado 102 eps; Frieren Legendado 28 eps
 stream resolution for both runs; house tester 29 PASS / 0 FAIL and a 65 KB video/mp4
 sample download. See [Goyabu QA notes](GOYABU_QA.md).
 
-**New active testing: TVApp Live 0.1.0-beta.4.** (published 2026-09-16; supersedes beta.3 — the guide now clears the LIVE badge for channels it has verified off-air, cooperating with the app's 15-minute Off-air marking) — Live TV guide
-(sports events + 24/7 channels) from tvapp1.com with working native resolution; media
-verified through the app's own transport, device playback pending owner testing. See
+**New active testing: TVApp Live 0.1.0-beta.5.** (published 2026-09-21; supersedes beta.4 — Akamai-hosted live feeds now resolve (Rally TV verified playing real MPEG-TS), the off-air check detects the current TikTok-CDN image placeholders, and decode failures name the rejected host) — Live TV guide
+(sports events + 24/7 channels) from tvapp1.com; resolution, honest off-air marking and a
+verified-live Akamai channel; device playback pending owner testing. See
 [TVApp Live QA notes](TVAPP_LIVE_QA.md).
 
 **New active testing: FRAnime Direct 0.1.0-beta.1.** (published 2026-09-14)
