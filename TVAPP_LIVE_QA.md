@@ -1,8 +1,12 @@
-# TVApp Live 0.1.0-beta.5 — QA notes (owner testing)
+# TVApp Live 0.1.0-beta.6 — QA notes (owner testing)
 
 Identity `SP-VID-081-TVAPP-LIVE` (#81) · contract v4 · `live_discovery_v1` · V9 `9.0.0+144`.
 
 **beta.2** fixed a manifest rejection (`caps.homeMaxResults` must be 1–120). **beta.3** added `streamType: 'hls'`. **beta.4** adds a non-blocking off-air check: after a play attempt, a channel whose media is the provider's placeholder image is reported as `unknown` (no LIVE badge) for 15 minutes, matching the app's Off-air tile marking — and the mark clears as soon as a real segment is seen.
+**beta.6** fixes URL-wrapped ids: the app resolves ids against the module `baseUrl` before some handlers
+(`https://tvapp1.com/ppv:17270`), which made searching in the Live section fail with "Unknown TVApp live id".
+**App-runtime verified**: the real Flutter 9.0.0 runtime passes end-to-end on Rally TV (search → details → episodes →
+stream → playability 206 `looksPlayable` → download probe `hlsHasSegments`).
 **beta.5** widens the reviewed media-host allowlist to `akamaized.net` (the provider mixes in Akamai-hosted feeds — Rally TV; verified live: master → variant → first segment = real MPEG-TS), the off-air check now also detects the current TikTok-CDN `.image` placeholders (plus a byte-sniff fallback for future shapes), and decode failures name the reason (e.g. `reason=host-not-allowlisted:<host>`).
 The package is pre-flighted against the app's own validator (`module_contract_v2.dart`) before publishing.
 
@@ -28,6 +32,7 @@ payload decoded in-module (pure JS) → HLS URL handed to the player together wi
 | Media check via curl with the module's headers | Tennis Channel / NFL Network / Fox Footy → **200 `#EXTM3U`** |
 | Payload decoder validation | 220+ live captures replay to well-formed URLs; decoder self-tests 14/14 |
 | Live channel chain (2026-09-21) | **Rally TV: resolved → master (7 variants) → variant → segment = real MPEG-TS (6.2 MB)**; app Dart transport fetches the Akamai master (206 / `#EXTM3U`) |
+| App runtime (real Flutter 9.0.0+144, Rally TV) | **All passed** — home 120 · search · details · episodes · stream (190 ms) · playability 206 `looksPlayable` · download probe `hlsHasSegments` |
 | Off-air suite (stubbed, deterministic) | **17 / 17 pass** — sleepercdn + tiktokcdn placeholders marked off-air; real chains stay live; akamaized accepted; non-allowlisted host rejected visibly |
 | Device/simulator playback | **NOT RUN** — needs your desk |
 

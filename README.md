@@ -35,7 +35,7 @@ search, details, episode lists (Naruto Dublado 102 eps; Frieren Legendado 28 eps
 stream resolution for both runs; house tester 29 PASS / 0 FAIL and a 65 KB video/mp4
 sample download. See [Goyabu QA notes](GOYABU_QA.md).
 
-**New active testing: TVApp Live 0.1.0-beta.5.** (published 2026-09-21; supersedes beta.4 — Akamai-hosted live feeds now resolve (Rally TV verified playing real MPEG-TS), the off-air check detects the current TikTok-CDN image placeholders, and decode failures name the rejected host) — Live TV guide
+**New active testing: TVApp Live 0.1.0-beta.6.** (published 2026-09-21; supersedes beta.5 — same fixes, plus URL-wrapped ids now parse (searching in Live and opening a result works), and the real Flutter app-runtime harness passes end-to-end on Rally TV) — Live TV guide
 (sports events + 24/7 channels) from tvapp1.com; resolution, honest off-air marking and a
 verified-live Akamai channel; device playback pending owner testing. See
 [TVApp Live QA notes](TVAPP_LIVE_QA.md).
