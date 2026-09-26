@@ -1,11 +1,6 @@
 name: Refresh testing candidates
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '17 4 * * *'
-  push:
-    branches: [main]
-    paths: ['modules/**', 'scripts/**']
 permissions:
   contents: write
 concurrency:
