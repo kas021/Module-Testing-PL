@@ -1,4 +1,4 @@
-# Synthetiq Anime 1.0.3 — Testing Candidate QA
+# Synthetiq Anime 1.0.4 — Testing Candidate QA
 
 ## Why this build exists (owner-reported)
 
@@ -8,7 +8,9 @@ every play went `vidhawk resolve 200 → play 200 → proxy.vidhawk.buzz/hls.m3u
 provider-side, not module-side). The module's only secondary path (anicrowd) was dead at
 DNS level, so the chain had no way around the outage.
 
-## What changed in 1.0.3
+## What changed
+
+**1.0.3 → 1.0.4 changes vs 1.0.2 (cumulative):**
 
 1. **AniKage rescue source (labelled).** When the primary chain has no VERIFIED media, the
    module resolves the same episode through AniKage's JSON API (`anikage.cc`, providers
@@ -31,28 +33,33 @@ DNS level, so the chain had no way around the outage.
    in-app: route at ~1.3 s), and is halted immediately when the primary chain wins.
    Result delivery avoids the app JS engine's known starvation of reactions chained onto
    already-settled promises (plain field + short poll instead).
+5. **1.0.4: fair sweep rotation.** One provider's hung embed can no longer eat the whole
+   rescue budget (koto once ate 8 s of a 10 s budget while wave/zen carried the episode);
+   each provider is now time-boxed (~3.2 s) and the sweep rotates; budget 12 s.
+6. **1.0.4: stalled-request caps.** A single stalled TCP read no longer hangs a caller:
+   `anilist()`/`jikan()` capped at 9 s, the vidhawk pair resolve capped at 10 s (stall ⇒
+   rescue engages within the bounded wait). This fixed repeated house-tester episode-walk
+   timeouts seen on BOTH candidate and shipped baseline in the same windows.
 
 ## Evidence (exact certified bytes)
 
-- ZIP: `modules/Synthetiq-Anime-1.0.3.zip` — SHA-256 `d77246ca141158754aeda8fb4328153912dc9361e83e988a1af281ce876f60b0`
-- House tester: 31 PASS / 0 FAIL (streams + 9 caption tracks + 626,040-byte segment probe).
-  Baseline 1.0.2 fails 2 (empty streams) in the same window.
-- Release gate: ALL_PASSED — Solo Leveling / Death Note / One Piece, 3/3 `ts_media`
-  (three different CDNs), 2 routes each.
-- S2 quick (Flutter app runtime): stream OK in ~9.0 s, media decode OK (h264 1920×1080 +
-  AAC), 9 subtitles; failure codes: none (PARTIAL solely for the optional whisper-language
-  leg). Frames + audio sample artifacts produced.
-- Multi-title Node probes: Solo Leveling E1 sub/dub, E12 sub; Death Note E1 sub — all served
-  via `AniKage · MegaPlay (koto)` after Vidhawk failed all probes.
+- ZIP: `modules/Synthetiq-Anime-1.0.4.zip` — SHA-256 `2a02bfa9bca6310bcf5e512f0d3c143d717094d3c6b29494c07d9b9b307af0b5`
+- House tester: **MODULE PASSED** (streams, 9 captions, segment download, 3/3 integrity fixtures).
+- Release gate: **ALL_PASSED** — Solo Leveling / Death Note / One Piece, 3/3 `ts_media`, first attempts.
+- S2 quick (Flutter app runtime): stream OK ~9.0 s, failureCodes: none (PARTIAL only for the
+  optional whisper-language leg); frames + audio artifacts produced.
+- Node probes: SL E1/E12 sub, SL E1 dub, Death Note E1 — all ~1.1–1.5 s via `AniKage · MegaPlay (koto)`.
+- Baseline contrast (1.0.2, same windows): house tester fails streams + download + integrity walk.
 
 ## Rollback
 
-- Pre-publish archive of 1.0.2 baseline kept in the candidate folder (`Synthetiq-Anime-1.0.2-baseline.zip`).
-- Testing repo: retire this candidate (move ZIP to `_module_history/`, re-run `scripts/build.mjs`).
-- Official repo: untouched by this candidate (Synthetiq Anime 1.0.3 is testing-only until device QA).
+- 1.0.3 ZIP retired into `retired-packages.json` (still fetchable in the repo).
+- Pre-publish 1.0.2 baseline archive kept in the module's development folder.
+- Testing repo rollback: retire this candidate, re-run `scripts/build.mjs`, commit.
+- Official repo: untouched by this candidate.
 
 ## Not claimed
 
-- Not a stable/official release. Device QA on a real phone is still required.
-- Rescue route subtitles are the provider's own caption tracks (mapped labels); the primary
-  chain's caption set is unchanged.
+- Not a stable/official release — device QA on a real phone still required.
+- Episodes the rescue providers themselves do not carry stay unavailable (fail closed, honest
+  message). Wave's echovideo entries are stale for some titles (provider-side 404s).
