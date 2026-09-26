@@ -3,14 +3,14 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1790387819665,
+  "publishedAtMs": 1790425589141,
   "signature": "",
-  "testingIdentity": "anikoto-v4:5.0.4-beta.3:620625d46079a66641b39413c21c058fc7c0d877ef9addd4a8b40043fb5a3a1f|animeav1-v1:1.3.0-beta.3:570737ff97ca1bb29753162a4025c513e976f13bc57dabc05e044521cea68782|dw-live-v1:0.1.0-beta.2:12118164347c391422b5a4cc087d6858e4555b4c1f9f6b147cc3a1879c188fed|franime-direct:0.1.0-beta.1:756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d|goyabu-v1:1.0.0-beta.6:2da4b2eafbb7e534eef1d2bbec31becc280d3533dbbadc3e6d5e486981f82bdb|tvapp-live-v1:0.1.0-beta.6:fc29bbc2324de124f4941a6a98d5af7a42fdf09d2ccc02559d9670db9f495ff0|tagesschau-live-v1:0.1.0-beta.2:149f9a3e07d4a14d09f411c06f4d0315dd306b78234427b45e975249ffbf3d9a|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
+  "testingIdentity": "anikoto-v4:5.0.4-beta.3:620625d46079a66641b39413c21c058fc7c0d877ef9addd4a8b40043fb5a3a1f|animeav1-v1:1.3.0-beta.3:570737ff97ca1bb29753162a4025c513e976f13bc57dabc05e044521cea68782|dw-live-v1:0.1.0-beta.2:12118164347c391422b5a4cc087d6858e4555b4c1f9f6b147cc3a1879c188fed|franime-direct:0.1.0-beta.1:756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d|goyabu-v1:1.0.0-beta.6:2da4b2eafbb7e534eef1d2bbec31becc280d3533dbbadc3e6d5e486981f82bdb|synthetiq-anime-v1:1.0.3:d77246ca141158754aeda8fb4328153912dc9361e83e988a1af281ce876f60b0|tvapp-live-v1:0.1.0-beta.6:fc29bbc2324de124f4941a6a98d5af7a42fdf09d2ccc02559d9670db9f495ff0|tagesschau-live-v1:0.1.0-beta.2:149f9a3e07d4a14d09f411c06f4d0315dd306b78234427b45e975249ffbf3d9a|testing-123-v1:1.0.0-beta.1:ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed|toonix-v1:1.0.0-beta.6:ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
   "bundle": {
-    "version": 79,
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-79.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-79.zip",
-    "sha256": "2e515d44b1268e6401f03753d1969d55377b5e6c212f6b5714040829da5e8e75",
+    "version": 80,
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Testing-80.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Testing-80.zip",
+    "sha256": "ad1dd9ff1ad06b191278283d5482691f577955a5f8407060d386fede30253b3b",
     "signature": "",
     "minAppVersion": "9.0.0"
   },
@@ -27,7 +27,7 @@
       "sha256": "620625d46079a66641b39413c21c058fc7c0d877ef9addd4a8b40043fb5a3a1f",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1790387819665,
+      "publishedAtMs": 1790425589141,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -51,7 +51,7 @@
       "sha256": "570737ff97ca1bb29753162a4025c513e976f13bc57dabc05e044521cea68782",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1790387819665,
+      "publishedAtMs": 1790425589141,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -79,7 +79,7 @@
       "sha256": "12118164347c391422b5a4cc087d6858e4555b4c1f9f6b147cc3a1879c188fed",
       "signature": "",
       "minAppVersion": "9.0.0",
-      "publishedAtMs": 1790387819665,
+      "publishedAtMs": 1790425589141,
       "presentation": {
         "recommended": false,
         "purpose": "Testing only",
@@ -103,7 +103,7 @@
       "sha256": "756408c0c8b94bd70ef7f0f4896dc2945ca76f34e3949453acb367fae58bae6d",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1790387819665,
+      "publishedAtMs": 1790425589141,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -130,7 +130,7 @@
       "sha256": "2da4b2eafbb7e534eef1d2bbec31becc280d3533dbbadc3e6d5e486981f82bdb",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1790387819665,
+      "publishedAtMs": 1790425589141,
       "presentation": {
         "category": "Anime",
         "purpose": "Testing only",
@@ -141,6 +141,34 @@
           "sub"
         ],
         "iconUrl": "https://goyabu.io/wp-content/uploads/2026/05/icon-app-300x300.png"
+      },
+      "changelog": [
+        "TEST CANDIDATE: not certified for stable release. See repository QA notes."
+      ]
+    },
+    {
+      "moduleId": "synthetiq-anime-v1",
+      "moduleFamilyId": "synthetiq_anime_v1",
+      "moduleIdentity": "SP-VID-074-SYNTHETIQ-ANIME",
+      "moduleIdentityNumber": 74,
+      "contentType": "video",
+      "version": "1.0.3",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Synthetiq-Anime-1.0.3.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/Synthetiq-Anime-1.0.3.zip",
+      "sha256": "d77246ca141158754aeda8fb4328153912dc9361e83e988a1af281ce876f60b0",
+      "signature": "",
+      "minAppVersion": "8.5.33",
+      "publishedAtMs": 1790425589141,
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Testing only",
+        "recommended": false,
+        "language": "English Sub/Dub",
+        "languages": [
+          "sub",
+          "dub"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-anime-1.0.2.png"
       },
       "changelog": [
         "TEST CANDIDATE: not certified for stable release. See repository QA notes."
@@ -158,7 +186,7 @@
       "sha256": "fc29bbc2324de124f4941a6a98d5af7a42fdf09d2ccc02559d9670db9f495ff0",
       "signature": "",
       "minAppVersion": "9.0.0",
-      "publishedAtMs": 1790387819665,
+      "publishedAtMs": 1790425589141,
       "presentation": {
         "category": "Live TV",
         "language": "English",
@@ -182,7 +210,7 @@
       "sha256": "149f9a3e07d4a14d09f411c06f4d0315dd306b78234427b45e975249ffbf3d9a",
       "signature": "",
       "minAppVersion": "9.0.0",
-      "publishedAtMs": 1790387819665,
+      "publishedAtMs": 1790425589141,
       "presentation": {
         "category": "Live TV",
         "language": "German",
@@ -206,7 +234,7 @@
       "sha256": "ccac67154d2fef13694f715a4c32fc47e79180abad96499b361ebf656f0834ed",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1790387819665,
+      "publishedAtMs": 1790425589141,
       "presentation": {
         "category": "Anime",
         "language": "Intentional failure test",
@@ -229,7 +257,7 @@
       "sha256": "ca11c37b642a0235d60cd525474cd5ebf1d596a805024fe7350e27a035d82eca",
       "signature": "",
       "minAppVersion": "8.5.33",
-      "publishedAtMs": 1790387819665,
+      "publishedAtMs": 1790425589141,
       "presentation": {
         "category": "Cartoons",
         "purpose": "Testing only",
