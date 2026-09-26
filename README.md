@@ -40,6 +40,9 @@ sample download. See [Goyabu QA notes](GOYABU_QA.md).
 verified-live Akamai channel; device playback pending owner testing. See
 [TVApp Live QA notes](TVAPP_LIVE_QA.md).
 
+**New active testing: Anikoto 5.0.4-beta.3.** (published 2026-09-26; supersedes the retired 5.0.1-beta.3 testing build — fixes the owner-reported “episode 1 plays, later episodes don't” failure: the site's player hosts now encrypt their stream descriptor and the module decrypts it locally, so AniKoto's own servers work again for every episode; a labelled Vidhawk rescue now also keys by MAL id for titles without an AniList id (rescue reach 14/30 → 30/30 in the sampled matrix); AniKage quota handling is honest — a 429 stops the sweep with a precise retry message and resolved routes are cached) — English-first caption set covering every available subtitle language; 33/33 unit tests, house tester 33 PASS / 0 FAIL, release gate ALL_PASSED 3/3 first attempt, real Flutter app-runtime PASS (Iceblade stream 816 ms, 0 fallback routes); the 60-case sub+dub matrix recovered a title that failed before (Mebius Dust) with no regressions. See
+[AniKoto QA notes](ANIKOTO_RELIABILITY_QA.md).
+
 **New active testing: AnimeAV1 1.3.0-beta.3.** (published 2026-09-26; supersedes beta.1 — fixes the owner-reported "SUB hosts failed" on One Piece S1E351 SUB: the non-standard-port guard now works without the browser URL global, so the unplayable port-183 route is rejected instead of passed through, and a labelled Vidhawk subtitle backbone rescues episodes whose site hosts fail — verified 3/3 on the reported episode, 0.6–2.6 s) — Spanish anime SUB/DUB from animeav1.com with explicit servers, honest qualities and real caption tracks; device playback pending owner testing. See
 [AnimeAV1 QA notes](ANIMEAV1_QA.md).
 

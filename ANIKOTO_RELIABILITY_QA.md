@@ -1,6 +1,94 @@
-# AniKoto Reliability Candidate
+# AniKoto 5.0.4-beta.3 — QA notes (owner testing)
 
-Date: 2026-09-11
+Started 2026-09-26 (Europe/London). Owner request: “apply everything we have and
+fix Anikoto fully” + “publish module after a more thorough check”. Module-only
+candidate; official 5.0.2 remains unchanged. Overall status: **published to this
+testing index 2026-09-26; device playback pending owner testing.**
+
+5.0.4-beta.3 is the full fix pass:
+
+- megaplay's player hosts now encrypt the descriptor they return; the module
+  decrypts it locally (pure ES5 AES-CBC, site-published constants, no browser
+  globals) so the site's own servers (HD-1 / Vidstream) resolve again for every
+  episode — the root fix for “episode 1 plays, later episodes don't”.
+- The Vidhawk rescue (same hosted-extraction provider family as Synthetiq
+  Anime/Flux/Aniworld and the AnimeAV1 candidate) now keys by MAL id when the
+  watch page has no AniList banner id: the site's own episode-list AJAX carries
+  `data-mal` per show. Measured rescue reach on the frozen matrix: **14/30 → 30/30**.
+- AniKage fallback quota discipline: resolved routes and slugs are cached
+  (repeat resolves cost zero quota); a 429 stops the sweep with a precise
+  “retry in a minute” message; broken routes are dropped, never exposed.
+- Subtitle `lang` values are now language tags (en / it / pt / ru / es ...)
+  derived from the provider's display labels (“Portuguese (- Portugues(Brasil))”)
+  instead of copying the raw label — matches how the app's subtitle
+  auto-selection matches codes ('en', 'en-…') and removes a certifier
+  LANGUAGE_CONTRADICTION that a raw label caused.
+
+## Verification (2026-09-26, frozen candidate bytes)
+
+- Unit suite 33/33 (new test covers label→tag derivation); `node --check` clean.
+- House tester: **33 PASS / 0 FAIL / 0 WARN** — Solo Leveling live: 9 subtitle
+  tracks, sub 1080p first, 626 KB range download OK.
+- Release gate: **ALL_PASSED** — streams 3/3 first attempt (Solo Leveling,
+  Iceblade, One Piece; segment ts_media each).
+- Real Flutter app-runtime harness: **All tests passed** — import, home 32,
+  search “iceblade”, details 45 ms, 12 episodes, **stream 816 ms via HD-1 with
+  0 fallback routes**, playability HTTP 200 HLS, download probe 43 KB with
+  segments.
+- Frozen-matrix sweep 30 titles × [sub, dub] = 60 cases: **51 resolved + decoded
+  live; 8 dub-availability (legit); 1 remaining gap** — vs the pre-repair run
+  50/60: **Mebius Dust recovered (FAIL → OK), zero regressions.**
+- Forced-rescue diagnostics (primary hosts blocked): chain engages every run;
+  Vidhawk resolve+play API returns 200×4 (AniList + MAL forms); **at publish time
+  Vidhawk's media hop was broken provider-side** (proxy.vidhawk.buzz → 502;
+  its upstream hls.1embed.buzz gets a Cloudflare-WAF 403, all titles/servers —
+  affects beta.2 identically; outside module control) — module fails closed and
+  never exposes such a route; AniKage delivered routes in these runs (Nisekoi:
+  EchoVideo route, 12 s decode OK).
+- S2 quick (canonical certifier) — **sub**: no failure codes after the lang fix
+  (all 9 subtitle tracks analyze clean, 0 contradictions); grade reads PARTIAL
+  only because (a) the quick profile does not run the simulator-playback leg
+  (simulator unavailable here — disk headroom), and (b) the certifier's language
+  detector has no Russian hints, so the Russian track detects as “unknown”
+  (content verified Cyrillic). Both are detector-side notes, not module defects.
+- S2 quick **dub** (`--expected-audio-language english`): LANGUAGE_CONTRADICTION
+  on the audio item because the sampled opening 20 s is the **Japanese opening
+  song** (normal for anime dubs). Closed with a later-window check: the dialogue
+  window at 150–175 s transcribes **English** (“Let’s die! …”) — the dub
+  declaration is correct; this retires the old “verify dialogue beyond opening
+  songs” gate. Certifier proposal on file: sample a later window or skip
+  music-only openings (tester-side; requires owner approval, not applied).
+
+## Frozen Artifacts
+
+- Published testing candidate (2026-09-26): `modules/Anikoto-5.0.4-beta.3.zip`,
+  SHA-256 `620625d46079a66641b39413c21c058fc7c0d877ef9addd4a8b40043fb5a3a1f`
+  (index.js `d6dff1103454415e5959bb208ff18a9c655f9c943e9eed091889a142ce2b243c`).
+  rev1 of beta.3 (pre-lang-fix, SHA `df98e808afedf546698236e0024b38e96a57f0ef413111bb084fd0399e243537`)
+  is kept in the module workspace as `Anikoto-5.0.4-beta.3-rev1-pre-s2langfix.zip`;
+  it was never published.
+- Baseline: official Anikoto 5.0.2 (unchanged, live on the official index).
+- Retired from this index: the 5.0.1-beta.3 testing build (ZIP kept reachable).
+- Identity unchanged: `anikoto-v4`, `SP-VID-036-ANIKOTO`, number 36.
+- Public testing index: https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
+
+## Known Limits
+
+- “La Maison en Petits Cubes” (short film) has no working route at any layer:
+  the site's own player offers no supported host, Vidhawk's catalogue returns
+  404 for it, and its AniKage embed is dead (404). Persisted across both matrix
+  runs; an availability gap at source, not a regression.
+- Vidhawk media-proxy outage (above) is provider-side and intermittent.
+- AniKage quota is shared per network with the AniKage module; the caching
+  softens it but a busy network can still hit 429s (clear message provided).
+- Certifier notes/limits listed under S2 above; device playback (iPhone +
+  Android), seek, server switching and caption rendering remain owner testing.
+- No module can guarantee availability for every title, region or network.
+
+---
+
+# Previous review — 5.0.1-beta.3 candidate (2026-09-11)
+
 Version: 5.0.1-beta.3
 Module identity: anikoto-v4 / SP-VID-036-ANIKOTO / 36
 App target: existing 8.5.33+95, without app changes.
