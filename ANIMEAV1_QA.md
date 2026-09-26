@@ -147,3 +147,11 @@ pause/resume, download then offline playback. Test One Piece, Death Note, and
 Your Name Sub specifically. Auto/Original is expected when the source supplies
 only one rendition. Do not promote to stable until owner approval; keeping
 1.2.8 available provides rollback.
+
+## PUBLISHED TO ALL USERS 2026-09-26 (owner: "publish to all users now")
+
+- Official repo commit `dd7d6f8`, CI `36248318014` success; release `module-animeav1-v1-v1.3.0-beta.3`.
+- Post-publish: release asset re-downloaded — SHA-256 byte-identical to the certified ZIP
+  (`570737ff97ca1bb29753162a4025c513e976f13bc57dabc05e044521cea68782`); signed index entry carries a signature; minAppVersion 8.0.0.
+- Rollback: tag `pre-av1-onepace-20260926` (@ `0565c90`) + `git revert dd7d6f8`; ledger `health-audit-20260926/ROLLBACK_LEDGER.md`.
+- Retired from the testing catalogue (file preserved under `modules/`; superseded by the official release).
