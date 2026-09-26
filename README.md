@@ -40,6 +40,9 @@ sample download. See [Goyabu QA notes](GOYABU_QA.md).
 verified-live Akamai channel; device playback pending owner testing. See
 [TVApp Live QA notes](TVAPP_LIVE_QA.md).
 
+**New active testing: AnimeAV1 1.3.0-beta.3.** (published 2026-09-26; supersedes beta.1 — fixes the owner-reported "SUB hosts failed" on One Piece S1E351 SUB: the non-standard-port guard now works without the browser URL global, so the unplayable port-183 route is rejected instead of passed through, and a labelled Vidhawk subtitle backbone rescues episodes whose site hosts fail — verified 3/3 on the reported episode, 0.6–2.6 s) — Spanish anime SUB/DUB from animeav1.com with explicit servers, honest qualities and real caption tracks; device playback pending owner testing. See
+[AnimeAV1 QA notes](ANIMEAV1_QA.md).
+
 **New active testing: FRAnime Direct 0.1.0-beta.1.** (published 2026-09-14)
 French anime (VOSTFR / VF) from franime.fr. The module uses the site's public API and
 decodes its obfuscated player tokens locally in pure JavaScript -- the protected player
