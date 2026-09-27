@@ -11,7 +11,7 @@ const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'module-testing-pl-867-te
 test.after(() => fs.rmSync(tempRoot, {recursive: true, force: true}));
 
 const specs = [
-  ['flux', 'synthetiq-anime-direct', '1.0.3-beta.5', 'Synthetiq-Flux-1.0.3-beta.5.zip'],
+  ['flux', 'synthetiq-anime-direct', '1.0.3-beta.6', 'Synthetiq-Flux-1.0.3-beta.6.zip'],
   ['anime', 'synthetiq-anime-v1', '1.0.5-beta.3', 'Synthetiq-Anime-1.0.5-beta.3.zip'],
   ['anikoto', 'anikoto-v4', '5.0.5-beta.3', 'Anikoto-5.0.5-beta.3.zip'],
 ];

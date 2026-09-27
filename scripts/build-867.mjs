@@ -10,7 +10,7 @@ const MIN_APP_VERSION = '8.6.0';
 const SIDE_CAR_PATH = 'testing/8.6.7';
 const BASE_URL = `https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/${SIDE_CAR_PATH}/`;
 const SPECS = [
-  ['flux', 'synthetiq-anime-direct', '1.0.3-beta.5'],
+  ['flux', 'synthetiq-anime-direct', '1.0.3-beta.6'],
   ['anime', 'synthetiq-anime-v1', '1.0.5-beta.3'],
   ['anikoto', 'anikoto-v4', '5.0.5-beta.3'],
 ];

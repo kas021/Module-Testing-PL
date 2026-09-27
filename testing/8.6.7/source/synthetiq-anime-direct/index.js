@@ -22,8 +22,8 @@
  *    when Vidhawk has no verified media; its routes are labelled as the rescue source.
  *
  * RELIABILITY CONTRACT (the audit's findings, addressed here):
- *  - Episode lists are VERIFIED against the provider with a bounded probe budget (never a bare
- *    series count), per audio track, and cached. Unverified episodes are not advertised.
+ *  - Episode lists use aired catalogue counts. Bounded primary checks refine availability;
+ *    an unavailable primary must not hide episodes that an independent rescue may carry.
  *  - The first candidate that passes POSITIVE media validation wins; optional extras (second
  *    server, qualities, captions) never hold a working primary hostage.
  *  - Routes are built from one accepted-candidate list, so a rejected route cannot linger in
@@ -180,6 +180,9 @@
     var attempt = 0;
     var last = { ok: false, status: 0, text: '', json: null, headers: {} };
     while (attempt < MAX_ATTEMPTS) {
+      if (opts.session && deadlineLeft(opts.session) <= 0) {
+        return { ok: false, status: 0, text: '', json: null, headers: {}, timedOut: true };
+      }
       attempt += 1;
       var started = Date.now();
       var response = null;
@@ -2044,9 +2047,25 @@ async function rescueAnikageRoutes(ref, want, halt) {
     // own deadline. (They used to share one budget and run in sequence: on long/deep titles the
     // sub pass could consume the whole 8 s, leaving dub unprobed and the UI hiding a dub that does
     // exist — found by the 50-title reliability sweep on One Piece, Naruto, AoT S2 and HxH.)
+    async function listAvailability(audio) {
+      var check = { closed: false, deadline: Date.now() + 1800 };
+      try {
+        var result = await raceCap(verifyFrontier(refForProvider, total, audio, check), 1800);
+        // A primary-provider outage cannot establish rescue-provider availability.
+        // Catalogue entries permit resolution; unknown audio is not a playback promise.
+        if (!result || result.capped || result.state === 'unverified' || result.state === 'unavailable') {
+          return { frontier: total, firstAvailable: 1, state: 'unverified', probes: 0 };
+        }
+        return result;
+      } catch (_) {
+        return { frontier: total, firstAvailable: 1, state: 'unverified', probes: 0 };
+      } finally {
+        check.closed = true;
+      }
+    }
     var verifiedResults = await Promise.all([
-      verifyFrontier(refForProvider, total, 'sub', { closed: false, deadline: Date.now() + VERIFY_DEADLINE_MS }),
-      verifyFrontier(refForProvider, total, 'dub', { closed: false, deadline: Date.now() + VERIFY_DEADLINE_MS }),
+      listAvailability('sub'),
+      listAvailability('dub'),
     ]);
     var subResult = verifiedResults[0];
     var dubResult = verifiedResults[1];

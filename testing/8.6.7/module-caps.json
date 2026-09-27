@@ -5,7 +5,7 @@
   "modules": [
     {
       "moduleId": "synthetiq-anime-direct",
-      "version": "1.0.3-beta.5",
+      "version": "1.0.3-beta.6",
       "configCaps": {
         "homeMaxResults": 40,
         "maxResponseBytes": 2500000,

@@ -11,7 +11,7 @@ const source = fs.readFileSync(sourcePath, 'utf8');
 const anchor = '  globalThis.__sadTrace = function () {';
 assert.ok(source.includes(anchor), 'module diagnostic hook exists');
 const instrumented = source.replace(anchor,
-  '  globalThis.__trioTest = { readBody: readBody, validateHls: validateHls, buildCandidate: buildCandidate, packStream: packStream };\n' + anchor);
+  '  globalThis.__trioTest = { readBody: readBody, validateHls: validateHls, buildCandidate: buildCandidate, packStream: packStream, setFrontier: function(fn) { verifyFrontier = fn; }, rescueCaptions: rescueCaptions };\n' + anchor);
 
 function unrefTimeout(callback, ms) {
   const timer = setTimeout(callback, ms);
@@ -35,6 +35,54 @@ function plain(value) {
 }
 
 const playlist = '#EXTM3U\n#EXTINF:6,\nsegment.png\n#EXT-X-ENDLIST';
+
+for (const state of ['unavailable', 'unverified', 'throws', 'timeout']) {
+  test('aired episodes remain discoverable when primary is ' + state, async () => {
+    const context = loadModule(async () => ({status: 200,
+      json: {data: {Media: {id: 21, idMal: 21, episodes: 1200,
+        nextAiringEpisode: {episode: 1179}}}}}));
+    const sessions = [];
+    context.setTimeout = (fn, ms) => setTimeout(fn, Math.min(ms, 20));
+    context.__trioTest.setFrontier(async (_ref, _total, _audio, session) => {
+      sessions.push(session);
+      if (state === 'throws') throw Error('provider unavailable');
+      if (state === 'timeout') return new Promise(() => {});
+      return {frontier: 0, state, probes: 1};
+    });
+    const episodes = await context.extractEpisodes('sadirect:a21');
+    assert.equal(episodes.length, 1178);
+    assert.equal(episodes.at(-1).number, 1178);
+    assert.equal(episodes[0].subAvailable, true);
+    assert.equal(episodes[0].dubAvailable, true);
+    assert.ok(sessions.every(session => session.closed));
+  });
+}
+
+test('verified audio windows remain distinct and metadata absence stays empty', async () => {
+  const context = loadModule(async () => ({status: 200,
+    json: {data: {Media: {id: 21, episodes: 12}}}}));
+  context.__trioTest.setFrontier(async (_ref, _total, audio) =>
+    ({state: 'verified', frontier: audio === 'sub' ? 12 : 3, firstAvailable: 1}));
+  const episodes = await context.extractEpisodes('sadirect:a21');
+  assert.equal(episodes.length, 12);
+  assert.equal(episodes[3].subAvailable, true);
+  assert.equal(episodes[3].dubAvailable, false);
+  const empty = loadModule(async () => ({status: 200, json: {data: {Media: {}}}}));
+  assert.equal((await empty.extractEpisodes('sadirect:a21')).length, 0);
+});
+
+test('rescue captions retain multiple translations without mixing audio edits', () => {
+  const context = loadModule();
+  const tracks = context.__trioTest.rescueCaptions({
+    sub: [
+      {file: 'https://example.com/en.vtt', label: 'English', lang: 'en'},
+      {file: 'https://example.com/es.vtt', label: 'Spanish', lang: 'en'},
+      {file: 'https://example.com/fr.vtt', label: 'French', lang: 'en'},
+    ],
+    dub: [{file: 'https://example.com/dub.vtt', label: 'English'}],
+  }, 'sub', {});
+  assert.deepEqual(plain(tracks.map(track => track.language)), ['en', 'es', 'fr']);
+});
 
 test('async and object response.json take precedence over body', async () => {
   const context = loadModule();
