@@ -3,13 +3,13 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1790937523855,
+  "publishedAtMs": 1790957035292,
   "bundle": {
-    "version": 131,
+    "version": 132,
     "minAppVersion": "9.0.53",
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-131.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-131.zip",
-    "sha256": "5bcd1c49610aa70c7ce976db0be50fdc443619128786dfb33b68a897899dc775",
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-132.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-132.zip",
+    "sha256": "be242d8de6acc72526574ab2382ef3006eb68e5ff8ce9601d8efeb86455fe6f6",
     "signature": ""
   },
   "modules": [
@@ -137,14 +137,15 @@
       "moduleIdentity": "SP-VID-084-ANIPM",
       "moduleIdentityNumber": 84,
       "contentType": "video",
-      "version": "0.1.0-beta.3",
-      "minAppVersion": "8.0.0",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/AniPM-0.1.0-beta.3.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/AniPM-0.1.0-beta.3.zip",
-      "sha256": "610acac3d6ce301623f462c4d5a90d9bce9cc81a2b8931fe1575c746fed25311",
+      "version": "0.1.0-beta.4",
+      "minAppVersion": "9.0.53",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/AniPM-0.1.0-beta.4.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/AniPM-0.1.0-beta.4.zip",
+      "sha256": "c4bfb910ee4d3cc4c9883993fcdad62c777166a08ebd74cb9c255092846ebed3",
       "signature": "",
-      "publishedAtMs": 1790937523855,
+      "publishedAtMs": 1790957035292,
       "changelog": [
+        "Metadata-only TEST update: exact catalogue mapping for the QA fallback fixture; playback JavaScript unchanged.",
         "0.1.0-beta.3: Fixes from owner testing - subtitles now load in the player on every platform (the AniPM engine's own caption files are unreachable for the app's downloader, so the reachable English caption set now serves both engines and the caption menu works whichever server you pick). The home page is now a full browse experience: a Featured row plus paginated rows and an endless All Anime grid backed by the full 8,900+ title catalogue.",
         "0.1.0-beta.2: First public release of the AniPM engine (ani.pm) - English anime with search, home feed and full episode lists (Sub/Dub flags on every episode). Two playback engines with server switcher: AniPM - adaptive-quality streams with English captions and opening/ending skip markers; MegaPlay - backup server. The module picks a reachable engine automatically per device. Certified: house tester 26/26, real app-runtime Sub+Dub pass, S2 quick Grade PASS.",
         "Owner-approved all-user release. Notes: the AniPM engine serves iOS/iPadOS; other platforms resolve on MegaPlay automatically. A known app-side mid-play issue on some desktop platforms is being fixed in the app itself; Android and iOS playback are complete."
@@ -1059,6 +1060,34 @@
         "language": "Original audio / any-language subtitles",
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/moviedb.png?v=20260922-1"
       }
+    },
+    {
+      "moduleId": "qa-fallback-anipm-v1",
+      "moduleFamilyId": "qa-fallback-anipm-v1",
+      "moduleIdentity": "SP-VID-997-QA-FALLBACK-ANIPM",
+      "moduleIdentityNumber": 997,
+      "contentType": "video",
+      "version": "1.0.0-beta.1",
+      "minAppVersion": "9.0.53",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Fallback-Test-AniPM-1.0.0-beta.1.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/Fallback-Test-AniPM-1.0.0-beta.1.zip",
+      "sha256": "fc2408262bfefe4daa17115068135f5d6278c0e4ed7ca53f8ac9d022b91e4d24",
+      "signature": "",
+      "publishedAtMs": 1790957035292,
+      "presentation": {
+        "category": "Testing",
+        "purpose": "Testing only - deterministic fallback failure",
+        "recommended": false,
+        "language": "English Sub/Dub",
+        "languages": [
+          "sub",
+          "dub"
+        ],
+        "iconUrl": "https://ani.pm/apple-touch-icon.png"
+      },
+      "changelog": [
+        "TEST ONLY: intentionally fails every stream request to exercise fallback into real AniPM. Adopt its fallback group before testing."
+      ]
     }
   ],
   "signature": "",

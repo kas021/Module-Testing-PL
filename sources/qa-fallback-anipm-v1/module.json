@@ -1,0 +1,84 @@
+{
+  "id": "qa-fallback-anipm-v1",
+  "name": "Fallback Test (AniPM)",
+  "contentType": "video",
+  "contractVersion": 4,
+  "moduleVersion": "1.0.0-beta.1",
+  "moduleFamilyId": "qa-fallback-anipm-v1",
+  "moduleIdentity": "SP-VID-997-QA-FALLBACK-ANIPM",
+  "moduleIdentityNumber": 997,
+  "releaseTrack": "beta",
+  "moduleStatus": "trial",
+  "description": "TEST-only failure-injection module. AniPM search, details and episode catalogues are retained for automatic fallback mapping tests. Stream resolution always fails locally with a descriptive QA error and sends no stream request.",
+  "presentation": {
+    "category": "Testing",
+    "purpose": "Testing only - deterministic fallback failure",
+    "recommended": false,
+    "language": "English Sub/Dub",
+    "languages": [
+      "sub",
+      "dub"
+    ],
+    "iconUrl": "https://ani.pm/apple-touch-icon.png"
+  },
+  "config": {
+    "language": "English",
+    "contentLanguage": "en",
+    "baseUrl": "https://ani.pm",
+    "capabilities": {
+      "discovery_v1": true
+    },
+    "runtime": {
+      "entry": "index.js",
+      "mode": "local"
+    },
+    "caps": {
+      "homeMaxResults": 30,
+      "maxResponseBytes": 2500000,
+      "timeoutMs": 25000,
+      "maxConcurrentRequests": 4
+    },
+    "streamHeaders": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+    },
+    "catalogueMapping": {
+      "version": 1,
+      "routes": [
+        {
+          "namespace": "qa:anipm-catalogue-v1",
+          "seriesId": "anipm:{id}",
+          "episodeId": "anipm:{id}:e{episode}",
+          "numbering": "absolute"
+        }
+      ]
+    },
+    "sourceFallbacks": {
+      "version": 1,
+      "groups": [
+        {
+          "publisher": "manual:qa-fallback-anipm-v1",
+          "source": "qa-fallback-anipm-v1",
+          "group": "qa-anipm-v1",
+          "revision": 1,
+          "name": "AniPM QA fallback test",
+          "contentType": "video",
+          "primary": {
+            "publisher": "manual:qa-fallback-anipm-v1",
+            "source": "qa-fallback-anipm-v1",
+            "moduleId": "qa-fallback-anipm-v1",
+            "name": "Fallback Test (AniPM)"
+          },
+          "alternatives": [
+            {
+              "publisher": "manual:anipm-v1",
+              "source": "anipm-v1",
+              "moduleId": "anipm-v1",
+              "name": "AniPM"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "version": "1.0.0-beta.1"
+}

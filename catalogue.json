@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 131,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-131.zip",
+  "bundleVersion": 132,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-132.zip",
   "minAppVersion": "9.0.53",
   "modules": [
     {
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "file": "modules/AniPM-0.1.0-beta.3.zip",
+      "file": "modules/AniPM-0.1.0-beta.4.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime (AniPM)",
@@ -95,6 +95,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anipm.png?v=20260927-1"
       },
       "changelog": [
+        "Metadata-only TEST update: exact catalogue mapping for the QA fallback fixture; playback JavaScript unchanged.",
         "0.1.0-beta.3: Fixes from owner testing - subtitles now load in the player on every platform (the AniPM engine's own caption files are unreachable for the app's downloader, so the reachable English caption set now serves both engines and the caption menu works whichever server you pick). The home page is now a full browse experience: a Featured row plus paginated rows and an endless All Anime grid backed by the full 8,900+ title catalogue.",
         "0.1.0-beta.2: First public release of the AniPM engine (ani.pm) - English anime with search, home feed and full episode lists (Sub/Dub flags on every episode). Two playback engines with server switcher: AniPM - adaptive-quality streams with English captions and opening/ending skip markers; MegaPlay - backup server. The module picks a reachable engine automatically per device. Certified: house tester 26/26, real app-runtime Sub+Dub pass, S2 quick Grade PASS.",
         "Owner-approved all-user release. Notes: the AniPM engine serves iOS/iPadOS; other platforms resolve on MegaPlay automatically. A known app-side mid-play issue on some desktop platforms is being fixed in the app itself; Android and iOS playback are complete."
@@ -645,6 +646,23 @@
         "0.1.0-beta.9: The player's server list now offers every verified route - the primary VidLove server plus live VidZen backups (Purstream / PlayIMDb) whenever the title has them, each independently validated. Server names now match the site's own naming (VidLove / VidZen) instead of internal source codes, and VidZen's relative server URLs resolve correctly.",
         "0.1.0-beta.8: First public beta of the MovieDB engine (moviedb.wiki) - one-call playback resolve: a single request returns the adaptive HLS stream plus every subtitle language the source carries (English first; up to 150+ tracks on some titles). Two independent stream providers with automatic failover and seven per-source variants; every resolve is byte-validated and a background prefetch starts playback instantly. Movies and full seasons/episodes with real paginated discovery feeds. Not the default movie source - install alongside Synthetiq Movies.",
         "Owner-approved public beta for all-user testing. Source-side notes: subtitle availability varies by title (some classics carry none) and can be momentarily flaky - the module retries automatically. Original audio; dubs are not labelled because the source does not carry them. Playback reports welcome in the Discord support channels."
+      ]
+    },
+    {
+      "file": "modules/Fallback-Test-AniPM-1.0.0-beta.1.zip",
+      "presentation": {
+        "category": "Testing",
+        "purpose": "Testing only - deterministic fallback failure",
+        "recommended": false,
+        "language": "English Sub/Dub",
+        "languages": [
+          "sub",
+          "dub"
+        ],
+        "iconUrl": "https://ani.pm/apple-touch-icon.png"
+      },
+      "changelog": [
+        "TEST ONLY: intentionally fails every stream request to exercise fallback into real AniPM. Adopt its fallback group before testing."
       ]
     }
   ]
