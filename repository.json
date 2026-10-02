@@ -6,7 +6,7 @@
   "publishedAtMs": 1790961469684,
   "bundle": {
     "version": 133,
-    "minAppVersion": "9.0.53",
+    "minAppVersion": "9.0.55",
     "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-133.zip",
     "packagePath": "/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-133.zip",
     "sha256": "98c5cc4dae5adc7732a6874057fc7c841d4441143babe99e4a651b4c9d791597",

@@ -7,6 +7,9 @@ const path = require('node:path');
 const test = require('node:test');
 
 const root = path.join(__dirname, '..');
+const repository = JSON.parse(fs.readFileSync(
+  path.join(root, 'repository.json'), 'utf8',
+));
 const evidence = JSON.parse(fs.readFileSync(
   path.join(root, 'docs', 'anikoto-anipm-10-title-evidence.json'), 'utf8',
 ));
@@ -63,6 +66,19 @@ for (const name of ['anikoto', 'anipm']) {
       removeCandidateMetadata(JSON.parse(zipRead(spec.baselineZip, 'module.json'))));
   });
 }
+
+test('bundle and real mapping packages gate the required V9 parser version', () => {
+  assert.equal(repository.bundle.version, 133);
+  assert.equal(repository.bundle.minAppVersion, '9.0.55');
+  for (const name of ['anikoto', 'anipm']) {
+    const descriptor = repository.modules.find(
+      (module) => module.moduleId === modules[name].id,
+    );
+    assert.ok(descriptor, modules[name].id);
+    assert.equal(descriptor.version, modules[name].version);
+    assert.equal(descriptor.minAppVersion, repository.bundle.minAppVersion);
+  }
+});
 
 test('both real modules declare exact v2 anipm numeric-key routes', () => {
   const koto = sourceManifest('anikoto').config.catalogueMapping;

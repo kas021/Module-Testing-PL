@@ -55,7 +55,8 @@ with zipfile.ZipFile(ROOT / bundle, "w", zipfile.ZIP_DEFLATED) as archive:
 catalogue.update(bundleVersion=133, bundleFile=bundle)
 index["publishedAtMs"] = now
 index["bundle"].update(
-    version=133, packageUrl=PREFIX + bundle, packagePath=PATH_PREFIX + bundle,
+    version=133, minAppVersion="9.0.55",
+    packageUrl=PREFIX + bundle, packagePath=PATH_PREFIX + bundle,
     sha256=digest(bundle),
 )
 write_json("catalogue.json", catalogue)
