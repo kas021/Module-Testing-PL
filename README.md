@@ -1,200 +1,40 @@
 # Module Testing PL
 
-Public, opt-in Synthetiq Player testing repository. Maximum ten active testing candidates (plus one intentional failure fixture).
+Public community testing mirror for Synthetiq Player modules. The module packages and catalogue baseline are copied from the production repository, `kas021/Synthetiq-Modules`, so tests can run against the same module identities and package bytes as production.
 
-Add this repository in Player:
-https://github.com/kas021/Module-Testing-PL
+Add this repository in Player only when you intend to use a community testing source:
+
+`https://github.com/kas021/Module-Testing-PL`
 
 Direct index:
-https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
-This is a community-format testing index, not signed with the official production key. Accept the community-repository confirmation only if you intend to test these candidates.
+`https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json`
 
-**New active testing: Aniworld 1.2.0-beta.4.** (published 2026-09-20; first Aniworld candidate here — reliability rebuild of the German anime source)
-Fixes the "works sometimes" coin-flip: hosts are now raced (first verified route wins,
-rest stay as server choices), dead/throttled hosts get cooled down instead of hammered,
-Doodstream joins as a third working resolver, and a labelled Vidhawk subtitle-backbone
-fallback rescues episodes when the German hosts all fail (German captions first where
-available; its audio is not German). 9/9 mocked tests, live matrix parity with the
-official build at 0.3-1.6 s per resolve, app-runtime PASS, S2 certification gates PASS,
-release gate ALL_PASSED 3/3. See [Aniworld QA notes](ANIWORLD_RELIABILITY_QA.md).
+This repository is unsigned and is not the official production repository. Keep Player's normal community-repository trust confirmation and package verification enabled. The production repository and its signing key are not modified or used here.
 
-**New active testing: Alpha Movies 0.2.0-beta.1.** (published 2026-09-18; supersedes 0.1.0-beta.12 -- first multi-source build)
-Movies and TV with THREE independent stream sources (Vidrock + Videasy + Stream Unity/vixcloud)
-queried in parallel; every play now offers multiple validated servers so a dead link fails over
-instead of dead-ending. English audio, captions in any language. 69/69 mocked tests; live 7-server
-resolution in ~3 s on both a movie and a TV episode. See [Alpha Movies QA notes](ALPHA_MOVIES_QA.md).
+## Testing Policy
 
-**New active testing: Goyabu 1.0.0-beta.6.** (published 2026-09-16; supersedes beta.5 — infinite-scroll
-home feed (59 pages), the +18 title removed from search and every home/discovery row, clear
-Dublado/Legendado labels on every card, and a Dublado row on home; play path now retries once with a
-fresh resolve)
-Brazilian Portuguese anime from goyabu.io — Dublado and Legendado runs, full episode
-lists, direct MP4 playback resolved from the site's Blogger players. Verified live:
-search, details, episode lists (Naruto Dublado 102 eps; Frieren Legendado 28 eps) and
-stream resolution for both runs; house tester 29 PASS / 0 FAIL and a 65 KB video/mp4
-sample download. See [Goyabu QA notes](GOYABU_QA.md).
+The production-mirror testing direction supersedes the former three-candidate policy. There is no three-candidate limit, automatic promotion, or automatic retirement when a module appears in production. Production packages remain a baseline for comparison; testing-only packages are separate additions that must be explicitly identified and reviewed before they are made available.
 
-**New active testing: TVApp Live 0.1.0-beta.6.** (published 2026-09-21; supersedes beta.5 — same fixes, plus URL-wrapped ids now parse (searching in Live and opening a result works), and the real Flutter app-runtime harness passes end-to-end on Rally TV) — Live TV guide
-(sports events + 24/7 channels) from tvapp1.com; resolution, honest off-air marking and a
-verified-live Akamai channel; device playback pending owner testing. See
-[TVApp Live QA notes](TVAPP_LIVE_QA.md).
+Adding or selecting a test package must not silently install it. Present its identity, version, source, and package details for explicit confirmation. Do not change production module identities, package bytes, or runtime endpoints as part of catalogue preparation.
 
-**Anikoto 5.0.4-beta.3 — promoted to the official repository 2026-09-26 (retired from this catalogue).** (published here 2026-09-26; supersedes the retired 5.0.1-beta.3 testing build — fixes the owner-reported “episode 1 plays, later episodes don't” failure: the site's player hosts now encrypt their stream descriptor and the module decrypts it locally, so AniKoto's own servers work again for every episode; a labelled Vidhawk rescue now also keys by MAL id for titles without an AniList id (rescue reach 14/30 → 30/30 in the sampled matrix); AniKage quota handling is honest — a 429 stops the sweep with a precise retry message and resolved routes are cached) — English-first caption set covering every available subtitle language; 33/33 unit tests, house tester 33 PASS / 0 FAIL, release gate ALL_PASSED 3/3 first attempt, real Flutter app-runtime PASS (Iceblade stream 816 ms, 0 fallback routes); the 60-case sub+dub matrix recovered a title that failed before (Mebius Dust) with no regressions. See
-[AniKoto QA notes](ANIKOTO_RELIABILITY_QA.md).
+## Artwork Packs
 
-**AnimeAV1 1.3.0-beta.3 — promoted to the official repository 2026-09-26 (retired from this catalogue).** (published here 2026-09-26; supersedes beta.1 — fixes the owner-reported "SUB hosts failed" on One Piece S1E351 SUB: the non-standard-port guard now works without the browser URL global, so the unplayable port-183 route is rejected instead of passed through, and a labelled Vidhawk subtitle backbone rescues episodes whose site hosts fail — verified 3/3 on the reported episode, 0.6–2.6 s) — Spanish anime SUB/DUB from animeav1.com with explicit servers, honest qualities and real caption tracks; device playback pending owner testing. See
-[AnimeAV1 QA notes](ANIMEAV1_QA.md).
+In Player, open **Settings → Artwork & Metadata**, enter the TEST repository URL below, and select **Load packages**. Choose **Flux Featured Artwork**, inspect its preview and package details, then explicitly confirm installation. Adding the repository does not install the artwork pack; there is no background or automatic artwork installation. The pack is data-only JSON and matches Flux entries by module ID and source series ID.
 
-**New active testing: FRAnime Direct 0.1.0-beta.1.** (published 2026-09-14)
-French anime (VOSTFR / VF) from franime.fr. The module uses the site's public API and
-decodes its obfuscated player tokens locally in pure JavaScript -- the protected player
-page is never loaded -- then resolves real Sibnet / Vidmoly / Uqload / SendVid streams
-and probes them before offering playback. 15/15 regression tests, a 10-title sweep
-resolved sub, dub and mid-episode routes 10/10 with every probe passing, S2 quick and
-S2 standard PASS on the app's simulator stack, and the release gate ALL_PASSED 3/3 on
-the first attempt. Not a certified stable release: audible sound, physical-device and
-offline checks are incomplete, SendVid is in a site-wide outage, and some entries use
-hosts that are not resolvable yet (filemoon/Byse, VK). See
-[FRAnime Direct QA and test steps](FRANIME_QA.md).
+`https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json`
 
-**DramaFun 4.0.1 is released in the official repository (Bundle 125).**
-Owner-approved promotion with byte-identical beta.6 playback JavaScript and the
-limitations below. Beta.6 is retired from active testing, not deleted. Use the
-official repository for its update. The following is the retained beta QA record.
-Repairs quoted JSON and HTML caption-track parsing, including extensionless
-caption endpoints. 38 regression tests pass. New sample: 29/30 links resolved,
-28/30 short host decodes, 30/30 posters and 24/30 with multiple servers.
-No usable external captions returned across 73 server results. The current app
-drops per-server quality lists after switching; no app changes were made here.
-S2 machine PASS, but its screenshot still shows an audio-device error, so native
-sound remains unverified. Site-assisted, not independent of DramaFun.
-See [DramaFun QA](DRAMAFUN_QA.md).
-Paused YASTREAM is retired from active testing to keep three candidate slots;
-its immutable ZIP and previous bundle links remain available.
+`artwork/flux-featured.json` is a snapshot of the first eight items returned by Flux's public AniList trending query. Poster and backdrop URLs are used only as artwork metadata; this package does not change AniList access or any playback endpoint in the app.
 
-**Alpha Movies 0.1.0-beta.12 is available for experimental owner testing.**
-Fills TV category pages across bounded batches instead of the first non-empty one
-(3--5 to 11--13 cards, no duplicates), keeps loose matches from collapsing the home
-rows, and adds caption timing-sanity checks. The beta.6 Another World loading fix
-is unchanged. 66 regression tests pass; a 12-case journey and a 30-title sample all
-resolved with decoded audio/video and zero corrupt-packet warnings, and Avatar's
-seven routes decoded from a 30 s seek. Separate provider-direct movie/TV source; it
-does not replace Synthetiq Movies. Another World's phone behaviour is still NOT
-claimed fixed; audible, subtitle-language and offline certification limits remain,
-and the current S2 build carries two documented tester-side defects (see QA notes).
-See [Alpha Movies QA and test steps](ALPHA_MOVIES_QA.md).
+## Flux Artwork Pilot
 
-**MegaKino (Deutsch) 1.1.1 is promoted to the official repository (Bundle 121).**
-The owner approved promotion with the QA limitations below. Playback JavaScript
-is unchanged from beta.3. Its beta is retired from active testing; historical
-packages and bundles remain reachable. Use the official repository for updates.
-Repairs the moved catalogue domain, preserves old saved links, and adds paginated
-feeds plus available server/quality choices. 15 regression tests, 30/30 short host
-video/audio samples and 30/30 poster responses pass. No external captions returned
-in this sample. Final S2 is FAIL on a music-only transcript classified as English;
-later dialogue samples detect German. Simulator video advances but audio-device
-initialization fails. Not stable-certified. See [MegaKino QA](MEGAKINO_QA.md).
+The active TEST catalogue selects `synthetiq-anime-direct` version `1.0.3-beta.7` in bundle 131; both require Player `9.0.53` or newer. Its JavaScript adds seven artwork metadata fields to Home cards and AniList details; stream resolution and extraction logic are unchanged. See [Flux beta.7 artwork pilot QA](docs/FLUX_BETA7_ARTWORK_PILOT_QA.md). Full stream and download certification are not claimed.
 
-**EV01 withdrawn from active testing at the owner's request.**
-Its package and historical bundles remain reachable for cached-index compatibility.
-The official repository is unchanged. Historical beta limitations follow:
-Package inspection/import passes and nine fixture regressions pass. Live QA is
-blocked on the UK test connection by HTTP 451; the recorded S2 run is FAIL at
-Home, not playback-certified. Featured/endless browsing remains unfinished.
-This is an explicit testing-only handoff, NOT a stable release or a claim that
-the module works in your region. See [EV01 limitations and test steps](EV01_QA.md).
+## Repository Data
 
-**STCine 1.1.1 is now in the official repository (Bundle 120).**
-The owner approved promotion with the PARTIAL limits below. JavaScript is
-unchanged from beta.3. The beta is retired from active testing; its immutable
-ZIP and old bundles remain reachable. Use the official repository for updates.
-Updated paginated discovery, complete season mapping, explicit provider choices,
-checked qualities and source-specific multilingual captions. 14 regression tests
-pass. Final S2 standard is PARTIAL: runtime/media checks and simulator video
-advancement passed, but audible sound, spoken language, full offline playback and
-cross-server/quality caption behavior are not certified. See [STCine QA](STCINE_QA.md)
-for the exact matrix and known failures. Promotion does not clear these QA limits.
-
-**X-Stream 1.3.1 is now released in the official repository (Bundle 119).**
-The owner approved promotion with the PARTIAL QA limits below. Its JavaScript
-is identical to beta.4. The beta is retired from active testing; its old ZIP
-and bundle URLs remain available. Toonix 1.0.0-beta.6 remains active and unchanged.
-Explicit provider servers, source-specific captions/headers, expiring link cache
-and singleton-provider retry repairs. Final-package Flutter runtime/media checks
-passed; S2 is PARTIAL, not stable certification. The broader resolver study decoded
-27/30 short host samples. See [X-Stream QA and known limits](XSTREAM_QA.md).
-
-**New active testing: Toonix 1.0.0-beta.6.** (published 2026-09-12)
-Cartoons, anime and movies from toonix.bond (213 shows, 103 movies) with V4 discovery and a Featured hero row.
-Signed HLS through a three-host CDN mirror set with automatic failover, plus validated
-archive.org MP4 routes for some titles. Audio is evidence-sampled per title: Hindi dubs
-dominate, but some titles carry the English original (Avatar: The Last Airbender), so a
-route label names a language only where sampling evidence exists and the manifest declares
-"Hindi + English (mixed)". 17/17 regression tests, node contract tester 28 PASS / 0 FAIL,
-S2 quick and S2 standard PASS on the app's simulator stack (seek verified), and the release
-gate ALL_PASSED 4/4 titles on the first attempt (three HLS titles + one archive MP4 title).
-Not a certified stable release: audible playback, offline/download and physical-device
-checks are incomplete, the episode list caps at 400 per series, and several anime and
-[SUB]-tagged titles have no upstream source. See [Toonix QA and known limits](TOONIX_QA.md).
-
-**Deferred candidate archived: YASTREAM 1.0.1-beta.2.**
-Owner has paused YASTREAM because playback remains inconsistent, including
-Abra-ca-Empty S1E2. Do not treat it as reliable. Latest local fallback repairs
-have not been published. The retained beta below is unchanged.
-Adds Featured and byte-verified handling of MPEG-TS chunks mislabelled as PNG.
-Backdoor episode 3, Parasite and Train to Busan passed short host AV checks
-at the start and 90 seconds. This is not iPhone playback certification.
-Owner-requested testing only, not a certified stable release. Search, episode
-identity and provider-header handling were updated; 11 regression tests passed.
-Broader live QA was interrupted by disk exhaustion. Some provider streams are
-rejected and metadata can contain upstream errors. Native playback, download,
-offline and language certification are incomplete. See [YASTREAM QA](YASTREAM_QA.md).
-AniWorld 1.1.1 and Anime Sama 1.1.1 are now in the official repository; their betas are
-retired here with all old ZIP URLs preserved. AniWorld's expanded checks decoded
-234/249 host samples; known coverage gaps and incomplete native sound certification
-remain documented in the [official release notes](https://github.com/kas021/Synthetiq-Modules/blob/main/docs/ANIWORLD_1_1_1_RELEASE.md).
-See [historical Anime Sama beta9 QA](ANIME_SAMA_BETA9_QA.md)
-and [historical trio QA, exact counts and test instructions](ANIME_TRIO_QA.md).
-AniWorld remains PARTIAL: broad host media checks pass, but individual streams fail and
-native sound/physical-device/in-app offline checks remain incomplete.
-
-**AnimeKai is deferred to the end of the queue**, with only 8/137 short matrix samples decoded.
-The owner requested temporary removal from the official active catalogue as well;
-it is not in this testing index. Movie Direct and Mugiwara are parked; all old ZIP/bundle URLs
-are preserved. AnimeAV1 was already inactive in the preceding live index.
-
-**Vidhawk-outage promotions (2026-09-26):** **Synthetiq Anime 1.0.4**, **Synthetiq Flux 1.0.2**, **Anikoto 5.0.4-beta.3** and **AnimeAV1 1.3.0-beta.3** were promoted to the official repository on owner instruction after full re-certification (independent AniKage rescue chains, fair provider sweeps, stalled-request caps, byte-first validation). **One Pace 3.0.6** (artwork fix, April Fools title dedup) was published directly to the official repository. All are retired from this testing index — the three auto-retired candidates moved to `_module_history/`, the AnimeAV1 candidate ZIP remains under `modules/`, and every former URL stays reachable.
-
-**Synthetiq Anime 1.0.2** and
-**An1me (Greek) 1.1.1** were promoted to the official repository at the owner's
-explicit request. Their former beta ZIP URLs remain reachable but are retired
-from the testing index and bundle.
-
-Use the [official repository](https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/repository.json)
-for these releases. They are not active testing candidates.
-
-See [recorded candidate evidence and limitations](CURRENT_CANDIDATES_QA.md) and
-the [public release notes](https://github.com/kas021/Synthetiq-Modules/blob/main/docs/ANIME_GREEK_OWNER_RELEASE_20260910.md).
-Promotion does not mean the known audio-language or Flutter runtime failures
-were fixed or fully certified.
-
-**JustAnime 1.1.0-beta.4 is withdrawn**, not promoted: owner phone testing found a freeze around 11 seconds into One Piece episode 1 and missing Featured/endless home browsing. It is deferred to the end of the module queue. See [JustAnime QA](JUSTANIME_QA.md). **KickAssAnime 4.1.0** and **AnimeHeaven 4.1.0** remain available from the official repository.
-
-The previous 4.0.7-beta.1 package remains reachable for cached-index compatibility but is not active. `retired-packages.json` excludes retained old package URLs from the active build. Failed beta.1/beta.2 multi-server experiments were never published.
-
-Released Miruro 4.1.0, YFlix 1.1.0 and Synthetiq Movies 1.2.5 remain retired from testing. Old packages stay archived for rollback.
-
-AniKage is no longer active here. StreamUnity has been retired from testing at the owner's request, not newly promoted to production. Old ZIPs and QA notes are archived for rollback, not listed as installable candidates.
-
-## Maintenance
-
-The Movies candidate uses StreamUnity English/Sub routing, Cinejoy-first subtitles, Wyzie fallback only when needed, and bounded subtitle caching. See [baseline QA notes](SYNTHETIQ_MOVIES_QA.md).
-
-Add one root-manifest module ZIP under modules/, then run `node scripts/build.mjs` and commit the generated index and bundle. Never add credentials or other modules implicitly. Keep module IDs stable. Never modify an already distributed version's bytes.
-
-Every owner-requested test fix must be versioned, pushed here and verified at its public index/package URLs before being described as available. Local-only work is not a delivered test update.
-
-When promoting a candidate to the official repository, retire it from this active index in the same release operation and verify both indexes. The daily/manual cleanup is a fallback: it retires equal or older candidates once the same module has an equal or newer stable version. It never promotes a test ZIP automatically. Archived files and immutable old bundles remain for rollback and cached-index compatibility; only the current index and bundle define active testing modules. This does not uninstall modules from phones. Keep the official repository linked for stable releases.
-
-When no candidates remain, the index is disabled and empty. Existing Player versions may reject an empty repository; add it again when testing resumes. No app-code changes are made here.
+- `repository.json` is the unsigned Player index. Its package URLs point to matching files in this repository when those files are present.
+- `catalogue.json` is the production catalogue metadata baseline under the TEST repository identity; it defines no default modules.
+- `modules/` and `bundles/` retain copied production archives, plus the TEST-only beta.7 metadata package and bundle 131 pilot selection.
+- `artworkModules` lists separately previewable artwork JSON packages; each descriptor carries a TEST-owned package URL and SHA-256.
+- `sources/`, `assets/`, and `docs/` are copied production source, artwork, and documentation. `docs/artwork-pilot-evidence/` contains the Flux pilot's Home/details fixtures and fixture test.
+- No production publishing workflow or signing credential belongs in this repository.

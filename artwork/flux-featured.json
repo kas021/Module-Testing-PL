@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "type": "artwork",
+  "id": "flux-featured",
+  "name": "Flux Featured Artwork",
+  "version": "1.0.0",
+  "description": "A snapshot of the first eight entries in Synthetiq Flux's AniList trending anime feed.",
+  "attribution": {
+    "name": "AniList",
+    "url": "https://anilist.co/"
+  },
+  "entries": [
+    {
+      "moduleId": "synthetiq-anime-direct",
+      "seriesId": "sadirect:a210482",
+      "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210482-P1VNKbqdJ6Zj.jpg",
+      "backdropUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/210482-pYAD0IbzNbgS.jpg",
+      "description": "The second and third race stage of JoJo no Kimyou na Bouken: Steel Ball Run. In the 2nd STAGE, a desert crossing spanning roughly 750 miles - the land that Johnny Joestar and Gyro Zeppeli must challenge, is home to the area that is feared as the \"Devil's Palm.\" In 1875, a threat lurking in said desert wiped out a cavalry of 26 people, eliciting fear from the local native people. As ominous incidents begin to unfold, they are forced to realize that this race is far more than a mere competition. The two press forward, where countless hidden motives collide. (Source: Warner Bros. Japan Anime, Netflix Anime, edited)",
+      "tags": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Mystery",
+        "Supernatural"
+      ]
+    },
+    {
+      "moduleId": "synthetiq-anime-direct",
+      "seriesId": "sadirect:a189046",
+      "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189046-yaHWtS5FII46.jpg",
+      "backdropUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/189046-MDk2CaVuRWpb.jpg",
+      "description": "In the deadly battle at Priestella, Subaru and his allies emerged victorious, but at great cost. As Subaru searches for a way to save Rem, Crusch, and Julius, he learns of a \"wise woman,\" Shaula, an all-seeing being said to possess every form of knowledge, who resides at the Pleiades Watchtower. Subaru and his crew must brave the uncharted Auguria Dunes to reclaim what was lost. (Source: Crunchyroll) Note: Lucca Comics & Games pre-screened episode 1 early on November 1, 2025, prior to the Japanese television broadcast on July 8th, 2026.",
+      "tags": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Fantasy",
+        "Psychological",
+        "Romance",
+        "Thriller"
+      ]
+    },
+    {
+      "moduleId": "synthetiq-anime-direct",
+      "seriesId": "sadirect:a180136",
+      "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg",
+      "description": "Born into a prestigious family of master swordsmen, Elymas Edvaughn’s future shatters when he awakens the so-called “defective” Heavy Knight class. Disowned and cast out, he regains memories of another life—and realizes this world mirrors a VR game he once mastered. Armed with knowledge no one else possesses, he sets out to rewrite his fate and prove the strength of the “weakest” class. (Source: Crunchyroll)",
+      "tags": [
+        "Action",
+        "Fantasy"
+      ]
+    },
+    {
+      "moduleId": "synthetiq-anime-direct",
+      "seriesId": "sadirect:a21",
+      "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
+      "backdropUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
+      "description": "Gold Roger was known as the Pirate King, the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the location of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece (which promises an unlimited amount of riches and fame), and quite possibly the most coveted of titles for the person who found it, the title of the Pirate King. Enter Monkey D. Luffy, a 17-year-old boy that defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate who ransacks villages for fun, Luffy’s reason for being a pirate is one of pure wonder; the thought of an exciting adventure and meeting new and intriguing people, along with finding One Piece, are his reasons of becoming a pirate. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach One Piece. *This includes the following special episodes: - Chopperman to the Rescue! Protect the TV Station by the Shore! (Episode 336) - The Strongest Tag-Team! Luffy and Toriko's Hard Struggle! (Episode 492) - Team Formation! Save Chopper (Episode 542) - History's Strongest Collaboration vs. Glutton of the Sea (Episode 590) - 20th Anniversary! Special Romance Dawn (Episode 907)",
+      "tags": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ]
+    },
+    {
+      "moduleId": "synthetiq-anime-direct",
+      "seriesId": "sadirect:a213805",
+      "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213805-Nokui3uWlIlw.png",
+      "description": "Koyuki, the isolated girl; Miki, the former school idol; Minato, the guy with no concept of personal space; and Yota, the gentle basketball player. Clumsy, frustrating, yet deeply endearing — this coming-of-age ensemble drama of crisscrossing hearts marches on. As they grow closer, Koyuki and Minato begin to develop feelings for each other that go beyond mere friendship. Meanwhile, Yota finally confesses to Miki the feelings she's harbored for years. Some speak their hearts while others keep their emotions hidden, causing their paths — and their feelings for one another — to continuously cross and pass by… (Source: Netflix)",
+      "tags": [
+        "Comedy",
+        "Drama",
+        "Romance",
+        "Slice of Life"
+      ]
+    },
+    {
+      "moduleId": "synthetiq-anime-direct",
+      "seriesId": "sadirect:a178789",
+      "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178789-hNXjKFzUq7mk.jpg",
+      "backdropUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/178789-9nHWmoRLlcLu.jpg",
+      "description": "The third season of Mushoku Tensei: Isekai Ittara Honki Dasu.",
+      "tags": [
+        "Adventure",
+        "Drama",
+        "Ecchi",
+        "Fantasy"
+      ]
+    },
+    {
+      "moduleId": "synthetiq-anime-direct",
+      "seriesId": "sadirect:a206401",
+      "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206401-8cAebkI0i8BA.png",
+      "backdropUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/206401-Nsf3QKwKxDra.jpg",
+      "description": "University student Kurumi Fukuga has finally fulfilled her long-held desire of starting foreign exchange (FX) trading, motivated by recouping the 20 million yen her late mother lost in trading. \"I'll easily make it back,\" she thought, but the world she enters can become heaven or hell in an instant. Unrealized losses, loss-cutting, unstoppable fluctuations… but she still wants to buy, sell, and make money! With fellow FX addicts Mochiko, Mebuki and Yasuko along for the ride, the market heats up! Joy, despair, joy, despair — this is an endearing, yet slightly risky money game. Can Kurumi and her friends survive this turbulent world? (Source: Crunchyroll)",
+      "tags": [
+        "Drama",
+        "Slice of Life"
+      ]
+    },
+    {
+      "moduleId": "synthetiq-anime-direct",
+      "seriesId": "sadirect:a198946",
+      "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198946-IGXmbqBEYRYD.jpg",
+      "backdropUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/198946-mtAaOmyKraEE.jpg",
+      "description": "The war is over, but General Drel's secrets remain. As visitors from Hiden, Boelate, and Eslinn converge on Solsein, Boelate's divine academy, the search for Drel's hidden room begins. Among those drawn into the mystery is Klen, now serving as Luna's magic teacher. But what truth lies at the heart of Drel's secret? (Source: Crunchyroll)",
+      "tags": [
+        "Action",
+        "Drama",
+        "Fantasy"
+      ]
+    }
+  ]
+}
