@@ -10,7 +10,7 @@ const vm = require('node:vm');
 const root = path.join(__dirname, '..');
 const realSourceDir = path.join(root, 'sources', 'anipm-v1');
 const qaSourceDir = path.join(root, 'sources', 'qa-fallback-anipm-v1');
-const realZip = path.join(root, 'modules', 'AniPM-0.1.0-beta.4.zip');
+const realZip = path.join(root, 'modules', 'AniPM-0.1.0-beta.5.zip');
 const qaZip = path.join(root, 'modules', 'Fallback-Test-AniPM-1.0.0-beta.1.zip');
 const baselineZip = path.join(root, 'modules', 'AniPM-0.1.0-beta.3.zip');
 
@@ -52,7 +52,7 @@ function loadModule(source, calls) {
   return context;
 }
 
-test('beta.4 preserves beta.3 JavaScript byte-for-byte', () => {
+test('beta.5 preserves beta.3 JavaScript byte-for-byte', () => {
   const source = fs.readFileSync(path.join(realSourceDir, 'index.js'));
   assert.deepEqual(source, readZip(baselineZip, 'index.js'));
   assert.deepEqual(readZip(realZip, 'index.js'), source);
@@ -73,24 +73,26 @@ test('QA module has an independent, TEST-only module identity', () => {
   assert.match(qa.description, /no stream request/i);
 });
 
-test('both manifests declare matching absolute AniPM catalogue routes', () => {
-  for (const manifest of [readManifest(realSourceDir), readManifest(qaSourceDir)]) {
-    assert.deepEqual(JSON.parse(JSON.stringify(manifest.config.catalogueMapping)), {
-      version: 1,
-      routes: [{
-        namespace: 'qa:anipm-catalogue-v1',
-        seriesId: 'anipm:{id}',
-        episodeId: 'anipm:{id}:e{episode}',
-        numbering: 'absolute',
-      }],
-    });
-  }
+test('AniPM v2 route set retains the exact v1 QA route', () => {
+  const real = readManifest(realSourceDir).config.catalogueMapping;
+  const qa = readManifest(qaSourceDir).config.catalogueMapping;
+  const legacyRoute = {
+    namespace: 'qa:anipm-catalogue-v1',
+    seriesId: 'anipm:{id}',
+    episodeId: 'anipm:{id}:e{episode}',
+    numbering: 'absolute',
+  };
+  assert.equal(real.version, 2);
+  assert.deepEqual(real.routes.find((route) => route.namespace === legacyRoute.namespace), legacyRoute);
+  assert.deepEqual(qa, { version: 1, routes: [legacyRoute] });
 });
 
-test('only QA module suggests the real AniPM source using manual identities', () => {
+test('QA points to real AniPM and real AniPM points only to real AniKoto', () => {
   const real = readManifest(realSourceDir);
   const qa = readManifest(qaSourceDir);
-  assert.equal(Object.hasOwn(real.config, 'sourceFallbacks'), false);
+  const realGroup = real.config.sourceFallbacks.groups[0];
+  assert.deepEqual(realGroup.alternatives.map((choice) => choice.moduleId), ['anikoto-v4']);
+  assert.doesNotMatch(JSON.stringify(realGroup), /qa-fallback-anipm-v1|trusted:/);
   const qaGroup = qa.config.sourceFallbacks.groups[0];
   assert.equal(qaGroup.publisher, 'manual:qa-fallback-anipm-v1');
   assert.equal(qaGroup.source, 'qa-fallback-anipm-v1');
@@ -102,7 +104,7 @@ test('only QA module suggests the real AniPM source using manual identities', ()
 });
 
 for (const [label, dir, archive] of [
-  ['AniPM beta.4', realSourceDir, realZip],
+  ['AniPM beta.5', realSourceDir, realZip],
   ['Fallback Test (AniPM)', qaSourceDir, qaZip],
 ]) {
   test(`${label} package matches its source files`, () => {

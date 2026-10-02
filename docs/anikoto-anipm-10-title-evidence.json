@@ -1,0 +1,40 @@
+{
+  "auditGeneratedAt": "2026-10-02T15:34:26.051Z",
+  "method": "Fixed 10-title corpus; all exact normalized-title candidates retained; details and actual episode lists queried for each exact candidate.",
+  "catalogueOnly": true,
+  "moduleVersionsTested": {
+    "anikoto-v4": "5.0.5-beta.2",
+    "anipm-v1": "0.1.0-beta.3"
+  },
+  "denominator": {
+    "predeclaredTitles": 10,
+    "singleExactCandidateBothModules": 10,
+    "exactDetailsAndEpisodeListBothModules": 10,
+    "sameNumericCatalogueId": 10,
+    "sameEpisodeCount": 10,
+    "sampledEpisodeIdPairs": 30,
+    "episodeRowsPerModuleAcrossCorpus": 2526
+  },
+  "languageEvidence": {
+    "anikotoDeclaration": "English Sub/Dub",
+    "anipmDeclaration": "English Sub/Dub",
+    "tenTitleEpisodeAudioFlags": "not preserved by this audit; do not infer per-title audio parity",
+    "onePieceEpisode101": {
+      "anikoto": {"subAvailable": true, "dubAvailable": true},
+      "anipm": {"subAvailable": true, "dubAvailable": true}
+    }
+  },
+  "cases": [
+    {"title":"One Piece","id":1642,"anikotoSlug":"one-piece-odmau","anikotoEpisodes":1180,"anipmEpisodes":1180,"sampleEpisodes":[{"number":1,"anikotoId":"1642|one-piece-odmau|1","anipmId":"anipm:1642:e1"},{"number":590,"anikotoId":"1642|one-piece-odmau|590","anipmId":"anipm:1642:e590"},{"number":1180,"anikotoId":"1642|one-piece-odmau|1180","anipmId":"anipm:1642:e1180"}]},
+    {"title":"Naruto Shippuden","id":1498,"anikotoSlug":"naruto-shippuden-c8gov","anikotoEpisodes":500,"anipmEpisodes":500,"sampleEpisodes":[{"number":1,"anikotoId":"1498|naruto-shippuden-c8gov|1","anipmId":"anipm:1498:e1"},{"number":250,"anikotoId":"1498|naruto-shippuden-c8gov|250","anipmId":"anipm:1498:e250"},{"number":500,"anikotoId":"1498|naruto-shippuden-c8gov|500","anipmId":"anipm:1498:e500"}]},
+    {"title":"Attack on Titan","id":1631,"anikotoSlug":"attack-on-titan-bgaoa","anikotoEpisodes":25,"anipmEpisodes":25,"sampleEpisodes":[{"number":1,"anikotoId":"1631|attack-on-titan-bgaoa|1","anipmId":"anipm:1631:e1"},{"number":13,"anikotoId":"1631|attack-on-titan-bgaoa|13","anipmId":"anipm:1631:e13"},{"number":25,"anikotoId":"1631|attack-on-titan-bgaoa|25","anipmId":"anipm:1631:e25"}]},
+    {"title":"Demon Slayer","id":1551,"anikotoSlug":"demon-slayer-kimetsu-no-yaiba-rzepv","anikotoEpisodes":26,"anipmEpisodes":26,"sampleEpisodes":[{"number":1,"anikotoId":"1551|demon-slayer-kimetsu-no-yaiba-rzepv|1","anipmId":"anipm:1551:e1"},{"number":13,"anikotoId":"1551|demon-slayer-kimetsu-no-yaiba-rzepv|13","anipmId":"anipm:1551:e13"},{"number":26,"anikotoId":"1551|demon-slayer-kimetsu-no-yaiba-rzepv|26","anipmId":"anipm:1551:e26"}]},
+    {"title":"Death Note","id":1610,"anikotoSlug":"death-note-fc8mq","anikotoEpisodes":37,"anipmEpisodes":37,"sampleEpisodes":[{"number":1,"anikotoId":"1610|death-note-fc8mq|1","anipmId":"anipm:1610:e1"},{"number":19,"anikotoId":"1610|death-note-fc8mq|19","anipmId":"anipm:1610:e19"},{"number":37,"anikotoId":"1610|death-note-fc8mq|37","anipmId":"anipm:1610:e37"}]},
+    {"title":"Jujutsu Kaisen","id":1103,"anikotoSlug":"jujutsu-kaisen-tv-8ssye","anikotoEpisodes":24,"anipmEpisodes":24,"sampleEpisodes":[{"number":1,"anikotoId":"1103|jujutsu-kaisen-tv-8ssye|1","anipmId":"anipm:1103:e1"},{"number":12,"anikotoId":"1103|jujutsu-kaisen-tv-8ssye|12","anipmId":"anipm:1103:e12"},{"number":24,"anikotoId":"1103|jujutsu-kaisen-tv-8ssye|24","anipmId":"anipm:1103:e24"}]},
+    {"title":"My Hero Academia","id":6,"anikotoSlug":"my-hero-academia-kuzfp","anikotoEpisodes":13,"anipmEpisodes":13,"sampleEpisodes":[{"number":1,"anikotoId":"6|my-hero-academia-kuzfp|1","anipmId":"anipm:6:e1"},{"number":7,"anikotoId":"6|my-hero-academia-kuzfp|7","anipmId":"anipm:6:e7"},{"number":13,"anikotoId":"6|my-hero-academia-kuzfp|13","anipmId":"anipm:6:e13"}]},
+    {"title":"Dragon Ball Z","id":1456,"anikotoSlug":"dragon-ball-z-3gzan","anikotoEpisodes":291,"anipmEpisodes":291,"sampleEpisodes":[{"number":1,"anikotoId":"1456|dragon-ball-z-3gzan|1","anipmId":"anipm:1456:e1"},{"number":146,"anikotoId":"1456|dragon-ball-z-3gzan|146","anipmId":"anipm:1456:e146"},{"number":291,"anikotoId":"1456|dragon-ball-z-3gzan|291","anipmId":"anipm:1456:e291"}]},
+    {"title":"Bleach","id":1057,"anikotoSlug":"bleach-yaa9n","anikotoEpisodes":366,"anipmEpisodes":366,"sampleEpisodes":[{"number":1,"anikotoId":"1057|bleach-yaa9n|1","anipmId":"anipm:1057:e1"},{"number":183,"anikotoId":"1057|bleach-yaa9n|183","anipmId":"anipm:1057:e183"},{"number":366,"anikotoId":"1057|bleach-yaa9n|366","anipmId":"anipm:1057:e366"}]},
+    {"title":"Fullmetal Alchemist Brotherhood","id":69,"anikotoSlug":"fullmetal-alchemist-brotherhood-9s0fl","anikotoEpisodes":64,"anipmEpisodes":64,"sampleEpisodes":[{"number":1,"anikotoId":"69|fullmetal-alchemist-brotherhood-9s0fl|1","anipmId":"anipm:69:e1"},{"number":32,"anikotoId":"69|fullmetal-alchemist-brotherhood-9s0fl|32","anipmId":"anipm:69:e32"},{"number":64,"anikotoId":"69|fullmetal-alchemist-brotherhood-9s0fl|64","anipmId":"anipm:69:e64"}]}
+  ],
+  "sourceEvidence": "Player app checkout docs/qa/fallback-evidence/paired-ankoto-anipm-exact.sanitized.json and paired-ankoto-anipm-one-piece-101.sanitized.json. The ten-title evidence contains no stream URLs, credentials, or media probes."
+}

@@ -3,7 +3,7 @@
   "name": "AniPM",
   "contentType": "video",
   "contractVersion": 4,
-  "moduleVersion": "0.1.0-beta.4",
+  "moduleVersion": "0.1.0-beta.5",
   "moduleFamilyId": "anipm-v1",
   "moduleIdentity": "SP-VID-084-ANIPM",
   "moduleIdentityNumber": 84,
@@ -42,8 +42,14 @@
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
     },
     "catalogueMapping": {
-      "version": 1,
+      "version": 2,
       "routes": [
+        {
+          "namespace": "anipm:anime",
+          "seriesId": "anipm:{id}",
+          "episodeId": "anipm:{id}:e{episode}",
+          "numbering": "absolute"
+        },
         {
           "namespace": "qa:anipm-catalogue-v1",
           "seriesId": "anipm:{id}",
@@ -51,7 +57,34 @@
           "numbering": "absolute"
         }
       ]
+    },
+    "sourceFallbacks": {
+      "version": 1,
+      "groups": [
+        {
+          "publisher": "manual:anipm-v1",
+          "source": "anipm-v1",
+          "group": "ani-pm-anime-catalogue",
+          "revision": 1,
+          "name": "AniKoto and AniPM",
+          "contentType": "video",
+          "primary": {
+            "publisher": "manual:anipm-v1",
+            "source": "anipm-v1",
+            "moduleId": "anipm-v1",
+            "name": "AniPM"
+          },
+          "alternatives": [
+            {
+              "publisher": "manual:anikoto-v4",
+              "source": "anikoto-v3",
+              "moduleId": "anikoto-v4",
+              "name": "AniKoto"
+            }
+          ]
+        }
+      ]
     }
   },
-  "version": "0.1.0-beta.4"
+  "version": "0.1.0-beta.5"
 }
