@@ -68,7 +68,7 @@ for (const name of ['anikoto', 'anipm']) {
 }
 
 test('bundle and real mapping packages gate the required V9 parser version', () => {
-  assert.equal(repository.bundle.version, 133);
+  assert.equal(repository.bundle.version, 134);
   assert.equal(repository.bundle.minAppVersion, '9.0.55');
   for (const name of ['anikoto', 'anipm']) {
     const descriptor = repository.modules.find(
