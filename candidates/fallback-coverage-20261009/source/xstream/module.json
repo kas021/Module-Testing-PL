@@ -1,0 +1,93 @@
+{
+  "id": "xstream-v1",
+  "name": "X-Stream",
+  "contentType": "video",
+  "contractVersion": 4,
+  "moduleVersion": "1.3.2-beta.2",
+  "version": "1.3.2-beta.2",
+  "description": "TEST-only X-Stream TV catalogue mapping and fallback-group metadata candidate. Provider and playback behavior unchanged; known coverage and native audio QA limits remain.",
+  "moduleFamilyId": "xstream_v1",
+  "moduleIdentity": "SP-VID-048-XSTREAM",
+  "moduleIdentityNumber": 48,
+  "releaseTrack": "beta",
+  "moduleStatus": "trial",
+  "presentation": {
+    "category": "Movies & TV",
+    "purpose": "Movies & TV",
+    "language": "English",
+    "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"
+  },
+  "config": {
+    "language": "English",
+    "contentLanguage": "en",
+    "presentation": {
+      "category": "Movies & TV",
+      "purpose": "Movies & TV",
+      "language": "English",
+      "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"
+    },
+    "runtime": {
+      "entry": "index.js",
+      "mode": "local"
+    },
+    "capabilities": {
+      "discovery_v1": true
+    },
+    "catalogueMapping": {
+      "version": 2,
+      "routes": [
+        {
+          "namespace": "tmdb:tv",
+          "seriesId": "https://xstream.free.nf/tv.php?id={id}",
+          "episodeId": "https://xstream.free.nf/watch.php?type=tv&id={id}&season={season}&episode={episode}",
+          "numbering": "seasonEpisode"
+        }
+      ]
+    },
+    "sourceFallbacks": {
+      "version": 1,
+      "groups": [
+        {
+          "publisher": "manual:xstream-v1",
+          "source": "xstream_v1",
+          "group": "moviedb-xstream-tv-catalogue",
+          "revision": 1,
+          "name": "MovieDB and X-Stream TV",
+          "contentType": "video",
+          "primary": {
+            "publisher": "manual:xstream-v1",
+            "source": "xstream_v1",
+            "moduleId": "xstream-v1",
+            "name": "X-Stream",
+            "contentType": "video"
+          },
+          "alternatives": [
+            {
+              "publisher": "manual:moviedb-wiki-v1",
+              "source": "moviedb_wiki_v1",
+              "moduleId": "moviedb-wiki-v1",
+              "name": "MovieDB",
+              "contentType": "video"
+            }
+          ]
+        }
+      ]
+    },
+    "caps": {
+      "homeMaxResults": 40,
+      "maxResponseBytes": 2000000,
+      "timeoutMs": 30000,
+      "maxConcurrentRequests": 6
+    },
+    "baseUrl": "https://xstream.free.nf",
+    "streamHeaders": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "Referer": "https://pixeldrain.com/",
+      "Accept": "video/mp4,video/*,application/vnd.apple.mpegurl,*/*"
+    },
+    "imageHeaders": {
+      "Referer": "https://www.themoviedb.org/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+    }
+  }
+}

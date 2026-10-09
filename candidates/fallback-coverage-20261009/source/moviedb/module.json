@@ -1,0 +1,96 @@
+{
+  "id": "moviedb-wiki-v1",
+  "name": "MovieDB",
+  "contentType": "video",
+  "contractVersion": 4,
+  "moduleVersion": "0.1.0-beta.11",
+  "moduleFamilyId": "moviedb_wiki_v1",
+  "moduleIdentity": "SP-VID-083-MOVIEDB",
+  "moduleIdentityNumber": 83,
+  "releaseTrack": "beta",
+  "moduleStatus": "trial",
+  "description": "MovieDB (moviedb.wiki) — Movies & TV with a one-call playback resolve: a single API request returns the adaptive HLS stream plus every subtitle language the source carries (English first). Every play offers the player's server list every verified route — the primary VidLove server plus live VidZen backups when the title has them. Two independent providers with automatic failover and seven per-source variants; playback starts from a direct id route with a background prefetch, so Open-to-play never re-fetches a catalogue page and every resolve is byte-validated. Public beta for all-user testing — playback reports welcome in the Discord support channels. TEST-only TV catalogue mapping and fallback-group metadata candidate; movie mapping and provider behavior unchanged.",
+  "presentation": {
+    "category": "Movies & TV",
+    "purpose": "Movies & TV Shows — fast multi-source streams",
+    "recommended": false,
+    "language": "Original audio",
+    "languages": [
+      "sub"
+    ]
+  },
+  "config": {
+    "language": "English",
+    "contentLanguage": "en",
+    "contentRegion": "US",
+    "contentType": "video",
+    "presentation": {
+      "category": "Movies & TV",
+      "purpose": "Movies & TV Shows — fast multi-source streams",
+      "recommended": false,
+      "language": "Original audio",
+      "languages": [
+        "sub"
+      ]
+    },
+    "capabilities": {
+      "discovery_v1": true
+    },
+    "catalogueMapping": {
+      "version": 2,
+      "routes": [
+        {
+          "namespace": "tmdb:tv",
+          "seriesId": "https://www.moviedb.wiki/home/tv/{id}-{slug}",
+          "episodeId": "mdb:tv:{id}:{season}:{episode}",
+          "numbering": "seasonEpisode"
+        }
+      ]
+    },
+    "sourceFallbacks": {
+      "version": 1,
+      "groups": [
+        {
+          "publisher": "manual:moviedb-wiki-v1",
+          "source": "moviedb_wiki_v1",
+          "group": "moviedb-xstream-tv-catalogue",
+          "revision": 1,
+          "name": "MovieDB and X-Stream TV",
+          "contentType": "video",
+          "primary": {
+            "publisher": "manual:moviedb-wiki-v1",
+            "source": "moviedb_wiki_v1",
+            "moduleId": "moviedb-wiki-v1",
+            "name": "MovieDB",
+            "contentType": "video"
+          },
+          "alternatives": [
+            {
+              "publisher": "manual:xstream-v1",
+              "source": "xstream_v1",
+              "moduleId": "xstream-v1",
+              "name": "X-Stream",
+              "contentType": "video"
+            }
+          ]
+        }
+      ]
+    },
+    "runtime": {
+      "entry": "index.js",
+      "mode": "local"
+    },
+    "caps": {
+      "homeMaxResults": 40,
+      "maxResponseBytes": 5242880,
+      "timeoutMs": 30000,
+      "maxConcurrentRequests": 4
+    },
+    "baseUrl": "https://www.moviedb.wiki",
+    "streamHeaders": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "Referer": "https://player.vidlove.cc/"
+    }
+  },
+  "version": "0.1.0-beta.11"
+}

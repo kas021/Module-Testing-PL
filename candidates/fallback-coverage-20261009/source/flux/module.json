@@ -1,0 +1,105 @@
+{
+  "id": "synthetiq-anime-direct",
+  "name": "Synthetiq Flux",
+  "contentType": "video",
+  "contractVersion": 4,
+  "moduleVersion": "1.0.3-beta.8",
+  "moduleFamilyId": "synthetiq_anime_direct_v1",
+  "moduleIdentity": "SP-VID-077-ANIME-DIRECT",
+  "moduleIdentityNumber": 77,
+  "releaseTrack": "beta",
+  "moduleStatus": "active",
+  "description": "Independent anime catalogue and provider-direct playback. Fresh Vidhawk HLS with a hard media check on every play. Labelled AniKage rescue source when Vidhawk has no verified media. Available Sub/Dub, server choices, qualities and subtitles depend on the provider. Formerly Anikoto 2 testing; separate from official AniKoto. TEST-only catalogue mapping and fallback-group metadata candidate; provider and playback behavior unchanged.",
+  "presentation": {
+    "category": "Anime",
+    "purpose": "Synthetiq Flux Anime",
+    "recommended": true,
+    "language": "English Sub/Dub",
+    "languages": [
+      "sub",
+      "dub"
+    ],
+    "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-flux-1.0.0.png"
+  },
+  "config": {
+    "language": "English",
+    "contentLanguage": "en",
+    "baseUrl": "https://graphql.anilist.co/",
+    "presentation": {
+      "category": "Anime",
+      "purpose": "Synthetiq Flux Anime",
+      "recommended": true,
+      "language": "English Sub/Dub",
+      "languages": [
+        "sub",
+        "dub"
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-flux-1.0.0.png"
+    },
+    "runtime": {
+      "entry": "index.js",
+      "mode": "local"
+    },
+    "capabilities": {
+      "discovery_v1": true
+    },
+    "catalogueMapping": {
+      "version": 1,
+      "routes": [
+        {
+          "namespace": "anilist:anime",
+          "seriesId": "sadirect:a{id}",
+          "episodeId": "sadirect:a{id}:e{episode}",
+          "numbering": "absolute"
+        },
+        {
+          "namespace": "mal:anime",
+          "seriesId": "sadirect:m{id}",
+          "episodeId": "sadirect:m{id}:e{episode}",
+          "numbering": "absolute"
+        }
+      ]
+    },
+    "sourceFallbacks": {
+      "version": 1,
+      "groups": [
+        {
+          "publisher": "manual:synthetiq-anime-direct",
+          "source": "synthetiq_anime_direct_v1",
+          "group": "flux-synthetiq-anime-catalogue",
+          "revision": 1,
+          "name": "Flux and Synthetiq Anime",
+          "contentType": "video",
+          "primary": {
+            "publisher": "manual:synthetiq-anime-direct",
+            "source": "synthetiq_anime_direct_v1",
+            "moduleId": "synthetiq-anime-direct",
+            "name": "Synthetiq Flux",
+            "contentType": "video"
+          },
+          "alternatives": [
+            {
+              "publisher": "manual:synthetiq-anime-v1",
+              "source": "synthetiq_anime_v1",
+              "moduleId": "synthetiq-anime-v1",
+              "name": "Synthetiq Anime",
+              "contentType": "video"
+            }
+          ]
+        }
+      ]
+    },
+    "caps": {
+      "homeMaxResults": 40,
+      "maxResponseBytes": 2500000,
+      "timeoutMs": 25000,
+      "maxConcurrentRequests": 4
+    },
+    "streamHeaders": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "Referer": "https://vidhawk.buzz/",
+      "Origin": "https://vidhawk.buzz"
+    }
+  },
+  "version": "1.0.3-beta.8"
+}
