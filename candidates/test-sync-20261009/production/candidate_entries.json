@@ -1,0 +1,125 @@
+[
+  {
+    "moduleId": "kickassanime-v3",
+    "moduleFamilyId": "kickassanime-v3",
+    "moduleIdentity": "SP-VID-038-KICKASSANIME",
+    "moduleIdentityNumber": 38,
+    "contentType": "video",
+    "version": "4.2.0",
+    "minAppVersion": "8.0.0",
+    "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-kickassanime-v3-v4.2.0/KickAssAnime-4.2.0.zip",
+    "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-kickassanime-v3-v4.2.0/KickAssAnime-4.2.0.zip",
+    "sha256": "4f31c3cd519a37ecf552e838f6d4e3b41fa72e8ab91f5489ff8c326b4bc8748f",
+    "signature": "tql3hZdK9mKSRUwC2bgOkeH5a5Ud3NJigZN+fRYOdYODBifk19R2waRqWGu5aUZVFVNdgVHmNAoRp3g/QJJukA==",
+    "publishedAtMs": 1784986932868,
+    "changelog": [
+      "4.2.0: Search now finds titles the way users type them - generated punctuation variants (colon at any word boundary, 'dr.' forms, year parentheses, tail-tokens fallback) plus merged results take the natural-query hit rate to 24/24 (was 22/24) and a season-qualified hard set from 2/8 to 8/8. Season/part variants of a show are grouped and ordered (base, Cour/Part, Season 2, 3..., then specials/OVAs/movies) with release years on cards. The home now serves 6 rows (adds Recently Added, Popular Shows and Coming Soon) in one parallel fan-out. Module icon added.",
+      "4.1.0: Correct provider subtitle language labels, including wrapped metadata; unknown tracks are no longer labelled English",
+      "4.1.0: Expose usable server alternatives with matching captions and headers; preserve audio-safe Auto quality",
+      "4.1.0: Bounded primary recovery and alternate episode-page fallback; 25/30 sampled titles passed media probes, known unavailable titles documented",
+      "4.0.3: Official KickAssAnime (kaa.lt) English sub/dub catalogue",
+      "4.0.3: DUB is only shown when an English player or English HLS audio track exists",
+      "4.0.3: Japanese-only CatStream is never labeled as DUB (One Piece is SUB-only)",
+      "4.0.2: Featured home row, season duplicate collapse, subtitle URL repair",
+      "4.0.1: Full episode lists via fsearch and ja-JP/en-US APIs"
+    ],
+    "presentation": {
+      "category": "Anime",
+      "purpose": "English Anime",
+      "language": "English Sub/Dub",
+      "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/kickassanime.png?v=20261008-1"
+    }
+  },
+  {
+    "moduleId": "shahiid-v1",
+    "moduleFamilyId": "shahiid_v1",
+    "moduleIdentity": "SP-VID-055-SHAHIID",
+    "moduleIdentityNumber": 55,
+    "contentType": "video",
+    "version": "2.1.2",
+    "minAppVersion": "8.0.0",
+    "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-shahiid-v1-v2.1.2/Shahiid-2.1.2.zip",
+    "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-shahiid-v1-v2.1.2/Shahiid-2.1.2.zip",
+    "sha256": "242d17684dd2576d6407fa5e09304a0c53f8607f64b82a92996dc998f0971688",
+    "signature": "Ird3AXObHxIfMa34UKgFovO86d4TQwsJUSfLRPHcOP7KwWj4gvJ5khVTcTRIYd/eHGJGzFtZ4lEErk84eDV8Ow==",
+    "publishedAtMs": 1784986932868,
+    "changelog": [
+      "2.1.2: Long series now enumerate to the end of a season (direct page walk, batched, up to ~1240 episodes with a 12s budget) instead of stopping at 500 - One Piece went from 530 to 860 reachable episodes in 13.3s, and the tail episode (1180) plays.",
+      "2.1.2: Film/landing entries that live under /seasons/ but carry no player now return an empty list with a log line instead of throwing, so they no longer surface as a broken screen.",
+      "2.1.2: Search ranks single specials, films and OVA reels below real seasons, so searching a long show no longer opens a one-episode special first.",
+      "2.1.2: Release gate ALL_PASSED (Package/Home/Search/Details/Streams 3/3); house tester PASS 28 / FAIL 0. Arabic sub/dub isolation and the player chain are unchanged.",
+      "2.1.1: Home opens show catalogues instead of individual episodes; fixes long-list pagination and special episode mapping",
+      "2.1.1: Adds server choices, truthful quality labels, poster parsing and short-lived repeated-search caching",
+      "2.1.1: Owner-approved release with known upstream unavailable episodes; see docs/SHAHIID_2_1_1_RELEASE.md",
+      "2.0.1: Fixed movie dub availability to accurately reflect sub-only titles (e.g. Look Back)",
+      "2.0.0: Full overhaul for restructured series, seasons, and dubbed seasons catalogue hierarchy",
+      "2.0.0: High-speed multi-mirror resolver with verified 1080p MP4 and master HLS streaming",
+      "2.0.0: Strict language isolation between Arabic subtitled and Arabic dubbed episodes",
+      "2.0.0: Full movie and standalone special extraction with season archive auto-recovery"
+    ],
+    "presentation": {
+      "category": "Anime",
+      "purpose": "Arabic Anime",
+      "language": "Arabic Sub/Dub",
+      "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/shahiid.png"
+    }
+  },
+  {
+    "moduleId": "cimacub-v1",
+    "moduleFamilyId": "cimacub_v1",
+    "moduleIdentity": "SP-VID-287-CIMACLUB",
+    "moduleIdentityNumber": 287,
+    "contentType": "video",
+    "version": "1.2.0",
+    "minAppVersion": "8.0.0",
+    "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-cimacub-v1-v1.2.0/CimaClub-1.2.0.zip",
+    "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-cimacub-v1-v1.2.0/CimaClub-1.2.0.zip",
+    "sha256": "3ddee1d22400b00963d5085b92efd648f36e64128c8af0a9dffbea55b995de86",
+    "signature": "5rYW9K+wHIEl+RwWsUZRuFBitT5vALZIsEsCpwcc+AgogO0bW8Em+ur/9pdJnTxmVU8ZuTDOEO1LiKU98PwshQ==",
+    "publishedAtMs": 1784986932868,
+    "changelog": [
+      "1.2.0: Fixes the episode failures reported on this source. The site repeats its players in a download section that can carry a mirror the server list omits - those extra mirrors are now used too, so episodes whose three listed servers were all deleted play again instead of reporting no link. No identity change.",
+      "1.1.0: Much faster home screen (the newest row and the three themed rows now load together instead of one after another: measured 8.4s -> 1.3s), plus verified server handling. Only the mirror family that can actually deliver video is offered: the site's DoodStream servers sit behind a bot wall, and its cybervynx servers were traced to playlists filled with ad images rather than video, so they are skipped instead of showing an option that cannot play. Source-side note: individual mirrors often go dead at the host - those episodes report honestly that no link is available rather than playing nothing.",
+      "1.0.0: First release of the CimaClub engine (w.cimacub.com) - Arabic subtitled movies, series and anime. The catalogue is read straight from the site's own WordPress API (search, newest-episode home rows and a paged feed), so titles and posters come from the source itself. Playback follows each episode's watch page to its MixDrop servers and resolves the player's signed mp4 url per play - those links expire in about four hours, so nothing is cached, and the mirror list cascades automatically until a live one answers. Not the default movie source; install alongside your others.",
+      "Owner-approved public release for all-user testing. Source-side notes: some mirror links are already dead at the host and get skipped automatically, and the alternative DoodStream servers sit behind a bot wall so they are not offered. Subtitles on this site are burned into the source video. Playback reports welcome in the Discord support channels."
+    ],
+    "presentation": {
+      "category": "Movies & TV",
+      "purpose": "Arabic subtitled movies, series and anime",
+      "recommended": false,
+      "language": "Arabic (subtitled)",
+      "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/cimacub.png?v=20261005-1"
+    }
+  },
+  {
+    "moduleId": "anime4up-site-v1",
+    "moduleFamilyId": "anime4up_site_v1",
+    "moduleIdentity": "SP-VID-101-ANIME4UP",
+    "moduleIdentityNumber": 101,
+    "contentType": "video",
+    "version": "1.0.0-beta.10",
+    "minAppVersion": "8.0.0",
+    "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-anime4up-site-v1-v1.0.0-beta.10/Anime4up-1.0.0-beta.10.zip",
+    "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-anime4up-site-v1-v1.0.0-beta.10/Anime4up-1.0.0-beta.10.zip",
+    "sha256": "3a28b4175a7030105490930820720fde63f9a49fffe1013cbc51d33c74668a2c",
+    "signature": "O0st2nomsAR/JnuS/0yRtBr0hLVZ5hWJvN5r37bU3SzWKYTIHhbz1ZacBKI5eRrbIzHah+dCHYx+yUnvzlxbeg==",
+    "publishedAtMs": 1784986932868,
+    "changelog": [
+      "1.0.0-beta.10: Fixes episodes that ended with no playable servers. The module read JSON responses through text(), and the app runtime returns an EMPTY text() for JSON (the parsed value is only exposed through json()) - so every Share4Max mirror list was lost, and only the HTML-based hosts could ever play. JSON is now read through json(); the Share4Max payload parser also accepts both payload shapes, and its phase is bounded to 9s so it cannot spend the whole episode budget.",
+      "1.0.0-beta.10: Identity assigned SP-VID-101-ANIME4UP (number 101; 100 belongs to Synthetiq-One in the video range - the signed pipeline rejects duplicates). Community module, first catalogue release.",
+      "1.0.0-beta.10: Verified on 6 live Share4Max shares (6/6 resolve after the fix, 0/6 before; avg 4.5s), 20/20 offline parser checks, 2,000 real episode URLs accepted. Community-built module, first catalogue release.",
+      "1.0.0-beta.8: Community build - Arabic anime catalogue from anime4up with Share4Max mirror resolution prioritised for direct playback."
+    ],
+    "presentation": {
+      "category": "Anime",
+      "purpose": "Arabic Anime",
+      "recommended": false,
+      "language": "Arabic",
+      "languages": [
+        "sub",
+        "dub"
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anime4up.png?v=20261006-1"
+    }
+  }
+]

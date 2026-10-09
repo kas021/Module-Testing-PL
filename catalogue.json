@@ -3,12 +3,12 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 134,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-134.zip",
-  "minAppVersion": "9.0.53",
+  "bundleVersion": 136,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-136.zip",
+  "minAppVersion": "9.0.55",
   "modules": [
     {
-      "file": "modules/Synthetiq-Anime-1.0.5-beta.2.zip",
+      "file": "modules/Synthetiq-Anime-1.0.5-beta.3.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime",
@@ -21,6 +21,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-anime-1.0.2.png"
       },
       "changelog": [
+        "1.0.5-beta.3: TEST-only reciprocal Flux/Anime exact catalogue mapping for emitted AniList and MAL IDs. Fallback defaults import with the module and start on in the updated V9 app; playback JavaScript unchanged. Live language equivalence and playback are not certified.",
         "1.0.5-beta.2: Restores stream resolution on the current rescue CDN routes. Fixes titles failing to load on the released app by raising the in-app probe budget (2MB to 4MB), accepting size-capped reachability, and preferring routes without player-broken segment names. Sub/Dub and subtitles unchanged; verified on the released app runtime and S2.",
         "1.0.4: Vidhawk-independent AniKage rescue source (labelled; used only when the primary has no verified media), byte-first segment validation, probe byte-cap fix for in-app playback, fair provider sweep and stalled-request caps. Fixes the module being fully dark during the Vidhawk media-relay outage.",
         "1.0.4: Rescue routes pass the same positive media validation as primary routes and are never substituted across languages; episodes the rescue sources do not carry remain unavailable with an honest message.",
@@ -30,7 +31,7 @@
       ]
     },
     {
-      "file": "modules/Synthetiq-Flux-1.0.3-beta.7.zip",
+      "file": "modules/Synthetiq-Flux-1.0.3-beta.8.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Synthetiq Flux Anime",
@@ -43,6 +44,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-flux-1.0.0.png"
       },
       "changelog": [
+        "1.0.3-beta.8: TEST-only reciprocal Flux/Anime exact catalogue mapping for emitted AniList and MAL IDs. Fallback defaults import with the module and start on in the updated V9 app; playback JavaScript unchanged. Live language equivalence and playback are not certified.",
         "1.0.3-beta.7: TEST-only artwork pilot adds seven artwork metadata fields across Home cards and AniList details; stream resolution and extraction logic are unchanged. Active V9 artwork-package runtime test passed (2 tests); no stream or download certification is claimed.",
         "1.0.3-beta.4: Restores stream resolution on the current rescue CDN routes. Fixes titles failing to load on the released app by raising the in-app probe budget (2MB to 4MB), accepting size-capped reachability, and preferring routes without player-broken segment names. Sub/Dub and subtitles unchanged; verified on the released app runtime and S2.",
         "1.0.2: Vidhawk-independent AniKage rescue source (labelled; used only when Vidhawk has no verified media), MegaPlay descriptor decrypt, byte-first validation with elevated probe caps, fair provider sweep and stalled-request caps. Fixes the module being fully dark during the Vidhawk media-relay outage.",
@@ -218,7 +220,7 @@
       ]
     },
     {
-      "file": "modules/X-Stream-1.3.1.zip",
+      "file": "modules/X-Stream-1.3.4-beta.1.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV",
@@ -226,7 +228,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"
       },
       "changelog": [
-        "1.3.1: Owner-approved promotion of beta.4; JavaScript unchanged",
+        "1.3.4-beta.1: TEST catch-up to production 1.3.3 playback code, retaining V9 exact TV fallback mapping. Native playback reliability remains under testing.",
+        "1.3.3: Fixes Fresh Retry getting stuck after earlier provider failures; prevents stale requests overwriting refreshed links; respects provider cooldowns. Keeps 1.3.2's faster verified-route startup.",
+        "Stricter film and season matching avoids substituting a different title or episode. Availability and quality still depend on the providers; this update does not make every title playable.",
+        "Owner-approved reliability release. Automated runtime and decoder evidence is recorded in the release notes; physical-device acceptance and full language certification remain incomplete.",
         "Explicit provider servers and quality choices with source-specific subtitles and headers",
         "Fix singleton-provider retries and expire cached video links; retain media and language gates",
         "QA: 27/30 short host AV samples; S2 PARTIAL. Three coverage gaps and incomplete physical audio/offline checks remain. See docs/XSTREAM_1_3_1_RELEASE.md"
@@ -465,13 +470,14 @@
       ]
     },
     {
-      "file": "modules/KickAssAnime-4.1.0.zip",
+      "file": "modules/KickAssAnime-4.2.0.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime",
         "language": "English Sub/Dub"
       },
       "changelog": [
+        "4.2.0: Search now finds titles the way users type them - generated punctuation variants (colon at any word boundary, 'dr.' forms, year parentheses, tail-tokens fallback) plus merged results take the natural-query hit rate to 24/24 (was 22/24) and a season-qualified hard set from 2/8 to 8/8. Season/part variants of a show are grouped and ordered (base, Cour/Part, Season 2, 3..., then specials/OVAs/movies) with release years on cards. The home now serves 6 rows (adds Recently Added, Popular Shows and Coming Soon) in one parallel fan-out. Module icon added.",
         "4.1.0: Correct provider subtitle language labels, including wrapped metadata; unknown tracks are no longer labelled English",
         "4.1.0: Expose usable server alternatives with matching captions and headers; preserve audio-safe Auto quality",
         "4.1.0: Bounded primary recovery and alternate episode-page fallback; 25/30 sampled titles passed media probes, known unavailable titles documented",
@@ -483,7 +489,7 @@
       ]
     },
     {
-      "file": "modules/Shahiid-2.1.1.zip",
+      "file": "modules/Shahiid-2.1.2.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Arabic Anime",
@@ -491,6 +497,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/shahiid.png"
       },
       "changelog": [
+        "2.1.2: Long series now enumerate to the end of a season (direct page walk, batched, up to ~1240 episodes with a 12s budget) instead of stopping at 500 - One Piece went from 530 to 860 reachable episodes in 13.3s, and the tail episode (1180) plays.",
+        "2.1.2: Film/landing entries that live under /seasons/ but carry no player now return an empty list with a log line instead of throwing, so they no longer surface as a broken screen.",
+        "2.1.2: Search ranks single specials, films and OVA reels below real seasons, so searching a long show no longer opens a one-episode special first.",
+        "2.1.2: Release gate ALL_PASSED (Package/Home/Search/Details/Streams 3/3); house tester PASS 28 / FAIL 0. Arabic sub/dub isolation and the player chain are unchanged.",
         "2.1.1: Home opens show catalogues instead of individual episodes; fixes long-list pagination and special episode mapping",
         "2.1.1: Adds server choices, truthful quality labels, poster parsing and short-lived repeated-search caching",
         "2.1.1: Owner-approved release with known upstream unavailable episodes; see docs/SHAHIID_2_1_1_RELEASE.md",
@@ -618,7 +628,7 @@
       ]
     },
     {
-      "file": "modules/MovieDB-0.1.0-beta.9.zip",
+      "file": "modules/MovieDB-0.1.0-beta.14.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Fast one-call movie & TV streams (Beta)",
@@ -627,7 +637,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/moviedb.png?v=20260922-1"
       },
       "changelog": [
-        "0.1.0-beta.9: The player's server list now offers every verified route - the primary VidLove server plus live VidZen backups (Purstream / PlayIMDb) whenever the title has them, each independently validated. Server names now match the site's own naming (VidLove / VidZen) instead of internal source codes, and VidZen's relative server URLs resolve correctly.",
+        "0.1.0-beta.14: TEST catch-up to production 0.1.0-beta.13 playback code, retaining V9 exact TV fallback mapping. Native playback reliability remains under testing.",
+        "0.1.0-beta.13: Streams are accepted in every format the source serves — direct MP4 and TS files now play exactly like HLS, with the format detected from the actual bytes instead of assumed. Fixes titles (e.g. The Mentalist) that played on the site but showed “no playable stream” in the app.",
+        "0.1.0-beta.12: Verified backup servers can start playback without waiting for a stalled primary; resolution and optional subtitle waits are bounded. Fresh retries bypass stale and failed cache entries, and obsolete requests cannot overwrite newer results. Invalid media responses and broken quality routes are skipped; headers and subtitles stay attached to their own route.",
+        "Quality labels follow available manifest dimensions, not invented qualities. Provider labels and availability can still be inaccurate. Automated decoder samples passed; not every advertised quality or physical-device workflow is certified.",
         "0.1.0-beta.8: First public beta of the MovieDB engine (moviedb.wiki) - one-call playback resolve: a single request returns the adaptive HLS stream plus every subtitle language the source carries (English first; up to 150+ tracks on some titles). Two independent stream providers with automatic failover and seven per-source variants; every resolve is byte-validated and a background prefetch starts playback instantly. Movies and full seasons/episodes with real paginated discovery feeds. Not the default movie source - install alongside Synthetiq Movies.",
         "Owner-approved public beta for all-user testing. Source-side notes: subtitle availability varies by title (some classics carry none) and can be momentarily flaky - the module retries automatically. Original audio; dubs are not labelled because the source does not carry them. Playback reports welcome in the Discord support channels."
       ]
@@ -646,7 +659,43 @@
         "iconUrl": "https://ani.pm/apple-touch-icon.png"
       },
       "changelog": [
-        "TEST ONLY: intentionally fails every stream request to exercise fallback into real AniPM. Adopt its fallback group before testing."
+        "TEST ONLY: intentionally fails every stream request to exercise fallback into real AniPM. Updated Player V9 (9.0.55+) auto-imports compatible groups when both member packages are installed; it does not auto-install modules or certify playback reliability."
+      ]
+    },
+    {
+      "file": "modules/CimaClub-1.2.0.zip",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Arabic subtitled movies, series and anime",
+        "recommended": false,
+        "language": "Arabic (subtitled)",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/cimacub.png?v=20261005-1"
+      },
+      "changelog": [
+        "1.2.0: Fixes the episode failures reported on this source. The site repeats its players in a download section that can carry a mirror the server list omits - those extra mirrors are now used too, so episodes whose three listed servers were all deleted play again instead of reporting no link. No identity change.",
+        "1.1.0: Much faster home screen (the newest row and the three themed rows now load together instead of one after another: measured 8.4s -> 1.3s), plus verified server handling. Only the mirror family that can actually deliver video is offered: the site's DoodStream servers sit behind a bot wall, and its cybervynx servers were traced to playlists filled with ad images rather than video, so they are skipped instead of showing an option that cannot play. Source-side note: individual mirrors often go dead at the host - those episodes report honestly that no link is available rather than playing nothing.",
+        "1.0.0: First release of the CimaClub engine (w.cimacub.com) - Arabic subtitled movies, series and anime. The catalogue is read straight from the site's own WordPress API (search, newest-episode home rows and a paged feed), so titles and posters come from the source itself. Playback follows each episode's watch page to its MixDrop servers and resolves the player's signed mp4 url per play - those links expire in about four hours, so nothing is cached, and the mirror list cascades automatically until a live one answers. Not the default movie source; install alongside your others.",
+        "Owner-approved public release for all-user testing. Source-side notes: some mirror links are already dead at the host and get skipped automatically, and the alternative DoodStream servers sit behind a bot wall so they are not offered. Subtitles on this site are burned into the source video. Playback reports welcome in the Discord support channels."
+      ]
+    },
+    {
+      "file": "modules/Anime4up-1.0.0-beta.10.zip",
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Arabic Anime",
+        "recommended": false,
+        "language": "Arabic",
+        "languages": [
+          "sub",
+          "dub"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anime4up.png?v=20261006-1"
+      },
+      "changelog": [
+        "1.0.0-beta.10: Fixes episodes that ended with no playable servers. The module read JSON responses through text(), and the app runtime returns an EMPTY text() for JSON (the parsed value is only exposed through json()) - so every Share4Max mirror list was lost, and only the HTML-based hosts could ever play. JSON is now read through json(); the Share4Max payload parser also accepts both payload shapes, and its phase is bounded to 9s so it cannot spend the whole episode budget.",
+        "1.0.0-beta.10: Identity assigned SP-VID-101-ANIME4UP (number 101; 100 belongs to Synthetiq-One in the video range - the signed pipeline rejects duplicates). Community module, first catalogue release.",
+        "1.0.0-beta.10: Verified on 6 live Share4Max shares (6/6 resolve after the fix, 0/6 before; avg 4.5s), 20/20 offline parser checks, 2,000 real episode URLs accepted. Community-built module, first catalogue release.",
+        "1.0.0-beta.8: Community build - Arabic anime catalogue from anime4up with Share4Max mirror resolution prioritised for direct playback."
       ]
     }
   ]

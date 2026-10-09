@@ -1,0 +1,76 @@
+{
+  "scope": "Only X-Stream and MovieDB candidate updates; no publication or repository metadata edit performed by this task.",
+  "mergedManifestConfigKeys": [
+    "catalogueMapping",
+    "sourceFallbacks"
+  ],
+  "mergePolicy": "Preserve every production manifest field and production config key; add only the two absent TEST fallback compatibility keys. Preserve production index.js bytes exactly.",
+  "sourceArchives": [
+    {
+      "path": "upstream/X-Stream-1.3.3.zip",
+      "sha256": "63534f4b3a4a5e2bd15c4e1ddefd96fc20cc2009ea1eb851bc46c34d3c0a7148"
+    },
+    {
+      "path": "upstream/MovieDB-0.1.0-beta.13.zip",
+      "sha256": "109180c8c90c74011780d796cec733dc68fb256742ef630064ea1ef36467325c"
+    }
+  ],
+  "entriesToIntegrate": [
+    {
+      "moduleId": "xstream-v1",
+      "moduleFamilyId": "xstream_v1",
+      "moduleIdentity": "SP-VID-048-XSTREAM",
+      "moduleIdentityNumber": 48,
+      "contentType": "video",
+      "version": "1.3.4-beta.1",
+      "minAppVersion": "9.0.55",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/X-Stream-1.3.4-beta.1.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/X-Stream-1.3.4-beta.1.zip",
+      "sha256": "46219c0bddd69a1d9ea26582ae2dbedf504903bd57b3544956b5ea426a781441",
+      "signature": "",
+      "mergedConfigKeys": [
+        "catalogueMapping",
+        "sourceFallbacks"
+      ],
+      "productionIndexJsSha256": "49bbe02eb5ff7947dc225411ebf63d96066296a597767aa0ff3efd7ba9f9ada9",
+      "sourceProductionVersion": "1.3.3",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Movies & TV",
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"
+      }
+    },
+    {
+      "moduleId": "moviedb-wiki-v1",
+      "moduleFamilyId": "moviedb_wiki_v1",
+      "moduleIdentity": "SP-VID-083-MOVIEDB",
+      "moduleIdentityNumber": 83,
+      "contentType": "video",
+      "version": "0.1.0-beta.14",
+      "minAppVersion": "9.0.55",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/MovieDB-0.1.0-beta.14.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/MovieDB-0.1.0-beta.14.zip",
+      "sha256": "53bce581f7bad661ef53cdda804f307d2b4efa47f81cb59f8d619aa4b140d6d1",
+      "signature": "",
+      "mergedConfigKeys": [
+        "catalogueMapping",
+        "sourceFallbacks"
+      ],
+      "productionIndexJsSha256": "9e48c75fffd43f91aadef20b47f805ec7b4bd660074187e9c0ce985b0f5d5695",
+      "sourceProductionVersion": "0.1.0-beta.13",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Fast one-call movie & TV streams (Beta)",
+        "recommended": false,
+        "language": "Original audio / any-language subtitles",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/moviedb.png?v=20260922-1"
+      }
+    }
+  ],
+  "integrationNotes": [
+    "Keep each module's existing TEST presentation metadata when integrating.",
+    "Assign publication timestamp and any repository signing data only in the normal integration workflow.",
+    "These archive checks do not certify playback or physical-device behavior."
+  ]
+}
