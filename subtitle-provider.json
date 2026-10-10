@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "repositoryId": "module-testing-pl",
+  "publishedAtMs": 1791588429776,
+  "provider": {
+    "providerID": "synthetiq-subtitles",
+    "version": 1,
+    "type": "native",
+    "endpoint": "https://one.synthetiq.uk/player/subtitles/v1",
+    "config": {
+      "minAppVersion": "9.0.74"
+    },
+    "signature": "/sYHt+kSReVOtaOkW6R+RYNHUTN6gfQvhrsuTGlWs4FP6/dgFNz9h3CFVggeXTBqw4a4hGeJ+5dfbIjHB9r+hg=="
+  }
+}

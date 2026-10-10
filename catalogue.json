@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 136,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-136.zip",
+  "bundleVersion": 137,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-137.zip",
   "minAppVersion": "9.0.55",
   "modules": [
     {
