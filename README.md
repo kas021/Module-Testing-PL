@@ -28,7 +28,7 @@ In Player, open **Settings → Artwork & Metadata**, enter the TEST repository U
 
 ## Current V9 Test Bundle
 
-The active TEST catalogue is bundle 136 with 39 modules. It brings across the current published KickAssAnime, Shahiid, Cimacub and Anime4up packages. MovieDB and X-Stream retain the V9 exact-TV fallback metadata on top of their newer published playback code. Historical packages remain for rollback; catalogue removal does not erase installed modules or downloads.
+The active TEST catalogue is bundle 138 with 40 modules. It brings across the current published KickAssAnime, Shahiid, Cimacub and Anime4up packages, and adds **SoloLatino 0.1.0-beta.5** — a new Spanish-Latino source (sololatino.net) for movies, series and anime (see `candidates/sololatino-20261011/README.md` for its verification record and known limits). MovieDB and X-Stream retain the V9 exact-TV fallback metadata on top of their newer published playback code. Historical packages remain for rollback; catalogue removal does not erase installed modules or downloads.
 
 It retains Flux `1.0.3-beta.8`, Synthetiq Anime `1.0.5-beta.3`, AniKoto `5.0.5-beta.3` and AniPM `0.1.0-beta.5`. Three real compatible sets are included: AniKoto/AniPM, Flux/Synthetiq Anime, and MovieDB/X-Stream (TV only). The diagnostic AniPM failure fixture is also retained. Updated Player V9 imports compatible defaults on; a user's explicit Off remains Off. Module updates alone cannot add automatic recovery to an older app binary. Native playback and download reliability remain under testing; this is not a production certification.
 
@@ -36,7 +36,7 @@ It retains Flux `1.0.3-beta.8`, Synthetiq Anime `1.0.5-beta.3`, AniKoto `5.0.5-b
 
 - `repository.json` is the unsigned Player index. Its package URLs point to matching files in this repository when those files are present.
 - `catalogue.json` mirrors the current TEST index for authoring and packaging; it defines no default modules.
-- `modules/` and `bundles/` retain copied production archives and historical TEST packages/bundles. Bundle 136 retains the metadata mapping pilots and the intentionally failing AniPM fallback fixture.
+- `modules/` and `bundles/` retain copied production archives and historical TEST packages/bundles. Bundle 138 retains the metadata mapping pilots and the intentionally failing AniPM fallback fixture.
 - `artworkModules` lists separately previewable artwork JSON packages; each descriptor carries a TEST-owned package URL and SHA-256.
 - `sources/`, `assets/`, and `docs/` are copied production source, artwork, and documentation. `docs/artwork-pilot-evidence/` contains the Flux pilot's Home/details fixtures and fixture test.
 - No production publishing workflow or signing credential belongs in this repository.

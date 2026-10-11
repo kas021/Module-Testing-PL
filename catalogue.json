@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 137,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-137.zip",
+  "bundleVersion": 138,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-138.zip",
   "minAppVersion": "9.0.55",
   "modules": [
     {
@@ -696,6 +696,26 @@
         "1.0.0-beta.10: Identity assigned SP-VID-101-ANIME4UP (number 101; 100 belongs to Synthetiq-One in the video range - the signed pipeline rejects duplicates). Community module, first catalogue release.",
         "1.0.0-beta.10: Verified on 6 live Share4Max shares (6/6 resolve after the fix, 0/6 before; avg 4.5s), 20/20 offline parser checks, 2,000 real episode URLs accepted. Community-built module, first catalogue release.",
         "1.0.0-beta.8: Community build - Arabic anime catalogue from anime4up with Share4Max mirror resolution prioritised for direct playback."
+      ]
+    },
+    {
+      "file": "modules/SoloLatino-0.1.0-beta.5.zip",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Spanish-Latino movies, series and anime",
+        "recommended": false,
+        "language": "Español Latino",
+        "languages": [
+          "dub"
+        ],
+        "iconUrl": "https://sololatino.net/images/logo.png"
+      },
+      "changelog": [
+        "0.1.0-beta.5 - new TEST source: SoloLatino (sololatino.net), Spanish-Latino movies, series and anime.",
+        "Search runs on the site's own JSON API; every season's episodes come from the series pages.",
+        "Playback decodes the site's embedded player module-side (client-side proof-of-work + AES-decrypted server links) and resolves Vidhide-family servers with real quality labels (e.g. 720p).",
+        "Verified: house tester PASS, release gate ALL_PASSED (segments byte-verified on first attempt), both app runtimes (8.5.33 + V9) ALL PASS, S2 quick PASS with Spanish audio confirmed.",
+        "Known limits: the site's PREMIUM player host is dead server-side and unused; Streamwish/Voe mirrors are not resolved yet; Spanish audio only; the source serves no caption tracks."
       ]
     }
   ]
