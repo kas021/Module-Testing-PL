@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 138,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-138.zip",
+  "bundleVersion": 139,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-139.zip",
   "minAppVersion": "9.0.55",
   "modules": [
     {
@@ -699,7 +699,7 @@
       ]
     },
     {
-      "file": "modules/SoloLatino-0.1.0-beta.5.zip",
+      "file": "modules/SoloLatino-0.1.0-beta.6.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Spanish-Latino movies, series and anime",
@@ -711,6 +711,7 @@
         "iconUrl": "https://sololatino.net/images/logo.png"
       },
       "changelog": [
+        "0.1.0-beta.6 - testing identity corrected to SP-VID-067-SOLOLATINO: the previous 0.1.0-beta.5 package reused identity number 61 (owned by AnimeUnity), which made the app reject the whole TEST repository with \"duplicate module identity numbers\". The package itself is unchanged.",
         "0.1.0-beta.5 - new TEST source: SoloLatino (sololatino.net), Spanish-Latino movies, series and anime.",
         "Search runs on the site's own JSON API; every season's episodes come from the series pages.",
         "Playback decodes the site's embedded player module-side (client-side proof-of-work + AES-decrypted server links) and resolves Vidhide-family servers with real quality labels (e.g. 720p).",

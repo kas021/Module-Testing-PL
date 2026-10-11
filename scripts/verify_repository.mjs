@@ -280,10 +280,18 @@ if (!Array.isArray(index.modules) || !Array.isArray(catalogue.modules)) {
 
 const modulePaths = new Map();
 const moduleIds = new Set();
+const identityNumbers = new Map();
 for (const module of index.modules) {
   const label = `module ${module?.moduleId || '(missing id)'}`;
   if (!module?.moduleId || moduleIds.has(module.moduleId)) fail(label, 'moduleId is missing or duplicated');
   moduleIds.add(module?.moduleId);
+  const identity = module?.moduleIdentityNumber;
+  if (identity != null) {
+    if (identityNumbers.has(identity)) {
+      fail(label, `duplicate module identity number ${identity} (already used by ${identityNumbers.get(identity)}); the app rejects the whole repository for this`);
+    }
+    identityNumbers.set(identity, module.moduleId);
+  }
   const file = packageFile(label, module, { requirePackagePath: true });
   if (file) {
     if (!file.relative.startsWith('modules/')) fail(label, 'module packageUrl must point into modules/');

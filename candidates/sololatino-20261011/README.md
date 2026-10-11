@@ -1,11 +1,11 @@
-# SoloLatino 0.1.0-beta.5 — new TEST source
+# SoloLatino 0.1.0-beta.6 — new TEST source
 
 11 October 2026. Target device builds verified: Player **8.5.33+95** and the **V9 line (9.0.71+250)**.
 
 ## What it is
 
 - New source: **sololatino.net** — Spanish-Latino movies, series and anime.
-- Module `sololatino-v1`, identity `SP-VID-061-SOLOLATINO` (video #61), contract 4 with `discovery_v1`.
+- Module `sololatino-v1`, identity `SP-VID-067-SOLOLATINO` (video #67), contract 4 with `discovery_v1`.
 - Home rows + paginated series/movies feeds, keyless search on the site's own JSON API.
 
 ## What was verified
@@ -44,3 +44,13 @@ label (e.g. "720p"). Everything the app shows is derived from bytes the source a
   card (if an older copy is installed, delete it first), or import the ZIP manually.
 - Good first tries: search **Mr. Robot** (44 episodes, 4 seasons), a movie like **Hugo 24**, and a current
   show like **El Señor de los Cielos T10E52**.
+
+## Update — 11 October, same day
+
+The first package (`0.1.0-beta.5`) reused identity number **61**, which `animeunity-v1` already owns, and
+the app rejected the **whole TEST repository** with "Repository contains duplicate module identity
+numbers". The package was re-cut as **0.1.0-beta.6** with identity **`SP-VID-067-SOLOLATINO`** (verified
+free in the local registry and both live indexes), and `0.1.0-beta.5` was withdrawn from the index,
+catalogue and bundle (its ZIP stays in `modules/` for rollback). Nothing in the module code changed.
+`scripts/verify_repository.mjs` now also fails on any duplicate identity number, so this cannot ship
+again unnoticed.
