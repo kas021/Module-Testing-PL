@@ -5,6 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { signatureErrors } from './repository_signatures.mjs';
 
 const owner = 'kas021';
 const repository = 'Module-Testing-PL';
@@ -277,6 +278,8 @@ if (!Array.isArray(index.modules) || !Array.isArray(catalogue.modules)) {
   console.error(errors.join('\n'));
   process.exit(1);
 }
+
+errors.push(...signatureErrors(index, { allowCommunityIndex: true }));
 
 const modulePaths = new Map();
 const moduleIds = new Set();

@@ -10,6 +10,7 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+import subprocess
 import time
 from zipfile import ZipFile, ZIP_DEFLATED
 
@@ -164,3 +165,5 @@ for path, value in (
         sums += f"{value}  {path}\n"
 (ROOT / "SHA256SUMS").write_text(sums)
 print("SHA256SUMS updated")
+subprocess.run(["node", str(ROOT / "scripts/sign_repository.mjs"),
+                "--community", "--write"], check=True)

@@ -8,6 +8,7 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+import subprocess
 import time
 from zipfile import ZipFile, ZIP_DEFLATED
 
@@ -144,3 +145,5 @@ for line in (f"{package_hash}  {RELATIVE}", f"{bundle_hash}  bundles/Synthetiq-M
     sums += line + "\n"
 (ROOT / "SHA256SUMS").write_text(sums)
 print("SHA256SUMS updated with the package and bundle lines")
+subprocess.run(["node", str(ROOT / "scripts/sign_repository.mjs"),
+                "--community", "--write"], check=True)

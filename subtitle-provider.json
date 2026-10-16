@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repositoryId": "module-testing-pl",
-  "publishedAtMs": 1791588429776,
+  "publishedAtMs": 1792060758230,
   "provider": {
     "providerID": "synthetiq-subtitles",
     "version": 1,
@@ -10,6 +10,6 @@
     "config": {
       "minAppVersion": "9.0.74"
     },
-    "signature": "/sYHt+kSReVOtaOkW6R+RYNHUTN6gfQvhrsuTGlWs4FP6/dgFNz9h3CFVggeXTBqw4a4hGeJ+5dfbIjHB9r+hg=="
+    "signature": "Myc6LTDAMXITMPyReIdnt6hYsgVhqr+rJnAO/gusgn8vcu2xOLOFB0z27/5s89w6CUWdXyyUAefAPd1oPcFwzQ=="
   }
 }
