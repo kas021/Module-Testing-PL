@@ -3,9 +3,9 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 141,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-141.zip",
-  "minAppVersion": "9.0.55",
+  "bundleVersion": 142,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-142.zip",
+  "minAppVersion": "9.0.90",
   "modules": [
     {
       "file": "modules/Synthetiq-Anime-1.0.5-beta.3.zip",
@@ -715,6 +715,18 @@
         "Playback decodes the site's embedded player module-side (client-side proof-of-work + AES-decrypted server links) and resolves Vidhide-family servers with real quality labels (e.g. 720p).",
         "Verified: house tester PASS, release gate ALL_PASSED (segments byte-verified on first attempt), both app runtimes (8.5.33 + V9) ALL PASS, S2 quick PASS with Spanish audio confirmed.",
         "Known limits: the site's PREMIUM player host is dead server-side and unused; Streamwish/Voe mirrors are not resolved yet; Spanish audio only; the source serves no caption tracks."
+      ]
+    },
+    {
+      "file": "modules/DW-Live-0.1.0-beta.3.zip",
+      "presentation": {
+        "category": "Live TV",
+        "language": "English / Spanish / Arabic",
+        "iconUrl": "https://www.dw.com/images/icons/favicon-180x180.png"
+      },
+      "changelog": [
+        "TEST-only official DW English, Spanish and Arabic live news channels. Requires Player 9.0.90 for the Live clock/resume fixes.",
+        "beta.3 corrects the private candidate identity collision with Flux; playback JavaScript is byte-identical to beta.2. Physical-device acceptance remains pending."
       ]
     }
   ]

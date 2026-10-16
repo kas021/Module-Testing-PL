@@ -1,0 +1,20 @@
+{
+  "id": "dw-live-v1",
+  "name": "DW Live",
+  "contentType": "video",
+  "contractVersion": 4,
+  "moduleVersion": "0.1.0-beta.3",
+  "moduleFamilyId": "dw_live_v1",
+  "moduleIdentity": "SP-VID-110-DW-LIVE",
+  "moduleIdentityNumber": 110,
+  "releaseTrack": "beta",
+  "moduleStatus": "trial",
+  "description": "Official DW English, Spanish and Arabic news feeds. V9 testing candidate.",
+  "presentation": {"category": "Live TV", "language": "English / Spanish / Arabic", "iconUrl": "https://www.dw.com/images/icons/favicon-180x180.png"},
+  "config": {
+    "baseUrl": "https://www.dw.com",
+    "runtime": {"entry": "index.js", "mode": "local"},
+    "capabilities": {"live_discovery_v1": true},
+    "caps": {"homeMaxResults": 10, "maxResponseBytes": 1048576, "timeoutMs": 15000, "maxConcurrentRequests": 1}
+  }
+}
