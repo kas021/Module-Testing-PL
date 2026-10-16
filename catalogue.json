@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 144,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-144.zip",
+  "bundleVersion": 145,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-145.zip",
   "minAppVersion": "9.0.91",
   "modules": [
     {
@@ -739,6 +739,19 @@
       "changelog": [
         "TEST-only cricket update for Player 9.0.91. Willow passed the actual native V9 Live player: sustained playback, pause/resume and fresh Go Live.",
         "Supports validated wrapped Live video; removes false off-air detection based on image filenames. Broadcasts can include replays. General S2 Willow journey still fails outside the native path; no all-channel or Android certification."
+      ]
+    },
+    {
+      "file": "modules/Public-Sports-Live-0.1.0-beta.5.zip",
+      "presentation": {
+        "category": "Live TV",
+        "purpose": "Sports",
+        "language": "English"
+      },
+      "changelog": [
+        "Optional TEST-only public sports IPTV trial: FIFA+ Women, FUEL TV, Red Bull TV UK, World of Freesports and SportsGrid.",
+        "Adaptive broadcaster quality; schedules may include replays or studio coverage, and regional availability varies. No premium-match guarantee.",
+        "S2 PASS: native simulator sample and real runtime passed. Five feeds decoded locally; not all channels or devices are certified."
       ]
     }
   ]
