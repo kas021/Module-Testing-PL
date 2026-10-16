@@ -3,9 +3,9 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 143,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-143.zip",
-  "minAppVersion": "9.0.90",
+  "bundleVersion": 144,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-144.zip",
+  "minAppVersion": "9.0.91",
   "modules": [
     {
       "file": "modules/Synthetiq-Anime-1.0.5-beta.3.zip",
@@ -730,15 +730,15 @@
       ]
     },
     {
-      "file": "modules/TVApp-Live-0.1.0-beta.8.zip",
+      "file": "modules/TVApp-Live-0.1.0-beta.10.zip",
       "presentation": {
         "category": "Live TV",
         "language": "English",
         "iconUrl": "https://tvapp1.com/favicon-512x512.png"
       },
       "changelog": [
-        "TEST-only sports Live trial. Rally TV passed native V9 playback; other sports routes can be blocked or off air. Requires Player 9.0.90.",
-        "beta.8 checks playlists and tries up to three distinct provider routes. Rally TV programming is verified, not a current live match; phone acceptance remains pending."
+        "TEST-only cricket update for Player 9.0.91. Willow passed the actual native V9 Live player: sustained playback, pause/resume and fresh Go Live.",
+        "Supports validated wrapped Live video; removes false off-air detection based on image filenames. Broadcasts can include replays. General S2 Willow journey still fails outside the native path; no all-channel or Android certification."
       ]
     }
   ]
