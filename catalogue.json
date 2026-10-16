@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 142,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-142.zip",
+  "bundleVersion": 143,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-143.zip",
   "minAppVersion": "9.0.90",
   "modules": [
     {
@@ -727,6 +727,18 @@
       "changelog": [
         "TEST-only official DW English, Spanish and Arabic live news channels. Requires Player 9.0.90 for the Live clock/resume fixes.",
         "beta.3 corrects the private candidate identity collision with Flux; playback JavaScript is byte-identical to beta.2. Physical-device acceptance remains pending."
+      ]
+    },
+    {
+      "file": "modules/TVApp-Live-0.1.0-beta.8.zip",
+      "presentation": {
+        "category": "Live TV",
+        "language": "English",
+        "iconUrl": "https://tvapp1.com/favicon-512x512.png"
+      },
+      "changelog": [
+        "TEST-only sports Live trial. Rally TV passed native V9 playback; other sports routes can be blocked or off air. Requires Player 9.0.90.",
+        "beta.8 checks playlists and tries up to three distinct provider routes. Rally TV programming is verified, not a current live match; phone acceptance remains pending."
       ]
     }
   ]
