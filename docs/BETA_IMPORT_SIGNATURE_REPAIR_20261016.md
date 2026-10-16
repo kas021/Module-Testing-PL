@@ -63,5 +63,14 @@ Do not uninstall Player or clear data. An installation bound to an older fully
 signed TEST generation may need the explicit repository import again to move
 to community provenance; do not silently downgrade an existing trust binding.
 
-Publication and a fresh live fetch will be recorded separately after approval
-and validation. This is a TEST-repository repair, not a production app release.
+## Publication
+
+Committed as b9e29c3 and published by fast-forward to TEST repository main.
+A fresh no-cache fetch of the public raw index matched the tested candidate
+exactly. The unchanged production repository was not written. Verified retry
+instructions were posted in Discord V9 feedback, message 1560600623043453039;
+additional replies covered the JSON import path, beta features, Android access
+and the deferred Live TV phase. No everyone notification was sent this time.
+
+Physical iPhone retry confirmation remains separate from metadata verification.
+This is a TEST-repository repair, not a new production app release.
