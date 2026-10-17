@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 145,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-145.zip",
+  "bundleVersion": 146,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-146.zip",
   "minAppVersion": "9.0.91",
   "modules": [
     {
@@ -752,6 +752,19 @@
         "Optional TEST-only public sports IPTV trial: FIFA+ Women, FUEL TV, Red Bull TV UK, World of Freesports and SportsGrid.",
         "Adaptive broadcaster quality; schedules may include replays or studio coverage, and regional availability varies. No premium-match guarantee.",
         "S2 PASS: native simulator sample and real runtime passed. Five feeds decoded locally; not all channels or devices are certified."
+      ]
+    },
+    {
+      "file": "modules/Movy-0.1.0-beta.1.zip",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Movies & TV",
+        "language": "Original audio; source subtitles"
+      },
+      "changelog": [
+        "New TEST source: movies and TV from movy.sx (TMDB catalogue). Original-audio servers up to 4K with source subtitles; matching Hindi/Spanish/French/German servers for films in those languages, and labelled dubbed servers only when no original audio exists.",
+        "Coverage: 45 of 48 varied movies resolved (median 5 s); the 3 misses are not available on movy.sx itself. The site rate-limits stream requests; on a limit the module asks you to wait about two minutes.",
+        "Real Flutter runtime and S2 media/language checks passed (English audio and subtitles confirmed). Native iOS Simulator and device playback have NOT been run yet."
       ]
     }
   ]
