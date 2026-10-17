@@ -764,7 +764,7 @@
       "changelog": [
         "New TEST source: movies and TV from movy.sx (TMDB catalogue). Original-audio servers up to 4K with source subtitles; matching Hindi/Spanish/French/German servers for films in those languages, and labelled dubbed servers only when no original audio exists.",
         "Coverage: 45 of 48 varied movies resolved (median 5 s); the 3 misses are not available on movy.sx itself. The site rate-limits stream requests; on a limit the module asks you to wait about two minutes.",
-        "Real Flutter runtime and S2 media/language checks passed (English audio and subtitles confirmed). Native iOS Simulator and device playback have NOT been run yet."
+        "S2 PASS: real Flutter runtime, media checks, English audio/subtitles and native iOS Simulator playback (play, advance, seek) passed. Not yet tested on a physical device."
       ]
     }
   ]
