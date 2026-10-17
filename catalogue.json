@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 148,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-148.zip",
+  "bundleVersion": 149,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-149.zip",
   "minAppVersion": "9.0.92",
   "modules": [
     {
@@ -770,7 +770,7 @@
       ]
     },
     {
-      "file": "modules/Public-TV-Live-0.1.0-beta.2.zip",
+      "file": "modules/Public-TV-Live-0.1.0-beta.4.zip",
       "presentation": {
         "category": "Live TV",
         "purpose": "General",
@@ -778,9 +778,9 @@
         "language": "Multiple languages"
       },
       "changelog": [
-        "Optional TEST-only active selection: ACI Sport TV, France 24 English, and France 24 Arabic. Al Arabiya is excluded because its stream was confirmed as ended DVR (EXT-X-ENDLIST). Channel audio languages have not been independently verified.",
-        "Included only after S2 PASS standard-profile runtime and native simulator live-fixture acceptance for this exact candidate ZIP.",
-        "This repository preparation is not a public release or a guarantee of future channel availability."
+        "Expanded active-only public TV selection after two bounded decodes and fresh module live-playlist checks. Failed and unverified candidates remain hidden.",
+        "Sports channels may broadcast replays or news; no guarantee that a live football or cricket match is currently on air. Regional availability varies.",
+        "Exact package passed S2 standard native simulator playback. Physical-device and all-region acceptance are separate."
       ]
     }
   ]
