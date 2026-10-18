@@ -5,7 +5,7 @@
   "enabled": true,
   "bundleVersion": 149,
   "bundleFile": "bundles/Synthetiq-Module-Bundle-149.zip",
-  "minAppVersion": "9.0.92",
+  "minAppVersion": "9.0.0",
   "modules": [
     {
       "file": "modules/Synthetiq-Anime-1.0.5-beta.4.zip",

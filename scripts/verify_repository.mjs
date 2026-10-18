@@ -6,6 +6,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { signatureErrors } from './repository_signatures.mjs';
+import { v9CompatibilityErrors } from './v9_compatibility.mjs';
 
 const owner = 'kas021';
 const repository = 'Module-Testing-PL';
@@ -280,6 +281,7 @@ if (!Array.isArray(index.modules) || !Array.isArray(catalogue.modules)) {
 }
 
 errors.push(...signatureErrors(index, { allowCommunityIndex: true }));
+errors.push(...v9CompatibilityErrors(index, catalogue));
 
 const modulePaths = new Map();
 const moduleIds = new Set();

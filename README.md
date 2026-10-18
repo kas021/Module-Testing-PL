@@ -28,7 +28,23 @@ In Player, open **Settings → Artwork & Metadata**, enter the TEST repository U
 
 ## Current V9 Test Bundle
 
-The active TEST catalogue is bundle 141 with 40 modules. It brings across the current published KickAssAnime, Shahiid, Cimacub and Anime4up packages, adds **SoloLatino 0.1.0-beta.6** (`SP-VID-067-SOLOLATINO`) — a new Spanish-Latino source (sololatino.net) for movies, series and anime (see `candidates/sololatino-20261011/README.md` for its verification record and known limits) — carries **MegaKino 1.1.5** (host-rotation fix; `candidates/megakino-host-fix-20261011/README.md`) and **DramaCool 1.0.2** (subtitle fix; `candidates/dramacool-1.0.2-20261015/README.md`). MovieDB and X-Stream retain the V9 exact-TV fallback metadata on top of their newer published playback code. Historical packages remain for rollback; catalogue removal does not erase installed modules or downloads.
+**V9 import compatibility:** Use the normal direct index above on any V9 build.
+Bundle 149 contains 45 sources and now has an import floor of **9.0.0**, rather
+than a particular beta patch. Existing 8.0.0-compatible source requirements are
+unchanged. Package hashes, identity checks and native provider signatures still
+apply. This does not backport newer player features: Live TV improvements,
+subtitle integration and automatic fallback behaviour depend on the installed
+app. Do not uninstall Player or clear data to retry an import.
+
+The `beta-261/repository.json` link remains available as an unchanged, frozen
+40-source snapshot for rollback. It is no longer required for ordinary V9 imports.
+Run `node scripts/verify_repository.mjs` before publishing; it rejects accidental
+patch-specific import requirements in the public V9 catalogue. New functionality
+must degrade independently rather than blocking the entire repository.
+
+### Earlier Bundle 141 Baseline
+
+Bundle 141 had 40 modules. It brought across the published KickAssAnime, Shahiid, Cimacub and Anime4up packages, added **SoloLatino 0.1.0-beta.6** (`SP-VID-067-SOLOLATINO`) — a Spanish-Latino source (sololatino.net) for movies, series and anime (see `candidates/sololatino-20261011/README.md` for its verification record and known limits) — carried **MegaKino 1.1.5** (host-rotation fix; `candidates/megakino-host-fix-20261011/README.md`) and **DramaCool 1.0.2** (subtitle fix; `candidates/dramacool-1.0.2-20261015/README.md`). MovieDB and X-Stream retain the V9 exact-TV fallback metadata on top of their newer published playback code. Historical packages remain for rollback; catalogue removal does not erase installed modules or downloads.
 
 It retains Flux `1.0.3-beta.8`, Synthetiq Anime `1.0.5-beta.3`, AniKoto `5.0.5-beta.3` and AniPM `0.1.0-beta.5`. Three real compatible sets are included: AniKoto/AniPM, Flux/Synthetiq Anime, and MovieDB/X-Stream (TV only). The diagnostic AniPM failure fixture is also retained. Updated Player V9 imports compatible defaults on; a user's explicit Off remains Off. Module updates alone cannot add automatic recovery to an older app binary. Native playback and download reliability remain under testing; this is not a production certification.
 

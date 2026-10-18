@@ -1,4 +1,4 @@
-// Frozen compatibility index. Never lower the current bundle's requirements.
+// Frozen rollback snapshot; current root V9 admission is verified separately.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';

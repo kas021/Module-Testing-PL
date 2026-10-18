@@ -11,8 +11,10 @@ It preserves the original publication timestamp, signatures and exact package ha
 Newer Live TV trials and Movy are excluded because their declared app requirements
 exceed this TestFlight build. This does not promise every upstream stream works.
 
-The root repository.json remains the newer development catalogue, requiring 9.0.92.
-Users already on a compatible newer build should continue using the root link.
-Do not lower that bundle's minimum to work around an old-client error.
+Update, 2026-10-18: the root repository now admits all V9 versions and is the
+recommended link for ordinary imports. This snapshot stays frozen for rollback;
+its older minimum versions and original signatures are intentionally unchanged.
+
+https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json
 
 Validation: node scripts/verify_beta_261.mjs
