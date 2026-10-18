@@ -8,8 +8,12 @@ import assert from 'node:assert/strict';
 import { signatureErrors } from './repository_signatures.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const original = execFileSync('git', ['show', 'b9e29c3:repository.json'], { cwd: root });
 const target = path.join(root, 'beta-261/repository.json');
+const original = process.argv.includes('--prepare')
+  ? execFileSync('git', ['show', 'b9e29c3:repository.json'], { cwd: root })
+  : fs.readFileSync(target);
+assert.equal(createHash('sha256').update(original).digest('hex'),
+  '8608e21300291e738ac86509c53ff890dcf913a1628c8b944d72e9bd142e1f97');
 const index = JSON.parse(original);
 const compare = (a, b) => {
   const aa = a.split('.').map(Number), bb = b.split('.').map(Number);

@@ -396,6 +396,14 @@ if (index.catalogue && typeof index.catalogue === 'object' && index.catalogue.sh
 
 verifyChecksumManifest();
 
+if (fs.existsSync(path.join(root, 'beta-261/repository.json'))) {
+  try {
+    execFileSync(process.execPath, [path.join(root, 'scripts/verify_beta_261.mjs')], { stdio: 'pipe' });
+  } catch {
+    fail('beta-261', 'frozen compatibility index or referenced assets failed verification');
+  }
+}
+
 if (errors.length) {
   console.error(`Repository verification failed (${errors.length} issue${errors.length === 1 ? '' : 's'}):`);
   for (const error of errors) console.error(`- ${error}`);
