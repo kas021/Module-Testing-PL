@@ -1,0 +1,146 @@
+"""Publish DramaCool 1.0.3 (VidMoly captions) to the TESTING catalogue — bundle 147 -> 148.
+
+Same certified bytes as production.
+"""
+
+import hashlib
+import json
+from pathlib import Path
+import shutil
+import subprocess
+import time
+from zipfile import ZipFile, ZIP_DEFLATED
+
+ROOT = Path(__file__).resolve().parent.parent
+CERTIFIED = Path(
+    "/Users/khubaibshakh/Desktop/Synthetiq Player/dev_assets/modules/_development/"
+    "dramacool-subtitle-fix-20261011/DramaCool-1.0.3.zip"
+)
+EXPECTED_SHA = "abfed0370656fc7ae1c2e5e011148ffba2f982b385370c1a10aa6d891213a6e7"
+OLD_ZIP = "DramaCool-1.0.2.zip"
+NEW_ZIP = "DramaCool-1.0.3.zip"
+RELATIVE = "modules/" + NEW_ZIP
+NEW_BUNDLE = 150
+PREFIX = "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/"
+
+NEW_LINES = [
+    "1.0.3: Subtitles fixed for VidMoly-hosted dramas. The player page lists its caption files outside the video stream and the module never read that list, so BL and other dramas on VidMoly played without subtitles. Those tracks now appear (English first).",
+    "1.0.3: Home rows no longer show cards that have no poster.",
+]
+
+
+def digest(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def write_json(path, data):
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+
+
+package_bytes = CERTIFIED.read_bytes()
+package_hash = digest(package_bytes)
+assert package_hash == EXPECTED_SHA, f"certified hash mismatch: {package_hash}"
+with ZipFile(CERTIFIED) as archive:
+    manifest = None
+    for name in archive.namelist():
+        if name.endswith(".json"):
+            data = json.loads(archive.read(name))
+            if isinstance(data, dict) and data.get("id") == "dramacool-v1":
+                manifest = data
+    assert manifest, "manifest missing"
+    assert manifest["moduleVersion"] == "1.0.3", manifest["moduleVersion"]
+    assert manifest["moduleIdentity"] == "SP-VID-066-DRAMACOOL"
+    assert manifest["moduleIdentityNumber"] == 66
+target = ROOT / RELATIVE
+if target.exists():
+    assert digest(target.read_bytes()) == package_hash, "existing file differs"
+else:
+    shutil.copyfile(CERTIFIED, target)
+print(f"package  {RELATIVE} {package_hash[:16]}...")
+
+catalogue = json.loads((ROOT / "catalogue.json").read_text())
+assert catalogue["bundleVersion"] == 149, "unexpected catalogue base"
+old = [e for e in catalogue["modules"] if e["file"] == "modules/" + OLD_ZIP]
+assert len(old) == 1, "1.0.2 catalogue entry not found"
+kept = old[0].get("changelog", [])
+old[0]["file"] = RELATIVE
+old[0]["changelog"] = NEW_LINES + [line for line in kept if not line.startswith("1.0.3:")]
+assert all(e["file"] != "modules/" + OLD_ZIP for e in catalogue["modules"])
+catalogue["bundleVersion"] = NEW_BUNDLE
+catalogue["bundleFile"] = f"bundles/Synthetiq-Module-Bundle-{NEW_BUNDLE}.zip"
+write_json(ROOT / "catalogue.json", catalogue)
+print(f"catalogue {len(catalogue['modules'])} entries -> bundle {NEW_BUNDLE}")
+
+bundle_path = ROOT / f"bundles/Synthetiq-Module-Bundle-{NEW_BUNDLE}.zip"
+assert not bundle_path.exists(), f"bundle {NEW_BUNDLE} already exists"
+files = [entry["file"] for entry in catalogue["modules"]]
+with ZipFile(bundle_path, "w", ZIP_DEFLATED) as bundle:
+    for relative in files:
+        source = ROOT / relative
+        assert source.exists(), f"missing catalogue package {relative}"
+        bundle.write(source, Path(relative).name)
+with ZipFile(bundle_path) as bundle:
+    assert set(bundle.namelist()) == {Path(f).name for f in files}, "bundle contents mismatch"
+    assert NEW_ZIP in bundle.namelist()
+    assert OLD_ZIP not in bundle.namelist(), "superseded ZIP must not travel in the new bundle"
+bundle_hash = digest(bundle_path.read_bytes())
+print(f"bundle   {bundle_path.name} {bundle_hash[:16]}... ({len(files)} packages)")
+
+index = json.loads((ROOT / "repository.json").read_text())
+assert index["bundle"]["version"] == 149, "unexpected index base"
+entry = [m for m in index["modules"] if m["moduleId"] == "dramacool-v1"]
+assert len(entry) == 1 and entry[0]["version"] == "1.0.2", "unexpected index state"
+entry = entry[0]
+catalogue_entry = [e for e in catalogue["modules"] if e["file"] == RELATIVE][0]
+assert entry.get("presentation") == catalogue_entry.get("presentation"), "presentation drifted"
+now_ms = int(time.time() * 1000)
+entry["version"] = "1.0.3"
+entry["sha256"] = package_hash
+entry["packageUrl"] = PREFIX + RELATIVE
+entry["packagePath"] = "/kas021/Module-Testing-PL/main/" + RELATIVE
+entry["signature"] = ""
+entry["publishedAtMs"] = now_ms
+entry["changelog"] = catalogue_entry["changelog"]
+seen = {}
+for candidate in index["modules"]:
+    num = candidate["moduleIdentityNumber"]
+    assert num not in seen, f"duplicate identity number {num}"
+    seen[num] = candidate["moduleId"]
+index["testingIdentity"] = "|".join(
+    f"{m['moduleId']}:{m['version']}:{m['sha256']}" for m in index["modules"]
+)
+index["publishedAtMs"] = now_ms
+bundle_block = dict(index["bundle"])
+bundle_block.update({
+    "version": NEW_BUNDLE,
+    "packageUrl": PREFIX + f"bundles/Synthetiq-Module-Bundle-{NEW_BUNDLE}.zip",
+    "packagePath": f"/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-{NEW_BUNDLE}.zip",
+    "sha256": bundle_hash,
+    "signature": "",
+})
+index["bundle"] = bundle_block
+write_json(ROOT / "repository.json", index)
+print(f"index    {len(index['modules'])} modules, dramacool -> 1.0.3, bundle {NEW_BUNDLE}")
+
+sums_path = ROOT / "SHA256SUMS"
+sums = sums_path.read_text() if sums_path.exists() else ""
+if not sums.endswith("\n"):
+    sums += "\n"
+for path, value in ((RELATIVE, package_hash),
+                    (f"bundles/Synthetiq-Module-Bundle-{NEW_BUNDLE}.zip", bundle_hash)):
+    lines = sums.splitlines()
+    if any(line.endswith("  " + path) for line in lines):
+        sums = "\n".join(f"{value}  {path}" if line.endswith("  " + path) else line for line in lines) + "\n"
+    else:
+        sums += f"{value}  {path}\n"
+for self_path in ("catalogue.json", "repository.json"):
+    value = digest((ROOT / self_path).read_bytes())
+    lines = sums.splitlines()
+    for i, line in enumerate(lines):
+        if line.endswith("  " + self_path):
+            lines[i] = f"{value}  {self_path}"
+    sums = "\n".join(lines) + "\n"
+sums_path.write_text(sums)
+print("SHA256SUMS updated")
+subprocess.run(["node", str(ROOT / "scripts/sign_repository.mjs"), "--community", "--write"], check=True)
+print("signed")
