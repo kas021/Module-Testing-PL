@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 151,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-151.zip",
+  "bundleVersion": 152,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-152.zip",
   "minAppVersion": "9.0.0",
   "modules": [
     {
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "file": "modules/X-Stream-1.3.4-beta.1.zip",
+      "file": "modules/X-Stream-1.3.4-beta.2.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV",
@@ -232,6 +232,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"
       },
       "changelog": [
+        "1.3.4-beta.2: Playback restored — the old embed page stopped exposing its player for most titles, so the module now resolves through the provider's own JSON player API (page route kept as fallback). Results carry the primary URL, its headers and real quality labels (e.g. 536p). Verified: release gate ALL_PASSED, 16/17 sampled titles, 12 subtitle tracks on a movie.",
         "1.3.4-beta.1: TEST catch-up to production 1.3.3 playback code, retaining V9 exact TV fallback mapping. Native playback reliability remains under testing.",
         "1.3.3: Fixes Fresh Retry getting stuck after earlier provider failures; prevents stale requests overwriting refreshed links; respects provider cooldowns. Keeps 1.3.2's faster verified-route startup.",
         "Stricter film and season matching avoids substituting a different title or episode. Availability and quality still depend on the providers; this update does not make every title playable.",
