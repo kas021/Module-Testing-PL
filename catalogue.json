@@ -3,12 +3,12 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 153,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-153.zip",
+  "bundleVersion": 154,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-154.zip",
   "minAppVersion": "9.0.0",
   "modules": [
     {
-      "file": "modules/Synthetiq-Anime-1.0.5-beta.4.zip",
+      "file": "modules/Synthetiq-Anime-1.0.5-beta.8.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime",
@@ -21,19 +21,22 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-anime-1.0.2.png"
       },
       "changelog": [
-        "1.0.5-beta.4: Quality labels now report the real verified resolution - a single-height stream shows its actual height (e.g. 720p) instead of a bare \"Auto\", and the duplicate quality rows are gone.",
-        "1.0.5-beta.4: Same certified code as production. Streaming and subtitle handling unchanged; captions appear only when the source actually serves a subtitle track.",
-        "1.0.5-beta.3: TEST-only reciprocal Flux/Anime exact catalogue mapping for emitted AniList and MAL IDs. Fallback defaults import with the module and start on in the updated V9 app; playback JavaScript unchanged. Live language equivalence and playback are not certified.",
+        "1.0.5-beta.8: Updates provider response and token handling, with exact-title, episode and advertised audio checks on rescue routes. Restores provider-supplied English subtitle tokens and excludes thumbnail/storyboard tracks. Owner-requested live phone test; not full public-app certification. Source availability varies and physical acceptance is pending.",
+        "1.0.5-beta.4: Quality labels now report the real verified resolution. A single-height stream shows its actual height (e.g. 720p) instead of a bare \"Auto\", and the duplicate quality rows are gone. Fixes the report that the quality menu had no real options. Streaming and subtitle handling unchanged; captions appear only when the source actually serves a subtitle track.\n",
+        "1.0.5-beta.3: Search now groups every season of a show together, in order - searching a show name returns Season 1, 2, 3... (then movies/OVAs/specials) instead of a shuffled list, and result cards now show release years. Fixes the report that users had to type the show name with its season to reach the other seasons.",
         "1.0.5-beta.2: Restores stream resolution on the current rescue CDN routes. Fixes titles failing to load on the released app by raising the in-app probe budget (2MB to 4MB), accepting size-capped reachability, and preferring routes without player-broken segment names. Sub/Dub and subtitles unchanged; verified on the released app runtime and S2.",
         "1.0.4: Vidhawk-independent AniKage rescue source (labelled; used only when the primary has no verified media), byte-first segment validation, probe byte-cap fix for in-app playback, fair provider sweep and stalled-request caps. Fixes the module being fully dark during the Vidhawk media-relay outage.",
         "1.0.4: Rescue routes pass the same positive media validation as primary routes and are never substituted across languages; episodes the rescue sources do not carry remain unavailable with an honest message.",
         "Fresh provider links, available server alternatives, and provider captions with language labels.",
         "Short probes decoded 30/30 Sub and 29/30 Dub samples. These are not full-device playback or spoken-language certification.",
-        "Known issues remain: Spy x Family episode 1 Dub returned Japanese audio; Naruto episode 1 Dub failed one seeked media sample. See the release QA notes."
+        "Known issues remain: Spy x Family episode 1 Dub returned Japanese audio; Naruto episode 1 Dub failed one seeked media sample. See the release QA notes.",
+        "1.0.5-beta.4: Quality labels now report the real verified resolution - a single-height stream shows its actual height (e.g. 720p) instead of a bare \"Auto\", and the duplicate quality rows are gone.",
+        "1.0.5-beta.4: Same certified code as production. Streaming and subtitle handling unchanged; captions appear only when the source actually serves a subtitle track.",
+        "1.0.5-beta.3: TEST-only reciprocal Flux/Anime exact catalogue mapping for emitted AniList and MAL IDs. Fallback defaults import with the module and start on in the updated V9 app; playback JavaScript unchanged. Live language equivalence and playback are not certified."
       ]
     },
     {
-      "file": "modules/Synthetiq-Flux-1.0.3-beta.8.zip",
+      "file": "modules/Synthetiq-Flux-1.0.3-beta.10.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Synthetiq Flux Anime",
@@ -46,11 +49,14 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-flux-1.0.0.png"
       },
       "changelog": [
-        "1.0.3-beta.8: TEST-only reciprocal Flux/Anime exact catalogue mapping for emitted AniList and MAL IDs. Fallback defaults import with the module and start on in the updated V9 app; playback JavaScript unchanged. Live language equivalence and playback are not certified.",
-        "1.0.3-beta.7: TEST-only artwork pilot adds seven artwork metadata fields across Home cards and AniList details; stream resolution and extraction logic are unchanged. Active V9 artwork-package runtime test passed (2 tests); no stream or download certification is claimed.",
+        "1.0.3-beta.10: Prefers a validated Koto route and improves video-variant selection while preserving external HLS renditions. Owner-requested live-test release with limited testing; Wave fallback, captions and device acceptance remain unverified.",
+        "1.0.3-beta.5: Fixes episodes that loaded slowly and then failed with \"no verified playable source\". The provider needs 17-45s to answer the FIRST (cold) call for an episode and sometimes never answers, while the next call for the same episode is instant - so the play path now asks twice (both servers in parallel, 9s cap per round, 19s budget) instead of giving up after one 10s round. Cold episodes now play via the labelled AniKage rescue; warm episodes are unchanged. Catalogue, subtitles, quality labels and language isolation untouched.",
+        "1.0.3-beta.5: Verified: gate ALL_PASSED (one piece 1180 episodes, attack on titan 25, streams 2/2 real TS media); house tester PASSED with 0 warnings; cold episode measured playable at 18.0s.",
         "1.0.3-beta.4: Restores stream resolution on the current rescue CDN routes. Fixes titles failing to load on the released app by raising the in-app probe budget (2MB to 4MB), accepting size-capped reachability, and preferring routes without player-broken segment names. Sub/Dub and subtitles unchanged; verified on the released app runtime and S2.",
         "1.0.2: Vidhawk-independent AniKage rescue source (labelled; used only when Vidhawk has no verified media), MegaPlay descriptor decrypt, byte-first validation with elevated probe caps, fair provider sweep and stalled-request caps. Fixes the module being fully dark during the Vidhawk media-relay outage.",
-        "1.0.2: Rescue routes pass the same positive media validation as primary routes and are never substituted across languages; episodes the rescue sources do not carry remain unavailable with an honest message."
+        "1.0.2: Rescue routes pass the same positive media validation as primary routes and are never substituted across languages; episodes the rescue sources do not carry remain unavailable with an honest message.",
+        "1.0.3-beta.8: TEST-only reciprocal Flux/Anime exact catalogue mapping for emitted AniList and MAL IDs. Fallback defaults import with the module and start on in the updated V9 app; playback JavaScript unchanged. Live language equivalence and playback are not certified.",
+        "1.0.3-beta.7: TEST-only artwork pilot adds seven artwork metadata fields across Home cards and AniList details; stream resolution and extraction logic are unchanged. Active V9 artwork-package runtime test passed (2 tests); no stream or download certification is claimed."
       ]
     },
     {
@@ -68,7 +74,7 @@
       ]
     },
     {
-      "file": "modules/AniPM-0.1.0-beta.5.zip",
+      "file": "modules/AniPM-0.1.0-beta.9.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime (AniPM)",
@@ -81,15 +87,17 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anipm.png?v=20260927-1"
       },
       "changelog": [
-        "TEST ONLY: reciprocal AniKoto/AniPM exact episode mapping; playback JavaScript and saved source IDs unchanged. Requires Player 9.0.55+.",
-        "Metadata-only TEST update: exact catalogue mapping for the QA fallback fixture; playback JavaScript unchanged.",
+        "0.1.0-beta.9: Adds an alternative Koto playback route when the primary source fails, with exact-title, episode and advertised-audio checks. Owner-requested live-test release; the primary provider denial is not fixed, and caption/audio/device acceptance remains unverified.",
+        "0.1.0-beta.4: Fixes user reports on downloads and playback - the module now defaults to its muxed video+audio engine (single stream whose timestamps were verified against the manifest across a full episode), so downloads keep their audio and A/V drift is gone; the AniPM engine remains selectable as the alternate server.",
         "0.1.0-beta.3: Fixes from owner testing - subtitles now load in the player on every platform (the AniPM engine's own caption files are unreachable for the app's downloader, so the reachable English caption set now serves both engines and the caption menu works whichever server you pick). The home page is now a full browse experience: a Featured row plus paginated rows and an endless All Anime grid backed by the full 8,900+ title catalogue.",
         "0.1.0-beta.2: First public release of the AniPM engine (ani.pm) - English anime with search, home feed and full episode lists (Sub/Dub flags on every episode). Two playback engines with server switcher: AniPM - adaptive-quality streams with English captions and opening/ending skip markers; MegaPlay - backup server. The module picks a reachable engine automatically per device. Certified: house tester 26/26, real app-runtime Sub+Dub pass, S2 quick Grade PASS.",
-        "Owner-approved all-user release. Notes: the AniPM engine serves iOS/iPadOS; other platforms resolve on MegaPlay automatically. A known app-side mid-play issue on some desktop platforms is being fixed in the app itself; Android and iOS playback are complete."
+        "Owner-approved all-user release. Notes: the AniPM engine serves iOS/iPadOS; other platforms resolve on MegaPlay automatically. A known app-side mid-play issue on some desktop platforms is being fixed in the app itself; Android and iOS playback are complete.",
+        "TEST ONLY: reciprocal AniKoto/AniPM exact episode mapping; playback JavaScript and saved source IDs unchanged. Requires Player 9.0.55+.",
+        "Metadata-only TEST update: exact catalogue mapping for the QA fallback fixture; playback JavaScript unchanged."
       ]
     },
     {
-      "file": "modules/Anikoto-5.0.5-beta.3.zip",
+      "file": "modules/AniKoto-5.0.5-beta.7.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -98,11 +106,12 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikoto.png?v=20260812-2"
       },
       "changelog": [
-        "TEST ONLY: reciprocal AniKoto/AniPM exact episode mapping; playback JavaScript and saved source IDs unchanged. Requires Player 9.0.55+.",
+        "5.0.5-beta.7: Updates provider response and token handling, same-episode/audio checks and Retry-After handling. Experimental owner-requested live-test release: repeated-open failures and source/DNS availability remain unresolved. Do not treat this as a certified reopen fix.",
         "5.0.5-beta.2: Restores stream resolution on the current rescue CDN routes (Sub and Dub). Fixes titles failing to load on the released app by raising the in-app probe budget (2MB to 4MB), extending the resolution deadline (3s to 5s), accepting size-capped reachability, and preferring routes without player-broken segment names. Subtitle tracks unchanged; verified on the released app runtime and S2.",
         "5.0.4-beta.4: Fixed random skipping during playback (disguised .html segments mapped and served as genuine MPEG-TS video/mp2t). AES-CBC player stream descriptor decrypt support, improved fallback rate-limit handling, and normalized subtitle language tags.",
         "5.0.4-beta.3: Vidhawk-independent AniKage rescue chain (labelled; used only when the primary has no verified media), MegaPlay descriptor decrypt fix, MAL-keyed rescue lookups, subtitle language tags. Fixes titles that went dark during the Vidhawk media-relay outage.",
-        "5.0.4-beta.3: Rescue routes pass the same positive media validation as primary routes and are never substituted across languages; episodes the rescue chain does not carry remain unavailable with an honest message."
+        "5.0.4-beta.3: Rescue routes pass the same positive media validation as primary routes and are never substituted across languages; episodes the rescue chain does not carry remain unavailable with an honest message.",
+        "TEST ONLY: reciprocal AniKoto/AniPM exact episode mapping; playback JavaScript and saved source IDs unchanged. Requires Player 9.0.55+."
       ]
     },
     {
@@ -289,7 +298,7 @@
       ]
     },
     {
-      "file": "modules/AnimeAV1-1.3.0-beta.4.zip",
+      "file": "modules/AnimeAV1-1.3.0-beta.9.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Spanish Anime",
@@ -297,6 +306,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeav1.png?v=20260814-1"
       },
       "changelog": [
+        "1.3.0-beta.9: Reduces repeated catalogue requests and rate-limit pressure, corrects unknown language availability after failed checks, and keeps HLS master streams when separate audio/caption tracks are present. Previous tests decoded 30 of 30 attempted routes; this is not a guarantee for every title, language or device.",
         "1.3.0-beta.4: Playback restored after the site rotated its server lineup — adds UPNShare and Voe as first-class hosts so episodes keep resolving from the site itself.",
         "1.3.0-beta.4: Independent rescue chain (EchoVideo / MegaPlay) now starts in parallel with the site hosts — if the site hosts and the previous fallback are down, the module still finds a verified stream instead of failing.",
         "1.3.0-beta.4: Every offered server is byte-verified (real media segments) before it is shown, and dead relays are skipped in milliseconds.",
@@ -453,7 +463,7 @@
       ]
     },
     {
-      "file": "modules/AnimeUnity-1.0.7.zip",
+      "file": "modules/AnimeUnity-1.1.0-beta.3.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Italian Anime",
@@ -461,6 +471,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeunity.png"
       },
       "changelog": [
+        "1.1.0-beta.3: Updates the source address and preserves HLS master streams when separate audio or subtitle tracks are present. Owner-approved live phone test release: runtime and sampled media checks passed; the simulator test timed out and phone playback remains to be verified.",
         "1.0.7: Fixed title resolution on Home / In Evidenza hero carousel (fixed undefined [ITA SUB] title display bug)",
         "1.0.6: Keeps Italian SUB and genuine Italian DUB routes separate per title and never substitutes SUB for unavailable DUB",
         "1.0.6: Improves exact title, season and media-type matching and treats unreleased or missing titles as unavailable",
@@ -493,7 +504,7 @@
       ]
     },
     {
-      "file": "modules/Shahiid-2.1.2.zip",
+      "file": "modules/Shahiid-2.1.3-beta.3.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Arabic Anime",
@@ -501,6 +512,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/shahiid.png"
       },
       "changelog": [
+        "2.1.3-beta.3: Ranks exact Naruto and One Piece search matches ahead of related series, specials and arcs. Existing playback and language handling are unchanged. Source availability varies; owner phone acceptance is pending.",
         "2.1.2: Long series now enumerate to the end of a season (direct page walk, batched, up to ~1240 episodes with a 12s budget) instead of stopping at 500 - One Piece went from 530 to 860 reachable episodes in 13.3s, and the tail episode (1180) plays.",
         "2.1.2: Film/landing entries that live under /seasons/ but carry no player now return an empty list with a log line instead of throwing, so they no longer surface as a broken screen.",
         "2.1.2: Search ranks single specials, films and OVA reels below real seasons, so searching a long show no longer opens a one-episode special first.",

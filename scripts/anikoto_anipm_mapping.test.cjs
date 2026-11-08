@@ -67,16 +67,25 @@ for (const name of ['anikoto', 'anipm']) {
   });
 }
 
-test('bundle and real mapping packages gate the required V9 parser version', () => {
-  assert.equal(repository.bundle.version, 134);
-  assert.equal(repository.bundle.minAppVersion, '9.0.55');
+test('current bundle keeps the V9 floor and active mapping package identities', () => {
+  const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'catalogue.json'), 'utf8'));
+  assert.equal(repository.bundle.version, catalogue.bundleVersion);
+  assert.equal(repository.bundle.minAppVersion, '9.0.0');
   for (const name of ['anikoto', 'anipm']) {
     const descriptor = repository.modules.find(
       (module) => module.moduleId === modules[name].id,
     );
     assert.ok(descriptor, modules[name].id);
-    assert.equal(descriptor.version, modules[name].version);
     assert.equal(descriptor.minAppVersion, repository.bundle.minAppVersion);
+    const relative = new URL(descriptor.packageUrl).pathname
+      .replace('/kas021/Module-Testing-PL/main/', '');
+    assert.ok(relative.startsWith('modules/') && !relative.includes('..'));
+    const active = JSON.parse(zipRead(path.join(root, relative), 'module.json'));
+    assert.equal(active.id, modules[name].id);
+    assert.equal(active.moduleFamilyId, modules[name].family);
+    assert.equal(active.moduleVersion, descriptor.version);
+    assert.deepEqual(active.config.catalogueMapping, sourceManifest(name).config.catalogueMapping);
+    assert.deepEqual(active.config.sourceFallbacks, sourceManifest(name).config.sourceFallbacks);
   }
 });
 

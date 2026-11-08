@@ -1,0 +1,76 @@
+{
+  "officialCommit": "e4d5ceaea8ae66537b3ddfa146952b7aeba7f53a",
+  "testBase": "1c36f1f",
+  "bundle": 154,
+  "modules": [
+    {
+      "moduleId": "synthetiq-anime-v1",
+      "previousVersion": "1.0.5-beta.4",
+      "version": "1.0.5-beta.8",
+      "officialSha256": "22d2bf456bb65321d2fd283d162ceaed958f72ecbdbef9a6a35469c9d62621b4",
+      "testSha256": "967117aa3ac54a3938da59101545d8b4362f6ce704cafa18af236e27c79ed425",
+      "retainedMetadata": [
+        "catalogueMapping",
+        "sourceFallbacks"
+      ]
+    },
+    {
+      "moduleId": "synthetiq-anime-direct",
+      "previousVersion": "1.0.3-beta.8",
+      "version": "1.0.3-beta.10",
+      "officialSha256": "cec282d91015f4920d30cb82cb67a9e957e451c39b8a593a1e7edddb71ad7507",
+      "testSha256": "588cb9a2670082e914c33623f54c700bfc7896c470ac3c1c9ce6f3f357ca0bdd",
+      "retainedMetadata": [
+        "catalogueMapping",
+        "sourceFallbacks"
+      ]
+    },
+    {
+      "moduleId": "anipm-v1",
+      "previousVersion": "0.1.0-beta.5",
+      "version": "0.1.0-beta.9",
+      "officialSha256": "502da3b8153b600882bd8156778c1048468e591f0de80d06b97ca036a7714c64",
+      "testSha256": "696c060e7528f0a278ea618dc4d7afc79e607aa9b161580597bdf8a3e3b14ee7",
+      "retainedMetadata": [
+        "catalogueMapping",
+        "sourceFallbacks"
+      ]
+    },
+    {
+      "moduleId": "anikoto-v4",
+      "previousVersion": "5.0.5-beta.3",
+      "version": "5.0.5-beta.7",
+      "officialSha256": "b7715c9dd4470a32f33f385a67ae9f71d5fce57ae1db94d080392ffd488a9bd7",
+      "testSha256": "98bae03f2339648f7dd245060b1dbf6b19e8de78b0d3f038849380dfaf5c5229",
+      "retainedMetadata": [
+        "catalogueMapping",
+        "sourceFallbacks"
+      ]
+    },
+    {
+      "moduleId": "animeav1-v1",
+      "previousVersion": "1.3.0-beta.4",
+      "version": "1.3.0-beta.9",
+      "officialSha256": "833d9133c5ee4271092881aaa3e59ddf291e0f98a2ca542d635db3c16dfab943",
+      "testSha256": "833d9133c5ee4271092881aaa3e59ddf291e0f98a2ca542d635db3c16dfab943",
+      "retainedMetadata": []
+    },
+    {
+      "moduleId": "animeunity-v1",
+      "previousVersion": "1.0.7",
+      "version": "1.1.0-beta.3",
+      "officialSha256": "044a8ae5854a7914161dfa2e87347d3033008c1d3edd06c9fc5f3380f35f2973",
+      "testSha256": "044a8ae5854a7914161dfa2e87347d3033008c1d3edd06c9fc5f3380f35f2973",
+      "retainedMetadata": []
+    },
+    {
+      "moduleId": "shahiid-v1",
+      "previousVersion": "2.1.2",
+      "version": "2.1.3-beta.3",
+      "officialSha256": "c553daf1fa966c9072726a72a2d3ce6937d265a8891ed70ad3c8cc377cea3d27",
+      "testSha256": "c553daf1fa966c9072726a72a2d3ce6937d265a8891ed70ad3c8cc377cea3d27",
+      "retainedMetadata": []
+    }
+  ],
+  "verification": "Byte-identical published runtime files; TEST fallback manifests retained. Not fresh playback certification."
+}
