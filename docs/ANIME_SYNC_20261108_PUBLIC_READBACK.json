@@ -1,0 +1,57 @@
+{
+  "verifiedAt": "2026-11-08T23:08:03.841Z",
+  "repository": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/repository.json",
+  "bundle": 154,
+  "indexSha256": "412494dae4f3ed26c8d0b6d0e969a77cd417a5f25514b665a686cf33b4a64093",
+  "providerSignature": "PASS",
+  "packages": [
+    {
+      "id": "bundle",
+      "version": 154,
+      "status": 200,
+      "sha256": "d5eb5aadc5bb2cb9a276e239c1b24acf8048eb5b03386b6572f1ff3873b4bcba"
+    },
+    {
+      "id": "synthetiq-anime-v1",
+      "version": "1.0.5-beta.8",
+      "status": 200,
+      "sha256": "967117aa3ac54a3938da59101545d8b4362f6ce704cafa18af236e27c79ed425"
+    },
+    {
+      "id": "synthetiq-anime-direct",
+      "version": "1.0.3-beta.10",
+      "status": 200,
+      "sha256": "588cb9a2670082e914c33623f54c700bfc7896c470ac3c1c9ce6f3f357ca0bdd"
+    },
+    {
+      "id": "anipm-v1",
+      "version": "0.1.0-beta.9",
+      "status": 200,
+      "sha256": "696c060e7528f0a278ea618dc4d7afc79e607aa9b161580597bdf8a3e3b14ee7"
+    },
+    {
+      "id": "anikoto-v4",
+      "version": "5.0.5-beta.7",
+      "status": 200,
+      "sha256": "98bae03f2339648f7dd245060b1dbf6b19e8de78b0d3f038849380dfaf5c5229"
+    },
+    {
+      "id": "animeav1-v1",
+      "version": "1.3.0-beta.9",
+      "status": 200,
+      "sha256": "833d9133c5ee4271092881aaa3e59ddf291e0f98a2ca542d635db3c16dfab943"
+    },
+    {
+      "id": "animeunity-v1",
+      "version": "1.1.0-beta.3",
+      "status": 200,
+      "sha256": "044a8ae5854a7914161dfa2e87347d3033008c1d3edd06c9fc5f3380f35f2973"
+    },
+    {
+      "id": "shahiid-v1",
+      "version": "2.1.3-beta.3",
+      "status": 200,
+      "sha256": "c553daf1fa966c9072726a72a2d3ce6937d265a8891ed70ad3c8cc377cea3d27"
+    }
+  ]
+}

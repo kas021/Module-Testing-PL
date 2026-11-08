@@ -86,3 +86,14 @@ fixes, not a new declaration that those live services always work.
 
 Rollback: revert this TEST sync commit to restore the prior active descriptors
 and Bundle153. Old archives remain available. No app-data migration is involved.
+
+## Publication read-back
+
+Pushed TEST main commit93edba20b56af37b18f9927db181108e1b7203ee. Public root
+repository.json returned Bundle154 and exactly matched the local signed metadata.
+All7new module download URLs plus the bundle returned HTTP200 and matched their
+SHA-256 values. Public subtitle-provider.json matched the local envelope and its
+native declaration signature verified. Exact results are retained in
+ANIME_SYNC_20261108_PUBLIC_READBACK.json. The official repository was not pushed
+or changed. Users can run Check on their existing TEST connection; no reset or
+repository removal is needed.
