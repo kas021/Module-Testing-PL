@@ -3,13 +3,13 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1794178960787,
+  "publishedAtMs": 1794340758217,
   "bundle": {
-    "version": 154,
+    "version": 156,
     "minAppVersion": "9.0.0",
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-154.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-154.zip",
-    "sha256": "d5eb5aadc5bb2cb9a276e239c1b24acf8048eb5b03386b6572f1ff3873b4bcba",
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-156.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-156.zip",
+    "sha256": "b838c8f9e02c9a6b5d9b4f52408c00a5f386993649c4d745ef626efc53aec308",
     "signature": ""
   },
   "modules": [
@@ -1323,7 +1323,18 @@
       "config": {
         "minAppVersion": "9.0.74"
       },
-      "signature": "LSyEARP2/GfDTsboZh0lPm7tvn5BVGUMInvscR2gKL97jW8JEMaNrBPHtC9hzlQWz+Fn4WSthSDKulqX8xfG4g=="
+      "signature": "8m9IONmQ8Xt+zFNc6eN+ZKVcfwvdPifqAmbWlCDXVqmWOrGaHXiK09PrIS4DdNuYZNEafErnoYCsYdFaqV9Bww=="
+    }
+  ],
+  "metadataProviders": [
+    {
+      "providerID": "synthetiq-anime-broadcast-calendar",
+      "version": 1,
+      "type": "native",
+      "kind": "calendar",
+      "endpoint": "https://one.synthetiq.uk/player/metadata/v1/calendar",
+      "config": {},
+      "signature": "OWfuAb0t/4Vn87B2vap2xGV1FrZ3AahU2s8uUO/MPWC+MNzvkhtCM5zvg1KBVYtvt6Z/VDklFvzb4GhWCfo1WA=="
     }
   ]
 }
