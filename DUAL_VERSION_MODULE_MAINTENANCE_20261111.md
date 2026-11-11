@@ -15,14 +15,14 @@ packaging, runtime tests or backport publication will run. Existing private
 legacy candidates and results below are preserved as historical evidence, not
 remaining task requirements. Do not infer a legacy release from them.
 
-Status: IN PROGRESS, V9 ONLY. TEST158 prepared for AniKoto-only promotion; public
-read-back pending. Miruro/MovieDB repairs remain private, with explicit failed gates.
+Status: IN PROGRESS, V9 ONLY. TEST158 published for AniKoto-only promotion; exact
+public read-back PASS. Miruro/MovieDB repairs remain private, with explicit failed gates.
 
 ## Current Delivery
 
 | Module | Current result | Release decision |
 | --- | --- | --- |
-| AniKoto5.0.6-beta.3 V9 overlay | Native V9 and warm standardS2 PASS; paired Frieren dialogue/frame equality | Eligible for TEST158, limits retained |
+| AniKoto5.0.6-beta.3 V9 overlay | Native V9 and warm standardS2 PASS; paired Frieren dialogue/frame equality | Published in TEST158; public exact-byte read-back PASS, limits retained |
 | Miruro4.1.3-beta.10 | Episode recovery fixed and native/media/audio checks pass; simulator cold timeout | Private; needs completed warm simulator gate |
 | MovieDB0.1.0-beta.27 | Deadline defect fixed; real playback still intermittent | Private; diagnostic trace pending Flutter slot |
 | Anime1.0.5-beta.9 | Already TEST157; exact current V9 runtime PASS | Keep existing TEST package unchanged |
@@ -253,6 +253,28 @@ episode and Dub provider route. Both~300s encoded samples and decoded WAV hashes
 match; Whisper detected English dialogue on both. Both~600s PNG hashes match
 the same scene. One-title paired result does not certify every title. Raw evidence
 remains private under `anikoto/paired-result.json` and `PAIRED-REPORT.md`.
+
+### TEST158 Publication Receipt
+
+TEST-only tooling commit `f15c5a4`; release commit `d74d402`. Query-free public
+read-back completed2026-11-11T19:37:54Z:45 module ZIP hashes and all46 bundle
+members match; repository, catalogue, subtitle envelope and checksum files match.
+Both native declaration signatures passed. Private machine-readable receipt:
+`dual-maintenance-20261111/release-stage/public-readback.json`.
+
+- Bundle158 SHA256: `cc3add123100b217f1702e42ceb581bed36b90fc074a79669b2ec96306d2c750`.
+- Index SHA256: `78be254c285d2591ac6a63560c0b3121d38aa27c72cdeae94d2f1cf7abb295f0`.
+- AniKoto ZIP SHA256: `9b8806589bf7c0f3e408088b16be218d548b2cadaed6534ec91de105dcea9a27`.
+
+Query-free old Bundle157 and AniKoto TESTbeta7 downloads still match their
+original hashes, preserving rollback files. The official index remains exactly
+equal to the pre-maintenance snapshot. No official/legacy publication occurred.
+
+App chat explicitly returned Flutter ownership after its tests. Fresh Miruro
+beta10 S2 run `2026-11-11T19-36-51-860Z_s2_miruro-v3_fa20fd57` is in progress;
+not a PASS yet. Independent review identified unbounded metadata/mapping before
+the claimed episode-operation cap and cross-title429 cooldown races; focused
+private beta11 fixtures/repair requested. Neither Miruro candidate is published.
 
 ## Reproducible Update Process
 
