@@ -2,12 +2,12 @@
 
 ## Current Scope: V9 Only
 
-**FLUTTER RESERVED — SYNTHETIQ PLAYER (2) explicitly returned the slot to module
-maintenance after all app tests/analysis exited. Serialized V9-only native/S2
-checks may resume here. App commits844e41fb and456bf959 change subtitle/navigation
+**FLUTTER AVAILABLE — module-maintenance native/S2 checks have exited and the
+process inventory shows no Flutter/dart/xcode process. Module reservation released
+after TEST159 checkpoint. App commits844e41fb and456bf959 change subtitle/navigation
 UI, not the module bridge/player engine/fallback algorithm. Source version remains
-9.0.106+286; the owner's installed286 predates those local commits. No app build,
-legacy work or app-data changes are authorized by this handoff.**
+9.0.106+286; the owner's installed286 predates those local commits. No device app
+build/install, legacy work or app-data changes occurred in this handoff.**
 
 Owner changed scope during this work: repair/test V9 modules only.8.6.7 is
 working for the owner and must be left alone. No further legacy repair,
@@ -15,15 +15,16 @@ packaging, runtime tests or backport publication will run. Existing private
 legacy candidates and results below are preserved as historical evidence, not
 remaining task requirements. Do not infer a legacy release from them.
 
-Status: IN PROGRESS, V9 ONLY. TEST158 published for AniKoto-only promotion; exact
-public read-back PASS. Miruro/MovieDB repairs remain private, with explicit failed gates.
+Status: V9 checkpoint complete. TEST158 AniKoto and TEST159 Miruro published;
+exact public read-backs PASS. MovieDB beta28 remains private for broader native,
+media/subtitle and standardS2 validation; prior real failures remain documented.
 
 ## Current Delivery
 
 | Module | Current result | Release decision |
 | --- | --- | --- |
 | AniKoto5.0.6-beta.3 V9 overlay | Native V9 and warm standardS2 PASS; paired Frieren dialogue/frame equality | Published in TEST158; public exact-byte read-back PASS, limits retained |
-| Miruro4.1.3-beta.11 |24 fixtures PASS; exact native and standardS2 PASS,120453ms simulator observation | Eligible for TEST159; earlier beta10 failures retained |
+| Miruro4.1.3-beta.11 |24 fixtures PASS; exact native and standardS2 PASS,120453ms simulator observation | Published TEST159; exact public read-backPASS, earlier beta10 failures retained |
 | MovieDB0.1.0-beta.28 | Deadline/cooldown defects fixed; native Mentalist sample PASS; rate-limited repeat retained | Private; no broad reliability or completed standardS2 gate |
 | Anime1.0.5-beta.9 | Already TEST157; exact current V9 runtime PASS | Keep existing TEST package unchanged |
 Official/main publication is prohibited; historical legacy candidates stay private.
@@ -88,9 +89,8 @@ integration, native test serialization, final decisions and sole TEST writes.
 Private evidence root:
 `/Volumes/ZX20/.codex-worktrees/player-v9/dev_assets/modules/_development/dual-maintenance-20261111/`.
 Prior exact hashes/failures and TEST157 receipt remain in `TEST_SYNC_20261111.md`.
-Flutter slot: RESERVED by module maintenance following the explicit app-chat
-handoff. The earlier reservation and already-completed8.6.7 snapshot tests are
-historical only.
+Flutter slot: AVAILABLE after module-maintenance TEST159 checkpoint. The earlier
+reservation and already-completed8.6.7 snapshot tests are historical only.
 
 Initial private findings (not release certification): MovieDB has a reproducible
 stalled-primary-page deadline defect: the shared15s overall budget can expire
@@ -323,6 +323,30 @@ playability/downloadProbePASS; receipt
 `runtime/2026-11-11T19-49-39-530Z_v9_moviedb-wiki-v1_sub/receipt.json`.
 This single success does not erase the429 failure or certify70% reliability;
 beta28 remains private and standardS2/broader sampling is still required.
+
+### TEST159 Publication Receipt
+
+Miruro-only release commit `dbf2e30`; public query-free read-back completed
+2026-11-11T19:51:15Z. All45 module ZIP hashes and46 bundle entries match, along
+with index/catalogue/subtitle envelope/checksum files. Signatures and38 repository
+fixtures passed;44 unaffected descriptors, seven extras, artwork, source defaults
+and9.0.0 floor retained.
+
+- Bundle159 SHA256: `09a9883ffe18803eea38d8b393d51025226dd8a67c1c290447711c7ae2ac0deb`.
+- Index SHA256: `61efe381f2eef8d2cc50b1916867b9bf15eea34dcaa23d5832468712d6b38764`.
+- Private receipt: `release-stage159/public-readback.json`.
+
+Additional Miruro native Jujutsu Kaisen Dub route PASS: episodes912ms,
+stream1681ms, playability/downloadProbePASS, receipt
+`runtime/2026-11-11T19-50-10-951Z_v9_miruro-v3_dub/receipt.json`.
+This is route/playability evidence, not independent spoken-English decoding.
+No phone/device acceptance, completed offline download, broad70% reliability or
+full caption meaning/timing claim. Official feed/8.6.7 remain untouched.
+
+Next work: continue MovieDB beta28 broader native/media/subtitle and standardS2
+checks after a new Flutter reservation; investigate surviving upstream429/401/DNS
+availability rather than bypassing provider limits. Restore MovieDB TV mapping
+only after validating current IDs against retained beta14/X-Stream templates.
 
 ## Reproducible Update Process
 
