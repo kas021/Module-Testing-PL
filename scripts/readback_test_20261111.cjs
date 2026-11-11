@@ -5,7 +5,8 @@ const assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '..');
 const v9 = '/Volumes/ZX20/.codex-worktrees/player-v9';
 const Zip = require(path.join(v9, 'MODULE_TESTER/node_modules/adm-zip'));
-const qa = path.join(v9, 'dev_assets/modules/_development/playback-triage-20261111/test-sync');
+const settings = process.env.TEST_SYNC_CONFIG ? JSON.parse(fs.readFileSync(process.env.TEST_SYNC_CONFIG)) : {};
+const qa = settings.qa || path.join(v9, 'dev_assets/modules/_development/playback-triage-20261111/test-sync');
 const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const prefix = 'https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/';
 async function get(relative) {

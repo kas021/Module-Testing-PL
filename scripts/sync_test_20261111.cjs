@@ -7,15 +7,19 @@ const cp = require('node:child_process');
 const root = path.resolve(__dirname, '..');
 const v9 = '/Volumes/ZX20/.codex-worktrees/player-v9';
 const Zip = require(path.join(v9, 'MODULE_TESTER/node_modules/adm-zip'));
-const qa = path.join(v9, 'dev_assets/modules/_development/playback-triage-20261111/test-sync');
+const settings = process.env.TEST_SYNC_CONFIG ? JSON.parse(fs.readFileSync(process.env.TEST_SYNC_CONFIG)) : {};
+const qa = settings.qa || path.join(v9, 'dev_assets/modules/_development/playback-triage-20261111/test-sync');
 const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const read = file => JSON.parse(fs.readFileSync(file));
 const write = (file, data) => fs.writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`);
 const index = read(path.join(root, 'repository.json'));
-const original = read(path.join(qa, 'Module-Testing-PL.json'));
+const original = read(path.join(qa, settings.baseline || 'Module-Testing-PL.json'));
 const catalogue = read(path.join(root, 'catalogue.json'));
 assert.deepEqual(index, original, 'Baseline drift; reassess instead of overwriting');
-assert.equal(index.bundle.version, 156);
+assert.equal(index.repositoryId, 'module-testing-pl');
+assert.equal(index.bundle.version, settings.baseBundle || 156);
+const nextBundle = settings.nextBundle || 157;
+assert.equal(nextBundle,index.bundle.version+1);
 const approvals = read(path.join(qa, 'eligible.json'));
 const candidates = read(path.join(qa, 'candidates.json'));
 assert.ok(approvals.length > 0);
@@ -40,6 +44,19 @@ for (const approval of approvals) {
   assert.equal(report.runtime.ok, true);
   assert.equal(report.simulator.ok, true);
   if (report.grade === 'PARTIAL') assert.ok(approval.limits?.length);
+  if (settings.dualVersion || settings.runtimeLanes) {
+    const lanes=settings.runtimeLanes || ['legacy','v9'];
+    assert.ok(Array.isArray(lanes) && lanes.length>0 && lanes.every(l=>['legacy','v9'].includes(l)));
+    for (const lane of lanes) {
+      const receiptPath=fs.realpathSync(approval.runtimeReceipts[lane]);
+      assert.ok(receiptPath.startsWith(path.join(v9,'dev_assets/modules/_development/dual-maintenance-20261111/runtime/')));
+      const receipt=read(receiptPath);
+      assert.equal(receipt.lane,lane);assert.equal(receipt.id,c.id);
+      assert.equal(receipt.grade,'PASS');
+      assert.equal(receipt.sha256,lane==='v9'?c.sha256:c.legacySha256);
+      for (const step of ['import','load','episodes','stream','playability','downloadProbe']) assert.equal(receipt.steps[step]?.ok,true,`${lane}: ${step}`);
+    }
+  }
   const m = index.modules.find(m => m.moduleId === c.id);
   assert.equal(c.previousVersion, m.version);
   const manifest = JSON.parse(new Zip(bytes).getEntry('module.json').getData());
@@ -69,14 +86,14 @@ for (const old of original.modules) {
 }
 assert.equal(index.modules.length, 45);
 for (const k of ['artworkModules','defaultModules','defaultModulesSignature']) assert.deepEqual(index[k], original[k]);
-const bundleFile = 'bundles/Synthetiq-Module-Bundle-157.zip';
+const bundleFile = `bundles/Synthetiq-Module-Bundle-${nextBundle}.zip`;
 assert.ok(!fs.existsSync(path.join(root, bundleFile)));
 for (const item of pending) fs.writeFileSync(path.join(root, item.relative), item.bytes, {flag:'wx'});
-catalogue.bundleVersion = 157;
+catalogue.bundleVersion = nextBundle;
 catalogue.bundleFile = bundleFile;
 index.publishedAtMs = Math.max(Date.now(), original.publishedAtMs + 1);
 index.testingIdentity = index.modules.map(m => `${m.moduleId}:${m.version}:${m.sha256}`).join('|');
-Object.assign(index.bundle, {version:157, signature:'',
+Object.assign(index.bundle, {version:nextBundle, signature:'',
   packageUrl:`https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/${bundleFile}`,
   packagePath:`/kas021/Module-Testing-PL/main/${bundleFile}`});
 function bundle(provider) {
@@ -100,5 +117,5 @@ const sums = new Map(fs.readFileSync(path.join(root, 'SHA256SUMS'), 'utf8').trim
 }));
 for (const file of ['repository.json','catalogue.json','subtitle-provider.json',bundleFile,...changed.map(c => c.file)]) sums.set(file, hash(fs.readFileSync(path.join(root,file))));
 fs.writeFileSync(path.join(root, 'SHA256SUMS'), [...sums].map(([f,h])=>`${h}  ${f}`).join('\n')+'\n');
-write(path.join(qa, 'prepared.json'), {bundle:157, bundleSha256:index.bundle.sha256, changed});
-console.log(JSON.stringify({bundle:157, changed},null,2));
+write(path.join(qa, 'prepared.json'), {bundle:nextBundle, bundleSha256:index.bundle.sha256, changed});
+console.log(JSON.stringify({bundle:nextBundle, changed},null,2));
