@@ -9,6 +9,14 @@ UI, not the module bridge/player engine/fallback algorithm. Source version remai
 9.0.106+286; the owner's installed286 predates those local commits. No device app
 build/install, legacy work or app-data changes occurred in this handoff.**
 
+Latest app-chat handoff acknowledged: Flutter/native/S2 remains released to
+SYNTHETIQ PLAYER (2) for subtitle matching/auto-Dub, download languages and
+feedback work. Process inventory rechecked: no module-maintenance process remains.
+This chat will not start Flutter without a new reservation. Module workers will
+not edit app/Dart/model or backend/player-subtitles files. Any provider-supplied
+caption/audio/edition identity must remain verifiable; never infer a release ID
+from title or duration. Node/private module work only during the app reservation.
+
 Owner changed scope during this work: repair/test V9 modules only.8.6.7 is
 working for the owner and must be left alone. No further legacy repair,
 packaging, runtime tests or backport publication will run. Existing private
