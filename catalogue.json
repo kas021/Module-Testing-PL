@@ -3,12 +3,12 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 156,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-156.zip",
+  "bundleVersion": 157,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-157.zip",
   "minAppVersion": "9.0.0",
   "modules": [
     {
-      "file": "modules/Synthetiq-Anime-1.0.5-beta.8.zip",
+      "file": "modules/synthetiq-anime-v1-1.0.5-beta.9.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime",
@@ -21,6 +21,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-anime-1.0.2.png"
       },
       "changelog": [
+        "TEST-only 1.0.5-beta.9: standard S2 PARTIAL. Narrow recovery for the retired relay's specific Application not found response. Native One Piece E1 Dub extraction, English audio detection, 120-second decode and simulator playback controls passed; original TEST mappings retained. Limits: PARTIAL: subtitle meaning/timing and physical-device acceptance unverified. Existing simulator audio-device warning; not audible simulator proof, full-catalogue certification or a repair for other provider outages. Existing fallback settings and explicit Off are unchanged.",
         "1.0.5-beta.8: Updates provider response and token handling, with exact-title, episode and advertised audio checks on rescue routes. Restores provider-supplied English subtitle tokens and excludes thumbnail/storyboard tracks. Owner-requested live phone test; not full public-app certification. Source availability varies and physical acceptance is pending.",
         "1.0.5-beta.4: Quality labels now report the real verified resolution. A single-height stream shows its actual height (e.g. 720p) instead of a bare \"Auto\", and the duplicate quality rows are gone. Fixes the report that the quality menu had no real options. Streaming and subtitle handling unchanged; captions appear only when the source actually serves a subtitle track.\n",
         "1.0.5-beta.3: Search now groups every season of a show together, in order - searching a show name returns Season 1, 2, 3... (then movies/OVAs/specials) instead of a shuffled list, and result cards now show release years. Fixes the report that users had to type the show name with its season to reach the other seasons.",
