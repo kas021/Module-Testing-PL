@@ -3,13 +3,13 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "publishedAtMs": 1794424751435,
+  "publishedAtMs": 1794426596832,
   "bundle": {
-    "version": 158,
+    "version": 159,
     "minAppVersion": "9.0.0",
-    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-158.zip",
-    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-158.zip",
-    "sha256": "cc3add123100b217f1702e42ceb581bed36b90fc074a79669b2ec96306d2c750",
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-159.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-159.zip",
+    "sha256": "09a9883ffe18803eea38d8b393d51025226dd8a67c1c290447711c7ae2ac0deb",
     "signature": ""
   },
   "modules": [
@@ -399,14 +399,16 @@
       "moduleIdentity": "SP-VID-010-MIRURO",
       "moduleIdentityNumber": 10,
       "contentType": "video",
-      "version": "4.1.2",
+      "version": "4.1.3-beta.11",
       "minAppVersion": "8.0.0",
-      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/Miruro-4.1.2.zip",
-      "packagePath": "/kas021/Module-Testing-PL/main/modules/Miruro-4.1.2.zip",
-      "sha256": "22b028e7967f3b8a1ca89faf649fb33fbe7dcc6659ca311b41e44e0847225812",
-      "signature": "fmGIL7SpVeTrLbVlfToB8oiK1gjyq0EgVt1QZ7XZ3O872McPbJV8/ai7RyrjQA73TwI9vvqHFJ4w2v0hMKR/Qg==",
-      "publishedAtMs": 1790937523855,
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/modules/miruro-v3-4.1.3-beta.11.zip",
+      "packagePath": "/kas021/Module-Testing-PL/main/modules/miruro-v3-4.1.3-beta.11.zip",
+      "sha256": "e561ae9ddbddea68a0988b5708808f3c90d04f13f813a0b120e2cd3d1715b194",
+      "signature": "",
+      "publishedAtMs": 1794426596831,
       "changelog": [
+        "TEST-only 4.1.3-beta.11: standard S2 PASS. Repairs false-empty episode results, shares pending requests on retry, validates provider IDs and exact title mapping, bounds slow episode metadata and honors concurrent mapping cooldowns.24 recovery fixtures and fresh V9 native/runtime/media/simulator checks pass. Limits: Sampled One Piece Sub beta validation, not whole-catalogue reliability or physical-device certification. Earlier beta10 cold simulator failure retained. Simulator audio-device output unavailable; full hardcoded-caption semantics/timing and completed offline downloads are not certified.. Existing fallback settings and explicit Off are unchanged.",
+        "4.1.3-beta.7: Repairs current embed extraction and refreshes links on reopen/retry; updates the Miruro domain; adds explicit season/part matching guards and stops listing invented playable episodes when the source has none. Owner-approved limited update: sampled media/runtime checks passed; complex aliases remain best-effort, and simulator, physical-device, full-episode and subtitle acceptance remain unverified.",
         "4.1.2: Fixed Re:ZERO search and episode mapping collision with Jujutsu Kaisen using Dice token similarity and season isolation",
         "4.1.2: Added query relevance re-ranking across AniList and Kitsu to prioritize exact series matches over spinoffs and commercials",
         "4.1.2: Resilient multi-provider stream pipeline supporting both direct MP4 and HLS video segments with in-memory stream caching",
@@ -1307,7 +1309,7 @@
     }
   ],
   "signature": "",
-  "testingIdentity": "synthetiq-anime-v1:1.0.5-beta.9:413ca29d5755d5b309f1f5beff00d3ddae5c93469a792590786d69650957c613|synthetiq-anime-direct:1.0.3-beta.10:588cb9a2670082e914c33623f54c700bfc7896c470ac3c1c9ce6f3f357ca0bdd|synthetiq-one-v1:1.3.0:55e643d626811e328ef87d40d67a2e0d3434f750aaff6659f8685c5bddb5f5c3|anipm-v1:0.1.0-beta.9:696c060e7528f0a278ea618dc4d7afc79e607aa9b161580597bdf8a3e3b14ee7|anikoto-v4:5.0.6-beta.3:9b8806589bf7c0f3e408088b16be218d548b2cadaed6534ec91de105dcea9a27|anikage-v1:1.1.3:70002c6570c46129d00e71c9cf623f7b44bc2ddea2cb559933b10ede1554fff4|yflix-v1:1.1.2:6e772e78b4124f9443f89577fab90b524bf0d63ebf7af089441bed81ea05ca6f|dramacool-v1:1.0.3:abfed0370656fc7ae1c2e5e011148ffba2f982b385370c1a10aa6d891213a6e7|drama-direct-v1:0.1.0-beta.9:0374dcafd676e190fdcda6a05016510c8f3873e1b421bc049bc9eb8814e5b1ac|onepace-v3:3.0.6:9e2199589ede6aa5aeb6ebfa6cfd29543ddb04e224695d331327b86a50f08b25|animeheaven-v2-1:4.1.0:7a818d060c496a610afd92f7b57421c7285c9915b0c3683b2762e3a6def710cd|xstream-v1:1.3.4-beta.2:23ade944e2dde2a0635806e69acab8d7aabad96c4eee53531691e3e9a70fb2ec|miruro-v3:4.1.2:22b028e7967f3b8a1ca89faf649fb33fbe7dcc6659ca311b41e44e0847225812|anime-sama-v1:1.1.2:c6f6c913e0fd015dddbb7291c695c4942fe1bb05fe90ff699b502e2ee10b675e|an1me-v1:1.1.1:456c6110f16b3e6c3224131f024150d6a5f5444a97481e7fc1be782ba32c06ad|animeav1-v1:1.3.0-beta.9:833d9133c5ee4271092881aaa3e59ddf291e0f98a2ca542d635db3c16dfab943|kartoons-v1:1.1.6:51cf4eb68cc674c6d4fc334329c18b22a5074004607fb0f2a125f951e56463e3|dramafun-v3:4.0.1:b66d9cfb3f3f5dc53d273c64cf23ba006c8ee9d8ad40342ea6427fba6d825fa9|toontales-v1:3.0.1:2d9ef1b1c6795c2e4b0bb78c73a863adc6cee21ffca1b373b1d40925f95f86a0|aniworld-v1:1.3.2:0a56360b7e14e121d48fca5ec749f540751fd56c85852557efc279bc50ffd3ff|megakino-v1:1.1.5:6dd028c503a9b95e94293308cb907be6467092a523cd7480696fb54bb1647f24|weebcentral-v2:4.1.13:56bb2b59871b13964d3b39458fd51d5133a494fa1a9910b7ef81e0bc8e010840|synthetiq-manga-v1:1.0.3:048fdfbc80d490a6ff60b7250c304c2128f777ce8ec0ecf4045715d6fb6b5422|atsu-v3:4.0.5:3d6dbdb940a1c8c4b78b35cdcd72bcb997bdad30f47e0565726c64dc29e8b840|synthetiq-music-hub-v1:1.1.0:a1e755a9b5be89ebd654d5490927a4cae8268d22b092459ff1ae78977544d5cb|animeunity-v1:1.1.0-beta.3:044a8ae5854a7914161dfa2e87347d3033008c1d3edd06c9fc5f3380f35f2973|kickassanime-v3:4.2.0:4f31c3cd519a37ecf552e838f6d4e3b41fa72e8ab91f5489ff8c326b4bc8748f|shahiid-v1:2.1.3-beta.3:c553daf1fa966c9072726a72a2d3ce6937d265a8891ed70ad3c8cc377cea3d27|mugiwara-v1:1.1.0-beta.5:be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857|justanime-v1:1.0.1:4b47437fd7fa51f1a2f329ed2e6d6396c09cddd855ef0cd083b74b9ab30f890c|streamingunity-v1:1.0.4:5061ab59efe1166dfaeabe51082c2838020abfb78dd1a5900bc5ea32261e654c|mangakatana-v1:1.0.2:66afbc8fea12e05663b38413d1e9ce1250ef4119f682938f1cbd10824197df30|mgread-v1:1.0.1:5045164c8fbe922533899715de5145eb9857256d02c1afd24278d95c9b179a5e|colorizedmanga-v1:1.0.0-beta.1:fa26df19a047a5253cdaee76cd6aeba701a4e2cebbc601776654b7b379a0029c|alpha-movies:0.2.0-beta.4:fa442fd94cb07e66d054d9ffa79dd7e569ba144e0db10ae8ab3b54fe2206f329|moviedb-wiki-v1:0.1.0-beta.15:78b3b4afdd3b372227ee6a4f2de3336b25a8f389593353aee8e6f315f05f0cbb|qa-fallback-anipm-v1:1.0.0-beta.1:fc2408262bfefe4daa17115068135f5d6278c0e4ed7ca53f8ac9d022b91e4d24|cimacub-v1:1.2.0:3ddee1d22400b00963d5085b92efd648f36e64128c8af0a9dffbea55b995de86|anime4up-site-v1:1.0.0-beta.10:3a28b4175a7030105490930820720fde63f9a49fffe1013cbc51d33c74668a2c|sololatino-v1:0.1.0-beta.6:8173cadef04d35710009ec663f449b290cc4645fd0063941d85a3c93f1c45893|dw-live-v1:0.1.0-beta.3:6068c5f67e3fc64303cd6e39f49141fd153f13f38c32e13fb0b2a0c7d5697cbb|tvapp-live-v1:0.1.0-beta.10:53ad7b27f4723e4f9e1286891e614ccbd64ac0477879a75f6ba30fbc0cc1c0a5|public-sports-live-v1:0.1.0-beta.5:41dff901e53ba0269a04b644b7a59c675dbcab4b4b40198a4b2e4040a596d094|movy-v1:0.1.0-beta.1:e66f270a9b305f8102e5ed75b37f8f03a341bfde0bb27ecd1c544ecad9ba796d|public-tv-live-v1:0.1.0-beta.4:892cd783742c501c7925e152fa22bff77a0f783ea4f9e687b7c26b1165bed1ec",
+  "testingIdentity": "synthetiq-anime-v1:1.0.5-beta.9:413ca29d5755d5b309f1f5beff00d3ddae5c93469a792590786d69650957c613|synthetiq-anime-direct:1.0.3-beta.10:588cb9a2670082e914c33623f54c700bfc7896c470ac3c1c9ce6f3f357ca0bdd|synthetiq-one-v1:1.3.0:55e643d626811e328ef87d40d67a2e0d3434f750aaff6659f8685c5bddb5f5c3|anipm-v1:0.1.0-beta.9:696c060e7528f0a278ea618dc4d7afc79e607aa9b161580597bdf8a3e3b14ee7|anikoto-v4:5.0.6-beta.3:9b8806589bf7c0f3e408088b16be218d548b2cadaed6534ec91de105dcea9a27|anikage-v1:1.1.3:70002c6570c46129d00e71c9cf623f7b44bc2ddea2cb559933b10ede1554fff4|yflix-v1:1.1.2:6e772e78b4124f9443f89577fab90b524bf0d63ebf7af089441bed81ea05ca6f|dramacool-v1:1.0.3:abfed0370656fc7ae1c2e5e011148ffba2f982b385370c1a10aa6d891213a6e7|drama-direct-v1:0.1.0-beta.9:0374dcafd676e190fdcda6a05016510c8f3873e1b421bc049bc9eb8814e5b1ac|onepace-v3:3.0.6:9e2199589ede6aa5aeb6ebfa6cfd29543ddb04e224695d331327b86a50f08b25|animeheaven-v2-1:4.1.0:7a818d060c496a610afd92f7b57421c7285c9915b0c3683b2762e3a6def710cd|xstream-v1:1.3.4-beta.2:23ade944e2dde2a0635806e69acab8d7aabad96c4eee53531691e3e9a70fb2ec|miruro-v3:4.1.3-beta.11:e561ae9ddbddea68a0988b5708808f3c90d04f13f813a0b120e2cd3d1715b194|anime-sama-v1:1.1.2:c6f6c913e0fd015dddbb7291c695c4942fe1bb05fe90ff699b502e2ee10b675e|an1me-v1:1.1.1:456c6110f16b3e6c3224131f024150d6a5f5444a97481e7fc1be782ba32c06ad|animeav1-v1:1.3.0-beta.9:833d9133c5ee4271092881aaa3e59ddf291e0f98a2ca542d635db3c16dfab943|kartoons-v1:1.1.6:51cf4eb68cc674c6d4fc334329c18b22a5074004607fb0f2a125f951e56463e3|dramafun-v3:4.0.1:b66d9cfb3f3f5dc53d273c64cf23ba006c8ee9d8ad40342ea6427fba6d825fa9|toontales-v1:3.0.1:2d9ef1b1c6795c2e4b0bb78c73a863adc6cee21ffca1b373b1d40925f95f86a0|aniworld-v1:1.3.2:0a56360b7e14e121d48fca5ec749f540751fd56c85852557efc279bc50ffd3ff|megakino-v1:1.1.5:6dd028c503a9b95e94293308cb907be6467092a523cd7480696fb54bb1647f24|weebcentral-v2:4.1.13:56bb2b59871b13964d3b39458fd51d5133a494fa1a9910b7ef81e0bc8e010840|synthetiq-manga-v1:1.0.3:048fdfbc80d490a6ff60b7250c304c2128f777ce8ec0ecf4045715d6fb6b5422|atsu-v3:4.0.5:3d6dbdb940a1c8c4b78b35cdcd72bcb997bdad30f47e0565726c64dc29e8b840|synthetiq-music-hub-v1:1.1.0:a1e755a9b5be89ebd654d5490927a4cae8268d22b092459ff1ae78977544d5cb|animeunity-v1:1.1.0-beta.3:044a8ae5854a7914161dfa2e87347d3033008c1d3edd06c9fc5f3380f35f2973|kickassanime-v3:4.2.0:4f31c3cd519a37ecf552e838f6d4e3b41fa72e8ab91f5489ff8c326b4bc8748f|shahiid-v1:2.1.3-beta.3:c553daf1fa966c9072726a72a2d3ce6937d265a8891ed70ad3c8cc377cea3d27|mugiwara-v1:1.1.0-beta.5:be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857|justanime-v1:1.0.1:4b47437fd7fa51f1a2f329ed2e6d6396c09cddd855ef0cd083b74b9ab30f890c|streamingunity-v1:1.0.4:5061ab59efe1166dfaeabe51082c2838020abfb78dd1a5900bc5ea32261e654c|mangakatana-v1:1.0.2:66afbc8fea12e05663b38413d1e9ce1250ef4119f682938f1cbd10824197df30|mgread-v1:1.0.1:5045164c8fbe922533899715de5145eb9857256d02c1afd24278d95c9b179a5e|colorizedmanga-v1:1.0.0-beta.1:fa26df19a047a5253cdaee76cd6aeba701a4e2cebbc601776654b7b379a0029c|alpha-movies:0.2.0-beta.4:fa442fd94cb07e66d054d9ffa79dd7e569ba144e0db10ae8ab3b54fe2206f329|moviedb-wiki-v1:0.1.0-beta.15:78b3b4afdd3b372227ee6a4f2de3336b25a8f389593353aee8e6f315f05f0cbb|qa-fallback-anipm-v1:1.0.0-beta.1:fc2408262bfefe4daa17115068135f5d6278c0e4ed7ca53f8ac9d022b91e4d24|cimacub-v1:1.2.0:3ddee1d22400b00963d5085b92efd648f36e64128c8af0a9dffbea55b995de86|anime4up-site-v1:1.0.0-beta.10:3a28b4175a7030105490930820720fde63f9a49fffe1013cbc51d33c74668a2c|sololatino-v1:0.1.0-beta.6:8173cadef04d35710009ec663f449b290cc4645fd0063941d85a3c93f1c45893|dw-live-v1:0.1.0-beta.3:6068c5f67e3fc64303cd6e39f49141fd153f13f38c32e13fb0b2a0c7d5697cbb|tvapp-live-v1:0.1.0-beta.10:53ad7b27f4723e4f9e1286891e614ccbd64ac0477879a75f6ba30fbc0cc1c0a5|public-sports-live-v1:0.1.0-beta.5:41dff901e53ba0269a04b644b7a59c675dbcab4b4b40198a4b2e4040a596d094|movy-v1:0.1.0-beta.1:e66f270a9b305f8102e5ed75b37f8f03a341bfde0bb27ecd1c544ecad9ba796d|public-tv-live-v1:0.1.0-beta.4:892cd783742c501c7925e152fa22bff77a0f783ea4f9e687b7c26b1165bed1ec",
   "artworkModules": [
     {
       "id": "flux-featured",
@@ -1326,7 +1328,7 @@
       "config": {
         "minAppVersion": "9.0.74"
       },
-      "signature": "mbuRZA0Zx0mCmTey2QUSFTsoCtqrteL4yni5cunuKZuxPmeHEGezO+FFpLqlnPYKGH7lx7bsL785JephLWm5HA=="
+      "signature": "pAMiTXY0GwmRnoXzIQ0y/oodw7/ukw46uebqcEK0UB9UZ3gjb1sbjwSse4Om4wBSFWvo94l+XZe/HYYM6p8UAQ=="
     }
   ],
   "metadataProviders": [
@@ -1337,7 +1339,7 @@
       "kind": "calendar",
       "endpoint": "https://one.synthetiq.uk/player/metadata/v1/calendar",
       "config": {},
-      "signature": "KYBYxCAb9o4eGQ/5M9uUZu0NJMccyO5vR2Wy1JWTGGJwGr001MJYUbH8s6zMqAoRqVS7ckFp4KjvRf9WzNIEbg=="
+      "signature": "ICjmDfgawAOqsC6yeZZHECKmuGAv3ajN9kKiWCTSMOBN2/Kuza5Sala6rjil4YfSHDJtx98z0U99woRf6CD7XQ=="
     }
   ]
 }

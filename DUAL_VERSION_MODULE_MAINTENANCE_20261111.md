@@ -23,8 +23,8 @@ public read-back PASS. Miruro/MovieDB repairs remain private, with explicit fail
 | Module | Current result | Release decision |
 | --- | --- | --- |
 | AniKoto5.0.6-beta.3 V9 overlay | Native V9 and warm standardS2 PASS; paired Frieren dialogue/frame equality | Published in TEST158; public exact-byte read-back PASS, limits retained |
-| Miruro4.1.3-beta.10 | Episode recovery fixed and native/media/audio checks pass; simulator cold timeout | Private; needs completed warm simulator gate |
-| MovieDB0.1.0-beta.27 | Deadline defect fixed; real playback still intermittent | Private; diagnostic trace pending Flutter slot |
+| Miruro4.1.3-beta.11 |24 fixtures PASS; exact native and standardS2 PASS,120453ms simulator observation | Eligible for TEST159; earlier beta10 failures retained |
+| MovieDB0.1.0-beta.28 | Deadline/cooldown defects fixed; native Mentalist sample PASS; rate-limited repeat retained | Private; no broad reliability or completed standardS2 gate |
 | Anime1.0.5-beta.9 | Already TEST157; exact current V9 runtime PASS | Keep existing TEST package unchanged |
 Official/main publication is prohibited; historical legacy candidates stay private.
 No app/player/fallback algorithm, backend, TestFlight, Discord or user-data edits.
@@ -271,10 +271,58 @@ original hashes, preserving rollback files. The official index remains exactly
 equal to the pre-maintenance snapshot. No official/legacy publication occurred.
 
 App chat explicitly returned Flutter ownership after its tests. Fresh Miruro
-beta10 S2 run `2026-11-11T19-36-51-860Z_s2_miruro-v3_fa20fd57` is in progress;
-not a PASS yet. Independent review identified unbounded metadata/mapping before
+beta10 S2 run `2026-11-11T19-36-51-860Z_s2_miruro-v3_fa20fd57` completed PASS:
+native runtime and first/middle/latest media checks passed; Japanese audio
+detected;120412ms simulator observation and pause/seek passed. Post-seek image
+visually shows One Piece sky scene. Simulator still reports audio-device
+initialization failure: audible simulator output and physical acceptance are not
+verified. Earlier cold FAIL retained. Independent review identified unbounded metadata/mapping before
 the claimed episode-operation cap and cross-title429 cooldown races; focused
 private beta11 fixtures/repair requested. Neither Miruro candidate is published.
+
+Independent AniKoto promotion review found no concrete defects: other44 module
+descriptors/bytes, seven extras,9.0.0 floor, identity/mappings, both native signatures
+and six saved public-readback hashes match the release commit.
+
+MovieDB diagnostic trace2 fresh native Mentalist open PASS at19:42:22Z, stream5104ms;
+VidPop page602ms/source4033ms/master431ms all200, captions1868ms200, primary usable.
+No fallback was needed on this sample; it does not explain the prior failed open.
+Receipt: `runtime/2026-11-11T19-42-04-682Z_v9_moviedb-wiki-v1_sub/receipt.json`.
+Exact diagnostic SHA256 remains `8db645539f71fe3350be31d75d5a03d52c7426ce0f41cec97e8610342d3eb45e`;
+diagnostic package is not publishable. Fresh repeat pending to capture chronology.
+
+Fresh native repeat DID FAIL at19:43:11Z, stream3007ms. Trace2 shows primary page
+200, source200, master429, second source400; VidZen401 and other backup transport
+errors. Thus this exact repeat is upstream media rate limiting with failed rescue,
+not the fixed15s stalled-page defect. No retry storm or rate-limit bypass authorized.
+Receipt: `runtime/2026-11-11T19-42-57-165Z_v9_moviedb-wiki-v1_sub/receipt.json`.
+Current beta27 reads Retry-After on source APIs but not master-playlist429. A
+separate private beta28 is being prepared to honor that cooldown and report
+rate limiting honestly, preserving independent successful fallbacks and all media
+checks. It is not a claim to restore provider availability or meet70% reliability.
+
+Miruro private beta11 SHA256:
+`e561ae9ddbddea68a0988b5708808f3c90d04f13f813a0b120e2cd3d1715b194`.
+Lead reran24/24 recovery fixtures PASS, independently reviewed narrow diff and
+verified V9 lane overlay leaves exact sealed bytes unchanged. Second independent
+review found no actionable regression. Fresh V9 native One Piece Sub PASS:
+episodes4516ms, stream2538ms, playability/downloadProbePASS; receipt
+`runtime/2026-11-11T19-43-49-555Z_v9_miruro-v3_sub/receipt.json` at app source
+`ccf22881c98e1e1d769c1cd5d58415731f84100a`. StandardS2 exact beta11 run
+`2026-11-11T19-44-16-586Z_s2_miruro-v3_a5147ee4` completed PASS: first/middle/latest
+media checks, Japanese audio detection,120453ms simulator observation and pause/seek.
+Post-seek frame visually reviewed as rendered One Piece sky scene. Tolerated
+audio-device warning remains; no audible simulator/physical acceptance claim.
+Beta10 results are retained separately, never substituted for beta11 certification.
+
+MovieDB beta28 exact ZIP SHA256:
+`2128fbddac4e9b3d8ff13110c35fb56d2c8a4b9a601cda601f9ba45bba7a2b3a`.
+Lead reran focused cooldown fixtures PASS and reviewed diff; independent reviewer
+found no serious new regression. Fresh native Mentalist sample PASS, stream7744ms,
+playability/downloadProbePASS; receipt
+`runtime/2026-11-11T19-49-39-530Z_v9_moviedb-wiki-v1_sub/receipt.json`.
+This single success does not erase the429 failure or certify70% reliability;
+beta28 remains private and standardS2/broader sampling is still required.
 
 ## Reproducible Update Process
 
