@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 157,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-157.zip",
+  "bundleVersion": 158,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-158.zip",
   "minAppVersion": "9.0.0",
   "modules": [
     {
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "file": "modules/AniKoto-5.0.5-beta.7.zip",
+      "file": "modules/anikoto-v4-5.0.6-beta.3.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -107,6 +107,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikoto.png?v=20260812-2"
       },
       "changelog": [
+        "TEST-only 5.0.6-beta.3: standard S2 PASS. V9 catch-up to the verified-ID/cache/playlist safety fixes in the current official core, preserving TEST catalogue and fallback metadata. Current V9 native Frieren Dub and warm standard One Piece Dub passed, including sampled English audio/caption checks and simulator controls. Limits: Sampled TEST beta, not whole-catalogue or physical-device certification. Earlier Frieren opening-language detector flag remains documented; paired later dialogue/frame samples match the old build. Cold simulator timeout retained; warm run passed. Audible simulator output and full caption meaning/timing/offline acceptance remain unverified. Existing fallback settings and explicit Off are unchanged.",
+        "5.0.6-beta.3: Faster cached lookups with verified embed IDs, provider-scoped caches, safer fallback language checks and preserved external audio/subtitle playlists. Stops returning unrelated videos when embed metadata is unavailable. Owner-approved LIVE BETA: sampled media, runtime and regression checks passed; full certification and native phone acceptance remain pending. S2 retains the same opening-language detector flag observed on the previous live build. Existing source availability and backup-only-Dub limitations remain.",
         "5.0.5-beta.7: Updates provider response and token handling, same-episode/audio checks and Retry-After handling. Experimental owner-requested live-test release: repeated-open failures and source/DNS availability remain unresolved. Do not treat this as a certified reopen fix.",
         "5.0.5-beta.2: Restores stream resolution on the current rescue CDN routes (Sub and Dub). Fixes titles failing to load on the released app by raising the in-app probe budget (2MB to 4MB), extending the resolution deadline (3s to 5s), accepting size-capped reachability, and preferring routes without player-broken segment names. Subtitle tracks unchanged; verified on the released app runtime and S2.",
         "5.0.4-beta.4: Fixed random skipping during playback (disguised .html segments mapped and served as genuine MPEG-TS video/mp2t). AES-CBC player stream descriptor decrypt support, improved fallback rate-limit handling, and normalized subtitle language tags.",
