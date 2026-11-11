@@ -16,6 +16,15 @@ export const providerMessage = (index, p) => [
   p.providerID, p.version, p.type, p.endpoint,
   JSON.stringify(Object.fromEntries(Object.keys(p.config || {}).sort().map((k) => [k, p.config[k]]))),
 ].join('\n');
+// Matches MetadataProviderDeclaration.canonicalMessage in Player V9.
+export const metadataProviderMessage = (index, p) => {
+  if (p.scoreEndpoint != null) throw new Error('Calendar score endpoints are unsupported');
+  return [
+  'metadata-provider-v1', index.schemaVersion, index.repositoryId, index.publishedAtMs,
+  p.providerID, p.version, p.type, p.kind, p.endpoint,
+  JSON.stringify(Object.fromEntries(Object.keys(p.config || {}).sort().map((k) => [k, p.config[k]]))),
+  ].join('\n');
+};
 export const bundleMessage = (index) => [
   'bundle', index.bundle.version, index.bundle.minAppVersion,
   index.publishedAtMs, index.bundle.packagePath, index.bundle.sha256,
@@ -62,6 +71,15 @@ export function signatureErrors(index, { allowCommunityIndex = false } = {}) {
     }
     ids.add(p.providerID);
     check('subtitle provider', providerMessage(index, p), p.signature);
+  }
+  for (const p of index.metadataProviders || []) {
+    if (p.providerID !== 'synthetiq-anime-broadcast-calendar' || p.version !== 1 ||
+        p.type !== 'native' || p.kind !== 'calendar' || p.scoreEndpoint != null ||
+        p.endpoint !== 'https://one.synthetiq.uk/player/metadata/v1/calendar' || ids.has(p.providerID)) {
+      errors.push('Unsupported or duplicate native metadata provider');
+    }
+    ids.add(p.providerID);
+    if (p.scoreEndpoint == null) check('metadata provider', metadataProviderMessage(index, p), p.signature);
   }
   if (allowCommunityIndex && index.signature === '') {
     // Existing TEST archives declare manual fallback publishers. Signing the
