@@ -1,0 +1,300 @@
+{
+  "reviewedAt": "2026-11-15T22:26:10.234Z",
+  "decision": "NO_HELD_PACKAGE_CLEARED_FOR_SYNC",
+  "newRuntimeRuns": 0,
+  "newNetworkMediaProbes": 0,
+  "evidence": [
+    {
+      "id": "yflix-v1",
+      "runId": "2026-11-15T13-59-02-956Z_s2_yflix-v1_1baddba8",
+      "reportPath": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/MODULE_TESTER/reports/runs/2026-11-15T13-59-02-956Z_s2_yflix-v1_1baddba8/certification.json",
+      "reportSha256": "ad02160e07bf8c3f9d537304ee68b54ac6645a5fb8e9a6f4c0e38a2a93764cc7",
+      "candidateSha256": "9054a75b9f2700f567468c8e50091638a048810d788b1df5d3444fa6cd02b683",
+      "profile": "quick",
+      "grade": "FAIL",
+      "failureCodes": [
+        "LANGUAGE_CONTRADICTION"
+      ],
+      "runtimeOk": true,
+      "simulatorOk": null,
+      "media": [
+        {
+          "label": "first",
+          "ok": true
+        },
+        {
+          "label": "middle",
+          "ok": true
+        },
+        {
+          "label": "latest",
+          "ok": true
+        }
+      ],
+      "language": {
+        "total": 156,
+        "contradictions": 53,
+        "skippedContradictions": 0,
+        "nonSkippedContradictions": 53,
+        "audio": [
+          {
+            "declared": "unknown",
+            "detected": "en",
+            "confidence": 0,
+            "skipped": true,
+            "contradiction": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "megakino-v1",
+      "runId": "2026-11-15T14-03-38-028Z_s2_megakino-v1_d1c308e5",
+      "reportPath": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/MODULE_TESTER/reports/runs/2026-11-15T14-03-38-028Z_s2_megakino-v1_d1c308e5/certification.json",
+      "reportSha256": "135c15a6a512e6bc82bc3e4d4c4190ad3c8ecb2220f83044fd85ae7d6e246b21",
+      "candidateSha256": "e34aed6a9b9b212b553644f43f8ce45216d0f9ccef87831c1789c3d12130bbb6",
+      "profile": "quick",
+      "grade": "FAIL",
+      "failureCodes": [
+        "RUNTIME_PROCESS_FAILED"
+      ],
+      "runtimeOk": false,
+      "simulatorOk": null,
+      "media": [],
+      "language": {
+        "total": 0,
+        "contradictions": 0,
+        "skippedContradictions": 0,
+        "nonSkippedContradictions": 0,
+        "audio": []
+      }
+    },
+    {
+      "id": "megakino-v1",
+      "runId": "2026-11-15T14-09-24-190Z_s2_megakino-v1_882a43d2",
+      "reportPath": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/MODULE_TESTER/reports/runs/2026-11-15T14-09-24-190Z_s2_megakino-v1_882a43d2/certification.json",
+      "reportSha256": "2b8e05d3e85a1b927d754a3602048e02d72a2fd54dc38cd46bab5110ba47eda1",
+      "candidateSha256": "e34aed6a9b9b212b553644f43f8ce45216d0f9ccef87831c1789c3d12130bbb6",
+      "profile": "quick",
+      "grade": "FAIL",
+      "failureCodes": [
+        "LANGUAGE_CONTRADICTION"
+      ],
+      "runtimeOk": true,
+      "simulatorOk": null,
+      "media": [
+        {
+          "label": "first",
+          "ok": true
+        },
+        {
+          "label": "middle",
+          "ok": true
+        },
+        {
+          "label": "latest",
+          "ok": true
+        }
+      ],
+      "language": {
+        "total": 1,
+        "contradictions": 1,
+        "skippedContradictions": 1,
+        "nonSkippedContradictions": 0,
+        "audio": [
+          {
+            "declared": "de",
+            "detected": "en",
+            "confidence": 0,
+            "skipped": true,
+            "contradiction": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "moviedb-wiki-v1",
+      "runId": "2026-11-15T14-05-10-321Z_s2_moviedb-wiki-v1_ce156a01",
+      "reportPath": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/MODULE_TESTER/reports/runs/2026-11-15T14-05-10-321Z_s2_moviedb-wiki-v1_ce156a01/certification.json",
+      "reportSha256": "335ea82cfe47e408cda8e6088fd8e4480a20e638a4db784fe4e895efaac50670",
+      "candidateSha256": "0ff223883cbdf455544227a431d77886d4b00802a9e2692c0361a7bab53b4686",
+      "profile": "quick",
+      "grade": "FAIL",
+      "failureCodes": [
+        "RUNTIME_PROCESS_FAILED"
+      ],
+      "runtimeOk": false,
+      "simulatorOk": null,
+      "media": [],
+      "language": {
+        "total": 0,
+        "contradictions": 0,
+        "skippedContradictions": 0,
+        "nonSkippedContradictions": 0,
+        "audio": []
+      }
+    },
+    {
+      "id": "movy-v1",
+      "runId": "2026-11-15T14-06-01-017Z_s2_movy-v1_caeaec4e",
+      "reportPath": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/MODULE_TESTER/reports/runs/2026-11-15T14-06-01-017Z_s2_movy-v1_caeaec4e/certification.json",
+      "reportSha256": "6d68aa16c1d8481ea7fa6ac513549ab792f576a4f70152647375964f3ac20e94",
+      "candidateSha256": "9c2efa132f5577520492f1f20c27fd11e2d686194134e0638a5065724c1234c3",
+      "profile": "quick",
+      "grade": "PARTIAL",
+      "failureCodes": [],
+      "runtimeOk": true,
+      "simulatorOk": null,
+      "media": [
+        {
+          "label": "first",
+          "ok": true
+        },
+        {
+          "label": "middle",
+          "ok": true
+        },
+        {
+          "label": "latest",
+          "ok": true
+        }
+      ],
+      "language": {
+        "total": 1,
+        "contradictions": 0,
+        "skippedContradictions": 0,
+        "nonSkippedContradictions": 0,
+        "audio": [
+          {
+            "declared": "unknown",
+            "detected": "en",
+            "confidence": 0,
+            "skipped": true,
+            "contradiction": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "movy-v1",
+      "runId": "2026-11-15T15-17-48-717Z_s2_movy-v1_7d4debe5",
+      "reportPath": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/MODULE_TESTER/reports/runs/2026-11-15T15-17-48-717Z_s2_movy-v1_7d4debe5/certification.json",
+      "reportSha256": "8088aeef50a422c5bfb885082f0d3fca2e50c26838dc1043d744be70498608dc",
+      "candidateSha256": "9c2efa132f5577520492f1f20c27fd11e2d686194134e0638a5065724c1234c3",
+      "profile": "standard",
+      "grade": "FAIL",
+      "failureCodes": [
+        "SIMULATOR_SUMMARY_MISSING"
+      ],
+      "runtimeOk": true,
+      "simulatorOk": false,
+      "media": [
+        {
+          "label": "first",
+          "ok": true
+        },
+        {
+          "label": "middle",
+          "ok": true
+        },
+        {
+          "label": "latest",
+          "ok": true
+        }
+      ],
+      "language": {
+        "total": 1,
+        "contradictions": 0,
+        "skippedContradictions": 0,
+        "nonSkippedContradictions": 0,
+        "audio": [
+          {
+            "declared": "unknown",
+            "detected": "en",
+            "confidence": 0,
+            "skipped": true,
+            "contradiction": false
+          }
+        ]
+      }
+    }
+  ],
+  "movieDbParserFixture": {
+    "candidateSha256": "0ff223883cbdf455544227a431d77886d4b00802a9e2692c0361a7bab53b4686",
+    "isolatedFunctionSha256": "88ad0acf1144e2cb62bc3ed597b8ab4904e99cd5aaf9313ce7650106419a9fe4",
+    "networkRequests": 0,
+    "moduleHandlersExecuted": 0,
+    "emittedReference": "https://www.movy.sx/movie/27205",
+    "accepted": false,
+    "controlReference": "mdb:movie:27205",
+    "controlAccepted": true
+  },
+  "sameVersionLogoRefresh": {
+    "appRoot": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114",
+    "appHead": "c46c258aacc674d763865ed46157d9ff2eb6ea33",
+    "sourceFiles": [
+      {
+        "file": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/lib/services/module_update_state.dart",
+        "sha256": "af57263cc9f6e6df0839495401c6a25d937273748cbccfe50c2ed08511065aba"
+      },
+      {
+        "file": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/lib/services/module_repository_client.dart",
+        "sha256": "6cac2e6aa90d19c99391ada4c0f718e2cc55aec8d7c041ff0d16291c8ea3312b"
+      },
+      {
+        "file": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/lib/services/module_update_preferences.dart",
+        "sha256": "e1d5244898555f467b5b3bd9bd619403df3166bcc69c90a0abf47f8b871a1ca3"
+      },
+      {
+        "file": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/lib/services/module_source_presentation.dart",
+        "sha256": "326f35dedfd9e966cb765b2682467846152fcfc4188ce3aa9c805af5a92fb997"
+      },
+      {
+        "file": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/lib/models/module_repository.dart",
+        "sha256": "975f4fb19cb1354046594ee615c59bea17ddb7f1b897e961fa6bc41495953a0f"
+      },
+      {
+        "file": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/lib/config/module_update_config.dart",
+        "sha256": "8ffcb70a739db63ef3e58bbc57f9c9fed8f102bd21b09a2de0a0738a5d7b51af"
+      },
+      {
+        "file": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/lib/widgets/module_manager_list.dart",
+        "sha256": "e19e21dc63f2c97a034830b7ae6afae6d3e2d7f33ef2150362aedce2db70f15f"
+      },
+      {
+        "file": "/Volumes/ZX20/.codex-worktrees/player-v9-fable-release-audit-20261114/lib/screens/settings/settings_media_screen.dart",
+        "sha256": "f6e45f4739fb7b9c4588093686caca31eb8fe361a4e1f90782c0f1bca93cda9b"
+      }
+    ],
+    "method": "checkInstalledModulesManually",
+    "behavior": "Fresh index -> apply presentation before version comparison -> remember catalogue -> save bindings -> notify listeners. No package/version/publication revision comparison gates presentation.",
+    "needsPackageVersionBump": false,
+    "needsBundleVersionBump": false,
+    "needsPublicationTimestampBump": false,
+    "manualFreshFetch": true,
+    "automaticIntervalHours": 24,
+    "limitations": [
+      "Source inspection only; native acceptance remains queued.",
+      "Existing linked modules required; unlinked same-version modules are not automatically adopted.",
+      "refreshCatalogues alone saves catalogue entries, not installed presentation bindings.",
+      "Busy playback/cache/import operations block manual maintenance; refresh requires a successful index fetch.",
+      "Current inspected working files include concurrent parent changes; source hashes identify the exact read-only snapshot."
+    ]
+  },
+  "historicalMovyPass": {
+    "runId": "2026-11-11T23-01-25-952Z_s2_movy-v1_cbbf8862",
+    "source": "Official commit-pinned docs/Movy-0.1.0-beta.4-QA.md",
+    "treatment": "Acknowledged exact-package standard PASS on Alone, but later Fight Club native failure and 18/25 broad A/V samples prevent a new safe-sync clearance."
+  },
+  "safeNow": [
+    "Movy repository/catalogue iconUrl metadata only; Drama Direct already declares its valid logo."
+  ],
+  "notRun": [
+    "Flutter",
+    "S2",
+    "Simulator",
+    "Native tests",
+    "Media decoding",
+    "Publication"
+  ]
+}

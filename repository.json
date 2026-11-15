@@ -1287,7 +1287,8 @@
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV",
-        "language": "Original audio; source subtitles"
+        "language": "Original audio; source subtitles",
+        "iconUrl": "https://www.movy.sx/apple-touch-icon.png"
       },
       "changelog": [
         "New TEST source: movies and TV from movy.sx (TMDB catalogue). Original-audio servers up to 4K with source subtitles; matching Hindi/Spanish/French/German servers for films in those languages, and labelled dubbed servers only when no original audio exists.",

@@ -1,0 +1,1345 @@
+{
+  "auditedAt": "2026-11-15T22:25:18.233Z",
+  "mainCommit": "6c161b923a1c79a7a0571c71823c876d7421bb07",
+  "testCommit": "ff0315a7edeeeba12703f2b5fd39833c2b787371",
+  "mainIndexSha256": "8fbc914cbda235e3d7ce178ee2ea4bf1869f4b8dbc98b15167bcd5d35245d660",
+  "previousTestIndexSha256": "879ca45280cf40263239795908deea41aa9714922a0252dcc278d07dd5b5a8dc",
+  "stagedIndexSha256": "8cbe5993f34c2c162c635c992a4d2c22b591c1414849c0344a7fb8858988e954",
+  "stagedCatalogueSha256": "0850ec4c241693369d40f2e40ac13357042919284d7c5016d6c13a485bff319e",
+  "mainBundle": {
+    "version": 165,
+    "minAppVersion": "8.0.0",
+    "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/bundle-165/Synthetiq-Module-Bundle-165.zip",
+    "packagePath": "/kas021/Synthetiq-Modules/releases/download/bundle-165/Synthetiq-Module-Bundle-165.zip",
+    "sha256": "e12a574dd4fcbdc59a2a0c2c87f272b4610d15b9f69bb8cbc3e16515be723798",
+    "signature": "tU6HKHuRQNyriq7sIOXvl0jcQI3+9M7fwNAzzkebKirHNKMFUfUxVNrnTjov48AQVhZwKMB1ROgvK81oKSpIpQ=="
+  },
+  "testBundle": {
+    "version": 160,
+    "minAppVersion": "9.0.0",
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-160.zip",
+    "packagePath": "/kas021/Module-Testing-PL/main/bundles/Synthetiq-Module-Bundle-160.zip",
+    "sha256": "8eee50864dcd76aa260e96c204ad84ad1e65e4f017783f50517472946138e770",
+    "signature": ""
+  },
+  "changed": [
+    {
+      "id": "movy-v1",
+      "field": "presentation.iconUrl",
+      "previous": null,
+      "next": "https://www.movy.sx/apple-touch-icon.png",
+      "files": [
+        "repository.json",
+        "catalogue.json"
+      ],
+      "packageBytesChanged": false,
+      "versionChanged": false
+    }
+  ],
+  "packageChanges": [],
+  "rows": [
+    {
+      "id": "synthetiq-anime-v1",
+      "testVersion": "1.0.5-beta.9",
+      "testSha256": "413ca29d5755d5b309f1f5beff00d3ddae5c93469a792590786d69650957c613",
+      "file": "modules/synthetiq-anime-v1-1.0.5-beta.9.zip",
+      "testManifestSha256": "60c7ac0393bfb6724148c4d33843703b1bd8f81302265d094260ea148fb39f41",
+      "testFiles": {
+        "module.json": "60c7ac0393bfb6724148c4d33843703b1bd8f81302265d094260ea148fb39f41",
+        "index.js": "8f5dd88a6535cc5c209d688d3ac63d6199b74956fdbf001d5face0d12122f267"
+      },
+      "preservedV9": {
+        "catalogueMapping": {
+          "version": 1,
+          "routes": [
+            {
+              "namespace": "anilist:anime",
+              "seriesId": "https://anicrowd.xyz/anime/{id}",
+              "episodeId": "https://anicrowd.xyz/anime/{id}/watch?ep={episode}",
+              "numbering": "absolute"
+            },
+            {
+              "namespace": "mal:anime",
+              "seriesId": "https://anicrowd.xyz/mal/{id}",
+              "episodeId": "https://anicrowd.xyz/mal/{id}/watch?ep={episode}",
+              "numbering": "absolute"
+            }
+          ]
+        },
+        "sourceFallbacks": {
+          "version": 1,
+          "groups": [
+            {
+              "publisher": "manual:synthetiq-anime-v1",
+              "source": "synthetiq_anime_v1",
+              "group": "flux-synthetiq-anime-catalogue",
+              "revision": 1,
+              "name": "Flux and Synthetiq Anime",
+              "contentType": "video",
+              "primary": {
+                "publisher": "manual:synthetiq-anime-v1",
+                "source": "synthetiq_anime_v1",
+                "moduleId": "synthetiq-anime-v1",
+                "name": "Synthetiq Anime",
+                "contentType": "video"
+              },
+              "alternatives": [
+                {
+                  "publisher": "manual:synthetiq-anime-direct",
+                  "source": "synthetiq_anime_direct_v1",
+                  "moduleId": "synthetiq-anime-direct",
+                  "name": "Synthetiq Flux",
+                  "contentType": "video"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "mainVersion": "1.0.5-beta.8",
+      "mainSha256": "22d2bf456bb65321d2fd283d162ceaed958f72ecbdbef9a6a35469c9d62621b4",
+      "mainFiles": {
+        "index.js": "924cf7a94c198b503eddf0374dd13bdf7a2eb881796fbee320c526117098c8da",
+        "module.json": "28cc0e773e54869a1558579ab598910618cea8079c97f95fa8fc4138a5d04d15"
+      },
+      "changedFiles": [
+        "index.js",
+        "module.json"
+      ],
+      "manifestChanges": [
+        "moduleVersion",
+        "version",
+        "config.catalogueMapping",
+        "config.sourceFallbacks"
+      ],
+      "executableChanges": [
+        "index.js"
+      ],
+      "disposition": "KEEP_TEST_NEWER"
+    },
+    {
+      "id": "synthetiq-anime-direct",
+      "testVersion": "1.0.3-beta.10",
+      "testSha256": "588cb9a2670082e914c33623f54c700bfc7896c470ac3c1c9ce6f3f357ca0bdd",
+      "file": "modules/Synthetiq-Flux-1.0.3-beta.10.zip",
+      "testManifestSha256": "aeeff1208b28c73efda118ee39110e00033b9f412b7f2cff26dbed446561a74b",
+      "testFiles": {
+        "module.json": "aeeff1208b28c73efda118ee39110e00033b9f412b7f2cff26dbed446561a74b",
+        "index.js": "97ec8cdb6631eb31ce659de1514811bc169aa9e95fe367c7d0460920bba2088d"
+      },
+      "preservedV9": {
+        "catalogueMapping": {
+          "version": 1,
+          "routes": [
+            {
+              "namespace": "anilist:anime",
+              "seriesId": "sadirect:a{id}",
+              "episodeId": "sadirect:a{id}:e{episode}",
+              "numbering": "absolute"
+            },
+            {
+              "namespace": "mal:anime",
+              "seriesId": "sadirect:m{id}",
+              "episodeId": "sadirect:m{id}:e{episode}",
+              "numbering": "absolute"
+            }
+          ]
+        },
+        "sourceFallbacks": {
+          "version": 1,
+          "groups": [
+            {
+              "publisher": "manual:synthetiq-anime-direct",
+              "source": "synthetiq_anime_direct_v1",
+              "group": "flux-synthetiq-anime-catalogue",
+              "revision": 1,
+              "name": "Flux and Synthetiq Anime",
+              "contentType": "video",
+              "primary": {
+                "publisher": "manual:synthetiq-anime-direct",
+                "source": "synthetiq_anime_direct_v1",
+                "moduleId": "synthetiq-anime-direct",
+                "name": "Synthetiq Flux",
+                "contentType": "video"
+              },
+              "alternatives": [
+                {
+                  "publisher": "manual:synthetiq-anime-v1",
+                  "source": "synthetiq_anime_v1",
+                  "moduleId": "synthetiq-anime-v1",
+                  "name": "Synthetiq Anime",
+                  "contentType": "video"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "mainVersion": "1.0.3-beta.10",
+      "mainSha256": "cec282d91015f4920d30cb82cb67a9e957e451c39b8a593a1e7edddb71ad7507",
+      "mainFiles": {
+        "module.json": "a7d562ed62c340115b093858bfddde55bb6f2cc20317914da7217e2bc8221c84",
+        "index.js": "97ec8cdb6631eb31ce659de1514811bc169aa9e95fe367c7d0460920bba2088d"
+      },
+      "changedFiles": [
+        "module.json"
+      ],
+      "manifestChanges": [
+        "config.catalogueMapping",
+        "config.sourceFallbacks"
+      ],
+      "executableChanges": [],
+      "disposition": "KEEP_TEST_OVERLAY"
+    },
+    {
+      "id": "synthetiq-one-v1",
+      "testVersion": "1.3.0",
+      "testSha256": "55e643d626811e328ef87d40d67a2e0d3434f750aaff6659f8685c5bddb5f5c3",
+      "file": "modules/Synthetiq-One-1.3.0.zip",
+      "testManifestSha256": "b8ad871767517c1107f2b15b37e5c272397378a149ed45acbd570ad84579a407",
+      "testFiles": {
+        "module.json": "b8ad871767517c1107f2b15b37e5c272397378a149ed45acbd570ad84579a407",
+        "index.js": "9f0607df92ed58f3326d97b9e7288f1ae37cd571709c8404ff56c49c70c07172"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.3.0",
+      "mainSha256": "55e643d626811e328ef87d40d67a2e0d3434f750aaff6659f8685c5bddb5f5c3",
+      "mainFiles": {
+        "module.json": "b8ad871767517c1107f2b15b37e5c272397378a149ed45acbd570ad84579a407",
+        "index.js": "9f0607df92ed58f3326d97b9e7288f1ae37cd571709c8404ff56c49c70c07172"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "anipm-v1",
+      "testVersion": "0.1.0-beta.9",
+      "testSha256": "696c060e7528f0a278ea618dc4d7afc79e607aa9b161580597bdf8a3e3b14ee7",
+      "file": "modules/AniPM-0.1.0-beta.9.zip",
+      "testManifestSha256": "a1089bb9c75d82a583a65e7eb0c33b8b506b1173d16b9e5e0d607f00cfc681b0",
+      "testFiles": {
+        "module.json": "a1089bb9c75d82a583a65e7eb0c33b8b506b1173d16b9e5e0d607f00cfc681b0",
+        "index.js": "7b9e2ab310eeab5a9abec2d1736f19b392625e9f6ebe9962efbfd82ee38025ff"
+      },
+      "preservedV9": {
+        "catalogueMapping": {
+          "version": 2,
+          "routes": [
+            {
+              "namespace": "anipm:anime",
+              "seriesId": "anipm:{id}",
+              "episodeId": "anipm:{id}:e{episode}",
+              "numbering": "absolute"
+            },
+            {
+              "namespace": "qa:anipm-catalogue-v1",
+              "seriesId": "anipm:{id}",
+              "episodeId": "anipm:{id}:e{episode}",
+              "numbering": "absolute"
+            }
+          ]
+        },
+        "sourceFallbacks": {
+          "version": 1,
+          "groups": [
+            {
+              "publisher": "manual:anipm-v1",
+              "source": "anipm-v1",
+              "group": "ani-pm-anime-catalogue",
+              "revision": 1,
+              "name": "AniKoto and AniPM",
+              "contentType": "video",
+              "primary": {
+                "publisher": "manual:anipm-v1",
+                "source": "anipm-v1",
+                "moduleId": "anipm-v1",
+                "name": "AniPM"
+              },
+              "alternatives": [
+                {
+                  "publisher": "manual:anikoto-v4",
+                  "source": "anikoto-v3",
+                  "moduleId": "anikoto-v4",
+                  "name": "AniKoto"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "mainVersion": "0.1.0-beta.9",
+      "mainSha256": "502da3b8153b600882bd8156778c1048468e591f0de80d06b97ca036a7714c64",
+      "mainFiles": {
+        "module.json": "b9940e74a199a191e0aa2e75eed92da7420bf8e0f8e1e029b6b9c60cb87906a0",
+        "index.js": "7b9e2ab310eeab5a9abec2d1736f19b392625e9f6ebe9962efbfd82ee38025ff"
+      },
+      "changedFiles": [
+        "module.json"
+      ],
+      "manifestChanges": [
+        "config.catalogueMapping",
+        "config.sourceFallbacks"
+      ],
+      "executableChanges": [],
+      "disposition": "KEEP_TEST_OVERLAY"
+    },
+    {
+      "id": "anikoto-v4",
+      "testVersion": "5.0.6-beta.3",
+      "testSha256": "9b8806589bf7c0f3e408088b16be218d548b2cadaed6534ec91de105dcea9a27",
+      "file": "modules/anikoto-v4-5.0.6-beta.3.zip",
+      "testManifestSha256": "eabac800b0e45e2810f2e80fef1e0dda5a9a75042deb81cacc04298aed42aaa4",
+      "testFiles": {
+        "index.js": "5c48379a7fe81e96a5b43df650e7c4a0f9d90d732ae2c8aeadf70321c3ff97ed",
+        "module.json": "eabac800b0e45e2810f2e80fef1e0dda5a9a75042deb81cacc04298aed42aaa4"
+      },
+      "preservedV9": {
+        "catalogueMapping": {
+          "version": 2,
+          "routes": [
+            {
+              "namespace": "anipm:anime",
+              "seriesId": "{slug}",
+              "episodeId": "{id}|{slug}|{episode}",
+              "numbering": "absolute"
+            }
+          ]
+        },
+        "sourceFallbacks": {
+          "version": 1,
+          "groups": [
+            {
+              "publisher": "manual:anikoto-v4",
+              "source": "anikoto-v3",
+              "group": "ani-pm-anime-catalogue",
+              "revision": 1,
+              "name": "AniKoto and AniPM",
+              "contentType": "video",
+              "primary": {
+                "publisher": "manual:anikoto-v4",
+                "source": "anikoto-v3",
+                "moduleId": "anikoto-v4",
+                "name": "AniKoto"
+              },
+              "alternatives": [
+                {
+                  "publisher": "manual:anipm-v1",
+                  "source": "anipm-v1",
+                  "moduleId": "anipm-v1",
+                  "name": "AniPM"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "mainVersion": "5.0.6-beta.3",
+      "mainSha256": "58c85822abc9bb59430ff8c9f8e6d2580973f43628a2828b50822fcc0ce72d4e",
+      "mainFiles": {
+        "module.json": "acab20b9b47e89e3e3032b11503e824fc3f8cc8bd92f0a231aca2ac5d4312d22",
+        "index.js": "5c48379a7fe81e96a5b43df650e7c4a0f9d90d732ae2c8aeadf70321c3ff97ed"
+      },
+      "changedFiles": [
+        "module.json"
+      ],
+      "manifestChanges": [
+        "config.catalogueMapping",
+        "config.sourceFallbacks"
+      ],
+      "executableChanges": [],
+      "disposition": "KEEP_TEST_OVERLAY"
+    },
+    {
+      "id": "anikage-v1",
+      "testVersion": "1.1.3",
+      "testSha256": "70002c6570c46129d00e71c9cf623f7b44bc2ddea2cb559933b10ede1554fff4",
+      "file": "modules/Anikage-1.1.3.zip",
+      "testManifestSha256": "1ea5021d15b0841c57554942df8e0627e4f3a7dcbd6d3894a011adea66bf6306",
+      "testFiles": {
+        "module.json": "1ea5021d15b0841c57554942df8e0627e4f3a7dcbd6d3894a011adea66bf6306",
+        "index.js": "d937d46bfe00442fedfa76815c57571fc240f0d756e0fee5427b1f3d1c113c83"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.1.3",
+      "mainSha256": "70002c6570c46129d00e71c9cf623f7b44bc2ddea2cb559933b10ede1554fff4",
+      "mainFiles": {
+        "module.json": "1ea5021d15b0841c57554942df8e0627e4f3a7dcbd6d3894a011adea66bf6306",
+        "index.js": "d937d46bfe00442fedfa76815c57571fc240f0d756e0fee5427b1f3d1c113c83"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "yflix-v1",
+      "testVersion": "1.1.2",
+      "testSha256": "6e772e78b4124f9443f89577fab90b524bf0d63ebf7af089441bed81ea05ca6f",
+      "file": "modules/YFlix-1.1.2.zip",
+      "testManifestSha256": "17dbc056a43db169f06c81af6d547863a19f4698c6e77984d774192d9fb334b6",
+      "testFiles": {
+        "module.json": "17dbc056a43db169f06c81af6d547863a19f4698c6e77984d774192d9fb334b6",
+        "index.js": "0fb639ed42a9f5ed8c3e8d43af01e003834b3e78fb7cdaae5c53ded9508081a2"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.1.3-beta.2",
+      "mainSha256": "9054a75b9f2700f567468c8e50091638a048810d788b1df5d3444fa6cd02b683",
+      "mainFiles": {
+        "module.json": "b0b64d50823fcf9029e9d7452cbab3ec84908097ad2c0cde4fce8829f2ae30d5",
+        "index.js": "7d631bd43cc56b3a992a807d176d864124a2db69d58b1d3c1955da2cfedd3ee5"
+      },
+      "changedFiles": [
+        "module.json",
+        "index.js"
+      ],
+      "manifestChanges": [
+        "moduleVersion",
+        "description"
+      ],
+      "executableChanges": [
+        "index.js"
+      ],
+      "disposition": "HOLD_UPSTREAM",
+      "reason": "Prior exact-candidate S2 FAIL: caption-language contradictions; no fresh runtime slot."
+    },
+    {
+      "id": "dramacool-v1",
+      "testVersion": "1.0.3",
+      "testSha256": "abfed0370656fc7ae1c2e5e011148ffba2f982b385370c1a10aa6d891213a6e7",
+      "file": "modules/DramaCool-1.0.3.zip",
+      "testManifestSha256": "2af06c416db51a76c85fe36a99a64757d1ea259eb9adddeea24ac62ac09cd9ab",
+      "testFiles": {
+        "module.json": "2af06c416db51a76c85fe36a99a64757d1ea259eb9adddeea24ac62ac09cd9ab",
+        "index.js": "e78514f35f3d4b7cba70b09ca428475a1e889deeffa3bf09055bdc14e1234720"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.0.3",
+      "mainSha256": "abfed0370656fc7ae1c2e5e011148ffba2f982b385370c1a10aa6d891213a6e7",
+      "mainFiles": {
+        "module.json": "2af06c416db51a76c85fe36a99a64757d1ea259eb9adddeea24ac62ac09cd9ab",
+        "index.js": "e78514f35f3d4b7cba70b09ca428475a1e889deeffa3bf09055bdc14e1234720"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "drama-direct-v1",
+      "testVersion": "0.1.0-beta.9",
+      "testSha256": "0374dcafd676e190fdcda6a05016510c8f3873e1b421bc049bc9eb8814e5b1ac",
+      "file": "modules/Drama-Direct-0.1.0-beta.9.zip",
+      "testManifestSha256": "76b93d18b59d0026b4e7b199ab65f7c3830a45ea99eecadb700f735a908ac65c",
+      "testFiles": {
+        "module.json": "76b93d18b59d0026b4e7b199ab65f7c3830a45ea99eecadb700f735a908ac65c",
+        "index.js": "ae4389b73ee1f867d30a828b6f9cdd51f45a489ff2243d65866fe572a967f670"
+      },
+      "preservedV9": {},
+      "mainVersion": "0.1.0-beta.9",
+      "mainSha256": "0374dcafd676e190fdcda6a05016510c8f3873e1b421bc049bc9eb8814e5b1ac",
+      "mainFiles": {
+        "module.json": "76b93d18b59d0026b4e7b199ab65f7c3830a45ea99eecadb700f735a908ac65c",
+        "index.js": "ae4389b73ee1f867d30a828b6f9cdd51f45a489ff2243d65866fe572a967f670"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "onepace-v3",
+      "testVersion": "3.0.6",
+      "testSha256": "9e2199589ede6aa5aeb6ebfa6cfd29543ddb04e224695d331327b86a50f08b25",
+      "file": "modules/One-Pace-3.0.6.zip",
+      "testManifestSha256": "ca52c10ea43ddb31eafb7e21372ffcd62d320c74cd3301e6db23fc9f8a747520",
+      "testFiles": {
+        "module.json": "ca52c10ea43ddb31eafb7e21372ffcd62d320c74cd3301e6db23fc9f8a747520",
+        "index.js": "787929e24d8ca3239178344aa32d48127fa4215d84114db7bfe8e07d331051a4"
+      },
+      "preservedV9": {},
+      "mainVersion": "3.0.6",
+      "mainSha256": "9e2199589ede6aa5aeb6ebfa6cfd29543ddb04e224695d331327b86a50f08b25",
+      "mainFiles": {
+        "module.json": "ca52c10ea43ddb31eafb7e21372ffcd62d320c74cd3301e6db23fc9f8a747520",
+        "index.js": "787929e24d8ca3239178344aa32d48127fa4215d84114db7bfe8e07d331051a4"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "animeheaven-v2-1",
+      "testVersion": "4.1.1-beta.1",
+      "testSha256": "48c550e4961f3c142c67c415924cc6cf13eefc281870645d9707c1d62ce53125",
+      "file": "modules/animeheaven-v2-1-4.1.1-beta.1.zip",
+      "testManifestSha256": "f53b4dd2fd14cc72e4c25ddc0448b1b32a0b18faf0e33eda568d17abdf72f8e2",
+      "testFiles": {
+        "index.js": "6aafc641e79379230716771fbdaddf7d678ed87999c80ebace4d1b587e2e7486",
+        "module.json": "f53b4dd2fd14cc72e4c25ddc0448b1b32a0b18faf0e33eda568d17abdf72f8e2"
+      },
+      "preservedV9": {},
+      "mainVersion": "4.1.1-beta.1",
+      "mainSha256": "48c550e4961f3c142c67c415924cc6cf13eefc281870645d9707c1d62ce53125",
+      "mainFiles": {
+        "index.js": "6aafc641e79379230716771fbdaddf7d678ed87999c80ebace4d1b587e2e7486",
+        "module.json": "f53b4dd2fd14cc72e4c25ddc0448b1b32a0b18faf0e33eda568d17abdf72f8e2"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "xstream-v1",
+      "testVersion": "1.3.5-beta.1",
+      "testSha256": "c2f904af7e45acfdacd354cf873daf70cc1549abd32a8b99155d2179e9c2593a",
+      "file": "modules/xstream-v1-1.3.5-beta.1.zip",
+      "testManifestSha256": "879c5446589e7cb01626b30a985b8c3a36febab0b9a501cffee49b5f65c7aee2",
+      "testFiles": {
+        "index.js": "ede4cf3a72c2a0b52e75cc684cacd22c505e22b7e7a43681b4678ddf74cf8c05",
+        "module.json": "879c5446589e7cb01626b30a985b8c3a36febab0b9a501cffee49b5f65c7aee2"
+      },
+      "preservedV9": {
+        "catalogueMapping": {
+          "version": 2,
+          "routes": [
+            {
+              "namespace": "tmdb:tv",
+              "seriesId": "https://xstream.free.nf/tv.php?id={id}",
+              "episodeId": "https://xstream.free.nf/watch.php?type=tv&id={id}&season={season}&episode={episode}",
+              "numbering": "seasonEpisode"
+            }
+          ]
+        },
+        "sourceFallbacks": {
+          "version": 1,
+          "groups": [
+            {
+              "publisher": "manual:xstream-v1",
+              "source": "xstream_v1",
+              "group": "moviedb-xstream-tv-catalogue",
+              "revision": 1,
+              "name": "MovieDB and X-Stream TV",
+              "contentType": "video",
+              "primary": {
+                "publisher": "manual:xstream-v1",
+                "source": "xstream_v1",
+                "moduleId": "xstream-v1",
+                "name": "X-Stream",
+                "contentType": "video"
+              },
+              "alternatives": [
+                {
+                  "publisher": "manual:moviedb-wiki-v1",
+                  "source": "moviedb_wiki_v1",
+                  "moduleId": "moviedb-wiki-v1",
+                  "name": "MovieDB",
+                  "contentType": "video"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "mainVersion": "1.3.5-beta.1",
+      "mainSha256": "d10a08fba1403a27a9ef24646b9ddbeffda43d151f4d8ca45afc43260fce07ac",
+      "mainFiles": {
+        "module.json": "ea150b2354accc3846f9ac1fde4e55ebf0b49a6a71b3085a270c656a3132aff5",
+        "index.js": "ede4cf3a72c2a0b52e75cc684cacd22c505e22b7e7a43681b4678ddf74cf8c05"
+      },
+      "changedFiles": [
+        "module.json"
+      ],
+      "manifestChanges": [
+        "config.catalogueMapping",
+        "config.sourceFallbacks"
+      ],
+      "executableChanges": [],
+      "disposition": "KEEP_TEST_OVERLAY"
+    },
+    {
+      "id": "miruro-v3",
+      "testVersion": "4.1.3-beta.11",
+      "testSha256": "e561ae9ddbddea68a0988b5708808f3c90d04f13f813a0b120e2cd3d1715b194",
+      "file": "modules/miruro-v3-4.1.3-beta.11.zip",
+      "testManifestSha256": "f428af56deec871ed185a9a896842b0b16a183216c31efd828fd0a909401e3b3",
+      "testFiles": {
+        "index.js": "b2c07496ba92d1dc5c1566910c20850f2aa249fa5865996167342cb21922ab6b",
+        "module.json": "f428af56deec871ed185a9a896842b0b16a183216c31efd828fd0a909401e3b3"
+      },
+      "preservedV9": {},
+      "mainVersion": "4.1.3-beta.7",
+      "mainSha256": "22a8b23b18e8279069c52ea3e455a834b50aca0c7840420eea688c6777d83209",
+      "mainFiles": {
+        "index.js": "3a5d35344a651005406504b54d658e55cc1de0e51dc1abe85fbd1a3a463cdf81",
+        "module.json": "c75c9f56e63897c7f8033f4806726c2d8b777482e522853314635a9a67f34ea8"
+      },
+      "changedFiles": [
+        "index.js",
+        "module.json"
+      ],
+      "manifestChanges": [
+        "moduleVersion"
+      ],
+      "executableChanges": [
+        "index.js"
+      ],
+      "disposition": "KEEP_TEST_NEWER"
+    },
+    {
+      "id": "anime-sama-v1",
+      "testVersion": "1.1.2",
+      "testSha256": "c6f6c913e0fd015dddbb7291c695c4942fe1bb05fe90ff699b502e2ee10b675e",
+      "file": "modules/Anime-Sama-1.1.2.zip",
+      "testManifestSha256": "9e0b1b945870a748c96b1535575b2a78cde0a411b7fd1591ced7a347d890bbe3",
+      "testFiles": {
+        "module.json": "9e0b1b945870a748c96b1535575b2a78cde0a411b7fd1591ced7a347d890bbe3",
+        "index.js": "946e8f9768c82e8a20d01a53795a20abd8d68d006192ced90f0f8df5c316a0d8"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.1.2",
+      "mainSha256": "c6f6c913e0fd015dddbb7291c695c4942fe1bb05fe90ff699b502e2ee10b675e",
+      "mainFiles": {
+        "module.json": "9e0b1b945870a748c96b1535575b2a78cde0a411b7fd1591ced7a347d890bbe3",
+        "index.js": "946e8f9768c82e8a20d01a53795a20abd8d68d006192ced90f0f8df5c316a0d8"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "an1me-v1",
+      "testVersion": "1.1.1",
+      "testSha256": "456c6110f16b3e6c3224131f024150d6a5f5444a97481e7fc1be782ba32c06ad",
+      "file": "modules/An1me-1.1.1.zip",
+      "testManifestSha256": "9f7c99ffd06ceb034c0a498abdf76a2d1332ccbfa223a49b79281ab669e6867e",
+      "testFiles": {
+        "module.json": "9f7c99ffd06ceb034c0a498abdf76a2d1332ccbfa223a49b79281ab669e6867e",
+        "index.js": "9655d46266cb5e6e92d4a14d904fde29cb0571bcf9e1106752c697a0ff3ad727"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.1.1",
+      "mainSha256": "456c6110f16b3e6c3224131f024150d6a5f5444a97481e7fc1be782ba32c06ad",
+      "mainFiles": {
+        "module.json": "9f7c99ffd06ceb034c0a498abdf76a2d1332ccbfa223a49b79281ab669e6867e",
+        "index.js": "9655d46266cb5e6e92d4a14d904fde29cb0571bcf9e1106752c697a0ff3ad727"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "animeav1-v1",
+      "testVersion": "1.3.0-beta.9",
+      "testSha256": "833d9133c5ee4271092881aaa3e59ddf291e0f98a2ca542d635db3c16dfab943",
+      "file": "modules/AnimeAV1-1.3.0-beta.9.zip",
+      "testManifestSha256": "b6c98ff0c82e15ff0254d99c7608f76530645c5a012daf7e73147abb64e092eb",
+      "testFiles": {
+        "module.json": "b6c98ff0c82e15ff0254d99c7608f76530645c5a012daf7e73147abb64e092eb",
+        "index.js": "f6f4a7eb9503b38f22a5d5dc00f1791be393374b3c8163e39151de8272060995"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.3.0-beta.9",
+      "mainSha256": "833d9133c5ee4271092881aaa3e59ddf291e0f98a2ca542d635db3c16dfab943",
+      "mainFiles": {
+        "module.json": "b6c98ff0c82e15ff0254d99c7608f76530645c5a012daf7e73147abb64e092eb",
+        "index.js": "f6f4a7eb9503b38f22a5d5dc00f1791be393374b3c8163e39151de8272060995"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "kartoons-v1",
+      "testVersion": "1.1.6",
+      "testSha256": "51cf4eb68cc674c6d4fc334329c18b22a5074004607fb0f2a125f951e56463e3",
+      "file": "modules/Kartoons-1.1.6.zip",
+      "testManifestSha256": "4b562dccd163c554fd680538f495ac57bc91c6c8ed24c86d43d651559d008a31",
+      "testFiles": {
+        "module.json": "4b562dccd163c554fd680538f495ac57bc91c6c8ed24c86d43d651559d008a31",
+        "index.js": "74c0bebb689c0b143067bb2ccb967ec35ef472b6e2880fd910dbe7a468573c8f"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.1.6",
+      "mainSha256": "51cf4eb68cc674c6d4fc334329c18b22a5074004607fb0f2a125f951e56463e3",
+      "mainFiles": {
+        "module.json": "4b562dccd163c554fd680538f495ac57bc91c6c8ed24c86d43d651559d008a31",
+        "index.js": "74c0bebb689c0b143067bb2ccb967ec35ef472b6e2880fd910dbe7a468573c8f"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "dramafun-v3",
+      "testVersion": "4.0.1",
+      "testSha256": "b66d9cfb3f3f5dc53d273c64cf23ba006c8ee9d8ad40342ea6427fba6d825fa9",
+      "file": "modules/DramaFun-4.0.1.zip",
+      "testManifestSha256": "ef9b178cb69f9f921a4eae759517adfb536dd15bcdaade934244c494f603596e",
+      "testFiles": {
+        "module.json": "ef9b178cb69f9f921a4eae759517adfb536dd15bcdaade934244c494f603596e",
+        "index.js": "b41f0a6491dfab7e2b0b63279eafb7c7c6a819f644b6abd05c2f52597454885e"
+      },
+      "preservedV9": {},
+      "mainVersion": "4.0.1",
+      "mainSha256": "b66d9cfb3f3f5dc53d273c64cf23ba006c8ee9d8ad40342ea6427fba6d825fa9",
+      "mainFiles": {
+        "module.json": "ef9b178cb69f9f921a4eae759517adfb536dd15bcdaade934244c494f603596e",
+        "index.js": "b41f0a6491dfab7e2b0b63279eafb7c7c6a819f644b6abd05c2f52597454885e"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "toontales-v1",
+      "testVersion": "3.0.1",
+      "testSha256": "2d9ef1b1c6795c2e4b0bb78c73a863adc6cee21ffca1b373b1d40925f95f86a0",
+      "file": "modules/ToonTales-3.0.1.zip",
+      "testManifestSha256": "0d49ebef4fd8cf1f620433ac3ed274fbcc5061d296257cef2d246dd45fc13131",
+      "testFiles": {
+        "module.json": "0d49ebef4fd8cf1f620433ac3ed274fbcc5061d296257cef2d246dd45fc13131",
+        "index.js": "ea558d7f0cf2ee417ac296debaff8ab392aba6739f1cb5705749eeaeffbda3f7"
+      },
+      "preservedV9": {},
+      "mainVersion": "3.0.1",
+      "mainSha256": "2d9ef1b1c6795c2e4b0bb78c73a863adc6cee21ffca1b373b1d40925f95f86a0",
+      "mainFiles": {
+        "module.json": "0d49ebef4fd8cf1f620433ac3ed274fbcc5061d296257cef2d246dd45fc13131",
+        "index.js": "ea558d7f0cf2ee417ac296debaff8ab392aba6739f1cb5705749eeaeffbda3f7"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "aniworld-v1",
+      "testVersion": "1.3.2",
+      "testSha256": "0a56360b7e14e121d48fca5ec749f540751fd56c85852557efc279bc50ffd3ff",
+      "file": "modules/Aniworld-1.3.2.zip",
+      "testManifestSha256": "0001ca0004f02997e13d5569b70ccccb8c18185c4990238d98bb8083729b7497",
+      "testFiles": {
+        "module.json": "0001ca0004f02997e13d5569b70ccccb8c18185c4990238d98bb8083729b7497",
+        "index.js": "826cdaa84b89ad8409e46533fac94b59ceb42fe268ca7499df63657564358f4d"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.3.2",
+      "mainSha256": "0a56360b7e14e121d48fca5ec749f540751fd56c85852557efc279bc50ffd3ff",
+      "mainFiles": {
+        "module.json": "0001ca0004f02997e13d5569b70ccccb8c18185c4990238d98bb8083729b7497",
+        "index.js": "826cdaa84b89ad8409e46533fac94b59ceb42fe268ca7499df63657564358f4d"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "megakino-v1",
+      "testVersion": "1.1.5",
+      "testSha256": "6dd028c503a9b95e94293308cb907be6467092a523cd7480696fb54bb1647f24",
+      "file": "modules/MegaKino-1.1.5.zip",
+      "testManifestSha256": "4856771998e3bc9ec19b859e874041abd42364af95d40f1a30be421e4d8a6a54",
+      "testFiles": {
+        "module.json": "4856771998e3bc9ec19b859e874041abd42364af95d40f1a30be421e4d8a6a54",
+        "index.js": "c6113ca61523efd9b4a17bff9a8a2e8c30323632d4c52755f717ec16e580db0e"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.1.6-beta.2",
+      "mainSha256": "e34aed6a9b9b212b553644f43f8ce45216d0f9ccef87831c1789c3d12130bbb6",
+      "mainFiles": {
+        "module.json": "f16c83e807f95014820142afa59176f0d9da4ac2b812e3e91a43bb64112990a7",
+        "index.js": "517b679122d4226b2118524e0290937194a88c698eb26d805e418f450c29cd5a"
+      },
+      "changedFiles": [
+        "module.json",
+        "index.js"
+      ],
+      "manifestChanges": [
+        "moduleVersion",
+        "config.baseUrl",
+        "version"
+      ],
+      "executableChanges": [
+        "index.js"
+      ],
+      "disposition": "HOLD_UPSTREAM",
+      "reason": "Prior Sub unavailable; Dub language inconclusive; no fresh runtime slot."
+    },
+    {
+      "id": "weebcentral-v2",
+      "testVersion": "4.1.13",
+      "testSha256": "56bb2b59871b13964d3b39458fd51d5133a494fa1a9910b7ef81e0bc8e010840",
+      "file": "modules/WeebCentral-4.1.13.zip",
+      "testManifestSha256": "6024a96e18316379fca993322250b5b59caa0ad699fe51945103260190533adb",
+      "testFiles": {
+        "module.json": "6024a96e18316379fca993322250b5b59caa0ad699fe51945103260190533adb",
+        "index.js": "11d00475116c9ffb24e0defacd489a3b6b96bcc900f995ceb9dcb17445bc842a"
+      },
+      "preservedV9": {},
+      "mainVersion": "4.1.13",
+      "mainSha256": "56bb2b59871b13964d3b39458fd51d5133a494fa1a9910b7ef81e0bc8e010840",
+      "mainFiles": {
+        "module.json": "6024a96e18316379fca993322250b5b59caa0ad699fe51945103260190533adb",
+        "index.js": "11d00475116c9ffb24e0defacd489a3b6b96bcc900f995ceb9dcb17445bc842a"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "synthetiq-manga-v1",
+      "testVersion": "1.0.3",
+      "testSha256": "048fdfbc80d490a6ff60b7250c304c2128f777ce8ec0ecf4045715d6fb6b5422",
+      "file": "modules/Synthetiq-Manga-1.0.3.zip",
+      "testManifestSha256": "39c3e99fd1dd13f33c224414f0ac445c170b73f1021142328c57f2f647d41d54",
+      "testFiles": {
+        "module.json": "39c3e99fd1dd13f33c224414f0ac445c170b73f1021142328c57f2f647d41d54",
+        "index.js": "a946380ad57f92d544ccf0b0886a69242c5888383d22b1fca4f72b7b86196513"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.0.3",
+      "mainSha256": "048fdfbc80d490a6ff60b7250c304c2128f777ce8ec0ecf4045715d6fb6b5422",
+      "mainFiles": {
+        "module.json": "39c3e99fd1dd13f33c224414f0ac445c170b73f1021142328c57f2f647d41d54",
+        "index.js": "a946380ad57f92d544ccf0b0886a69242c5888383d22b1fca4f72b7b86196513"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "atsu-v3",
+      "testVersion": "4.0.5",
+      "testSha256": "3d6dbdb940a1c8c4b78b35cdcd72bcb997bdad30f47e0565726c64dc29e8b840",
+      "file": "modules/Atsu-4.0.5.zip",
+      "testManifestSha256": "414c26f9c30827c3ec54e943d64f92eb00963b0730d2d479bced3c45878f8834",
+      "testFiles": {
+        "module.json": "414c26f9c30827c3ec54e943d64f92eb00963b0730d2d479bced3c45878f8834",
+        "index.js": "0b9fde4f9efd6d29b3e551d1cd512adc9d47611c7f46c4f45f4eb76140049ff9"
+      },
+      "preservedV9": {},
+      "mainVersion": "4.0.5",
+      "mainSha256": "3d6dbdb940a1c8c4b78b35cdcd72bcb997bdad30f47e0565726c64dc29e8b840",
+      "mainFiles": {
+        "module.json": "414c26f9c30827c3ec54e943d64f92eb00963b0730d2d479bced3c45878f8834",
+        "index.js": "0b9fde4f9efd6d29b3e551d1cd512adc9d47611c7f46c4f45f4eb76140049ff9"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "synthetiq-music-hub-v1",
+      "testVersion": "1.1.0",
+      "testSha256": "a1e755a9b5be89ebd654d5490927a4cae8268d22b092459ff1ae78977544d5cb",
+      "file": "modules/Synthetiq-Music-Hub-1.1.0.zip",
+      "testManifestSha256": "b5611ed16de70f6422739a3032514a257ec69d14deffeb8392a201c45ad42b4b",
+      "testFiles": {
+        "module.json": "b5611ed16de70f6422739a3032514a257ec69d14deffeb8392a201c45ad42b4b",
+        "index.js": "97b1e67fa963b18c3a3bd692a797468008368c1dc3172c368646d97b21d459ee"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.1.0",
+      "mainSha256": "a1e755a9b5be89ebd654d5490927a4cae8268d22b092459ff1ae78977544d5cb",
+      "mainFiles": {
+        "module.json": "b5611ed16de70f6422739a3032514a257ec69d14deffeb8392a201c45ad42b4b",
+        "index.js": "97b1e67fa963b18c3a3bd692a797468008368c1dc3172c368646d97b21d459ee"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "animeunity-v1",
+      "testVersion": "1.1.0-beta.3",
+      "testSha256": "044a8ae5854a7914161dfa2e87347d3033008c1d3edd06c9fc5f3380f35f2973",
+      "file": "modules/AnimeUnity-1.1.0-beta.3.zip",
+      "testManifestSha256": "37a2c7a8866d39cc89c32bc99dd31b7f5b8e47f246d20eda3fabb9ded1681b4d",
+      "testFiles": {
+        "module.json": "37a2c7a8866d39cc89c32bc99dd31b7f5b8e47f246d20eda3fabb9ded1681b4d",
+        "index.js": "b3bba573ebe0b70799885ec6b57abc09f529d869fea0742e998d57aa471dc9ae"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.1.0-beta.3",
+      "mainSha256": "044a8ae5854a7914161dfa2e87347d3033008c1d3edd06c9fc5f3380f35f2973",
+      "mainFiles": {
+        "module.json": "37a2c7a8866d39cc89c32bc99dd31b7f5b8e47f246d20eda3fabb9ded1681b4d",
+        "index.js": "b3bba573ebe0b70799885ec6b57abc09f529d869fea0742e998d57aa471dc9ae"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "kickassanime-v3",
+      "testVersion": "4.2.0",
+      "testSha256": "4f31c3cd519a37ecf552e838f6d4e3b41fa72e8ab91f5489ff8c326b4bc8748f",
+      "file": "modules/KickAssAnime-4.2.0.zip",
+      "testManifestSha256": "4a3d226d1d0d230838bc4e4f1b28d51ec08ade5af6f263db05e921bedf54a15f",
+      "testFiles": {
+        "module.json": "4a3d226d1d0d230838bc4e4f1b28d51ec08ade5af6f263db05e921bedf54a15f",
+        "index.js": "01677b9e0d90e1ea46941fc6fd8266a05813f6178d8e05f0e370313b274b93f2"
+      },
+      "preservedV9": {},
+      "mainVersion": "4.2.0",
+      "mainSha256": "4f31c3cd519a37ecf552e838f6d4e3b41fa72e8ab91f5489ff8c326b4bc8748f",
+      "mainFiles": {
+        "module.json": "4a3d226d1d0d230838bc4e4f1b28d51ec08ade5af6f263db05e921bedf54a15f",
+        "index.js": "01677b9e0d90e1ea46941fc6fd8266a05813f6178d8e05f0e370313b274b93f2"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "shahiid-v1",
+      "testVersion": "2.1.3-beta.3",
+      "testSha256": "c553daf1fa966c9072726a72a2d3ce6937d265a8891ed70ad3c8cc377cea3d27",
+      "file": "modules/Shahiid-2.1.3-beta.3.zip",
+      "testManifestSha256": "c8f286e47bdf64fd93f4a190ed781c04b44a7ce52e69c67e73d916b69622adff",
+      "testFiles": {
+        "module.json": "c8f286e47bdf64fd93f4a190ed781c04b44a7ce52e69c67e73d916b69622adff",
+        "index.js": "16d5345015703f3718adcb758f423a16d8dbfea932313b079b740bc9b6433f84"
+      },
+      "preservedV9": {},
+      "mainVersion": "2.1.3-beta.3",
+      "mainSha256": "c553daf1fa966c9072726a72a2d3ce6937d265a8891ed70ad3c8cc377cea3d27",
+      "mainFiles": {
+        "module.json": "c8f286e47bdf64fd93f4a190ed781c04b44a7ce52e69c67e73d916b69622adff",
+        "index.js": "16d5345015703f3718adcb758f423a16d8dbfea932313b079b740bc9b6433f84"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "mugiwara-v1",
+      "testVersion": "1.1.0-beta.5",
+      "testSha256": "be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857",
+      "file": "modules/Mugiwara-1.1.0-beta.5.zip",
+      "testManifestSha256": "5f8a32a8824161170d197b6340b413734392c757c305754968f4deaacb761f62",
+      "testFiles": {
+        "module.json": "5f8a32a8824161170d197b6340b413734392c757c305754968f4deaacb761f62",
+        "index.js": "628a15ba681cf53bd00c8c259fa45c60b44b03a929e048feb5fac92934569577"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.1.0-beta.5",
+      "mainSha256": "be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857",
+      "mainFiles": {
+        "module.json": "5f8a32a8824161170d197b6340b413734392c757c305754968f4deaacb761f62",
+        "index.js": "628a15ba681cf53bd00c8c259fa45c60b44b03a929e048feb5fac92934569577"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "justanime-v1",
+      "testVersion": "1.0.1",
+      "testSha256": "4b47437fd7fa51f1a2f329ed2e6d6396c09cddd855ef0cd083b74b9ab30f890c",
+      "file": "modules/JustAnime-1.0.1.zip",
+      "testManifestSha256": "5a9bf6c38e405d35638c7fa9d87d5d0f2a10ff902e786aae42902566789c3b30",
+      "testFiles": {
+        "module.json": "5a9bf6c38e405d35638c7fa9d87d5d0f2a10ff902e786aae42902566789c3b30",
+        "index.js": "06c9c8a8a6c2435ab426cf781d398891c6e670aeb64654519ec9e617f345c50e"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.0.1",
+      "mainSha256": "4b47437fd7fa51f1a2f329ed2e6d6396c09cddd855ef0cd083b74b9ab30f890c",
+      "mainFiles": {
+        "module.json": "5a9bf6c38e405d35638c7fa9d87d5d0f2a10ff902e786aae42902566789c3b30",
+        "index.js": "06c9c8a8a6c2435ab426cf781d398891c6e670aeb64654519ec9e617f345c50e"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "streamingunity-v1",
+      "testVersion": "1.0.5-beta.3",
+      "testSha256": "a2e63ae3f05b2b76a5370f6514875de05577e321fecba20e140c1becd12b4863",
+      "file": "modules/streamingunity-v1-1.0.5-beta.3.zip",
+      "testManifestSha256": "b210db16d9f8a5a0e392e9dbf1bbce5c709e3316cb552a49f8bfd7e6f6b1e2a4",
+      "testFiles": {
+        "module.json": "b210db16d9f8a5a0e392e9dbf1bbce5c709e3316cb552a49f8bfd7e6f6b1e2a4",
+        "index.js": "e19e0ca4817efe31b4b15b27acc87b21198d78156b8cd679afa225e138edc720"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.0.5-beta.3",
+      "mainSha256": "a2e63ae3f05b2b76a5370f6514875de05577e321fecba20e140c1becd12b4863",
+      "mainFiles": {
+        "module.json": "b210db16d9f8a5a0e392e9dbf1bbce5c709e3316cb552a49f8bfd7e6f6b1e2a4",
+        "index.js": "e19e0ca4817efe31b4b15b27acc87b21198d78156b8cd679afa225e138edc720"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "mangakatana-v1",
+      "testVersion": "1.0.2",
+      "testSha256": "66afbc8fea12e05663b38413d1e9ce1250ef4119f682938f1cbd10824197df30",
+      "file": "modules/MangaKatana-1.0.2.zip",
+      "testManifestSha256": "eeafed5135d9c93c776e9861f57678084d47d9cd350ba561b65b31cb2f49c51a",
+      "testFiles": {
+        "module.json": "eeafed5135d9c93c776e9861f57678084d47d9cd350ba561b65b31cb2f49c51a",
+        "index.js": "9cbbeb92800082bcb194420f0d22018c8cb9b4b0998b3f1cebd36c406c80b52c"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.0.2",
+      "mainSha256": "66afbc8fea12e05663b38413d1e9ce1250ef4119f682938f1cbd10824197df30",
+      "mainFiles": {
+        "module.json": "eeafed5135d9c93c776e9861f57678084d47d9cd350ba561b65b31cb2f49c51a",
+        "index.js": "9cbbeb92800082bcb194420f0d22018c8cb9b4b0998b3f1cebd36c406c80b52c"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "mgread-v1",
+      "testVersion": "1.0.1",
+      "testSha256": "5045164c8fbe922533899715de5145eb9857256d02c1afd24278d95c9b179a5e",
+      "file": "modules/MGRead-LikeManga-1.0.1.zip",
+      "testManifestSha256": "24685f8159fdcaabc5360956db7a4716e1a769b207b795c7a2cc6cd9b7625b40",
+      "testFiles": {
+        "module.json": "24685f8159fdcaabc5360956db7a4716e1a769b207b795c7a2cc6cd9b7625b40",
+        "index.js": "5003d6e0a1182dfa7b2444d2fa4116db66f0a7601b43e3ece6196c9bae72b88f"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.0.1",
+      "mainSha256": "5045164c8fbe922533899715de5145eb9857256d02c1afd24278d95c9b179a5e",
+      "mainFiles": {
+        "module.json": "24685f8159fdcaabc5360956db7a4716e1a769b207b795c7a2cc6cd9b7625b40",
+        "index.js": "5003d6e0a1182dfa7b2444d2fa4116db66f0a7601b43e3ece6196c9bae72b88f"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "colorizedmanga-v1",
+      "testVersion": "1.0.0-beta.1",
+      "testSha256": "fa26df19a047a5253cdaee76cd6aeba701a4e2cebbc601776654b7b379a0029c",
+      "file": "modules/ColorizedManga-1.0.0-beta.1.zip",
+      "testManifestSha256": "af6aa561643d57d231044a4a9b1841b09c4268b53ca32ef06f19eb538100efbf",
+      "testFiles": {
+        "index.js": "fae9019db296a0ae35c1ad50a77c7f8ce3c30769df6e8bd4bbe6d8b68f2ea15a",
+        "module.json": "af6aa561643d57d231044a4a9b1841b09c4268b53ca32ef06f19eb538100efbf"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.0.0-beta.1",
+      "mainSha256": "fa26df19a047a5253cdaee76cd6aeba701a4e2cebbc601776654b7b379a0029c",
+      "mainFiles": {
+        "index.js": "fae9019db296a0ae35c1ad50a77c7f8ce3c30769df6e8bd4bbe6d8b68f2ea15a",
+        "module.json": "af6aa561643d57d231044a4a9b1841b09c4268b53ca32ef06f19eb538100efbf"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "alpha-movies",
+      "testVersion": "0.2.0-beta.4",
+      "testSha256": "fa442fd94cb07e66d054d9ffa79dd7e569ba144e0db10ae8ab3b54fe2206f329",
+      "file": "modules/Alpha-Movies-0.2.0-beta.4.zip",
+      "testManifestSha256": "be8d82cc561a32ffafb10fefd07180476ef8ac7950c2733d5da3b8596c492ca9",
+      "testFiles": {
+        "module.json": "be8d82cc561a32ffafb10fefd07180476ef8ac7950c2733d5da3b8596c492ca9",
+        "index.js": "2fec3bdba21cd8bb004db6356265539258032e48531bcf287bad3281cd533c5a"
+      },
+      "preservedV9": {},
+      "mainVersion": "0.2.0-beta.4",
+      "mainSha256": "fa442fd94cb07e66d054d9ffa79dd7e569ba144e0db10ae8ab3b54fe2206f329",
+      "mainFiles": {
+        "module.json": "be8d82cc561a32ffafb10fefd07180476ef8ac7950c2733d5da3b8596c492ca9",
+        "index.js": "2fec3bdba21cd8bb004db6356265539258032e48531bcf287bad3281cd533c5a"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "moviedb-wiki-v1",
+      "testVersion": "0.1.0-beta.15",
+      "testSha256": "78b3b4afdd3b372227ee6a4f2de3336b25a8f389593353aee8e6f315f05f0cbb",
+      "file": "modules/MovieDB-0.1.0-beta.15.zip",
+      "testManifestSha256": "b475ef5c78a31b3ad7ffa97c70a8679d3f97fded8fdcdf9efca8e023154e7870",
+      "testFiles": {
+        "module.json": "b475ef5c78a31b3ad7ffa97c70a8679d3f97fded8fdcdf9efca8e023154e7870",
+        "index.js": "bb37bcbfa5e5338937d75e6fc2a3213758f545be7c911b8cf9b6eee8140807f9"
+      },
+      "preservedV9": {},
+      "mainVersion": "0.1.0-beta.26",
+      "mainSha256": "0ff223883cbdf455544227a431d77886d4b00802a9e2692c0361a7bab53b4686",
+      "mainFiles": {
+        "module.json": "357c1f5f1f61f4a1cd6282652b55954f0766d53fcd8d242becea99b6ba571176",
+        "index.js": "6d593560c41bb2c2536711eac44a6e1f67ae31963bfc214477874868b599dcca"
+      },
+      "changedFiles": [
+        "module.json",
+        "index.js"
+      ],
+      "manifestChanges": [
+        "moduleVersion",
+        "description",
+        "version"
+      ],
+      "executableChanges": [
+        "index.js"
+      ],
+      "disposition": "HOLD_UPSTREAM",
+      "reason": "Prior S2 FAIL: emitted episode reference rejected by resolver; no fresh runtime slot."
+    },
+    {
+      "id": "qa-fallback-anipm-v1",
+      "testVersion": "1.0.0-beta.1",
+      "testSha256": "fc2408262bfefe4daa17115068135f5d6278c0e4ed7ca53f8ac9d022b91e4d24",
+      "file": "modules/Fallback-Test-AniPM-1.0.0-beta.1.zip",
+      "testManifestSha256": "c4e6e871851c7ec7987854052abd821f3c3ecab3dcc74f4b6fa5cd40c03fbc26",
+      "testFiles": {
+        "module.json": "c4e6e871851c7ec7987854052abd821f3c3ecab3dcc74f4b6fa5cd40c03fbc26",
+        "index.js": "3cb983450b59fe97f1b18b93415cc84cc2eba00213e6c91ccb85edae247cb83d"
+      },
+      "preservedV9": {
+        "catalogueMapping": {
+          "version": 1,
+          "routes": [
+            {
+              "namespace": "qa:anipm-catalogue-v1",
+              "seriesId": "anipm:{id}",
+              "episodeId": "anipm:{id}:e{episode}",
+              "numbering": "absolute"
+            }
+          ]
+        },
+        "sourceFallbacks": {
+          "version": 1,
+          "groups": [
+            {
+              "publisher": "manual:qa-fallback-anipm-v1",
+              "source": "qa-fallback-anipm-v1",
+              "group": "qa-anipm-v1",
+              "revision": 1,
+              "name": "AniPM QA fallback test",
+              "contentType": "video",
+              "primary": {
+                "publisher": "manual:qa-fallback-anipm-v1",
+                "source": "qa-fallback-anipm-v1",
+                "moduleId": "qa-fallback-anipm-v1",
+                "name": "Fallback Test (AniPM)"
+              },
+              "alternatives": [
+                {
+                  "publisher": "manual:anipm-v1",
+                  "source": "anipm-v1",
+                  "moduleId": "anipm-v1",
+                  "name": "AniPM"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "disposition": "KEEP_TEST_ONLY"
+    },
+    {
+      "id": "cimacub-v1",
+      "testVersion": "1.2.0",
+      "testSha256": "3ddee1d22400b00963d5085b92efd648f36e64128c8af0a9dffbea55b995de86",
+      "file": "modules/CimaClub-1.2.0.zip",
+      "testManifestSha256": "fd481e1a61eb8c2f49eab90020391a1a58bf5f4270b576033d0151277fbde0d6",
+      "testFiles": {
+        "module.json": "fd481e1a61eb8c2f49eab90020391a1a58bf5f4270b576033d0151277fbde0d6",
+        "index.js": "bc7989313ec1da8e38b06274fef8c5d6566cce0c5abbebbf8d989138872ae092"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.2.0",
+      "mainSha256": "3ddee1d22400b00963d5085b92efd648f36e64128c8af0a9dffbea55b995de86",
+      "mainFiles": {
+        "module.json": "fd481e1a61eb8c2f49eab90020391a1a58bf5f4270b576033d0151277fbde0d6",
+        "index.js": "bc7989313ec1da8e38b06274fef8c5d6566cce0c5abbebbf8d989138872ae092"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "anime4up-site-v1",
+      "testVersion": "1.0.0-beta.10",
+      "testSha256": "3a28b4175a7030105490930820720fde63f9a49fffe1013cbc51d33c74668a2c",
+      "file": "modules/Anime4up-1.0.0-beta.10.zip",
+      "testManifestSha256": "4a41863a2ed6606a4ae2f280a8120e6dfb34cfdcfafa792ec55bb7395d7f4f31",
+      "testFiles": {
+        "module.json": "4a41863a2ed6606a4ae2f280a8120e6dfb34cfdcfafa792ec55bb7395d7f4f31",
+        "index.js": "5476126434932d15666faa4d7cff8d6f2adb62664118fbbab06b003076f26f78"
+      },
+      "preservedV9": {},
+      "mainVersion": "1.0.0-beta.10",
+      "mainSha256": "3a28b4175a7030105490930820720fde63f9a49fffe1013cbc51d33c74668a2c",
+      "mainFiles": {
+        "module.json": "4a41863a2ed6606a4ae2f280a8120e6dfb34cfdcfafa792ec55bb7395d7f4f31",
+        "index.js": "5476126434932d15666faa4d7cff8d6f2adb62664118fbbab06b003076f26f78"
+      },
+      "changedFiles": [],
+      "manifestChanges": [],
+      "executableChanges": [],
+      "disposition": "IDENTICAL"
+    },
+    {
+      "id": "sololatino-v1",
+      "testVersion": "0.1.0-beta.6",
+      "testSha256": "8173cadef04d35710009ec663f449b290cc4645fd0063941d85a3c93f1c45893",
+      "file": "modules/SoloLatino-0.1.0-beta.6.zip",
+      "testManifestSha256": "5367d85c89cb3a310ab85752e039c74c06d723420a4ebedf28115e1476b691bd",
+      "testFiles": {
+        "module.json": "5367d85c89cb3a310ab85752e039c74c06d723420a4ebedf28115e1476b691bd",
+        "index.js": "ba34f72097534ec8ef8e380b21ef6d38234429a445ff1e53228fa35a64d37a3a"
+      },
+      "preservedV9": {},
+      "disposition": "KEEP_TEST_ONLY"
+    },
+    {
+      "id": "dw-live-v1",
+      "testVersion": "0.1.0-beta.3",
+      "testSha256": "6068c5f67e3fc64303cd6e39f49141fd153f13f38c32e13fb0b2a0c7d5697cbb",
+      "file": "modules/DW-Live-0.1.0-beta.3.zip",
+      "testManifestSha256": "a5975ca95782d8e9cac281ac84c9b16d1c64c8cee0558c156676c6a834b62d70",
+      "testFiles": {
+        "module.json": "a5975ca95782d8e9cac281ac84c9b16d1c64c8cee0558c156676c6a834b62d70",
+        "index.js": "5b3efa55fa05c56b18233097cdbd5bd3896da5a8b0474761e733d9ea6d12355a"
+      },
+      "preservedV9": {},
+      "disposition": "KEEP_TEST_ONLY"
+    },
+    {
+      "id": "tvapp-live-v1",
+      "testVersion": "0.1.0-beta.10",
+      "testSha256": "53ad7b27f4723e4f9e1286891e614ccbd64ac0477879a75f6ba30fbc0cc1c0a5",
+      "file": "modules/TVApp-Live-0.1.0-beta.10.zip",
+      "testManifestSha256": "415418ae4f8adb3880497fe760a53b27e10def5f46f7dcdb41bb07f4e4083bee",
+      "testFiles": {
+        "module.json": "415418ae4f8adb3880497fe760a53b27e10def5f46f7dcdb41bb07f4e4083bee",
+        "index.js": "1eef02a7e318da0308313ff686c41fc711b131506843941f17f57fff24642712"
+      },
+      "preservedV9": {},
+      "disposition": "KEEP_TEST_ONLY"
+    },
+    {
+      "id": "public-sports-live-v1",
+      "testVersion": "0.1.0-beta.5",
+      "testSha256": "41dff901e53ba0269a04b644b7a59c675dbcab4b4b40198a4b2e4040a596d094",
+      "file": "modules/Public-Sports-Live-0.1.0-beta.5.zip",
+      "testManifestSha256": "b0fd218f06e52dcbe7774e01a76db30691c29399d8487ddb42291a791f29a517",
+      "testFiles": {
+        "module.json": "b0fd218f06e52dcbe7774e01a76db30691c29399d8487ddb42291a791f29a517",
+        "index.js": "da5e49d458cc405b94de72e602121cc4c12901ef32b897d89562c3c11c67486c"
+      },
+      "preservedV9": {},
+      "disposition": "KEEP_TEST_ONLY"
+    },
+    {
+      "id": "movy-v1",
+      "testVersion": "0.1.0-beta.1",
+      "testSha256": "e66f270a9b305f8102e5ed75b37f8f03a341bfde0bb27ecd1c544ecad9ba796d",
+      "file": "modules/Movy-0.1.0-beta.1.zip",
+      "testManifestSha256": "92d842ef2a05bedffbbb85d5d1a505f16761282005a2bc456a7639e04ef82f17",
+      "testFiles": {
+        "index.js": "4455fb664bc1eb329809201639821a165b603ec8fc8e1cee61a4eac139f6e036",
+        "module.json": "92d842ef2a05bedffbbb85d5d1a505f16761282005a2bc456a7639e04ef82f17"
+      },
+      "preservedV9": {},
+      "mainVersion": "0.1.0-beta.4",
+      "mainSha256": "9c2efa132f5577520492f1f20c27fd11e2d686194134e0638a5065724c1234c3",
+      "mainFiles": {
+        "index.js": "0239f8653b1ab4741c747ad1092f03b8639e498571f5eb1de146144e8b602d7d",
+        "module.json": "a0493d79bfcb8d83299549e40e679bb92fcc1164108a0111ee23d4d472fd749e"
+      },
+      "changedFiles": [
+        "index.js",
+        "module.json"
+      ],
+      "manifestChanges": [
+        "moduleVersion",
+        "version",
+        "description"
+      ],
+      "executableChanges": [
+        "index.js"
+      ],
+      "disposition": "HOLD_UPSTREAM",
+      "reason": "Prior adapted-standard FAIL: sustained native TCP read error; no fresh runtime slot."
+    },
+    {
+      "id": "public-tv-live-v1",
+      "testVersion": "0.1.0-beta.4",
+      "testSha256": "892cd783742c501c7925e152fa22bff77a0f783ea4f9e687b7c26b1165bed1ec",
+      "file": "modules/Public-TV-Live-0.1.0-beta.4.zip",
+      "testManifestSha256": "21eb4f378312f73ac278a85204d57ea2cdc3a9da0a879a18702fb8df685708e3",
+      "testFiles": {
+        "module.json": "21eb4f378312f73ac278a85204d57ea2cdc3a9da0a879a18702fb8df685708e3",
+        "index.js": "df1125be6b8a9a17a6ae1602208b1bacf50b0c557fe8a643b898d5117fda2668"
+      },
+      "preservedV9": {},
+      "disposition": "KEEP_TEST_ONLY"
+    }
+  ],
+  "logos": [
+    {
+      "id": "drama-direct-v1",
+      "url": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/drama-direct.png?v=20261024-1",
+      "http": 200,
+      "redirects": 0,
+      "mime": "image/png",
+      "bytes": 8169,
+      "width": 512,
+      "height": 512,
+      "sha256": "c53bf149138c87263103e0ba65546a1e544d88f58dbdcbe6eebda3c95df45fa7"
+    },
+    {
+      "id": "movy-v1",
+      "url": "https://www.movy.sx/apple-touch-icon.png",
+      "http": 200,
+      "redirects": 0,
+      "mime": "image/png",
+      "bytes": 6537,
+      "width": 180,
+      "height": 180,
+      "sha256": "3a23b652e740db152549db251682e355806702b3b17cb2d937b997b49514c95e"
+    }
+  ],
+  "runtimeCertification": "QUEUED_PARENT_SERIALIZED_SLOT_NOT_RUN",
+  "publication": "NOT_AUTHORIZED_NOT_PUSHED",
+  "signaturePolicy": "All original signatures and publication revisions retained; presentation is outside canonical signed messages. No signing key accessed.",
+  "risks": [
+    "Static ZIP parsing and JS compilation are not runtime, stream, subtitle, audio or physical-device proof.",
+    "Logo URL availability can change. Movy apex returned HTTP 451; www logo endpoint returned direct PNG.",
+    "Community TEST index and bundle are intentionally unsigned; native declarations remain signed and verifier-checked.",
+    "Removing app hardcoded fallbacks requires native import/render acceptance by parent; not tested here."
+  ]
+}
