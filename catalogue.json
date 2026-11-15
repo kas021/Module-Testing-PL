@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 159,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-159.zip",
+  "bundleVersion": 160,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-160.zip",
   "minAppVersion": "9.0.0",
   "modules": [
     {
@@ -187,7 +187,8 @@
         "category": "Drama",
         "purpose": "Drama Direct (Experimental)",
         "recommended": false,
-        "language": "Original audio / source subtitles"
+        "language": "Original audio / source subtitles",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/drama-direct.png?v=20261024-1"
       },
       "changelog": [
         "Owner-approved public availability of the unchanged 0.1.0-beta.9 prototype; not a fully certified stable release. Existing DramaCool remains unchanged.",
@@ -218,7 +219,7 @@
       ]
     },
     {
-      "file": "modules/AnimeHeaven-4.1.0.zip",
+      "file": "modules/animeheaven-v2-1-4.1.1-beta.1.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -226,6 +227,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeheaven.png?v=20260812-2"
       },
       "changelog": [
+        "MAIN-to-TEST sync 2026-11-15: existing published MAIN resolver code; exact TEST candidate adapted-standard S2 PASS, runtime, sampled media and full simulator playback/pause/seek checks passed. Compile/setup allowance 900s; playback assertions unchanged. Not physical-device or full-title/audio/caption certification. Existing V9 fallback metadata retained.",
+        "4.1.1-beta.1: Live phone-test beta: ignore commented-out logo clips and select the active episode player.",
+        "4.1.1-beta.1: Correct main-poster selection and tighten episode-token handling; retain Sub-only behavior.",
+        "4.1.1-beta.1: 27 short A/V samples and 10 poster checks passed. Simulator certification timed out; phone acceptance is pending.",
         "4.1.0: Owner-approved server alternatives with media probing, duplicate filtering and required headers.",
         "4.1.0: Reject unavailable Dub and failed media routes; preserve burned-in subtitles. No invented quality options.",
         "4.1.0: Include module icon metadata. Playback code unchanged from owner-tested beta.3; see release QA limitations.",
@@ -237,7 +242,7 @@
       ]
     },
     {
-      "file": "modules/X-Stream-1.3.4-beta.2.zip",
+      "file": "modules/xstream-v1-1.3.5-beta.1.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV",
@@ -245,14 +250,18 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"
       },
       "changelog": [
-        "1.3.4-beta.2: Playback restored — the old embed page stopped exposing its player for most titles, so the module now resolves through the provider's own JSON player API (page route kept as fallback). Results carry the primary URL, its headers and real quality labels (e.g. 536p). Verified: release gate ALL_PASSED, 16/17 sampled titles, 12 subtitle tracks on a movie.",
-        "1.3.4-beta.1: TEST catch-up to production 1.3.3 playback code, retaining V9 exact TV fallback mapping. Native playback reliability remains under testing.",
+        "MAIN-to-TEST sync 2026-11-15: existing published MAIN resolver code; exact TEST candidate adapted-standard S2 PARTIAL, runtime, sampled media and full simulator playback/pause/seek checks passed. Compile/setup allowance 900s; playback assertions unchanged. Not physical-device or full-title/audio/caption certification. Existing V9 fallback metadata retained.",
+        "1.3.5-beta.1: Playback reliability — the provider's own servers now fail on most titles, so when they return nothing playable the module falls back to an isolated backup resolver (movie and series episodes by TMDB id). The backup carries original audio only and is never used for Dub.",
+        "1.3.5-beta.1: 20-title test (12 films + first episode of 8 series; playlist and first media segment must load): 20/20, up from 5/20. Exact-byte Flutter runtime passed. Physical-device acceptance not yet done.",
+        "1.3.4: Playback restored. The old embed page stopped exposing its player for most titles, so the module now resolves through the provider's own JSON player API (the page route stays as a fallback). Results also carry the primary URL, its headers and real quality labels (e.g. 536p) instead of a bare Auto. Verified on the exact bytes: release gate ALL_PASSED, 16/17 sampled titles, 12 subtitle tracks on a movie.",
         "1.3.3: Fixes Fresh Retry getting stuck after earlier provider failures; prevents stale requests overwriting refreshed links; respects provider cooldowns. Keeps 1.3.2's faster verified-route startup.",
         "Stricter film and season matching avoids substituting a different title or episode. Availability and quality still depend on the providers; this update does not make every title playable.",
         "Owner-approved reliability release. Automated runtime and decoder evidence is recorded in the release notes; physical-device acceptance and full language certification remain incomplete.",
         "Explicit provider servers and quality choices with source-specific subtitles and headers",
         "Fix singleton-provider retries and expire cached video links; retain media and language gates",
-        "QA: 27/30 short host AV samples; S2 PARTIAL. Three coverage gaps and incomplete physical audio/offline checks remain. See docs/XSTREAM_1_3_1_RELEASE.md"
+        "QA: 27/30 short host AV samples; S2 PARTIAL. Three coverage gaps and incomplete physical audio/offline checks remain. See docs/XSTREAM_1_3_1_RELEASE.md",
+        "1.3.4-beta.2: Playback restored — the old embed page stopped exposing its player for most titles, so the module now resolves through the provider's own JSON player API (page route kept as fallback). Results carry the primary URL, its headers and real quality labels (e.g. 536p). Verified: release gate ALL_PASSED, 16/17 sampled titles, 12 subtitle tracks on a movie.",
+        "1.3.4-beta.1: TEST catch-up to production 1.3.3 playback code, retaining V9 exact TV fallback mapping. Native playback reliability remains under testing."
       ]
     },
     {
@@ -494,7 +503,8 @@
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime",
-        "language": "English Sub/Dub"
+        "language": "English Sub/Dub",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/kickassanime.png?v=20261008-1"
       },
       "changelog": [
         "4.2.0: Search now finds titles the way users type them - generated punctuation variants (colon at any word boundary, 'dr.' forms, year parentheses, tail-tokens fallback) plus merged results take the natural-query hit rate to 24/24 (was 22/24) and a season-qualified hard set from 2/8 to 8/8. Season/part variants of a show are grouped and ordered (base, Cour/Part, Season 2, 3..., then specials/OVAs/movies) with release years on cards. The home now serves 6 rows (adds Recently Added, Popular Shows and Coming Soon) in one parallel fan-out. Module icon added.",
@@ -578,14 +588,17 @@
       ]
     },
     {
-      "file": "modules/StreamingUnity-1.0.4.zip",
+      "file": "modules/streamingunity-v1-1.0.5-beta.3.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "StreamingUnity Movies & TV",
-        "language": "English",
+        "language": "Italian",
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/streamingunity.png"
       },
       "changelog": [
+        "MAIN-to-TEST sync 2026-11-15: existing published MAIN resolver code; exact TEST candidate adapted-standard S2 PARTIAL, runtime, sampled media and full simulator playback/pause/seek checks passed. Compile/setup allowance 900s; playback assertions unchanged. Not physical-device or full-title/audio/caption certification. Existing V9 fallback metadata retained.",
+        "1.0.5-beta.3: The site and its old player host are blocked or offline. Search, details, episodes and Home now use a TMDB catalogue; playback uses the VixSrc player and only returns streams with an Italian audio track, labelled Dub (never shown as Sub).",
+        "1.0.5-beta.3: 20-title test (12 films + first episode of 8 series; playlist and first media segment must load): 20/20, up from 0/20. Exact-byte Flutter runtime passed for a film and a series. Links saved from the old site may not resolve.",
         "1.0.4: Fixed episode routing by using the current title ID plus episode ID iframe endpoint",
         "1.0.4: Prevented unrelated Gravitas Ventures or Paramount media from being returned for One Piece episodes",
         "1.0.4: Verified distinct episode 1 and episode 2 HLS routes for SUB and DUB",
