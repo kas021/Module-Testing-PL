@@ -110,8 +110,15 @@ sustained native failure. Its TEST beta.1 package is retained.
   device-limit completion, startup recovery, caption credential safety, watched
   history, Premium persistence, subtitle download plans, DNS and notifications.
   This is a focused run, not a rerun of the historical full audit suite.
-- Commit and public read-back: pending. No failed source update was copied into
-  the catalogue.
+  The skip is the opt-in Apple NSError DNS-provenance fixture
+  (`RUN_NATIVE_DNS_ERROR` was not enabled), not the repository import fixture.
+- Payload commit: `a64ce9686b839e3a547707e20c925d392a96745b`.
+- Query-free public read-back passed at 15:36 UTC on 15 November 2026: all 46
+  bundle members, all changed package URLs, native signatures and checksummed
+  publication files matched local bytes. Public index SHA256:
+  `879ca45280cf40263239795908deea41aa9714922a0252dcc278d07dd5b5a8dc`.
+  No failed source update was copied into the catalogue. A following docs-only
+  receipt commit does not change these package or publication bytes.
 
 ## Rollback
 
