@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 160,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-160.zip",
+  "bundleVersion": 161,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-161.zip",
   "minAppVersion": "9.0.0",
   "modules": [
     {
@@ -756,25 +756,28 @@
       ]
     },
     {
-      "file": "modules/DW-Live-0.1.0-beta.3.zip",
+      "file": "modules/DW-Live-0.1.0-beta.4.zip",
       "presentation": {
         "category": "Live TV",
         "language": "English / Spanish / Arabic",
         "iconUrl": "https://www.dw.com/images/icons/favicon-180x180.png"
       },
       "changelog": [
+        "0.1.0-beta.4: dw.com intermittently refuses page requests (403). The module now retries, keeps the last source found and falls back to each channel's official DW master playlist, still checked as an active live playlist. 3/3 channels played in the V9 runtime (was 0/3).",
         "TEST-only official DW English, Spanish and Arabic live news channels. Requires Player 9.0.90 for the Live clock/resume fixes.",
         "beta.3 corrects the private candidate identity collision with Flux; playback JavaScript is byte-identical to beta.2. Physical-device acceptance remains pending."
       ]
     },
     {
-      "file": "modules/TVApp-Live-0.1.0-beta.10.zip",
+      "file": "modules/TVApp-Live-0.1.0-beta.11.zip",
       "presentation": {
         "category": "Live TV",
         "language": "English",
         "iconUrl": "https://tvapp1.com/favicon-512x512.png"
       },
       "changelog": [
+        "0.1.0-beta.11: Adult content filter on both third-party feeds (title, category and tags). When a channel's main feed is off air, its listed alternate feeds are tried (HD first).",
+        "0.1.0-beta.11: V9 runtime: NFL Network, CNN, 24/7 The Simpsons, Tennis Channel, Fox Footy and NHL Network played; Willow and Sky Sports Racing were off air at the provider (every feed 404).",
         "TEST-only cricket update for Player 9.0.91. Willow passed the actual native V9 Live player: sustained playback, pause/resume and fresh Go Live.",
         "Supports validated wrapped Live video; removes false off-air detection based on image filenames. Broadcasts can include replays. General S2 Willow journey still fails outside the native path; no all-channel or Android certification."
       ]
@@ -807,7 +810,7 @@
       ]
     },
     {
-      "file": "modules/Public-TV-Live-0.1.0-beta.4.zip",
+      "file": "modules/Public-TV-Live-0.1.0-beta.5.zip",
       "presentation": {
         "category": "Live TV",
         "purpose": "General",
@@ -815,6 +818,7 @@
         "language": "Multiple languages"
       },
       "changelog": [
+        "0.1.0-beta.5: France 24 English returns. The public list switched it to an unofficial relay; the approved official France 24 route is kept while the channel is listed and is re-validated as live media on every play. 4/4 channels played (was 3/4).",
         "Expanded active-only public TV selection after two bounded decodes and fresh module live-playlist checks. Failed and unverified candidates remain hidden.",
         "Sports channels may broadcast replays or news; no guarantee that a live football or cricket match is currently on air. Regional availability varies.",
         "Exact package passed S2 standard native simulator playback. Physical-device and all-region acceptance are separate."
