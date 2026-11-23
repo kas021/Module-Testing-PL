@@ -81,6 +81,9 @@ export function signatureErrors(index, { allowCommunityIndex = false } = {}) {
     ids.add(p.providerID);
     if (p.scoreEndpoint == null) check('metadata provider', metadataProviderMessage(index, p), p.signature);
   }
+  if (index.defaultModules && Object.keys(index.defaultModules).length) {
+    check('defaults', defaultsMessage(index), index.defaultModulesSignature);
+  }
   if (allowCommunityIndex && index.signature === '') {
     // Existing TEST archives declare manual fallback publishers. Signing the
     // source index would change ownership and invalidate those declarations.
@@ -89,9 +92,6 @@ export function signatureErrors(index, { allowCommunityIndex = false } = {}) {
   }
   check('bundle', bundleMessage(index), index.bundle.signature);
   for (const m of index.modules) check(`module ${m.moduleId}`, moduleMessage(m), m.signature);
-  if (index.defaultModules && Object.keys(index.defaultModules).length) {
-    check('defaults', defaultsMessage(index), index.defaultModulesSignature);
-  }
   check('repository index', indexMessage(index), index.signature);
   return errors;
 }

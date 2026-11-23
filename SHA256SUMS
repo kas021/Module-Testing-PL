@@ -3,7 +3,6 @@ b0a383a945baeefaeba0dd60f5ca4b841bad84f0a78859bf7c3a5459675b8d47  bundles/Synthe
 9f2e60c3b0284c26da5ffc9222d01047ca154b64b9d9570104ea39c1a0687bb4  modules/Synthetiq-Anime-1.0.5-beta.2.zip
 0be9b5ff36ab62c77b5c4b902ac6aff8191dee2afcbd894c91cab14d847fc7bd  modules/Synthetiq-Flux-1.0.3-beta.4.zip
 77ff42f18da7783a0ef266c40f04e2191293f1dfcb80f79fa50f93fe4fe2add0  modules/Synthetiq-Flux-1.0.3-beta.7.zip
-55e643d626811e328ef87d40d67a2e0d3434f750aaff6659f8685c5bddb5f5c3  modules/Synthetiq-One-1.3.0.zip
 f48fa9a64489db1b92487b92b6e33c3e07fa3ce452ed4096187f3ea40c327208  modules/Synthetiq-Movies-1.2.5.zip
 610acac3d6ce301623f462c4d5a90d9bce9cc81a2b8931fe1575c746fed25311  modules/AniPM-0.1.0-beta.3.zip
 15e0637a91e856bf791a85ff04d26734d881e6164bf5ebe4d2273a9d6b73ad23  modules/Anikoto-5.0.5-beta.2.zip
@@ -38,9 +37,9 @@ be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857  modules/Mugiwa
 fa26df19a047a5253cdaee76cd6aeba701a4e2cebbc601776654b7b379a0029c  modules/ColorizedManga-1.0.0-beta.1.zip
 cc480d1df82fd6fb584dd0db4efdc6a7baa737db6c804a20adc31d269c2345b6  modules/Alpha-Movies-0.2.0-beta.2.zip
 ce1c384ff258c94a68ebe33b25980c9f45f443f32823bdea29293eef921d3f94  modules/MovieDB-0.1.0-beta.9.zip
-e0e6fd4013f36178c20de954cfcc50641bd648bc263629096c8bf8fb44766042  catalogue.json
+a1198423ec8c7f4c1328880230ddadd98aa7f38a836f858d2b2291f471772a3c  catalogue.json
 7469dc63c86e69cf9c43c16de36a5177b3cd811c63b73423928e8c9a671c5d59  artwork/flux-featured.json
-9b311db119950e8393f89c8fdd2a68ba20bc758049e804780225be8253a12971  repository.json
+7b6d413dbc223b27fbafbb7c6b42244a525fd98c56a829c1c70674a804f04a5e  repository.json
 be242d8de6acc72526574ab2382ef3006eb68e5ff8ce9601d8efeb86455fe6f6  bundles/Synthetiq-Module-Bundle-132.zip
 c4bfb910ee4d3cc4c9883993fcdad62c777166a08ebd74cb9c255092846ebed3  modules/AniPM-0.1.0-beta.4.zip
 fc2408262bfefe4daa17115068135f5d6278c0e4ed7ca53f8ac9d022b91e4d24  modules/Fallback-Test-AniPM-1.0.0-beta.1.zip
@@ -61,7 +60,7 @@ c4ce2d38e63057aa4667b6297b8920799bd543546707a3b5df25f6a9cc5b6208  modules/X-Stre
 3a28b4175a7030105490930820720fde63f9a49fffe1013cbc51d33c74668a2c  modules/Anime4up-1.0.0-beta.10.zip
 5ab134660cff1dd906903e20f4707e351a97f7942e297d80d8323adf0f0aa3bc  bundles/Synthetiq-Module-Bundle-136.zip
 632b464bbca21b859d4e280d9f3bdd7064292a77c5519911f3ec4c9ed1c4cb54  bundles/Synthetiq-Module-Bundle-137.zip
-a887572d749e703a3f96655a49db0e6a899424212a18a097067672a1742851cb  subtitle-provider.json
+f1d8b22e76c4c41df287dc0ad84d8cb27009062dea4ae83d5bf21558638de307  subtitle-provider.json
 1b2a20095ab0a951c07979e908a475b003e7d9230f06ad42c51fe8c4d772158c  modules/SoloLatino-0.1.0-beta.5.zip
 fe0bcb92e5c02b8ffeae9a91a6f13294040df22eee4b7c8aae18c64ed54eb8cb  bundles/Synthetiq-Module-Bundle-138.zip
 8173cadef04d35710009ec663f449b290cc4645fd0063941d85a3c93f1c45893  modules/SoloLatino-0.1.0-beta.6.zip
@@ -86,8 +85,8 @@ deebfe55d63d111dc205968e680dffec0135ae921e99b603c4f6cdd204e35504  bundles/Synthe
 fbfef14a3126d86a028ca6b31b93fdd59278becfb1f996e1f1cb7e9c789864c5  bundles/Synthetiq-Module-Bundle-148.zip
 892cd783742c501c7925e152fa22bff77a0f783ea4f9e687b7c26b1165bed1ec  modules/Public-TV-Live-0.1.0-beta.4.zip
 818034064adf68fd0c2e2d5a65523a0b992a11d8d4ed66343761f6023f5f1bf4  bundles/Synthetiq-Module-Bundle-149.zip
-8608e21300291e738ac86509c53ff890dcf913a1628c8b944d72e9bd142e1f97  beta-261/repository.json
-faf0c94646e99a25fbbb58ffef2d9fc941ae5fa324bf8ce84cd5139f575531f6  beta-261/README.md
+dd1506f3567a2c63d9fe834c2f2fb06a6be3c1e2be930ca70aa59c2ba4e38d41  beta-261/repository.json
+7637dd732bee8366b2eea9d8b2b524eefe8e0d5a8eecfec36fc8863da4666a4f  beta-261/README.md
 abfed0370656fc7ae1c2e5e011148ffba2f982b385370c1a10aa6d891213a6e7  modules/DramaCool-1.0.3.zip
 9e45efed46b0124f23bf3109fc4a81066325824aa541eab6f322e85e6d086dbe  bundles/Synthetiq-Module-Bundle-150.zip
 78b3b4afdd3b372227ee6a4f2de3336b25a8f389593353aee8e6f315f05f0cbb  modules/MovieDB-0.1.0-beta.15.zip
@@ -121,3 +120,4 @@ a2e63ae3f05b2b76a5370f6514875de05577e321fecba20e140c1becd12b4863  modules/stream
 9881b840268a79e6a10070db758132dff76f3cf760b84933b217b9317b962c13  modules/TVApp-Live-0.1.0-beta.11.zip
 ab60ac33c37e781d0d1f949bb41ba0180c908155a6d08474db1d519a11788d92  bundles/Synthetiq-Module-Bundle-161.zip
 49653d47bbd6542d8c752eca34a89b95b3dceefd2904e4e7e9bad240ac92143d  bundles/Synthetiq-Module-Bundle-162.zip
+8c796ee9e27208a43b87d950d166167cff039c1e23712ab77e2d2d799f35892e  beta-261/Synthetiq-Module-Bundle-141-without-one.zip

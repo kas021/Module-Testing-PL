@@ -5,6 +5,13 @@ import { metadataProviderMessage, signatureErrors } from './repository_signature
 
 const load = () => JSON.parse(fs.readFileSync(new URL('../repository.json', import.meta.url)));
 const community = (index) => signatureErrors(index, { allowCommunityIndex: true });
+test('TEST bootstrap declares a signed manga default', () => {
+  const index = load();
+  assert.equal(index.defaultModules.image, 'weebcentral-v2');
+  assert.equal(index.modules.find(m => m.moduleId === index.defaultModules.image).contentType, 'image');
+  index.defaultModules.image = 'mangakatana-v1';
+  assert.ok(community(index).some(e => e.startsWith('defaults:')));
+});
 test('current TEST publication satisfies native provider signatures without changing source provenance', () => {
   assert.deepEqual(community(load()), []);
   assert.equal(load().signature, '');

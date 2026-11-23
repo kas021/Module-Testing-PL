@@ -3,7 +3,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { createHash, createPrivateKey, createPublicKey, sign } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
-import { providerMessage, metadataProviderMessage, signatureErrors, testingKey } from './repository_signatures.mjs';
+import { defaultsMessage, providerMessage, metadataProviderMessage, signatureErrors, testingKey } from './repository_signatures.mjs';
 
 if (process.argv.slice(2).join(' ') !== '--community --write') {
   throw new Error('Usage: node scripts/sign_repository.mjs --community --write (local TEST metadata only)');
@@ -41,6 +41,9 @@ const signature = (message) => sign('sha256', Buffer.from(message),
   { key, dsaEncoding: 'ieee-p1363' }).toString('base64');
 for (const p of index.subtitleProviders || []) p.signature = signature(providerMessage(index, p));
 for (const p of index.metadataProviders || []) p.signature = signature(metadataProviderMessage(index, p));
+if (index.defaultModules && Object.keys(index.defaultModules).length) {
+  index.defaultModulesSignature = signature(defaultsMessage(index));
+}
 // Keep source provenance manual: shipped fallback manifests already use that
 // identity. Native providers remain separately bound to the trusted TEST key.
 index.signature = '';
