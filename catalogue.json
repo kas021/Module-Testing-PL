@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 161,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-161.zip",
+  "bundleVersion": 162,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-162.zip",
   "minAppVersion": "9.0.0",
   "modules": [
     {
@@ -58,20 +58,6 @@
         "1.0.2: Rescue routes pass the same positive media validation as primary routes and are never substituted across languages; episodes the rescue sources do not carry remain unavailable with an honest message.",
         "1.0.3-beta.8: TEST-only reciprocal Flux/Anime exact catalogue mapping for emitted AniList and MAL IDs. Fallback defaults import with the module and start on in the updated V9 app; playback JavaScript unchanged. Live language equivalence and playback are not certified.",
         "1.0.3-beta.7: TEST-only artwork pilot adds seven artwork metadata fields across Home cards and AniList details; stream resolution and extraction logic are unchanged. Active V9 artwork-package runtime test passed (2 tests); no stream or download certification is claimed."
-      ]
-    },
-    {
-      "file": "modules/Synthetiq-One-1.3.0.zip",
-      "presentation": {
-        "category": "Anime",
-        "purpose": "Fastest Anime",
-        "recommended": true,
-        "language": "English Dub",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq.png?v=20260812-2"
-      },
-      "changelog": [
-        "Added the Fastest catalogue label",
-        "Runtime remains unchanged from 1.2.9"
       ]
     },
     {
