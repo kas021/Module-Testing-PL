@@ -3,8 +3,8 @@
   "repositoryId": "module-testing-pl",
   "name": "Module Testing PL",
   "enabled": true,
-  "bundleVersion": 162,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-162.zip",
+  "bundleVersion": 163,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-163.zip",
   "minAppVersion": "9.0.0",
   "modules": [
     {
@@ -808,6 +808,21 @@
         "Expanded active-only public TV selection after two bounded decodes and fresh module live-playlist checks. Failed and unverified candidates remain hidden.",
         "Sports channels may broadcast replays or news; no guarantee that a live football or cricket match is currently on air. Regional availability varies.",
         "Exact package passed S2 standard native simulator playback. Physical-device and all-region acceptance are separate."
+      ]
+    },
+    {
+      "file": "modules/AnimeWorld-1.0.0-beta.1.zip",
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Italian Anime",
+        "language": "Italian (SUB ITA / ITA)",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeworld.png"
+      },
+      "changelog": [
+        "Exact MAIN 1.0.0-beta.1 bytes. Owner accepted 11/16 end-to-end attempts for this digest only; not a broader reliability or language certification.",
+        "MAIN-only package; preserve unchanged, do not infer TEST runtime support.",
+        "1.0.0-beta.1: New Italian anime source. SUB ITA (Japanese audio, Italian subtitles) and ITA (Italian dub) are combined into one series and never substituted for each other. English titles are searchable (e.g. Attack on Titan finds L'attacco dei Giganti).",
+        "1.0.0-beta.1: Tested on the V9 app runtime: 42/42 sampled sub and dub episodes across 11 series played; spoken language matched the label; 2-minute in-player playback and a full episode download passed."
       ]
     }
   ],
